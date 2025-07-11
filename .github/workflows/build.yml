@@ -3,14 +3,18 @@ on:
   workflow_dispatch:
   schedule:
     #- cron: '0 * * * *' # hourly.
-    - cron: '0 0 17 * *' # every month, the 17th day.
+    #- cron: '0 0 17 * *' # every month, the 17th day.
+    - cron: '0 2 * * *' # daily at 2 AM UTC.
 jobs:
   build:
+    continue-on-error: true
     strategy:
+      fail-fast: false
       matrix:
         include:
-          - name: windows-11
-          - name: windows-2022
+          - name: windows-11-24h2-zh-cn
+          - name: windows-server-21h2-zh-cn
+          - name: windows-10-22h2-zh-cn
     runs-on: windows-2022
     steps:
       - name: Checkout

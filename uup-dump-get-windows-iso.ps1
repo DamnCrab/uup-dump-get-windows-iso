@@ -17,16 +17,38 @@ trap {
 $TARGETS = @{
     # see https://en.wikipedia.org/wiki/Windows_11
     # see https://en.wikipedia.org/wiki/Windows_11_version_history
-    "windows-11" = @{
-        search = "windows 11 22631 amd64" # aka 23H2. Enterprise EOL: November 10, 2026.
-        edition = "Professional"
-        virtualEdition = "Enterprise"
-    }
+    # "windows-11" = @{
+    #     search = "windows 11 22631 amd64" # aka 23H2. Enterprise EOL: November 10, 2026.
+    #     edition = "Professional"
+    #     virtualEdition = "Enterprise"
+    # }
     # see https://en.wikipedia.org/wiki/Windows_Server_2022
-    "windows-2022" = @{
+    "windows-server-21h2-zh-cn" = @{
         search = "feature update server operating system 20348 amd64" # aka 21H2. Mainstream EOL: October 13, 2026.
         edition = "ServerStandard"
         virtualEdition = $null
+        lang = "zh-cn"
+    }
+    # Windows 11 24H2 Chinese
+    "windows-11-24h2-zh-cn" = @{
+        search = "windows 11 26100 amd64" # aka 24H2
+        edition = "Professional"
+        virtualEdition = "Enterprise"
+        lang = "zh-cn"
+    }
+    # Windows Server 2025 (24H2) Chinese
+    # "windows-server-24h2-zh-cn" = @{
+    #     search = "feature update server operating system 26100 amd64" # aka 24H2/2025
+    #     edition = "ServerStandard"
+    #     virtualEdition = $null
+    #     lang = "zh-cn"
+    # }
+    # Windows 10 22H2 Chinese
+    "windows-10-22h2-zh-cn" = @{
+        search = "windows 10 19045 amd64" # aka 22H2
+        edition = "Professional"
+        virtualEdition = "Enterprise"
+        lang = "zh-cn"
     }
 }
 
@@ -109,15 +131,20 @@ function Get-UupDumpIso($name, $target) {
                 info = $result.response.updateInfo
             }
             $langs = $_.Value.langs.PSObject.Properties.Name
-            $editions = if ($langs -contains 'en-us') {
+            $expectedLang = if ($target.PSObject.Properties.Name -contains 'lang') {
+                $target.lang
+            } else {
+                'en-us'
+            }
+            $editions = if ($langs -contains $expectedLang) {
                 Write-Host "Getting the $name $id editions metadata"
                 $result = Invoke-UupDumpApi listeditions @{
                     id = $id
-                    lang = 'en-us'
+                    lang = $expectedLang
                 }
                 $result.response.editionFancyNames
             } else {
-                Write-Host "Skipping. Expected langs=en-us. Got langs=$($langs -join ',')."
+                Write-Host "Skipping. Expected langs=$expectedLang. Got langs=$($langs -join ',')."
                 [PSCustomObject]@{}
             }
             $_.Value | Add-Member -NotePropertyMembers @{
@@ -143,8 +170,13 @@ function Get-UupDumpIso($name, $target) {
                 Write-Host "Skipping. Expected ring=$expectedRing. Got ring=$ring."
                 $result = $false
             }
-            if ($langs -notcontains 'en-us') {
-                Write-Host "Skipping. Expected langs=en-us. Got langs=$($langs -join ',')."
+            $expectedLang = if ($target.PSObject.Properties.Name -contains 'lang') {
+                $target.lang
+            } else {
+                'en-us'
+            }
+            if ($langs -notcontains $expectedLang) {
+                Write-Host "Skipping. Expected langs=$expectedLang. Got langs=$($langs -join ',')."
                 $result = $false
             }
             if ($editions -notcontains $target.edition) {
@@ -156,6 +188,11 @@ function Get-UupDumpIso($name, $target) {
         | Select-Object -First 1 `
         | ForEach-Object {
             $id = $_.Value.uuid
+            $lang = if ($target.PSObject.Properties.Name -contains 'lang') {
+                $target.lang
+            } else {
+                'en-us'
+            }
             [PSCustomObject]@{
                 name = $name
                 title = $_.Value.title
@@ -163,15 +200,16 @@ function Get-UupDumpIso($name, $target) {
                 id = $id
                 edition = $target.edition
                 virtualEdition = $target.virtualEdition
+                lang = $lang
                 apiUrl = 'https://api.uupdump.net/get.php?' + (New-QueryString @{
                     id = $id
-                    lang = 'en-us'
+                    lang = $lang
                     edition = $target.edition
                     #noLinks = '1' # do not return the files download urls.
                 })
                 downloadUrl = 'https://uupdump.net/download.php?' + (New-QueryString @{
                     id = $id
-                    pack = 'en-us'
+                    pack = $lang
                     edition = $target.edition
                 })
                 # NB you must use the HTTP POST method to invoke this packageUrl
@@ -181,7 +219,7 @@ function Get-UupDumpIso($name, $target) {
                 #           autodl=3 updates=1 cleanup=1 virtualEditions[]=Enterprise
                 downloadPackageUrl = 'https://uupdump.net/get.php?' + (New-QueryString @{
                     id = $id
-                    pack = 'en-us'
+                    pack = $lang
                     edition = $target.edition
                 })
             }
