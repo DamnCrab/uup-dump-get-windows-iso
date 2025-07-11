@@ -14,6 +14,17 @@ trap {
     Exit 1
 }
 
+# Function to remove special characters from title for safe file naming
+function Remove-SpecialCharacters($text) {
+    if ([string]::IsNullOrEmpty($text)) {
+        return $text
+    }
+    # Remove or replace characters that are invalid in file names
+    # Windows invalid characters: < > : " | ? * \ /
+    # Also remove other potentially problematic characters
+    return $text -replace '[<>:"|?*\\/\[\]{}()~`!@#$%^&+=,;\s]+', ' ' -replace '\s+', ' ' -replace '^\s+|\s+$', ''
+}
+
 $TARGETS = @{
     # see https://en.wikipedia.org/wiki/Windows_11
     # see https://en.wikipedia.org/wiki/Windows_11_version_history
@@ -196,6 +207,7 @@ function Get-UupDumpIso($name, $target) {
             [PSCustomObject]@{
                 name = $name
                 title = $_.Value.title
+                titleSafe = Remove-SpecialCharacters $_.Value.title
                 build = $_.Value.build
                 id = $id
                 edition = $target.edition
@@ -261,7 +273,7 @@ function Get-WindowsIso($name, $destinationDirectory) {
     }
 
     $buildDirectory = "$destinationDirectory/$name"
-    $destinationIsoPath = "$buildDirectory.iso"
+    $destinationIsoPath = $iso.titleSafe + ".iso"
     $destinationIsoMetadataPath = "$destinationIsoPath.json"
     $destinationIsoChecksumPath = "$destinationIsoPath.sha256.txt"
 
@@ -351,6 +363,7 @@ function Get-WindowsIso($name, $destinationDirectory) {
             ([PSCustomObject]@{
                 name = $name
                 title = $iso.title
+                titleSafe = $iso.titleSafe
                 build = $iso.build
                 checksum = $isoChecksum
                 images = @($windowsImages)

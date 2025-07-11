@@ -34,7 +34,12 @@ jobs:
         run: |
           $iso = Get-Content (Resolve-Path c:/output/*.json) | ConvertFrom-Json
           $isoFile = Get-ChildItem c:/output/*.iso | Select-Object -First 1
-          $artifactName = $isoFile.BaseName
+          # Use titleSafe for artifact name if available, otherwise use file basename
+          $artifactName = if ($iso.PSObject.Properties.Name -contains 'titleSafe' -and ![string]::IsNullOrWhiteSpace($iso.titleSafe)) {
+              $iso.titleSafe
+          } else {
+              $isoFile.BaseName
+          }
           Add-Content $env:GITHUB_STEP_SUMMARY @"
           | Property | Value |
           | :--- | :--- |
@@ -96,7 +101,7 @@ jobs:
                 iso_info=$(cat "$json_file")
                 iso_name=$(echo "$iso_info" | jq -r '.name')
                 iso_build=$(echo "$iso_info" | jq -r '.build')
-                iso_title=$(echo "$iso_info" | jq -r '.title')
+                iso_title=$(echo "$iso_info" | jq -r '.titleSafe // .title')
                 echo "### 🖥️ $iso_title" >> release-notes.md
                 echo "- **版本**: $iso_build" >> release-notes.md
                 echo "- **下载**: [📁 $artifact_name](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> release-notes.md
