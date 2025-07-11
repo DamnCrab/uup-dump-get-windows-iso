@@ -30,9 +30,11 @@ jobs:
         run: pwsh uup-dump-get-windows-iso.ps1 ${{ matrix.name }} c:/output
       - name: Show available disk space after build
         run: Get-PSDrive -PSProvider FileSystem
-      - name: Build summary
+      - name: Build summary and set artifact name
         run: |
           $iso = Get-Content (Resolve-Path c:/output/*.json) | ConvertFrom-Json
+          $isoFile = Get-ChildItem c:/output/*.iso | Select-Object -First 1
+          $artifactName = $isoFile.BaseName
           Add-Content $env:GITHUB_STEP_SUMMARY @"
           | Property | Value |
           | :--- | :--- |
@@ -41,11 +43,15 @@ jobs:
           | Checkum | $($iso.checksum) |
           $($iso.images | ForEach-Object {"| Image Name #$($_.index) | $($_.name) |"})
           | UUP dump | [$($iso.title)]($($iso.uupDump.downloadUrl)) |
+          | Artifact Name | $artifactName |
           "@
+          # Set artifact name as output for use in upload step
+          echo "ARTIFACT_NAME=$artifactName" >> $env:GITHUB_OUTPUT
+        id: build_info
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.name }}
+          name: ${{ steps.build_info.outputs.ARTIFACT_NAME }}
           path: |
             c:/output/*.json
             c:/output/*.iso
@@ -57,7 +63,6 @@ jobs:
   # see https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries
   # see https://github.com/ncipollo/release-action/issues/110
   release:
-    if: startsWith(github.ref, 'refs/tags/v')
     name: Release
     runs-on: ubuntu-22.04
     needs:
@@ -69,17 +74,56 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: output
-      - name: Release notes
+      - name: Generate release notes with artifact links
         run: |
           cat >release-notes.md <<EOF
-          This is a useless release, because in a github release a single file
-          size cannot be above 2GB and these iso files are 4GB+.
-
-          See:
-
-            * GitHub: [Storage and bandwidth quotas](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases#storage-and-bandwidth-quotas)
-            * Github: [Distributing large binaries](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries)
-            * ncipollo/release-action#110: [Artifacts over 2147483647 bytes do not get uploaded](https://github.com/ncipollo/release-action/issues/110)
+          # Windows ISO 构建完成
+          
+          本次构建包含以下中文版 Windows ISO 文件：
+          
+          ## 📦 下载链接
+          
+          由于 GitHub Release 单个文件大小限制为 2GB，而 ISO 文件通常为 4GB+，请通过以下 Artifacts 链接下载：
+          
+          EOF
+          
+          # Add artifact links for each build
+          for dir in output/*/; do
+            if [ -d "$dir" ]; then
+              artifact_name=$(basename "$dir")
+              json_file=$(find "$dir" -name "*.json" | head -1)
+              if [ -f "$json_file" ]; then
+                iso_info=$(cat "$json_file")
+                iso_name=$(echo "$iso_info" | jq -r '.name')
+                iso_build=$(echo "$iso_info" | jq -r '.build')
+                iso_title=$(echo "$iso_info" | jq -r '.title')
+                echo "### 🖥️ $iso_title" >> release-notes.md
+                echo "- **版本**: $iso_build" >> release-notes.md
+                echo "- **下载**: [📁 $artifact_name](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> release-notes.md
+                echo "" >> release-notes.md
+              fi
+            fi
+          done
+          
+          cat >>release-notes.md <<EOF
+          
+          ## ℹ️ 使用说明
+          
+          1. 点击上方的 Artifacts 链接
+          2. 在 GitHub Actions 页面中找到对应的构建产物
+          3. 下载包含 ISO 文件、JSON 元数据和 SHA256 校验文件的压缩包
+          
+          ## ⚠️ 注意事项
+          
+          - ISO 文件大小通常为 4GB+，请确保有足够的存储空间
+          - 建议下载后使用 SHA256 校验文件验证文件完整性
+          - 这些是最新的官方 Windows 更新版本
+          
+          ## 🔗 相关链接
+          
+          - [GitHub Actions 构建详情](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          - [存储和带宽限制说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases#storage-and-bandwidth-quotas)
+          - [大文件分发指南](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries)
           EOF
       - name: Release
         uses: ncipollo/release-action@v1
