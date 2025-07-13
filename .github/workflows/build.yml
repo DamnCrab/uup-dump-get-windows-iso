@@ -30,6 +30,22 @@ jobs:
         run: pwsh uup-dump-get-windows-iso.ps1 ${{ matrix.name }} c:/output
       - name: Show available disk space after build
         run: Get-PSDrive -PSProvider FileSystem
+      - name: List output directory contents
+        run: |
+          Write-Host "Contents of c:/output/ directory:"
+          if (Test-Path "c:/output/") {
+            Get-ChildItem -Path "c:/output/" -Recurse | ForEach-Object {
+              $relativePath = $_.FullName.Replace("c:/output/", "")
+              if ($_.PSIsContainer) {
+                Write-Host "📁 $relativePath/"
+              } else {
+                $size = [math]::Round($_.Length / 1MB, 2)
+                Write-Host "📄 $relativePath ($size MB)"
+              }
+            }
+          } else {
+            Write-Host "❌ Directory c:/output/ does not exist"
+          }
       - name: Build summary
         run: |
           $iso = Get-Content (Resolve-Path c:/output/*.json) | ConvertFrom-Json

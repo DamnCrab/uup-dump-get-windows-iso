@@ -272,7 +272,7 @@ function Get-WindowsIso($name, $destinationDirectory) {
         throw "unexpected $name build: $($iso.build)"
     }
 
-    $buildDirectory = "$destinationDirectory/$name"
+    $buildDirectory = "$destinationDirectory"
     $destinationIsoPath = $iso.titleSafe + ".iso"
     $destinationIsoMetadataPath = "$destinationIsoPath.json"
     $destinationIsoChecksumPath = "$destinationIsoPath.sha256.txt"
