@@ -13,6 +13,10 @@ This supports the following Windows Editions:
 
 **NB** The Windows Server 2019 iso source files are not available in the Unified Update Platform (UUP) and cannot be downloaded by UUP dump.
 
+# 修改
+
+每日构建 windows-11-24h2-zh-cn windows-server-21h2-zh-cn windows-10-22h2-zh-cn
+
 ## Usage
 
 Get the latest Windows Server 2022 iso:
