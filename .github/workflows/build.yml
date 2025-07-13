@@ -30,16 +30,11 @@ jobs:
         run: pwsh uup-dump-get-windows-iso.ps1 ${{ matrix.name }} c:/output
       - name: Show available disk space after build
         run: Get-PSDrive -PSProvider FileSystem
-      - name: Build summary and set artifact name
+      - name: Build summary
         run: |
           $iso = Get-Content (Resolve-Path c:/output/*.json) | ConvertFrom-Json
-          $isoFile = Get-ChildItem c:/output/*.iso | Select-Object -First 1
-          # Use titleSafe for artifact name if available, otherwise use file basename
-          $artifactName = if ($iso.PSObject.Properties.Name -contains 'titleSafe' -and ![string]::IsNullOrWhiteSpace($iso.titleSafe)) {
-              $iso.titleSafe
-          } else {
-              $isoFile.BaseName
-          }
+          $artifactName = $iso.name
+
           Add-Content $env:GITHUB_STEP_SUMMARY @"
           | Property | Value |
           | :--- | :--- |
@@ -48,9 +43,7 @@ jobs:
           | Checkum | $($iso.checksum) |
           $($iso.images | ForEach-Object {"| Image Name #$($_.index) | $($_.name) |"})
           | UUP dump | [$($iso.title)]($($iso.uupDump.downloadUrl)) |
-          | Artifact Name | $artifactName |
           "@
-          # Set artifact name as output for use in upload step
           echo "ARTIFACT_NAME=$artifactName" >> $env:GITHUB_OUTPUT
         id: build_info
       - name: Upload artifact
