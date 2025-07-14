@@ -273,7 +273,7 @@ function Get-WindowsIso($name, $destinationDirectory) {
     }
 
     $buildDirectory = "$destinationDirectory"
-    $destinationIsoPath = $iso.titleSafe + ".iso"
+    $destinationIsoPath = Join-Path -Path $buildDirectory -ChildPath "$($iso.titleSafe).iso"
     $destinationIsoMetadataPath = "$destinationIsoPath.json"
     $destinationIsoChecksumPath = "$destinationIsoPath.sha256.txt"
 
