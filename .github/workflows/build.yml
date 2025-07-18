@@ -221,4 +221,4 @@ jobs:
           replacesArtifacts: true
           skipIfReleaseExists: false
           updateOnlyUnreleased: false
-          tag: "build-${{ github.run_number }}-${{ github.run_attempt }}"
+          tag: "build-$(date +'%Y-%m-%d')"
