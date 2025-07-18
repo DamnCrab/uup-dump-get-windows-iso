@@ -74,7 +74,7 @@ jobs:
   #    github release a single file size cannot be above 2GB and these
   #    isos are 4GB+.
   # see https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases#storage-and-bandwidth-quotas
-  # see https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries
+  # see https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-binaries
   # see https://github.com/ncipollo/release-action/issues/110
   release:
     name: Release
@@ -88,6 +88,53 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: output
+      - name: Split large files into volumes
+        run: |
+          # Install 7z if not available
+          sudo apt-get update && sudo apt-get install -y p7zip-full
+          
+          # Create compressed directory for split files
+          mkdir -p compressed
+          
+          # Process each artifact directory independently
+          for dir in output/*/; do
+            if [ -d "$dir" ]; then
+              artifact_name=$(basename "$dir")
+              echo "Processing artifact: $artifact_name"
+              
+              # Create subdirectory for this artifact's compressed files
+              mkdir -p "compressed/$artifact_name"
+              
+              # Check if ISO file exists and its size
+              iso_file=$(find "$dir" -name "*.iso" | head -1)
+              if [ -f "$iso_file" ]; then
+                iso_size=$(stat -c%s "$iso_file")
+                echo "ISO file size: $iso_size bytes"
+                
+                # If ISO is larger than 1.8GB (leaving some margin), split it
+                if [ $iso_size -gt 1932735283 ]; then
+                  echo "ISO file is large, creating split archive..."
+                  # Create split 7z archive with 1.9GB volumes in artifact subdirectory
+                  7z a -t7z -v1900m "compressed/$artifact_name/${artifact_name}.7z" "$dir"*
+                  echo "Created split archive for $artifact_name"
+                else
+                  echo "ISO file is small enough, creating single archive..."
+                  # Create single 7z archive in artifact subdirectory
+                  7z a -t7z "compressed/$artifact_name/${artifact_name}.7z" "$dir"*
+                  echo "Created single archive for $artifact_name"
+                fi
+              else
+                echo "No ISO file found in $artifact_name, creating single archive..."
+                # Create single 7z archive for non-ISO artifacts in artifact subdirectory
+                7z a -t7z "compressed/$artifact_name/${artifact_name}.7z" "$dir"*
+                echo "Created archive for $artifact_name"
+              fi
+            fi
+          done
+          
+          # List all created compressed files organized by artifact
+          echo "Created compressed files:"
+          find compressed/ -type f | sort
       - name: Generate release notes with artifact links
         run: |
           cat >release-notes.md <<EOF
@@ -97,7 +144,7 @@ jobs:
           
           ## 📦 下载链接
           
-          由于 GitHub Release 单个文件大小限制为 2GB，而 ISO 文件通常为 4GB+，请通过以下 Artifacts 链接下载：
+          由于 GitHub Release 单个文件大小限制为 2GB，大型 ISO 文件已被分卷压缩：
           
           EOF
           
@@ -113,7 +160,16 @@ jobs:
                 iso_title=$(echo "$iso_info" | jq -r '.titleSafe // .title')
                 echo "### 🖥️ $iso_title" >> release-notes.md
                 echo "- **版本**: $iso_build" >> release-notes.md
-                echo "- **下载**: [📁 $artifact_name](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> release-notes.md
+                
+                # Check if files were split in the artifact's subdirectory
+                split_files=$(ls compressed/${artifact_name}/${artifact_name}.7z.* 2>/dev/null | wc -l)
+                if [ $split_files -gt 0 ]; then
+                  echo "- **文件**: 分卷压缩包 (${split_files} 个分卷)" >> release-notes.md
+                  echo "- **说明**: 下载 ${artifact_name} 目录下的所有分卷后使用 7-Zip 解压" >> release-notes.md
+                else
+                  echo "- **文件**: 单个压缩包" >> release-notes.md
+                  echo "- **说明**: 下载 ${artifact_name}.7z 并使用 7-Zip 解压" >> release-notes.md
+                fi
                 echo "" >> release-notes.md
               fi
             fi
@@ -123,27 +179,35 @@ jobs:
           
           ## ℹ️ 使用说明
           
-          1. 点击上方的 Artifacts 链接
-          2. 在 GitHub Actions 页面中找到对应的构建产物
-          3. 下载包含 ISO 文件、JSON 元数据和 SHA256 校验文件的压缩包
+          ### 对于分卷压缩文件：
+          1. 下载对应ISO的所有分卷文件（如 windows-11-24h2-zh-cn.7z.001, windows-11-24h2-zh-cn.7z.002 等）
+          2. 将同一ISO的所有分卷文件放在同一目录下
+          3. 使用 7-Zip 解压第一个分卷文件（.7z.001）
+          4. 7-Zip 会自动处理所有分卷并解压出完整的 ISO 文件
+          
+          ### 对于单个压缩文件：
+          1. 下载对应的 .7z 文件
+          2. 使用 7-Zip 解压即可获得 ISO 文件
           
           ## ⚠️ 注意事项
           
+          - 每个ISO的分卷压缩文件必须全部下载才能正确解压
+          - 不同ISO的分卷文件不能混用
           - ISO 文件大小通常为 4GB+，请确保有足够的存储空间
-          - 建议下载后使用 SHA256 校验文件验证文件完整性
+          - 建议解压后使用 SHA256 校验文件验证文件完整性
           - 这些是最新的官方 Windows 更新版本
           
           ## 🔗 相关链接
           
+          - [7-Zip 下载地址](https://www.7-zip.org/)
           - [GitHub Actions 构建详情](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
           - [存储和带宽限制说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases#storage-and-bandwidth-quotas)
-          - [大文件分发指南](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries)
           EOF
       - name: Release
         uses: ncipollo/release-action@v1
         with:
           bodyFile: release-notes.md
-          artifacts: output/*/*
+          artifacts: compressed/*/*
           token: ${{ secrets.GITHUB_TOKEN }}
           generateReleaseNotes: false
           makeLatest: legacy
