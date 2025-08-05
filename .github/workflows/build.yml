@@ -93,6 +93,10 @@ jobs:
           # Install 7z if not available
           sudo apt-get update && sudo apt-get install -y p7zip-full
           
+          # Check available disk space
+          echo "Available disk space:"
+          df -h
+          
           # Create compressed directory for split files
           mkdir -p compressed
           
@@ -111,24 +115,60 @@ jobs:
                 iso_size=$(stat -c%s "$iso_file")
                 echo "ISO file size: $iso_size bytes"
                 
+                # Check available space before compression
+                available_space=$(df --output=avail . | tail -1)
+                echo "Available space: $available_space KB"
+                
                 # If ISO is larger than 1.8GB (leaving some margin), split it
                 if [ $iso_size -gt 1932735283 ]; then
                   echo "ISO file is large, creating split archive..."
-                  # Create split 7z archive with 1.9GB volumes in artifact subdirectory
-                  7z a -t7z -v1900m "compressed/$artifact_name/${artifact_name}.7z" "$dir"*
-                  echo "Created split archive for $artifact_name"
+                  # Use lower compression level and smaller volumes for better reliability
+                  # -mx=1 for fastest compression, -v1800m for 1.8GB volumes
+                  if ! 7z a -t7z -mx=1 -v1800m "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
+                    echo "Error: Failed to create split archive for $artifact_name"
+                    echo "Trying with even smaller volumes (1GB)..."
+                    rm -f "compressed/$artifact_name/${artifact_name}.7z"*
+                    if ! 7z a -t7z -mx=1 -v1000m "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
+                      echo "Error: Failed to create archive even with 1GB volumes"
+                      # As fallback, just copy the files without compression
+                      echo "Fallback: Copying files without compression"
+                      cp "$dir"* "compressed/$artifact_name/"
+                    else
+                      echo "Created split archive with 1GB volumes for $artifact_name"
+                    fi
+                  else
+                    echo "Created split archive for $artifact_name"
+                  fi
                 else
                   echo "ISO file is small enough, creating single archive..."
-                  # Create single 7z archive in artifact subdirectory
-                  7z a -t7z "compressed/$artifact_name/${artifact_name}.7z" "$dir"*
-                  echo "Created single archive for $artifact_name"
+                  # Create single 7z archive in artifact subdirectory with low compression
+                  if ! 7z a -t7z -mx=1 "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
+                    echo "Error: Failed to create single archive for $artifact_name"
+                    echo "Fallback: Copying files without compression"
+                    cp "$dir"* "compressed/$artifact_name/"
+                  else
+                    echo "Created single archive for $artifact_name"
+                  fi
                 fi
               else
                 echo "No ISO file found in $artifact_name, creating single archive..."
                 # Create single 7z archive for non-ISO artifacts in artifact subdirectory
-                7z a -t7z "compressed/$artifact_name/${artifact_name}.7z" "$dir"*
-                echo "Created archive for $artifact_name"
+                if ! 7z a -t7z -mx=1 "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
+                  echo "Error: Failed to create archive for $artifact_name"
+                  echo "Fallback: Copying files without compression"
+                  cp "$dir"* "compressed/$artifact_name/"
+                else
+                  echo "Created archive for $artifact_name"
+                fi
               fi
+              
+              # Clean up to save space after each artifact
+              echo "Cleaning up original files for $artifact_name to save space"
+              rm -rf "$dir"
+              
+              # Check disk space after processing each artifact
+              echo "Disk space after processing $artifact_name:"
+              df -h
             fi
           done
           
@@ -149,10 +189,17 @@ jobs:
           EOF
           
           # Add artifact links for each build
-          for dir in output/*/; do
-            if [ -d "$dir" ]; then
-              artifact_name=$(basename "$dir")
-              json_file=$(find "$dir" -name "*.json" | head -1)
+          for compressed_dir in compressed/*/; do
+            if [ -d "$compressed_dir" ]; then
+              artifact_name=$(basename "$compressed_dir")
+              
+              # Look for JSON file in the compressed directory or try to find it from original output
+              json_file=$(find "$compressed_dir" -name "*.json" | head -1)
+              if [ ! -f "$json_file" ]; then
+                # If JSON not found in compressed dir, it might be in original output
+                json_file=$(find output/ -name "*${artifact_name}*.json" | head -1)
+              fi
+              
               if [ -f "$json_file" ]; then
                 iso_info=$(cat "$json_file")
                 iso_name=$(echo "$iso_info" | jq -r '.name')
@@ -163,12 +210,22 @@ jobs:
                 
                 # Check if files were split in the artifact's subdirectory
                 split_files=$(ls compressed/${artifact_name}/${artifact_name}.7z.* 2>/dev/null | wc -l)
+                single_archive=$(ls compressed/${artifact_name}/${artifact_name}.7z 2>/dev/null | wc -l)
+                raw_files=$(find compressed/${artifact_name}/ -name "*.iso" -o -name "*.json" -o -name "*.txt" | wc -l)
+                
                 if [ $split_files -gt 0 ]; then
                   echo "- **文件**: 分卷压缩包 (${split_files} 个分卷)" >> release-notes.md
                   echo "- **说明**: 下载 ${artifact_name} 目录下的所有分卷后使用 7-Zip 解压" >> release-notes.md
-                else
+                elif [ $single_archive -gt 0 ]; then
                   echo "- **文件**: 单个压缩包" >> release-notes.md
                   echo "- **说明**: 下载 ${artifact_name}.7z 并使用 7-Zip 解压" >> release-notes.md
+                elif [ $raw_files -gt 0 ]; then
+                  echo "- **文件**: 原始文件（未压缩）" >> release-notes.md
+                  echo "- **说明**: 直接下载 ${artifact_name} 目录下的文件" >> release-notes.md
+                  echo "- **注意**: 由于压缩失败，文件以原始格式提供" >> release-notes.md
+                else
+                  echo "- **文件**: 处理中出现问题" >> release-notes.md
+                  echo "- **说明**: 请检查构建日志获取详细信息" >> release-notes.md
                 fi
                 echo "" >> release-notes.md
               fi
@@ -189,19 +246,26 @@ jobs:
           1. 下载对应的 .7z 文件
           2. 使用 7-Zip 解压即可获得 ISO 文件
           
+          ### 对于原始文件（未压缩）：
+          1. 直接下载对应目录下的所有文件
+          2. ISO 文件可以直接使用，无需解压
+          3. 同时下载 .json 和 .sha256.txt 文件用于验证
+          
           ## ⚠️ 注意事项
           
-          - 每个ISO的分卷压缩文件必须全部下载才能正确解压
-          - 不同ISO的分卷文件不能混用
-          - ISO 文件大小通常为 4GB+，请确保有足够的存储空间
-          - 建议解压后使用 SHA256 校验文件验证文件完整性
-          - 这些是最新的官方 Windows 更新版本
+          - **分卷文件**: 每个ISO的分卷压缩文件必须全部下载才能正确解压
+          - **文件完整性**: 不同ISO的分卷文件不能混用
+          - **存储空间**: ISO 文件大小通常为 4GB+，请确保有足够的存储空间
+          - **文件验证**: 建议使用 SHA256 校验文件验证文件完整性
+          - **版本说明**: 这些是最新的官方 Windows 更新版本
+          - **压缩失败**: 如果显示"原始文件（未压缩）"，说明由于文件过大或磁盘空间限制，文件未能压缩，但内容完整可用
           
           ## 🔗 相关链接
           
           - [7-Zip 下载地址](https://www.7-zip.org/)
           - [GitHub Actions 构建详情](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
           - [存储和带宽限制说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases#storage-and-bandwidth-quotas)
+          - [大文件分发指南](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries)
           EOF
       - name: Release
         uses: ncipollo/release-action@v1
@@ -221,4 +285,4 @@ jobs:
           replacesArtifacts: true
           skipIfReleaseExists: false
           updateOnlyUnreleased: false
-          tag: "build-$(date +'%Y-%m-%d')"
+          tag: "build-${{ github.run_number }}-${{ github.run_attempt }}"
