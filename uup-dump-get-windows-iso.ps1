@@ -39,13 +39,15 @@ $TARGETS = @{
         edition = "ServerStandard"
         virtualEdition = $null
         lang = "zh-cn"
+        ring = "RETAIL"
     }
-    # Windows 11 24H2 Chinese
+    # Windows 11 24H2 Chinese - Updated search pattern for better matching
     "windows-11-24h2-zh-cn" = @{
-        search = "windows 11 26100 amd64" # aka 24H2
+        search = "Windows 11 version 24H2 26100 amd64" # More specific search for 24H2
         edition = "Professional"
         virtualEdition = "Enterprise"
         lang = "zh-cn"
+        ring = "RETAIL"
     }
     # Windows Server 2025 (24H2) Chinese
     # "windows-server-24h2-zh-cn" = @{
@@ -53,13 +55,15 @@ $TARGETS = @{
     #     edition = "ServerStandard"
     #     virtualEdition = $null
     #     lang = "zh-cn"
+    #     ring = "RETAIL"
     # }
-    # Windows 10 22H2 Chinese
+    # Windows 10 22H2 Chinese - Updated search pattern
     "windows-10-22h2-zh-cn" = @{
-        search = "windows 10 19045 amd64" # aka 22H2
+        search = "Windows 10 version 22H2 19045 amd64" # More specific search for 22H2
         edition = "Professional"
         virtualEdition = "Enterprise"
         lang = "zh-cn"
+        ring = "RETAIL"
     }
 }
 
@@ -90,17 +94,68 @@ function Invoke-UupDumpApi([string]$name, [hashtable]$body) {
 }
 
 function Get-UupDumpIso($name, $target) {
-    Write-Host "Getting the $name metadata"
+    Write-Host "Getting the $name metadata with search: '$($target.search)'"
+    Write-Host "Target configuration for ${name}:"
+    Write-Host "  Search: $($target.search)"
+    Write-Host "  Edition: $($target.edition)"
+    Write-Host "  Lang: $($target.lang)"
+    Write-Host "  Ring: $($target.ring)"
+    
+    # Extract target properties to local variables to ensure proper scope
+    $targetLang = if ($target.ContainsKey('lang')) { $target.lang } else { 'en-us' }
+    $targetRing = if ($target.ContainsKey('ring')) { $target.ring } else { 'RETAIL' }
+    $targetEdition = $target.edition
+    $targetVirtualEdition = $target.virtualEdition
+    
     $result = Invoke-UupDumpApi listid @{
         search = $target.search
     }
+    
+    # Check if we have valid results
+    $buildCount = 0
+    if ($result -and $result.response -and $result.response.builds) {
+        $buildCount = ($result.response.builds.PSObject.Properties | Measure-Object).Count
+    }
+    
+    # If no results found with specific search, try a broader search for Chinese builds
+    if ($buildCount -eq 0 -and $targetLang -eq "zh-cn") {
+        Write-Host "No builds found with specific search. Trying broader search for Chinese builds..."
+        $broadSearch = switch ($name) {
+            "windows-11-24h2-zh-cn" { "26100 amd64" }
+            "windows-10-22h2-zh-cn" { "19045 amd64" }
+            "windows-server-21h2-zh-cn" { "20348 amd64" }
+            default { $target.search }
+        }
+        Write-Host "Trying broader search: '$broadSearch'"
+        $result = Invoke-UupDumpApi listid @{
+            search = $broadSearch
+        }
+        
+        # Recheck build count after broader search
+        $buildCount = 0
+        if ($result -and $result.response -and $result.response.builds) {
+            $buildCount = ($result.response.builds.PSObject.Properties | Measure-Object).Count
+        }
+    }
+    Write-Host "Found $buildCount builds for $name"
+    
+    if ($buildCount -eq 0) {
+        Write-Host "No builds found for $name. This might indicate:"
+        Write-Host "  1. The search terms are too specific"
+        Write-Host "  2. No Chinese language pack is available for this build"
+        Write-Host "  3. The build version might be outdated"
+        return $null
+    }
+    
     $result.response.builds.PSObject.Properties `
         | ForEach-Object {
             $id = $_.Value.uuid
             $uupDumpUrl = 'https://uupdump.net/selectlang.php?' + (New-QueryString @{
                 id = $id
             })
-            Write-Host "Processing $name $id ($uupDumpUrl)"
+            Write-Host "Processing $name build $($_.Value.build) with ID $id"
+            Write-Host "  Title: $($_.Value.title)"
+            Write-Host "  UUP Dump URL: $uupDumpUrl"
             $_
         } `
         | Where-Object {
@@ -142,20 +197,15 @@ function Get-UupDumpIso($name, $target) {
                 info = $result.response.updateInfo
             }
             $langs = $_.Value.langs.PSObject.Properties.Name
-            $expectedLang = if ($target.PSObject.Properties.Name -contains 'lang') {
-                $target.lang
-            } else {
-                'en-us'
-            }
-            $editions = if ($langs -contains $expectedLang) {
-                Write-Host "Getting the $name $id editions metadata"
+            $editions = if ($langs -contains $targetLang) {
+                Write-Host "Getting the $name $id editions metadata for language $targetLang"
                 $result = Invoke-UupDumpApi listeditions @{
                     id = $id
-                    lang = $expectedLang
+                    lang = $targetLang
                 }
                 $result.response.editionFancyNames
             } else {
-                Write-Host "Skipping. Expected langs=$expectedLang. Got langs=$($langs -join ',')."
+                Write-Host "Skipping. Expected langs=$targetLang. Got langs=$($langs -join ',')."
                 [PSCustomObject]@{}
             }
             $_.Value | Add-Member -NotePropertyMembers @{
@@ -166,63 +216,61 @@ function Get-UupDumpIso($name, $target) {
         | Where-Object {
             # only return builds that:
             #   1. are from the expected ring/channel (default retail)
-            #   2. have the english language
+            #   2. have the expected language (zh-cn for Chinese builds)
             #   3. match the requested edition
             $ring = $_.Value.info.ring
             $langs = $_.Value.langs.PSObject.Properties.Name
             $editions = $_.Value.editions.PSObject.Properties.Name
             $result = $true
-            $expectedRing = if ($target.PSObject.Properties.Name -contains 'ring') {
-                $target.ring
+            
+            if ($ring -ne $targetRing) {
+                Write-Host "Skipping build $($_.Value.uuid). Expected ring=$targetRing. Got ring=$ring."
+                $result = $false
+            }
+            
+            Write-Host "Checking language support for build $($_.Value.uuid). Expected: $targetLang, Available: $($langs -join ',')"
+            if ($langs -notcontains $targetLang) {
+                Write-Host "Skipping build $($_.Value.uuid). Expected langs=$targetLang. Got langs=$($langs -join ',')."
+                $result = $false
             } else {
-                'RETAIL'
+                Write-Host "Language $targetLang is supported for build $($_.Value.uuid)"
             }
-            if ($ring -ne $expectedRing) {
-                Write-Host "Skipping. Expected ring=$expectedRing. Got ring=$ring."
+            
+            Write-Host "Checking edition support for build $($_.Value.uuid). Expected: $targetEdition, Available: $($editions -join ',')"
+            if ($editions -notcontains $targetEdition) {
+                Write-Host "Skipping build $($_.Value.uuid). Expected editions=$targetEdition. Got editions=$($editions -join ',')."
                 $result = $false
-            }
-            $expectedLang = if ($target.PSObject.Properties.Name -contains 'lang') {
-                $target.lang
             } else {
-                'en-us'
+                Write-Host "Edition $targetEdition is supported for build $($_.Value.uuid)"
             }
-            if ($langs -notcontains $expectedLang) {
-                Write-Host "Skipping. Expected langs=$expectedLang. Got langs=$($langs -join ',')."
-                $result = $false
-            }
-            if ($editions -notcontains $target.edition) {
-                Write-Host "Skipping. Expected editions=$($target.edition). Got editions=$($editions -join ',')."
-                $result = $false
+            
+            if ($result) {
+                Write-Host "Build $($_.Value.uuid) meets all criteria (ring: $ring, lang: $targetLang, edition: $targetEdition)"
             }
             $result
         } `
         | Select-Object -First 1 `
         | ForEach-Object {
             $id = $_.Value.uuid
-            $lang = if ($target.PSObject.Properties.Name -contains 'lang') {
-                $target.lang
-            } else {
-                'en-us'
-            }
             [PSCustomObject]@{
                 name = $name
                 title = $_.Value.title
                 titleSafe = Remove-SpecialCharacters $_.Value.title
                 build = $_.Value.build
                 id = $id
-                edition = $target.edition
-                virtualEdition = $target.virtualEdition
-                lang = $lang
+                edition = $targetEdition
+                virtualEdition = $targetVirtualEdition
+                lang = $targetLang
                 apiUrl = 'https://api.uupdump.net/get.php?' + (New-QueryString @{
                     id = $id
-                    lang = $lang
-                    edition = $target.edition
+                    lang = $targetLang
+                    edition = $targetEdition
                     #noLinks = '1' # do not return the files download urls.
                 })
                 downloadUrl = 'https://uupdump.net/download.php?' + (New-QueryString @{
                     id = $id
-                    pack = $lang
-                    edition = $target.edition
+                    pack = $targetLang
+                    edition = $targetEdition
                 })
                 # NB you must use the HTTP POST method to invoke this packageUrl
                 #    AND in the body you must include:
@@ -231,8 +279,8 @@ function Get-UupDumpIso($name, $target) {
                 #           autodl=3 updates=1 cleanup=1 virtualEditions[]=Enterprise
                 downloadPackageUrl = 'https://uupdump.net/get.php?' + (New-QueryString @{
                     id = $id
-                    pack = $lang
-                    edition = $target.edition
+                    pack = $targetLang
+                    edition = $targetEdition
                 })
             }
         }
@@ -266,6 +314,19 @@ function Get-IsoWindowsImages($isoPath) {
 
 function Get-WindowsIso($name, $destinationDirectory) {
     $iso = Get-UupDumpIso $name $TARGETS.$name
+    
+    if ($null -eq $iso) {
+        throw "No suitable build found for $name. Please check if Chinese language pack is available for this version."
+    }
+    
+    Write-Host "Selected build for ${name}:"
+    Write-Host "  Title: $($iso.title)"
+    Write-Host "  Build: $($iso.build)"
+    Write-Host "  Language: $($iso.lang)"
+    Write-Host "  Edition: $($iso.edition)"
+    if ($iso.virtualEdition) {
+        Write-Host "  Virtual Edition: $($iso.virtualEdition)"
+    }
 
     # ensure the build is a version number.
     if ($iso.build -notmatch '^\d+\.\d+$') {

@@ -27,7 +27,7 @@ jobs:
       # NB we are writting outside of the current working/job directory
       #    because it does not have sufficient available disk space.
       - name: Build
-        run: pwsh uup-dump-get-windows-iso.ps1 ${{ matrix.name }} c:/output
+        run: pwsh uup-dump-get-windows-iso.ps1 -windowsTargetName "${{ matrix.name }}" -destinationDirectory "c:/output"
       - name: Show available disk space after build
         run: Get-PSDrive -PSProvider FileSystem
       - name: List output directory contents
