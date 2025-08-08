@@ -177,26 +177,30 @@ jobs:
           find compressed/ -type f | sort
       - name: Generate release notes with artifact links
         run: |
+          # Get build timestamp
+          BUILD_DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
+          
           cat >release-notes.md <<EOF
-          # Windows ISO 构建完成
+          # 🖥️ Windows 中文版 ISO 构建
           
-          本次构建包含以下中文版 Windows ISO 文件：
+          **构建时间**: $BUILD_DATE  
+          **构建编号**: #${{ github.run_number }}  
+          **构建详情**: [GitHub Actions](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
           
-          ## 📦 下载链接
+          ## 📋 构建内容
           
-          由于 GitHub Release 单个文件大小限制为 2GB，大型 ISO 文件已被分卷压缩：
-          
+          | 系统版本 | 构建号 | 文件类型 | 校验码 |
+          |---------|--------|----------|--------|
           EOF
           
-          # Add artifact links for each build
+          # Add build information for each artifact
           for compressed_dir in compressed/*/; do
             if [ -d "$compressed_dir" ]; then
               artifact_name=$(basename "$compressed_dir")
               
-              # Look for JSON file in the compressed directory or try to find it from original output
+              # Look for JSON file
               json_file=$(find "$compressed_dir" -name "*.json" | head -1)
               if [ ! -f "$json_file" ]; then
-                # If JSON not found in compressed dir, it might be in original output
                 json_file=$(find output/ -name "*${artifact_name}*.json" | head -1)
               fi
               
@@ -205,67 +209,58 @@ jobs:
                 iso_name=$(echo "$iso_info" | jq -r '.name')
                 iso_build=$(echo "$iso_info" | jq -r '.build')
                 iso_title=$(echo "$iso_info" | jq -r '.titleSafe // .title')
-                echo "### 🖥️ $iso_title" >> release-notes.md
-                echo "- **版本**: $iso_build" >> release-notes.md
+                iso_checksum=$(echo "$iso_info" | jq -r '.checksum')
                 
-                # Check if files were split in the artifact's subdirectory
+                # Determine file type
                 split_files=$(ls compressed/${artifact_name}/${artifact_name}.7z.* 2>/dev/null | wc -l)
                 single_archive=$(ls compressed/${artifact_name}/${artifact_name}.7z 2>/dev/null | wc -l)
                 raw_files=$(find compressed/${artifact_name}/ -name "*.iso" -o -name "*.json" -o -name "*.txt" | wc -l)
                 
                 if [ $split_files -gt 0 ]; then
-                  echo "- **文件**: 分卷压缩包 (${split_files} 个分卷)" >> release-notes.md
-                  echo "- **说明**: 下载 ${artifact_name} 目录下的所有分卷后使用 7-Zip 解压" >> release-notes.md
+                  file_type="分卷压缩 (${split_files} 个文件)"
                 elif [ $single_archive -gt 0 ]; then
-                  echo "- **文件**: 单个压缩包" >> release-notes.md
-                  echo "- **说明**: 下载 ${artifact_name}.7z 并使用 7-Zip 解压" >> release-notes.md
+                  file_type="单个压缩包"
                 elif [ $raw_files -gt 0 ]; then
-                  echo "- **文件**: 原始文件（未压缩）" >> release-notes.md
-                  echo "- **说明**: 直接下载 ${artifact_name} 目录下的文件" >> release-notes.md
-                  echo "- **注意**: 由于压缩失败，文件以原始格式提供" >> release-notes.md
+                  file_type="原始文件"
                 else
-                  echo "- **文件**: 处理中出现问题" >> release-notes.md
-                  echo "- **说明**: 请检查构建日志获取详细信息" >> release-notes.md
+                  file_type="处理异常"
                 fi
-                echo "" >> release-notes.md
+                
+                echo "| **$iso_name** | $iso_build | $file_type | \`${iso_checksum:0:8}...\` |" >> release-notes.md
               fi
             fi
           done
           
           cat >>release-notes.md <<EOF
           
-          ## ℹ️ 使用说明
+          ## 📥 下载方式
           
-          ### 对于分卷压缩文件：
-          1. 下载对应ISO的所有分卷文件（如 windows-11-24h2-zh-cn.7z.001, windows-11-24h2-zh-cn.7z.002 等）
-          2. 将同一ISO的所有分卷文件放在同一目录下
-          3. 使用 7-Zip 解压第一个分卷文件（.7z.001）
-          4. 7-Zip 会自动处理所有分卷并解压出完整的 ISO 文件
+          ### 方式一：Release 下载（推荐）
           
-          ### 对于单个压缩文件：
-          1. 下载对应的 .7z 文件
-          2. 使用 7-Zip 解压即可获得 ISO 文件
+          1. **点击下方 Assets 区域**展开文件列表
+          2. **下载对应的文件**：
+             - 分卷压缩：下载所有 `.7z.001`, `.7z.002` 等文件
+             - 单个压缩：下载 `.7z` 文件
+             - 原始文件：直接下载 `.iso` 文件
+          3. **解压使用**：分卷和压缩文件需用 [7-Zip](https://www.7-zip.org/) 解压
           
-          ### 对于原始文件（未压缩）：
-          1. 直接下载对应目录下的所有文件
-          2. ISO 文件可以直接使用，无需解压
-          3. 同时下载 .json 和 .sha256.txt 文件用于验证
+          ### 方式二：Artifacts 下载
           
-          ## ⚠️ 注意事项
+          1. **访问构建页面**：[GitHub Actions](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          2. **滚动到页面底部** Artifacts 区域
+          3. **点击对应的构建名称**下载完整包
+          4. **解压两次**：先解压下载的 zip，再解压内部的 7z 文件
           
-          - **分卷文件**: 每个ISO的分卷压缩文件必须全部下载才能正确解压
-          - **文件完整性**: 不同ISO的分卷文件不能混用
-          - **存储空间**: ISO 文件大小通常为 4GB+，请确保有足够的存储空间
-          - **文件验证**: 建议使用 SHA256 校验文件验证文件完整性
-          - **版本说明**: 这些是最新的官方 Windows 更新版本
-          - **压缩失败**: 如果显示"原始文件（未压缩）"，说明由于文件过大或磁盘空间限制，文件未能压缩，但内容完整可用
+          ## ⚠️ 重要提醒
           
-          ## 🔗 相关链接
+          - **分卷文件**：必须下载同一 ISO 的所有分卷才能正确解压
+          - **文件大小**：每个 ISO 约 4-5GB，请确保足够存储空间
+          - **校验文件**：建议下载 `.sha256.txt` 验证文件完整性
+          - **解压工具**：推荐使用 [7-Zip](https://www.7-zip.org/) 处理压缩文件
           
-          - [7-Zip 下载地址](https://www.7-zip.org/)
-          - [GitHub Actions 构建详情](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
-          - [存储和带宽限制说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases#storage-and-bandwidth-quotas)
-          - [大文件分发指南](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries)
+          ---
+          
+          💡 **首次使用建议选择方式一（Release 下载）**，操作更简单直接。
           EOF
       - name: Release
         uses: ncipollo/release-action@v1
