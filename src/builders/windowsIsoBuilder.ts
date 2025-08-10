@@ -79,7 +79,7 @@ class WindowsIsoBuilder implements Builder {
             
             // Step 2: Filter builds (only filter Preview builds, not language) / 步骤 2：过滤构建（只过滤Preview构建，不过滤语言）
             const filteredBuilds = this.scraper.filterBuilds(builds, {
-                edition: target.edition
+                edition: target.sku
             });
             
             if (filteredBuilds.length === 0) {
@@ -97,13 +97,13 @@ class WindowsIsoBuilder implements Builder {
             // Step 4: Get language options / 步骤 4：获取语言选项
             const languages = await this.scraper.getLanguages(selectedBuild.id);
             const targetLang = languages.find(lang => 
-                lang.code === target.lang || 
+                lang.code === target.language || 
                 lang.name.includes('中文') ||
                 lang.name.toLowerCase().includes('chinese')
             );
             
             if (!targetLang) {
-                throw new Error(`未找到目标语言: ${target.lang} / Target language not found: ${target.lang}`);
+                throw new Error(`未找到目标语言: ${target.language} / Target language not found: ${target.language}`);
             }
             
             this.logger.info(`选择语言: ${targetLang.name} (${targetLang.code}) / Selected language: ${targetLang.name} (${targetLang.code})`);
@@ -111,12 +111,12 @@ class WindowsIsoBuilder implements Builder {
             // Step 5: Get edition options / 步骤 5：获取版本选项
             const editions = await this.scraper.getEditions(selectedBuild.id, targetLang.code);
             let targetEdition = editions.find(edition => 
-                edition.name.toLowerCase().includes(target.edition.toLowerCase()) ||
+                edition.value === target.sku ||
                 edition.name.toLowerCase().includes('professional')
             );
             
             if (!targetEdition) {
-                this.logger.warn(`未找到目标版本 ${target.edition}，使用第一个可用版本 / Target edition ${target.edition} not found, using first available`);
+                this.logger.warn(`未找到目标SKU ${target.sku}，使用第一个可用版本 / Target SKU ${target.sku} not found, using first available`);
                 if (editions.length === 0) {
                     throw new Error('未找到任何版本 / No editions found');
                 }
@@ -134,7 +134,8 @@ class WindowsIsoBuilder implements Builder {
             const downloadInfo = await this.scraper.getDownloadInfo(
                 selectedBuild.id, 
                 targetLang.code, 
-                editionParam
+                editionParam,
+                target.downloadConfig
             );
             
             // Step 7: Download build script / 步骤 7：下载构建脚本

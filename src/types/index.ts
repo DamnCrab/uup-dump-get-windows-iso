@@ -29,15 +29,28 @@ export type LanguageCode =
   | 'uk-ua' | 'sr-latn-rs' | 'neutral';
 
 /**
- * Windows edition types available for download
- * 可下载的 Windows 版本类型
+ * Windows SKU types available for download from UUP Dump
+ * UUP Dump 可下载的 Windows SKU 类型
+ * 
+ * These correspond to the actual SKU codes used by UUP Dump:
+ * - CORE: Windows Home Edition (家庭版)
+ * - CORECOUNTRYSPECIFIC: Windows Home Single Language (家庭单语言版)
+ * - PROFESSIONAL: Windows Professional Edition (专业版)
+ * - ENTERPRISE: Windows Enterprise Edition (企业版)
+ * - EDUCATION: Windows Education Edition (教育版)
+ * - PROFESSIONALWORKSTATION: Windows Pro for Workstations (专业工作站版)
+ * - PROFESSIONALEDUCATION: Windows Pro Education (专业教育版)
+ * - ENTERPRISEMULTISESSION: Windows Enterprise Multi-session (企业版多会话)
+ * - IOTENTERPRISE: Windows IoT Enterprise (IoT企业版)
+ * - IOTENTERPRISESUBSCRIPTION: Windows IoT Enterprise Subscription (IoT企业版订阅)
+ * - *N versions: Same as above but without media components (N版本：无媒体组件版本)
  */
-export type WindowsEdition = 
-  | 'core' | 'professional' | 'enterprise' | 'education'
-  | 'coresinglelanguage' | 'professionalworkstation' | 'professionaleducation'
-  | 'enterprisemultisession' | 'iotenterprise' | 'iotenterprisesubscription'
-  | 'coren' | 'professionaln' | 'enterprisen' | 'educationn'
-  | 'professionalworkstationn' | 'professionaleducationn';
+export type WindowsSKU = 
+  | 'CORE' | 'CORECOUNTRYSPECIFIC' | 'PROFESSIONAL' | 'ENTERPRISE' | 'EDUCATION'
+  | 'PROFESSIONALWORKSTATION' | 'PROFESSIONALEDUCATION' | 'ENTERPRISEMULTISESSION'
+  | 'IOTENTERPRISE' | 'IOTENTERPRISESUBSCRIPTION'
+  | 'COREN' | 'PROFESSIONALN' | 'ENTERPRISEN' | 'EDUCATIONN'
+  | 'PROFESSIONALWORKSTATIONN' | 'PROFESSIONALEDUCATIONN';
 
 /**
  * Download methods supported by UUP Dump
@@ -77,7 +90,7 @@ export interface LanguageInfo {
  */
 export interface EditionInfo {
   name: string; // Edition display name / 版本显示名称
-  value: WindowsEdition; // Edition value / 版本值
+  value: WindowsSKU; // SKU value / SKU 值
   code: string; // Edition code / 版本代码
   checked?: boolean; // Whether selected / 是否选中
 }
@@ -92,7 +105,7 @@ export interface DownloadConfig {
   cleanup: boolean; // Clean temporary files / 清理临时文件
   netfx: boolean; // Include .NET Framework / 包含.NET Framework
   esd: boolean; // Use ESD format / 使用ESD格式
-  virtualEditions: string[]; // Virtual editions / 虚拟版本
+  virtualEditions?: WindowsSKU[] | 'all'; // Virtual editions or 'all' to select all (only available when autodl is '3') / 虚拟版本或'all'全选（仅在autodl为'3'时可用）
 }
 
 /**
@@ -100,15 +113,11 @@ export interface DownloadConfig {
  * 构建特定 Windows ISO 的目标配置
  */
 export interface TargetConfig {
-  id: string; // Unique target identifier / 唯一目标标识符
   name: string; // Display name / 显示名称
   description: string; // Target description / 目标描述
-  buildId: string; // UUP build ID / UUP 构建 ID
   search: string; // Search term for finding builds / 查找构建的搜索词
-  lang: LanguageCode; // Language code / 语言代码
-  language: LanguageCode; // Language code (alias) / 语言代码（别名）
-  edition: string; // Edition string / 版本字符串
-  editions: WindowsEdition[]; // Available editions / 可用版本
+  language: LanguageCode; // Language code / 语言代码
+  sku: WindowsSKU; // Windows SKU type / Windows SKU 类型
   architecture: Architecture; // Target architecture / 目标架构
   downloadConfig: Partial<DownloadConfig>; // Download configuration / 下载配置
 }
@@ -178,7 +187,7 @@ export interface Scraper {
   getAvailableBuilds(): Promise<BuildInfo[]>; // Get available builds / 获取可用构建
   getLanguages(buildId: string): Promise<LanguageInfo[]>; // Get languages for build / 获取构建的语言
   getEditions(buildId: string, language: string): Promise<EditionInfo[]>; // Get editions / 获取版本
-  getDownloadInfo(buildId: string, language: string, editions: string): Promise<DownloadInfo>; // Get download info / 获取下载信息
+  getDownloadInfo(buildId: string, language: string, editions: string, downloadConfig?: Partial<DownloadConfig>): Promise<DownloadInfo>; // Get download info / 获取下载信息
 }
 
 /**

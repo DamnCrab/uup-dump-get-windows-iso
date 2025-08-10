@@ -24,7 +24,7 @@ import {
     DownloadInfo, 
     DownloadLink, 
     LanguageCode, 
-    WindowsEdition, 
+    WindowsSKU, 
     DownloadConfig,
     Architecture
 } from '../types/index.js';
@@ -212,7 +212,7 @@ class UupDumpScraper implements Scraper {
                 if (value && name) {
                     editions.push({
                         name: name,
-                        value: value as WindowsEdition,
+                        value: value as WindowsSKU,
                         code: value.toLowerCase() as string
                     });
                 }
@@ -236,9 +236,10 @@ class UupDumpScraper implements Scraper {
      * @param buildId - Build ID / 构建ID
      * @param langCode - Language code / 语言代码
      * @param editions - Edition string (e.g., PROFESSIONAL) / 版本字符串
+     * @param downloadConfig - Download configuration options / 下载配置选项
      * @returns Promise resolving to download information / 返回下载信息的 Promise
      */
-    async getDownloadInfo(buildId: string, langCode: string, editions: string): Promise<DownloadInfo> {
+    async getDownloadInfo(buildId: string, langCode: string, editions: string, downloadConfig?: Partial<DownloadConfig>): Promise<DownloadInfo> {
         try {
             const url = `${this.baseUrl}/download.php?id=${buildId}&pack=${langCode}&edition=${editions}`;
             this.logger.info(`正在获取下载信息: ${url} / Fetching download info: ${url}`);
@@ -257,29 +258,77 @@ class UupDumpScraper implements Scraper {
                 throw new Error('未找到表单action / Form action not found');
             }
             
-            // Build form data with all default selected options / 构建表单数据，包含所有默认选中的选项
+            // Build form data with configuration options / 构建表单数据，包含配置选项
             const formData = new URLSearchParams();
             
-            // Download method selection (default aria2) / 下载方式选择 (默认选中aria2)
-            formData.append('autodl', '2');
+            // Download method selection / 下载方式选择
+            const autodl = downloadConfig?.autodl || '2';
+            formData.append('autodl', autodl);
             
-            // Include updates (default selected) / 包含更新 (默认选中)
-            formData.append('updates', '1');
+            // Include updates / 包含更新
+            const updates = downloadConfig?.updates !== false ? '1' : '0';
+            formData.append('updates', updates);
             
-            // Other default selected virtual editions / 其他默认选中的虚拟版本
-            const virtualEditions = [
-                'ProfessionalWorkstation',
-                'ProfessionalEducation', 
-                'Education',
-                'Enterprise',
-                'ServerRdsh',
-                'IoTEnterprise',
-                'IoTEnterpriseK'
-            ];
+            // Cleanup temporary files / 清理临时文件
+            if (downloadConfig?.cleanup !== false) {
+                formData.append('cleanup', '1');
+            }
             
-            virtualEditions.forEach(edition => {
-                formData.append('virtualEditions[]', edition);
-            });
+            // Include .NET Framework / 包含.NET Framework
+            if (downloadConfig?.netfx !== false) {
+                formData.append('netfx', '1');
+            }
+            
+            // Use ESD format / 使用ESD格式
+            if (downloadConfig?.esd === true) {
+                formData.append('esd', '1');
+            }
+            
+            // Virtual editions configuration / 虚拟版本配置
+            if (downloadConfig?.virtualEditions) {
+                let virtualEditionsToAdd: string[] = [];
+                
+                if (downloadConfig.virtualEditions === 'all') {
+                    // Select all available virtual editions / 选择所有可用的虚拟版本
+                    virtualEditionsToAdd = [
+                        'ProfessionalWorkstation',
+                        'ProfessionalEducation', 
+                        'Education',
+                        'Enterprise',
+                        'ServerRdsh',
+                        'IoTEnterprise',
+                        'IoTEnterpriseK'
+                    ];
+                } else if (Array.isArray(downloadConfig.virtualEditions)) {
+                    // Convert WindowsSKU to UUP Dump format / 将WindowsSKU转换为UUP Dump格式
+                    virtualEditionsToAdd = downloadConfig.virtualEditions.map(sku => {
+                        switch (sku) {
+                            case 'PROFESSIONALWORKSTATION': return 'ProfessionalWorkstation';
+                            case 'PROFESSIONALEDUCATION': return 'ProfessionalEducation';
+                            case 'EDUCATION': return 'Education';
+                            case 'ENTERPRISE': return 'Enterprise';
+                            case 'IOTENTERPRISE': return 'IoTEnterprise';
+                            default: return sku;
+                        }
+                    });
+                }
+                
+                virtualEditionsToAdd.forEach(edition => {
+                    formData.append('virtualEditions[]', edition);
+                });
+            } else {
+                // Default virtual editions if not specified / 如果未指定则使用默认虚拟版本
+                const defaultVirtualEditions = [
+                    'ProfessionalWorkstation',
+                    'ProfessionalEducation', 
+                    'Education',
+                    'Enterprise'
+                ];
+                
+                defaultVirtualEditions.forEach(edition => {
+                    formData.append('virtualEditions[]', edition);
+                });
+            }
             
             // Submit form to create download package / 提交表单创建下载包
             const formUrl = formAction.startsWith('http') ? formAction : `${this.baseUrl}/${formAction}`;

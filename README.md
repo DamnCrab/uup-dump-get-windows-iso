@@ -147,18 +147,45 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### 支持的目标配置
 
-| 目标 ID | 描述 | 语言 | 架构 | 版本 |
-|---------|------|------|------|------|
-| `windows-11-24h2-zh-cn-pro` | Windows 11 24H2 中文简体专业版 | zh-cn | amd64 | 专业版 |
-| `windows-11-24h2-zh-cn-home` | Windows 11 24H2 中文简体家庭版 | zh-cn | amd64 | 家庭版 |
-| `windows-11-24h2-zh-cn-multi` | Windows 11 24H2 中文简体多版本 | zh-cn | amd64 | 专业版+家庭版 |
-| `windows-11-24h2-en-us-pro` | Windows 11 24H2 英文美国专业版 | en-us | amd64 | 专业版 |
-| `windows-11-24h2-en-us-home` | Windows 11 24H2 英文美国家庭版 | en-us | amd64 | 家庭版 |
-| `windows-11-insider-zh-cn` | Windows 11 Insider Preview 中文版 | zh-cn | amd64 | 专业版 |
-| `windows-11-insider-en-us` | Windows 11 Insider Preview 英文版 | en-us | amd64 | 专业版 |
-| `windows-11-24h2-zh-cn-arm64` | Windows 11 24H2 中文 ARM64 版 | zh-cn | arm64 | 专业版 |
-| `windows-11-24h2-zh-cn-enterprise` | Windows 11 24H2 中文企业版 | zh-cn | amd64 | 企业版 |
-| `windows-11-24h2-zh-cn-education` | Windows 11 24H2 中文教育版 | zh-cn | amd64 | 教育版 |
+| 目标 ID | 描述 | 语言 | 架构 | SKU |
+|---------|------|------|------|-----|
+| `windows-11-24h2-zh-cn-pro` | Windows 11 24H2 中文简体专业版 | zh-cn | amd64 | PROFESSIONAL |
+| `windows-11-24h2-zh-cn-home` | Windows 11 24H2 中文简体家庭版 | zh-cn | amd64 | CORE |
+| `windows-11-24h2-zh-cn-multi` | Windows 11 24H2 中文简体多版本 | zh-cn | amd64 | PROFESSIONAL |
+| `windows-11-24h2-en-us-pro` | Windows 11 24H2 英文美国专业版 | en-us | amd64 | PROFESSIONAL |
+| `windows-11-24h2-en-us-home` | Windows 11 24H2 英文美国家庭版 | en-us | amd64 | CORE |
+| `windows-11-insider-zh-cn` | Windows 11 Insider Preview 中文版 | zh-cn | amd64 | PROFESSIONAL |
+| `windows-11-insider-en-us` | Windows 11 Insider Preview 英文版 | en-us | amd64 | PROFESSIONAL |
+| `windows-11-24h2-zh-cn-arm64` | Windows 11 24H2 中文 ARM64 版 | zh-cn | arm64 | PROFESSIONAL |
+| `windows-11-24h2-zh-cn-enterprise` | Windows 11 24H2 中文企业版 | zh-cn | amd64 | PROFESSIONAL* |
+| `windows-11-24h2-zh-cn-education` | Windows 11 24H2 中文教育版 | zh-cn | amd64 | PROFESSIONAL* |
+
+*注：企业版和教育版使用 PROFESSIONAL 作为基础 SKU，通过虚拟版本升级实现。
+
+### 配置选项说明
+
+#### SKU 类型
+SKU（Stock Keeping Unit）对应 UUP Dump 网站上的版本选择：
+- `CORE`: 家庭版
+- `PROFESSIONAL`: 专业版
+- `CORECOUNTRYSPECIFIC`: 家庭单语言版
+- `ENTERPRISE`: 企业版（需要通过虚拟版本升级）
+- `EDUCATION`: 教育版（需要通过虚拟版本升级）
+
+#### 下载配置选项
+- `autodl`: 下载方式
+  - `'1'`: 仅下载 UUP 包
+  - `'2'`: 下载转换脚本包（推荐）
+  - `'3'`: 直接下载，支持虚拟版本
+- `virtualEditions`: 虚拟版本升级列表
+  - **仅在 `autodl` 为 `'3'` 时可用**
+  - 可以是具体的 SKU 数组：`['ENTERPRISE', 'EDUCATION']`
+  - 或者使用 `'all'` 全选所有可用的虚拟版本
+  - 支持的虚拟版本：`ENTERPRISE`、`EDUCATION`、`PROFESSIONALWORKSTATION`、`PROFESSIONALEDUCATION` 等
+- `updates`: 是否包含更新
+- `cleanup`: 是否清理临时文件
+- `netfx`: 是否包含 .NET Framework
+- `esd`: 是否使用 ESD 格式
 
 ### 系统要求
 

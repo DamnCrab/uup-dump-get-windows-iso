@@ -66,7 +66,7 @@ async function main(): Promise<void> {
             console.log(`  ${key}: ${target.name}`);
             console.log(`    描述 / Description: ${target.description}`);
             console.log(`    语言 / Language: ${target.language}, 架构 / Architecture: ${target.architecture}`);
-            console.log(`    版本 / Editions: ${target.editions.join(', ')}`);
+            console.log(`    SKU: ${target.sku}`);
             console.log('');
         });
         return;
