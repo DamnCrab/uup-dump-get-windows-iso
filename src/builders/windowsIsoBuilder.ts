@@ -213,14 +213,17 @@ class WindowsIsoBuilder implements Builder {
      */
     async downloadScript(downloadLink: any, targetName: string): Promise<string> {
         try {
+            // Use safe filename without spaces / 使用不包含空格的安全文件名
+            const safeTargetName = this.generateSafeTitle(targetName);
+            
             if (downloadLink.isDirectDownload && downloadLink.data) {
                 // Direct ZIP download with embedded data / 直接下载的ZIP数据
-                const zipPath = path.join(this.outputDir, `${targetName}-download.zip`);
+                const zipPath = path.join(this.outputDir, `${safeTargetName}-download.zip`);
                 await fs.writeFile(zipPath, downloadLink.data);
                 this.logger.info(`ZIP文件已保存: ${zipPath} / ZIP file saved: ${zipPath}`);
                 
                 // Extract ZIP file / 解压ZIP文件
-                const extractDir = path.join(this.outputDir, `${targetName}-extracted`);
+                const extractDir = path.join(this.outputDir, `${safeTargetName}-extracted`);
                 await this.extractZip(zipPath, extractDir);
                 
                 // Find CMD script file / 查找CMD脚本文件
@@ -232,7 +235,7 @@ class WindowsIsoBuilder implements Builder {
                     throw new Error('下载链接URL为空 / Download link URL is empty');
                 }
                 const response = await axios.get(downloadLink.url, { responseType: 'stream' });
-                const scriptPath = path.join(this.outputDir, `${targetName}-script.cmd`);
+                const scriptPath = path.join(this.outputDir, `${safeTargetName}-script.cmd`);
                 
                 const writer = fs.createWriteStream(scriptPath);
                 response.data.pipe(writer);
