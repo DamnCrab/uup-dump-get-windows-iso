@@ -71,7 +71,7 @@ jobs:
       
       # Build Windows ISO for the specified target / 为指定目标构建 Windows ISO
       - name: Build ISO
-        run: pnpm start ${{ matrix.name }}
+        run: pnpm start --target ${{ matrix.name }}
       
       # Upload build artifacts / 上传构建产物
       - name: Upload artifacts

@@ -47,3 +47,7 @@ targetKeys.forEach(key => {
 console.log('');
 console.log(`# Total targets: ${targetKeys.length}`);
 console.log(`# 总目标数: ${targetKeys.length}`);
+console.log('');
+console.log('# Usage in GitHub Actions:');
+console.log('# 在 GitHub Actions 中的使用:');
+console.log('# run: pnpm start --target ${{ matrix.name }}');
