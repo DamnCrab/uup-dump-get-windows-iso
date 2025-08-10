@@ -62,8 +62,8 @@ async function main(): Promise<void> {
     // Handle list command - display all available targets / 处理列表命令 - 显示所有可用目标
     if (options.list) {
         console.log('\n可用的目标配置 / Available target configurations:');
-        listTargets().forEach((target: TargetConfig) => {
-            console.log(`  ${target.id}: ${target.name}`);
+        Object.entries(TARGETS).forEach(([key, target]: [string, TargetConfig]) => {
+            console.log(`  ${key}: ${target.name}`);
             console.log(`    描述 / Description: ${target.description}`);
             console.log(`    语言 / Language: ${target.language}, 架构 / Architecture: ${target.architecture}`);
             console.log(`    版本 / Editions: ${target.editions.join(', ')}`);

@@ -108,6 +108,7 @@ src/
 - `pnpm run build`: Compile TypeScript to JavaScript
 - `pnpm run dev`: Run in development mode with watch
 - `pnpm run clean`: Clean build artifacts
+- `pnpm generate-matrix`: Generate GitHub Actions matrix configuration from targets
 
 ### Contributing
 
@@ -233,6 +234,7 @@ src/
 - `pnpm run build`: 编译 TypeScript 到 JavaScript
 - `pnpm run dev`: 开发模式运行（带监听）
 - `pnpm run clean`: 清理构建产物
+- `pnpm generate-matrix`: 从目标配置生成 GitHub Actions matrix 配置
 
 ### 贡献
 
