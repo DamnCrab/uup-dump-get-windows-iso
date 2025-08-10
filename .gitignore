@@ -1,3 +1,7 @@
 .vagrant/
 output*/
 .idea
+node_modules
+.vscode
+.output
+dist

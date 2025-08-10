@@ -1,0 +1,39 @@
+{
+  "name": "uup-dump-get-windows-iso",
+  "version": "2.0.0",
+  "description": "Download Windows ISO files from UUP dump using HTML parsing",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "tsc && node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/fs-extra": "^11.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "windows",
+    "iso",
+    "uup-dump",
+    "download",
+    "automation"
+  ],
+  "author": "UUP Dump ISO Builder",
+  "license": "MIT"
+}
