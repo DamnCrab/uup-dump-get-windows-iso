@@ -39,15 +39,13 @@ $TARGETS = @{
         edition = "ServerStandard"
         virtualEdition = $null
         lang = "zh-cn"
-        ring = "RETAIL"
     }
     # Windows 11 24H2 Chinese - Updated search pattern for better matching
     "windows-11-24h2-zh-cn" = @{
         search = "Windows 11 version 24H2 26100 amd64" # More specific search for 24H2
         edition = "Professional"
-        virtualEdition = "Enterprise"
+        virtualEdition = $null # Build all virtual editions
         lang = "zh-cn"
-        ring = "RETAIL"
     }
     # Windows Server 2025 (24H2) Chinese
     # "windows-server-24h2-zh-cn" = @{
@@ -55,15 +53,13 @@ $TARGETS = @{
     #     edition = "ServerStandard"
     #     virtualEdition = $null
     #     lang = "zh-cn"
-    #     ring = "RETAIL"
     # }
     # Windows 10 22H2 Chinese - Updated search pattern
     "windows-10-22h2-zh-cn" = @{
         search = "Windows 10 version 22H2 19045 amd64" # More specific search for 22H2
         edition = "Professional"
-        virtualEdition = "Enterprise"
+        virtualEdition = $null # Build all virtual editions
         lang = "zh-cn"
-        ring = "RETAIL"
     }
 }
 
@@ -99,11 +95,9 @@ function Get-UupDumpIso($name, $target) {
     Write-Host "  Search: $($target.search)"
     Write-Host "  Edition: $($target.edition)"
     Write-Host "  Lang: $($target.lang)"
-    Write-Host "  Ring: $($target.ring)"
     
     # Extract target properties to local variables to ensure proper scope
     $targetLang = if ($target.ContainsKey('lang')) { $target.lang } else { 'en-us' }
-    $targetRing = if ($target.ContainsKey('ring')) { $target.ring } else { 'RETAIL' }
     $targetEdition = $target.edition
     $targetVirtualEdition = $target.virtualEdition
     
@@ -159,12 +153,13 @@ function Get-UupDumpIso($name, $target) {
             $_
         } `
         | Where-Object {
-            # ignore previews when they are not explicitly requested.
-            $result = $target.search -like '*preview*' -or $_.Value.title -notlike '*preview*'
-            if (!$result) {
-                Write-Host "Skipping. Expected preview=false. Got preview=true."
+            # Always exclude Preview builds regardless of search terms
+            $isPreview = $_.Value.title -like '*Preview*'
+            if ($isPreview) {
+                Write-Host "Skipping Preview build: $($_.Value.title)"
+                return $false
             }
-            $result
+            return $true
         } `
         | ForEach-Object {
             # get more information about the build. eg:
@@ -175,7 +170,6 @@ function Get-UupDumpIso($name, $target) {
             #   },
             #   "info": {
             #     "title": "Feature update to Microsoft server operating system, version 21H2 (20348.643)",
-            #     "ring": "RETAIL",
             #     "flight": "Active",
             #     "arch": "amd64",
             #     "build": "20348.643",
@@ -215,18 +209,11 @@ function Get-UupDumpIso($name, $target) {
         } `
         | Where-Object {
             # only return builds that:
-            #   1. are from the expected ring/channel (default retail)
-            #   2. have the expected language (zh-cn for Chinese builds)
-            #   3. match the requested edition
-            $ring = $_.Value.info.ring
+            #   1. have the expected language (zh-cn for Chinese builds)
+            #   2. match the requested edition
             $langs = $_.Value.langs.PSObject.Properties.Name
             $editions = $_.Value.editions.PSObject.Properties.Name
             $result = $true
-            
-            if ($ring -ne $targetRing) {
-                Write-Host "Skipping build $($_.Value.uuid). Expected ring=$targetRing. Got ring=$ring."
-                $result = $false
-            }
             
             Write-Host "Checking language support for build $($_.Value.uuid). Expected: $targetLang, Available: $($langs -join ',')"
             if ($langs -notcontains $targetLang) {
@@ -245,7 +232,7 @@ function Get-UupDumpIso($name, $target) {
             }
             
             if ($result) {
-                Write-Host "Build $($_.Value.uuid) meets all criteria (ring: $ring, lang: $targetLang, edition: $targetEdition)"
+                Write-Host "Build $($_.Value.uuid) meets all criteria (lang: $targetLang, edition: $targetEdition)"
             }
             $result
         } `
@@ -353,19 +340,67 @@ function Get-WindowsIso($name, $destinationDirectory) {
     $title = "$name $edition $($iso.build)"
 
     Write-Host "Downloading the UUP dump download package for $title from $($iso.downloadPackageUrl)"
-    $downloadPackageBody = if ($iso.virtualEdition) {
-        @{
+    
+    # Determine if this is a server image
+    $isServerImage = $name -like "*server*"
+    
+    # Determine virtual editions to build
+    $virtualEditionsToUse = @()
+    if ($iso.virtualEdition -eq $null) {
+        # Build all virtual editions - get available editions from the build
+        $targetConfig = $TARGETS.$name
+        if ($targetConfig.ContainsKey('virtualEdition') -and $targetConfig.virtualEdition -eq $null) {
+            Write-Host "Building all available virtual editions"
+            # For Windows client editions, typically include Enterprise, Education, Pro
+            $virtualEditionsToUse = @("Enterprise", "Education", "Professional")
+        }
+    } elseif ($iso.virtualEdition -is [array]) {
+        # Build specified virtual editions from array
+        $virtualEditionsToUse = $iso.virtualEdition
+        Write-Host "Building specified virtual editions: $($virtualEditionsToUse -join ', ')"
+    } elseif ($iso.virtualEdition) {
+        # Build single specified virtual edition
+        $virtualEditionsToUse = @($iso.virtualEdition)
+        Write-Host "Building single virtual edition: $($iso.virtualEdition)"
+    }
+    
+    $downloadPackageBody = if ($virtualEditionsToUse.Count -gt 0) {
+        # Windows images with virtual editions
+        $body = @{
             autodl = 3
             updates = 1
             cleanup = 1
-            'virtualEditions[]' = $iso.virtualEdition
+            netfx = 1
+            esd = 1
         }
-    } else {
+        # Add all virtual editions
+        for ($i = 0; $i -lt $virtualEditionsToUse.Count; $i++) {
+            $body["virtualEditions[$i]"] = $virtualEditionsToUse[$i]
+        }
+        $body
+    } elseif ($isServerImage) {
+        # Server images
         @{
             autodl = 2
             updates = 1
             cleanup = 1
+            netfx = 1
+            esd = 1
         }
+    } else {
+        # Regular Windows images without virtual editions
+        @{
+            autodl = 3
+            updates = 1
+            cleanup = 1
+            netfx = 1
+            esd = 1
+        }
+    }
+    
+    Write-Host "Using download parameters:"
+    $downloadPackageBody.GetEnumerator() | ForEach-Object {
+        Write-Host "  $($_.Key) = $($_.Value)"
     }
     Invoke-WebRequest `
         -Method Post `
@@ -382,11 +417,24 @@ function Get-WindowsIso($name, $destinationDirectory) {
         -replace '^(AutoExit\s*)=.*','$1=1' `
         -replace '^(ResetBase\s*)=.*','$1=1' `
         -replace '^(SkipWinRE\s*)=.*','$1=1'
-    if ($iso.virtualEdition) {
+    
+    if ($virtualEditionsToUse.Count -gt 0) {
         $convertConfig = $convertConfig `
             -replace '^(StartVirtual\s*)=.*','$1=1' `
-            -replace '^(vDeleteSource\s*)=.*','$1=1' `
-            -replace '^(vAutoEditions\s*)=.*',"`$1=$($iso.virtualEdition)"
+            -replace '^(vDeleteSource\s*)=.*','$1=1'
+        
+        if ($virtualEditionsToUse.Count -eq 1) {
+            # Single virtual edition
+            $convertConfig = $convertConfig `
+                -replace '^(vAutoEditions\s*)=.*',"`$1=$($virtualEditionsToUse[0])"
+        } else {
+            # Multiple virtual editions - use comma-separated list
+            $editionsList = $virtualEditionsToUse -join ','
+            $convertConfig = $convertConfig `
+                -replace '^(vAutoEditions\s*)=.*',"`$1=$editionsList"
+        }
+        
+        Write-Host "Configured virtual editions: $($virtualEditionsToUse -join ', ')"
     }
     Set-Content `
         -Encoding ascii `
