@@ -1,149 +1,128 @@
+# GitHub Actions Workflow for Windows ISO Build
+# Windows ISO 构建的 GitHub Actions 工作流
+#
+# This workflow automatically builds Windows ISO files using UUP Dump
+# 该工作流使用 UUP Dump 自动构建 Windows ISO 文件
+
 name: build
+
+# Trigger conditions / 触发条件
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger / 手动触发
   schedule:
-    #- cron: '0 * * * *' # hourly.
-    #- cron: '0 0 17 * *' # every month, the 17th day.
-    - cron: '0 2 * * *' # daily at 2 AM UTC.
+    #- cron: '0 * * * *' # hourly / 每小时
+    #- cron: '0 0 17 * *' # every month, the 17th day / 每月17日
+    - cron: '0 2 * * *' # daily at 2 AM UTC / 每日UTC时间2点
+
 jobs:
+  # Main build job / 主构建任务
   build:
-    continue-on-error: true
+    continue-on-error: true  # Continue even if one matrix job fails / 即使某个矩阵任务失败也继续
     strategy:
-      fail-fast: false
+      fail-fast: false      # Don't cancel other jobs on failure / 失败时不取消其他任务
       matrix:
         include:
-          - name: windows-11-24h2-zh-cn
-          - name: windows-server-21h2-zh-cn
-          - name: windows-10-22h2-zh-cn
-    runs-on: windows-2022
+          - name: windows-11-24h2-zh-cn      # Windows 11 24H2 Chinese / Windows 11 24H2 中文版
+          - name: windows-server-21h2-zh-cn  # Windows Server 21H2 Chinese / Windows Server 21H2 中文版
+          - name: windows-10-22h2-zh-cn      # Windows 10 22H2 Chinese / Windows 10 22H2 中文版
+    runs-on: windows-2022  # Use Windows 2022 runner / 使用 Windows 2022 运行器
     steps:
+      # Checkout source code / 检出源代码
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Install pnpm package manager / 安装 pnpm 包管理器
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 10
+          run_install: false
+
+      # Setup Node.js environment / 设置 Node.js 环境
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'pnpm'
+          node-version: '24'  # Use Node.js 24 / 使用 Node.js 24
+          cache: 'pnpm'       # Cache pnpm dependencies / 缓存 pnpm 依赖
       
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: latest
-      
+      # Install project dependencies / 安装项目依赖
       - name: Install dependencies
         run: pnpm install
-      # log the available disk space, so we can inspect it later.
-      # NB GitHub-hosted runners have limited available disk space.
-      #    see https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources
-      - name: Show available disk space before build
-        run: Get-PSDrive -PSProvider FileSystem
-      # NB we are writting outside of the current working/job directory
-      #    because it does not have sufficient available disk space.
-      - name: Build
-        run: node src/index.js --target "${{ matrix.name }}"
-      - name: Show available disk space after build
-        run: Get-PSDrive -PSProvider FileSystem
-      - name: List output directory contents
-        run: |
-          Write-Host "Contents of c:/output/ directory:"
-          if (Test-Path "c:/output/") {
-            Get-ChildItem -Path "c:/output/" -Recurse | ForEach-Object {
-              $relativePath = $_.FullName.Replace("c:/output/", "")
-              if ($_.PSIsContainer) {
-                Write-Host "📁 $relativePath/"
-              } else {
-                $size = [math]::Round($_.Length / 1MB, 2)
-                Write-Host "📄 $relativePath ($size MB)"
-              }
-            }
-          } else {
-            Write-Host "❌ Directory c:/output/ does not exist"
-          }
-      - name: Build summary
-        run: |
-          $iso = Get-Content (Resolve-Path c:/output/*.json) | ConvertFrom-Json
-          $artifactName = $iso.name
-
-          Add-Content $env:GITHUB_STEP_SUMMARY @"
-          | Property | Value |
-          | :--- | :--- |
-          | Name | $($iso.name) |
-          | Build | $($iso.build) |
-          | Checkum | $($iso.checksum) |
-          $($iso.images | ForEach-Object {"| Image Name #$($_.index) | $($_.name) |"})
-          | UUP dump | [$($iso.title)]($($iso.uupDump.downloadUrl)) |
-          "@
-          echo "ARTIFACT_NAME=$artifactName" >> $env:GITHUB_OUTPUT
-        id: build_info
-      - name: Upload artifact
+      
+      # Build Windows ISO for the specified target / 为指定目标构建 Windows ISO
+      - name: Build ISO
+        run: pnpm start ${{ matrix.name }}
+      
+      # Upload build artifacts / 上传构建产物
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.build_info.outputs.ARTIFACT_NAME }}
-          path: |
-            c:/output/*.json
-            c:/output/*.iso
-            c:/output/*.iso.sha256.txt
-  # NB this job will not actually produce a useful release, because in a
-  #    github release a single file size cannot be above 2GB and these
-  #    isos are 4GB+.
-  # see https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases#storage-and-bandwidth-quotas
-  # see https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-binaries
-  # see https://github.com/ncipollo/release-action/issues/110
+          name: ${{ matrix.name }}  # Artifact name matches matrix name / 产物名称匹配矩阵名称
+          path: output/             # Upload output directory / 上传输出目录
+          retention-days: 1         # Keep artifacts for 1 day / 保留产物1天
+  # Release job / 发布任务
+  # Note: This job will not produce a useful release for large ISO files
+  # 注意：此任务不会为大型 ISO 文件产生有用的发布
+  # because GitHub releases have a 2GB file size limit and these ISO files are usually above 4GB
+  # 因为 GitHub 发布有 2GB 文件大小限制，而这些 ISO 文件通常超过 4GB
   release:
-    name: Release
-    runs-on: ubuntu-22.04
-    needs:
-      - build
+    needs: build                    # Depends on build job completion / 依赖构建任务完成
+    runs-on: ubuntu-latest         # Use Ubuntu runner / 使用 Ubuntu 运行器
+    if: github.ref == 'refs/heads/main'  # Only run on main branch / 仅在主分支运行
     steps:
+      # Checkout source code / 检出源代码
       - name: Checkout
         uses: actions/checkout@v4
+      # Download all build artifacts / 下载所有构建产物
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          path: output
+          path: output  # Download to output directory / 下载到输出目录
+      
+      # Split large ISO files into volumes for GitHub release / 将大型 ISO 文件分卷以适应 GitHub 发布
       - name: Split large files into volumes
         run: |
-          # Install 7z if not available
+          # Install 7z if not available / 如果不可用则安装 7z
           sudo apt-get update && sudo apt-get install -y p7zip-full
           
-          # Check available disk space
+          # Check available disk space / 检查可用磁盘空间
           echo "Available disk space:"
           df -h
           
-          # Create compressed directory for split files
+          # Create compressed directory for split files / 为分卷文件创建压缩目录
           mkdir -p compressed
           
-          # Process each artifact directory independently
+          # Process each artifact directory independently / 独立处理每个产物目录
           for dir in output/*/; do
             if [ -d "$dir" ]; then
               artifact_name=$(basename "$dir")
               echo "Processing artifact: $artifact_name"
               
-              # Create subdirectory for this artifact's compressed files
+              # Create subdirectory for this artifact's compressed files / 为此产物的压缩文件创建子目录
               mkdir -p "compressed/$artifact_name"
               
-              # Check if ISO file exists and its size
+              # Check if ISO file exists and its size / 检查 ISO 文件是否存在及其大小
               iso_file=$(find "$dir" -name "*.iso" | head -1)
               if [ -f "$iso_file" ]; then
                 iso_size=$(stat -c%s "$iso_file")
                 echo "ISO file size: $iso_size bytes"
                 
-                # Check available space before compression
+                # Check available space before compression / 压缩前检查可用空间
                 available_space=$(df --output=avail . | tail -1)
                 echo "Available space: $available_space KB"
                 
-                # If ISO is larger than 1.8GB (leaving some margin), split it
+                # If ISO is larger than 1.8GB (leaving some margin), split it / 如果 ISO 大于 1.8GB（留一些余量），则分卷
                 if [ $iso_size -gt 1932735283 ]; then
                   echo "ISO file is large, creating split archive..."
-                  # Use lower compression level and smaller volumes for better reliability
-                  # -mx=1 for fastest compression, -v1800m for 1.8GB volumes
+                  # Use lower compression level and smaller volumes for better reliability / 使用较低压缩级别和较小分卷以提高可靠性
+                  # -mx=1 for fastest compression, -v1800m for 1.8GB volumes / -mx=1 最快压缩，-v1800m 1.8GB 分卷
                   if ! 7z a -t7z -mx=1 -v1800m "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
                     echo "Error: Failed to create split archive for $artifact_name"
                     echo "Trying with even smaller volumes (1GB)..."
                     rm -f "compressed/$artifact_name/${artifact_name}.7z"*
                     if ! 7z a -t7z -mx=1 -v1000m "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
                       echo "Error: Failed to create archive even with 1GB volumes"
-                      # As fallback, just copy the files without compression
+                      # As fallback, just copy the files without compression / 作为后备，直接复制文件不压缩
                       echo "Fallback: Copying files without compression"
                       cp "$dir"* "compressed/$artifact_name/"
                     else
@@ -154,7 +133,7 @@ jobs:
                   fi
                 else
                   echo "ISO file is small enough, creating single archive..."
-                  # Create single 7z archive in artifact subdirectory with low compression
+                  # Create single 7z archive in artifact subdirectory with low compression / 在产物子目录中创建单个低压缩 7z 档案
                   if ! 7z a -t7z -mx=1 "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
                     echo "Error: Failed to create single archive for $artifact_name"
                     echo "Fallback: Copying files without compression"
@@ -165,7 +144,7 @@ jobs:
                 fi
               else
                 echo "No ISO file found in $artifact_name, creating single archive..."
-                # Create single 7z archive for non-ISO artifacts in artifact subdirectory
+                # Create single 7z archive for non-ISO artifacts in artifact subdirectory / 为非 ISO 产物在产物子目录中创建单个 7z 档案
                 if ! 7z a -t7z -mx=1 "compressed/$artifact_name/${artifact_name}.7z" "$dir"*; then
                   echo "Error: Failed to create archive for $artifact_name"
                   echo "Fallback: Copying files without compression"
@@ -175,24 +154,26 @@ jobs:
                 fi
               fi
               
-              # Clean up to save space after each artifact
+              # Clean up to save space after each artifact / 处理每个产物后清理以节省空间
               echo "Cleaning up original files for $artifact_name to save space"
               rm -rf "$dir"
               
-              # Check disk space after processing each artifact
+              # Check disk space after processing each artifact / 处理每个产物后检查磁盘空间
               echo "Disk space after processing $artifact_name:"
               df -h
             fi
           done
           
-          # List all created compressed files organized by artifact
+          # List all created compressed files organized by artifact / 列出按产物组织的所有已创建压缩文件
           echo "Created compressed files:"
           find compressed/ -type f | sort
+      # Generate release notes with artifact links / 生成包含产物链接的发布说明
       - name: Generate release notes with artifact links
         run: |
-          # Get build timestamp
+          # Get build timestamp / 获取构建时间戳
           BUILD_DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
           
+          # Create release notes header / 创建发布说明头部
           cat >release-notes.md <<EOF
           # 🖥️ Windows 中文版 ISO 构建
           
@@ -206,25 +187,26 @@ jobs:
           |---------|--------|----------|--------|
           EOF
           
-          # Add build information for each artifact
+          # Add build information for each artifact / 为每个产物添加构建信息
           for compressed_dir in compressed/*/; do
             if [ -d "$compressed_dir" ]; then
               artifact_name=$(basename "$compressed_dir")
               
-              # Look for JSON file
+              # Look for JSON file / 查找 JSON 文件
               json_file=$(find "$compressed_dir" -name "*.json" | head -1)
               if [ ! -f "$json_file" ]; then
                 json_file=$(find output/ -name "*${artifact_name}*.json" | head -1)
               fi
               
               if [ -f "$json_file" ]; then
+                # Extract ISO information from JSON / 从 JSON 中提取 ISO 信息
                 iso_info=$(cat "$json_file")
                 iso_name=$(echo "$iso_info" | jq -r '.name')
                 iso_build=$(echo "$iso_info" | jq -r '.build')
                 iso_title=$(echo "$iso_info" | jq -r '.titleSafe // .title')
                 iso_checksum=$(echo "$iso_info" | jq -r '.checksum')
                 
-                # Determine file type
+                # Determine file type / 确定文件类型
                 split_files=$(ls compressed/${artifact_name}/${artifact_name}.7z.* 2>/dev/null | wc -l)
                 single_archive=$(ls compressed/${artifact_name}/${artifact_name}.7z 2>/dev/null | wc -l)
                 raw_files=$(find compressed/${artifact_name}/ -name "*.iso" -o -name "*.json" -o -name "*.txt" | wc -l)
@@ -275,22 +257,23 @@ jobs:
           
           💡 **首次使用建议选择方式一（Release 下载）**，操作更简单直接。
           EOF
+      # Create GitHub release with compressed files / 使用压缩文件创建 GitHub 发布
       - name: Release
         uses: ncipollo/release-action@v1
         with:
-          bodyFile: release-notes.md
-          artifacts: compressed/*/*
-          token: ${{ secrets.GITHUB_TOKEN }}
-          generateReleaseNotes: false
-          makeLatest: legacy
-          omitBody: false
-          omitBodyDuringUpdate: false
-          omitDraftDuringUpdate: false
-          omitName: false
-          omitNameDuringUpdate: false
-          omitPrereleaseDuringUpdate: false
-          removeArtifacts: false
-          replacesArtifacts: true
-          skipIfReleaseExists: false
-          updateOnlyUnreleased: false
-          tag: "build-${{ github.run_number }}-${{ github.run_attempt }}"
+          bodyFile: release-notes.md                                    # Use generated release notes / 使用生成的发布说明
+          artifacts: compressed/*/*                                     # Upload all compressed files / 上传所有压缩文件
+          token: ${{ secrets.GITHUB_TOKEN }}                           # GitHub token for authentication / 用于身份验证的 GitHub 令牌
+          generateReleaseNotes: false                                   # Don't auto-generate notes / 不自动生成说明
+          makeLatest: legacy                                            # Mark as latest release / 标记为最新发布
+          omitBody: false                                               # Include release body / 包含发布正文
+          omitBodyDuringUpdate: false                                   # Include body during updates / 更新时包含正文
+          omitDraftDuringUpdate: false                                  # Include draft during updates / 更新时包含草稿
+          omitName: false                                               # Include release name / 包含发布名称
+          omitNameDuringUpdate: false                                   # Include name during updates / 更新时包含名称
+          omitPrereleaseDuringUpdate: false                             # Include prerelease during updates / 更新时包含预发布
+          removeArtifacts: false                                        # Don't remove existing artifacts / 不删除现有产物
+          replacesArtifacts: true                                       # Replace existing artifacts / 替换现有产物
+          skipIfReleaseExists: false                                    # Don't skip if release exists / 如果发布存在不跳过
+          updateOnlyUnreleased: false                                   # Update all releases / 更新所有发布
+          tag: "build-${{ github.run_number }}-${{ github.run_attempt }}"  # Release tag format / 发布标签格式
