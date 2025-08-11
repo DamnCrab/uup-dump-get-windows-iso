@@ -213,17 +213,18 @@ class WindowsIsoBuilder implements Builder {
      */
     async downloadScript(downloadLink: any, targetName: string): Promise<string> {
         try {
-            // Use safe filename without spaces / 使用不包含空格的安全文件名
-            const safeTargetName = this.generateSafeTitle(targetName);
+            // Generate a simple filename based on build ID or timestamp / 基于构建ID或时间戳生成简单文件名
+            const timestamp = Date.now();
+            const simpleFileName = `uup-download-${timestamp}`;
             
             if (downloadLink.isDirectDownload && downloadLink.data) {
                 // Direct ZIP download with embedded data / 直接下载的ZIP数据
-                const zipPath = path.join(this.outputDir, `${safeTargetName}-download.zip`);
+                const zipPath = path.join(this.outputDir, `${simpleFileName}.zip`);
                 await fs.writeFile(zipPath, downloadLink.data);
                 this.logger.info(`ZIP文件已保存: ${zipPath} / ZIP file saved: ${zipPath}`);
                 
                 // Extract ZIP file / 解压ZIP文件
-                const extractDir = path.join(this.outputDir, `${safeTargetName}-extracted`);
+                const extractDir = path.join(this.outputDir, `${simpleFileName}-extracted`);
                 await this.extractZip(zipPath, extractDir);
                 
                 // Find CMD script file / 查找CMD脚本文件
@@ -234,8 +235,25 @@ class WindowsIsoBuilder implements Builder {
                 if (!downloadLink.url) {
                     throw new Error('下载链接URL为空 / Download link URL is empty');
                 }
+                
+                // Extract original filename from URL or use default / 从URL提取原始文件名或使用默认名称
+                let originalFileName = 'uup-script.cmd';
+                try {
+                    const urlObj = new URL(downloadLink.url);
+                    const pathname = urlObj.pathname;
+                    if (pathname && pathname.includes('.')) {
+                        const fileName = path.basename(pathname);
+                        if (fileName && (fileName.endsWith('.cmd') || fileName.endsWith('.bat') || fileName.endsWith('.zip'))) {
+                            originalFileName = fileName;
+                        }
+                    }
+                } catch (urlError) {
+                    // Use default filename if URL parsing fails / URL解析失败时使用默认文件名
+                    this.logger.warn(`无法解析URL文件名，使用默认名称 / Cannot parse URL filename, using default: ${downloadLink.url}`);
+                }
+                
                 const response = await axios.get(downloadLink.url, { responseType: 'stream' });
-                const scriptPath = path.join(this.outputDir, `${safeTargetName}-script.cmd`);
+                const scriptPath = path.join(this.outputDir, originalFileName);
                 
                 const writer = fs.createWriteStream(scriptPath);
                 response.data.pipe(writer);
@@ -319,11 +337,11 @@ class WindowsIsoBuilder implements Builder {
     }
 
     /**
-     * Execute build script to create ISO
-     * 执行构建脚本创建 ISO
+     * Execute build script to create ISO using monitor script
+     * 使用监听脚本执行构建脚本创建 ISO
      * 
-     * Spawns a Windows command process to execute the UUP dump script
-     * 生成 Windows 命令进程来执行 UUP 转储脚本
+     * Uses a dedicated CMD monitor script to execute and monitor the UUP dump script
+     * 使用专门的 CMD 监听脚本来执行和监控 UUP 转储脚本
      * 
      * @param scriptPath - Path to the script file / 脚本文件路径
      * @param targetName - Target name for logging / 用于日志记录的目标名称
@@ -331,10 +349,36 @@ class WindowsIsoBuilder implements Builder {
      */
     async executeScript(scriptPath: string, targetName: string): Promise<string> {
         return new Promise((resolve, reject) => {
-            this.logger.info(`执行构建脚本: ${scriptPath} / Executing build script: ${scriptPath}`);
+            this.logger.info(`使用监听脚本执行构建: ${scriptPath} / Executing build with monitor script: ${scriptPath}`);
             
             const scriptDir = path.dirname(scriptPath);
-            const process = spawn('cmd.exe', ['/c', path.basename(scriptPath)], {
+            const monitorScriptPath = path.join(process.cwd(), 'scripts', 'monitor-uup-script.ps1');
+            const timeoutMinutes = 30; // 30分钟超时
+            
+            // Check if monitor script exists / 检查监听脚本是否存在
+            if (!fs.existsSync(monitorScriptPath)) {
+                this.logger.error(`监听脚本不存在: ${monitorScriptPath} / Monitor script not found: ${monitorScriptPath}`);
+                reject(new Error(`监听脚本不存在 / Monitor script not found: ${monitorScriptPath}`));
+                return;
+            }
+            
+            // Convert paths to absolute paths / 将路径转换为绝对路径
+            const absoluteScriptPath = path.resolve(scriptPath);
+            const absoluteScriptDir = path.resolve(scriptDir);
+            
+            // Prepare PowerShell arguments / 准备PowerShell参数
+            const args = [
+                '-ExecutionPolicy', 'Bypass',
+                '-File', monitorScriptPath,
+                '-ScriptPath', absoluteScriptPath,
+                '-WorkingDirectory', absoluteScriptDir,
+                '-TimeoutMinutes', timeoutMinutes.toString()
+            ];
+            
+            this.logger.info(`启动PowerShell监听脚本: ${monitorScriptPath} / Starting PowerShell monitor script: ${monitorScriptPath}`);
+            this.logger.info(`参数: ${args.join(' ')} / Arguments: ${args.join(' ')}`);
+            
+            const childProcess = spawn('powershell.exe', args, {
                 cwd: scriptDir,
                 stdio: ['inherit', 'pipe', 'pipe']
             });
@@ -343,38 +387,84 @@ class WindowsIsoBuilder implements Builder {
             let error = '';
             
             // Handle stdout output / 处理标准输出
-            process.stdout.on('data', (data) => {
+            childProcess.stdout.on('data', (data) => {
                 const text = data.toString();
                 output += text;
-                this.logger.info(text.trim());
+                
+                // Log monitor output with prefix / 带前缀记录监听器输出
+                const lines = text.trim().split('\n');
+                lines.forEach((line: string) => {
+                    if (line.trim()) {
+                        this.logger.info(`[MONITOR] ${line.trim()}`);
+                    }
+                });
             });
             
             // Handle stderr output / 处理错误输出
-            process.stderr.on('data', (data) => {
+            childProcess.stderr.on('data', (data) => {
                 const text = data.toString();
                 error += text;
-                this.logger.error(text.trim());
+                
+                const lines = text.trim().split('\n');
+                lines.forEach((line: string) => {
+                    if (line.trim()) {
+                        this.logger.error(`[MONITOR] ${line.trim()}`);
+                    }
+                });
             });
             
             // Handle process completion / 处理进程完成
-            process.on('close', (code) => {
+            childProcess.on('close', (code) => {
+                this.logger.info(`监听脚本结束，退出代码: ${code} / Monitor script ended, exit code: ${code}`);
+                
                 if (code === 0) {
-                    // Find generated ISO file / 查找生成的ISO文件
-                    const isoPath = this.findGeneratedIso(scriptDir, targetName);
-                    if (isoPath) {
-                        this.logger.info(`ISO构建成功: ${isoPath} / ISO build successful: ${isoPath}`);
-                        resolve(isoPath);
-                    } else {
-                        reject(new Error('未找到生成的ISO文件 / Generated ISO file not found'));
+                    // Check status file for results / 检查状态文件获取结果
+                    const statusFile = path.join(scriptDir, 'uup_monitor_status.txt');
+                    
+                    try {
+                        if (fs.existsSync(statusFile)) {
+                            const status = fs.readFileSync(statusFile, 'utf8').trim();
+                            this.logger.info(`监听状态: ${status} / Monitor status: ${status}`);
+                            
+                            if (status.startsWith('SUCCESS:')) {
+                                const isoFileName = status.substring(8); // Remove "SUCCESS:" prefix
+                                const isoPath = path.join(scriptDir, isoFileName);
+                                
+                                if (fs.existsSync(isoPath)) {
+                                    this.logger.info(`ISO构建成功: ${isoPath} / ISO build successful: ${isoPath}`);
+                                    resolve(isoPath);
+                                } else {
+                                    reject(new Error(`状态文件指示的ISO文件不存在: ${isoPath} / ISO file indicated by status file does not exist: ${isoPath}`));
+                                }
+                            } else if (status.startsWith('ERROR:')) {
+                                const errorMsg = status.substring(6); // Remove "ERROR:" prefix
+                                reject(new Error(`监听脚本报告错误: ${errorMsg} / Monitor script reported error: ${errorMsg}`));
+                            } else {
+                                reject(new Error(`未知的监听状态: ${status} / Unknown monitor status: ${status}`));
+                            }
+                        } else {
+                            // Fallback to traditional ISO search / 回退到传统的ISO搜索
+                            this.logger.warn('状态文件不存在，回退到传统搜索 / Status file not found, falling back to traditional search');
+                            const isoPath = this.findGeneratedIso(scriptDir, targetName);
+                            if (isoPath) {
+                                this.logger.info(`通过传统搜索找到ISO: ${isoPath} / Found ISO via traditional search: ${isoPath}`);
+                                resolve(isoPath);
+                            } else {
+                                reject(new Error('未找到生成的ISO文件 / Generated ISO file not found'));
+                            }
+                        }
+                    } catch (fileError: any) {
+                        this.logger.error(`读取状态文件失败: ${fileError.message} / Failed to read status file: ${fileError.message}`);
+                        reject(new Error(`读取监听状态失败: ${fileError.message} / Failed to read monitor status: ${fileError.message}`));
                     }
                 } else {
-                    reject(new Error(`脚本执行失败，退出代码: ${code} / Script execution failed, exit code: ${code}`));
+                    reject(new Error(`监听脚本执行失败，退出代码: ${code} / Monitor script execution failed, exit code: ${code}`));
                 }
             });
             
             // Handle process errors / 处理进程错误
-            process.on('error', (err) => {
-                reject(new Error(`脚本执行错误: ${err.message} / Script execution error: ${err.message}`));
+            childProcess.on('error', (err) => {
+                reject(new Error(`监听脚本执行错误: ${err.message} / Monitor script execution error: ${err.message}`));
             });
         });
     }
@@ -435,14 +525,16 @@ class WindowsIsoBuilder implements Builder {
             // Calculate ISO file checksum / 计算ISO文件校验和
             const checksum = await this.calculateChecksum(isoPath);
             
-            // Generate safe filename / 生成安全的文件名
-            const titleSafe = this.generateSafeTitle(build.title);
+            // Keep original ISO filename / 保持原始ISO文件名
+            const originalIsoName = path.basename(isoPath);
+            const finalIsoPath = path.join(this.outputDir, originalIsoName);
             
-            // Move ISO file to output directory / 移动ISO文件到输出目录
-            const finalIsoPath = path.join(this.outputDir, `${titleSafe}.iso`);
-            if (isoPath !== finalIsoPath) {
+            // Move ISO file to output directory only if it's not already there / 仅在ISO文件不在输出目录时移动
+            if (path.dirname(isoPath) !== this.outputDir) {
                 await fs.move(isoPath, finalIsoPath);
                 this.logger.info(`ISO文件已移动到: ${finalIsoPath} / ISO file moved to: ${finalIsoPath}`);
+            } else {
+                this.logger.info(`ISO文件已在输出目录: ${finalIsoPath} / ISO file already in output directory: ${finalIsoPath}`);
             }
             
             // Generate checksum file / 生成校验和文件
@@ -454,7 +546,7 @@ class WindowsIsoBuilder implements Builder {
             const metadata = {
                 name: targetName,
                 title: build.title,
-                titleSafe: titleSafe,
+                originalFileName: originalIsoName,
                 build: build.build || build.version || 'unknown',
                 checksum: checksum,
                 images: [], // Simplified version, does not parse ISO content / 简化版本，不解析ISO内容
