@@ -353,6 +353,29 @@ class WindowsIsoBuilder implements Builder {
             
             const scriptDir = path.dirname(scriptPath);
             const scriptName = path.basename(scriptPath);
+            const filesDir = path.join(scriptDir, 'files');
+            
+            // 预先下载并放置aria2c.exe
+            try {
+                await fs.ensureDir(filesDir);
+                const aria2Url = 'https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip';
+                const response = await axios.get(aria2Url, { responseType: 'arraybuffer' });
+                const zip = new AdmZip(response.data);
+                const exeEntry = zip.getEntry('aria2-1.37.0-win-64bit-build1/aria2c.exe');
+                if (exeEntry) {
+                    const exePath = path.join(filesDir, 'aria2c.exe');
+                    await fs.writeFile(exePath, exeEntry.getData());
+                    this.logger.info('已放置aria2c.exe到files目录');
+                } else {
+                    this.logger.warn('未在ZIP中找到aria2c.exe');
+                }
+                // 覆盖get_aria2.ps1以跳过下载和验证
+                const getAria2Path = path.join(filesDir, 'get_aria2.ps1');
+                await fs.writeFile(getAria2Path, 'exit 0');
+                this.logger.info('已覆盖get_aria2.ps1以跳过aria2处理');
+            } catch (err) {
+                this.logger.error(`预处理aria2失败: ${(err as Error).message}`);
+            }
             
             // 获取执行前的ISO文件列表
             let isoFilesBefore: string[] = [];
