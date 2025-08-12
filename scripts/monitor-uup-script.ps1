@@ -69,8 +69,9 @@ try {
         if ($isoFilesAfter.Count -gt $isoFilesBefore.Count) {
             $newIsoFiles = $isoFilesAfter | Where-Object { $_.CreationTime -gt $startTime }
             if ($newIsoFiles.Count -gt 0) {
+                $newIsoFile = $newIsoFiles | Sort-Object CreationTime -Descending | Select-Object -First 1
                 "SUCCESS: New ISO file(s) created: $($newIsoFiles.Name -join ', ')" | Out-File -FilePath $logFile -Append -Encoding UTF8
-                "SUCCESS" | Out-File -FilePath $statusFile -Encoding UTF8
+                "SUCCESS:$($newIsoFile.Name)" | Out-File -FilePath $statusFile -Encoding UTF8
                 exit 0
             }
         }
@@ -79,8 +80,9 @@ try {
         if ($exitCode -eq 0) {
             $allIsoFiles = @(Get-ChildItem -Path $WorkingDirectory -Filter "*.iso" -Recurse)
             if ($allIsoFiles.Count -gt 0) {
+                $newIsoFile = $allIsoFiles | Sort-Object CreationTime -Descending | Select-Object -First 1
                 "SUCCESS: ISO file(s) found: $($allIsoFiles.Name -join ', ')" | Out-File -FilePath $logFile -Append -Encoding UTF8
-                "SUCCESS" | Out-File -FilePath $statusFile -Encoding UTF8
+                "SUCCESS:$($newIsoFile.Name)" | Out-File -FilePath $statusFile -Encoding UTF8
                 exit 0
             }
         }
