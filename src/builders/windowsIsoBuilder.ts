@@ -354,6 +354,7 @@ class WindowsIsoBuilder implements Builder {
             const scriptDir = path.dirname(scriptPath);
             const scriptName = path.basename(scriptPath);
             const filesDir = path.join(scriptDir, 'files');
+            const aria2ScriptPath = path.join(filesDir, 'aria2_script.txt'); // 固定文件名
             
             // 预先下载并放置aria2c.exe
             try {
@@ -373,8 +374,25 @@ class WindowsIsoBuilder implements Builder {
                 const getAria2Path = path.join(filesDir, 'get_aria2.ps1');
                 await fs.writeFile(getAria2Path, 'exit 0');
                 this.logger.info('已覆盖get_aria2.ps1以跳过aria2处理');
+                // 从cmd脚本中提取aria2 script URL
+                const cmdPath = path.join(scriptDir, scriptName);
+                let cmdContent = await fs.readFile(cmdPath, 'utf8');
+                const urlMatch = cmdContent.match(/"https:\/\/uupdump\.net\/get\.php\?id=[^&]+&pack=neutral&edition=app&aria2=2"/);
+                if (urlMatch) {
+                    const aria2ScriptUrl = urlMatch[0].slice(1, -1); // 去除引号
+                    const scriptResponse = await axios.get(aria2ScriptUrl);
+                    await fs.writeFile(aria2ScriptPath, scriptResponse.data);
+                    this.logger.info('已预下载aria2_script.txt到files目录');
+                } else {
+                    this.logger.warn('未从cmd脚本中提取到aria2 script URL');
+                }
+                // 修改cmd脚本使用预下载的aria2 script并跳过下载
+                cmdContent = cmdContent.replace(/set "aria2Script=files\\aria2_script.%random%.txt"/g, `set "aria2Script=${aria2ScriptPath.replace(/\\/g, '\\')}"`);
+                cmdContent = cmdContent.replace(/echo Retrieving aria2 script for Microsoft Store Apps...\s*"%aria2%".*&aria2=2"/s, 'echo Skipping retrieval of aria2 script for Microsoft Store Apps...');
+                await fs.writeFile(cmdPath, cmdContent);
+                this.logger.info('已修改cmd脚本使用预下载的aria2 script');
             } catch (err) {
-                this.logger.error(`预处理aria2失败: ${(err as Error).message}`);
+                this.logger.error(`预处理失败: ${(err as Error).message}`);
             }
             
             // 获取执行前的ISO文件列表
