@@ -348,123 +348,69 @@ class WindowsIsoBuilder implements Builder {
      * @returns Promise resolving to ISO file path / 返回 ISO 文件路径的 Promise
      */
     async executeScript(scriptPath: string, targetName: string): Promise<string> {
-        return new Promise((resolve, reject) => {
-            this.logger.info(`使用监听脚本执行构建: ${scriptPath} / Executing build with monitor script: ${scriptPath}`);
+        return new Promise(async (resolve, reject) => {
+            this.logger.info(`直接执行构建脚本: ${scriptPath} / Executing build script directly: ${scriptPath}`);
             
             const scriptDir = path.dirname(scriptPath);
-            const monitorScriptPath = path.join(process.cwd(), 'scripts', 'monitor-uup-script.ps1');
-            const timeoutMinutes = 30; // 30分钟超时
+            const scriptName = path.basename(scriptPath);
             
-            // Check if monitor script exists / 检查监听脚本是否存在
-            if (!fs.existsSync(monitorScriptPath)) {
-                this.logger.error(`监听脚本不存在: ${monitorScriptPath} / Monitor script not found: ${monitorScriptPath}`);
-                reject(new Error(`监听脚本不存在 / Monitor script not found: ${monitorScriptPath}`));
-                return;
+            // 获取执行前的ISO文件列表
+            let isoFilesBefore: string[] = [];
+            try {
+                isoFilesBefore = fs.readdirSync(scriptDir).filter(file => file.endsWith('.iso'));
+            } catch (err) {
+                this.logger.warn('无法获取初始ISO列表 / Could not get initial ISO list');
             }
             
-            // Convert paths to absolute paths / 将路径转换为绝对路径
-            const absoluteScriptPath = path.resolve(scriptPath);
-            const absoluteScriptDir = path.resolve(scriptDir);
-            
-            // Prepare PowerShell arguments / 准备PowerShell参数
-            const args = [
-                '-ExecutionPolicy', 'Bypass',
-                '-File', monitorScriptPath,
-                '-ScriptPath', absoluteScriptPath,
-                '-WorkingDirectory', absoluteScriptDir,
-                '-TimeoutMinutes', timeoutMinutes.toString()
-            ];
-            
-            this.logger.info(`启动PowerShell监听脚本: ${monitorScriptPath} / Starting PowerShell monitor script: ${monitorScriptPath}`);
-            this.logger.info(`参数: ${args.join(' ')} / Arguments: ${args.join(' ')}`);
-            
-            const childProcess = spawn('powershell.exe', args, {
+            // 执行CMD脚本
+            const childProcess = spawn('cmd.exe', ['/c', scriptName], {
                 cwd: scriptDir,
-                stdio: ['inherit', 'pipe', 'pipe']
+                stdio: ['ignore', 'pipe', 'pipe']
             });
             
-            let output = '';
-            let error = '';
-            
-            // Handle stdout output / 处理标准输出
             childProcess.stdout.on('data', (data) => {
-                const text = data.toString();
-                output += text;
-                
-                // Log monitor output with prefix / 带前缀记录监听器输出
-                const lines = text.trim().split('\n');
-                lines.forEach((line: string) => {
-                    if (line.trim()) {
-                        this.logger.info(`[MONITOR] ${line.trim()}`);
-                    }
-                });
+                this.logger.info(`[SCRIPT] ${data.toString().trim()}`);
             });
             
-            // Handle stderr output / 处理错误输出
             childProcess.stderr.on('data', (data) => {
-                const text = data.toString();
-                error += text;
-                
-                const lines = text.trim().split('\n');
-                lines.forEach((line: string) => {
-                    if (line.trim()) {
-                        this.logger.error(`[MONITOR] ${line.trim()}`);
-                    }
-                });
+                this.logger.error(`[SCRIPT] ${data.toString().trim()}`);
             });
             
-            // Handle process completion / 处理进程完成
-            childProcess.on('close', (code) => {
-                this.logger.info(`监听脚本结束，退出代码: ${code} / Monitor script ended, exit code: ${code}`);
-                
-                if (code === 0) {
-                    // Check status file for results / 检查状态文件获取结果
-                    const statusFile = path.join(scriptDir, 'uup_monitor_status.txt');
-                    
-                    try {
-                        if (fs.existsSync(statusFile)) {
-                            const status = fs.readFileSync(statusFile, 'utf8').trim();
-                            this.logger.info(`监听状态: ${status} / Monitor status: ${status}`);
-                            
-                            if (status.startsWith('SUCCESS:')) {
-                                const isoFileName = status.substring(8); // Remove "SUCCESS:" prefix
-                                const isoPath = path.join(scriptDir, isoFileName);
-                                
-                                if (fs.existsSync(isoPath)) {
-                                    this.logger.info(`ISO构建成功: ${isoPath} / ISO build successful: ${isoPath}`);
-                                    resolve(isoPath);
-                                } else {
-                                    reject(new Error(`状态文件指示的ISO文件不存在: ${isoPath} / ISO file indicated by status file does not exist: ${isoPath}`));
-                                }
-                            } else if (status.startsWith('ERROR:')) {
-                                const errorMsg = status.substring(6); // Remove "ERROR:" prefix
-                                reject(new Error(`监听脚本报告错误: ${errorMsg} / Monitor script reported error: ${errorMsg}`));
-                            } else {
-                                reject(new Error(`未知的监听状态: ${status} / Unknown monitor status: ${status}`));
-                            }
-                        } else {
-                            // Fallback to traditional ISO search / 回退到传统的ISO搜索
-                            this.logger.warn('状态文件不存在，回退到传统搜索 / Status file not found, falling back to traditional search');
-                            const isoPath = this.findGeneratedIso(scriptDir, targetName);
-                            if (isoPath) {
-                                this.logger.info(`通过传统搜索找到ISO: ${isoPath} / Found ISO via traditional search: ${isoPath}`);
-                                resolve(isoPath);
-                            } else {
-                                reject(new Error('未找到生成的ISO文件 / Generated ISO file not found'));
-                            }
-                        }
-                    } catch (fileError: any) {
-                        this.logger.error(`读取状态文件失败: ${fileError.message} / Failed to read status file: ${fileError.message}`);
-                        reject(new Error(`读取监听状态失败: ${fileError.message} / Failed to read monitor status: ${fileError.message}`));
-                    }
-                } else {
-                    reject(new Error(`监听脚本执行失败，退出代码: ${code} / Monitor script execution failed, exit code: ${code}`));
-                }
-            });
-            
-            // Handle process errors / 处理进程错误
             childProcess.on('error', (err) => {
-                reject(new Error(`监听脚本执行错误: ${err.message} / Monitor script execution error: ${err.message}`));
+                reject(new Error(`脚本执行错误: ${err.message} / Script execution error: ${err.message}`));
+            });
+            
+            childProcess.on('close', async (code) => {
+                if (code !== 0) {
+                    reject(new Error(`脚本执行失败，退出代码: ${code} / Script execution failed, exit code: ${code}`));
+                    return;
+                }
+                
+                // 轮询等待ISO生成
+                const maxWaitTime = 30 * 60 * 1000; // 30分钟
+                const pollInterval = 5000; // 每5秒检查一次
+                const startTime = Date.now();
+                
+                while (Date.now() - startTime < maxWaitTime) {
+                    try {
+                        const files = fs.readdirSync(scriptDir);
+                        const isoFiles = files.filter(file => file.endsWith('.iso'));
+                        
+                        const newIso = isoFiles.find(file => !isoFilesBefore.includes(file));
+                        if (newIso) {
+                            const isoPath = path.join(scriptDir, newIso);
+                            this.logger.info(`ISO构建成功: ${isoPath} / ISO build successful: ${isoPath}`);
+                            resolve(isoPath);
+                            return;
+                        }
+                    } catch (err) {
+                        this.logger.warn(`检查ISO时出错: ${(err as Error).message}`);
+                    }
+                    
+                    await new Promise(res => setTimeout(res, pollInterval));
+                }
+                
+                reject(new Error('超时：未找到生成的ISO文件 / Timeout: Generated ISO file not found'));
             });
         });
     }
