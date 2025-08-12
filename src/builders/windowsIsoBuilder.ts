@@ -380,7 +380,11 @@ class WindowsIsoBuilder implements Builder {
                 const urlMatch = cmdContent.match(/"https:\/\/uupdump\.net\/get\.php\?id=[^&]+&pack=neutral&edition=app&aria2=2"/);
                 if (urlMatch) {
                     const aria2ScriptUrl = urlMatch[0].slice(1, -1); // 去除引号
-                    const scriptResponse = await axios.get(aria2ScriptUrl);
+                    const scriptResponse = await axios.get(aria2ScriptUrl, {
+                        headers: {
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                        }
+                    });
                     await fs.writeFile(aria2ScriptPath, scriptResponse.data);
                     this.logger.info('已预下载aria2_script.txt到files目录');
                 } else {

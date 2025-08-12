@@ -47,6 +47,10 @@ jobs:
           - name: windows-11-24h2-zh-cn-education  # Windows 11 24H2 中文简体教育版
     runs-on: windows-2022  # Use Windows 2022 runner / 使用 Windows 2022 运行器
     steps:
+      # Random delay to prevent concurrency issues / 添加随机延时以防止并发问题
+      - name: Random delay
+        shell: pwsh
+        run: Start-Sleep -Seconds (Get-Random -Minimum 1 -Maximum 60)
       # Checkout source code / 检出源代码
       - name: Checkout
         uses: actions/checkout@v4
