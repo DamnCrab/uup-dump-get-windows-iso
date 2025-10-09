@@ -65,7 +65,15 @@ echo [MONITOR] Starting UUP script: %SCRIPT_PATH%
 echo [MONITOR] Output will be logged to: %OUTPUT_LOG%
 echo [MONITOR] Exit code will be written to: %EXIT_CODE_FILE%
 
-start /b cmd /c "call "%SCRIPT_PATH%" > "%OUTPUT_LOG%" 2>&1 & echo %%errorlevel%% > "%EXIT_CODE_FILE%""
+REM Check if we're in CI environment
+if defined GITHUB_ACTIONS (
+    echo [MONITOR] Detected GitHub Actions environment, using direct execution
+    call "%SCRIPT_PATH%" > "%OUTPUT_LOG%" 2>&1
+    echo %errorlevel% > "%EXIT_CODE_FILE%"
+) else (
+    echo [MONITOR] Using background execution for local environment
+    start /b cmd /c "call "%SCRIPT_PATH%" > "%OUTPUT_LOG%" 2>&1 & echo %%errorlevel%% > "%EXIT_CODE_FILE%""
+)
 
 set /a "TIMEOUT_SECONDS=%TIMEOUT_MINUTES% * 60"
 set /a "CHECK_INTERVAL=5"
@@ -76,6 +84,44 @@ echo [MONITOR] Check interval: %CHECK_INTERVAL% seconds
 echo.
 
 :MONITOR_LOOP
+REM In CI environment, wait a bit for the exit code file to be written
+if defined GITHUB_ACTIONS (
+    echo [MONITOR] CI environment detected, waiting for exit code file...
+    set /a "CI_WAIT_COUNT=0"
+    :CI_WAIT_LOOP
+    if exist "%EXIT_CODE_FILE%" (
+        echo [MONITOR] Exit code file found, reading result...
+        timeout /t 1 /nobreak >nul 2>&1
+        for /f "tokens=*" %%a in ("%EXIT_CODE_FILE%") do set "SCRIPT_EXIT_CODE=%%a"
+        echo [MONITOR] UUP script completed with exit code: !SCRIPT_EXIT_CODE!
+        
+        if "!SCRIPT_EXIT_CODE!"=="0" (
+            echo [MONITOR] UUP script completed successfully
+            goto CHECK_ISO
+        ) else (
+            echo [ERROR] UUP script failed with exit code: !SCRIPT_EXIT_CODE!
+            echo [ERROR] Check output log: %OUTPUT_LOG%
+            if exist "%OUTPUT_LOG%" (
+                echo [ERROR] Last 10 lines of output:
+                powershell -Command "Get-Content '%OUTPUT_LOG%' | Select-Object -Last 10"
+            )
+            echo FAILED:!SCRIPT_EXIT_CODE! > "%STATUS_FILE%"
+            exit /b 1
+        )
+    )
+    
+    set /a "CI_WAIT_COUNT+=1"
+    if !CI_WAIT_COUNT! lss 10 (
+        echo [MONITOR] Waiting for exit code file... (!CI_WAIT_COUNT!/10)
+        timeout /t 2 /nobreak >nul 2>&1
+        goto CI_WAIT_LOOP
+    )
+    
+    echo [ERROR] Exit code file not found after waiting in CI environment
+    echo FAILED:NO_EXIT_CODE > "%STATUS_FILE%"
+    exit /b 1
+)
+
 echo [MONITOR] Checking for exit code file: %EXIT_CODE_FILE%
 if exist "%EXIT_CODE_FILE%" (
     for /f "tokens=*" %%a in ("%EXIT_CODE_FILE%") do set "SCRIPT_EXIT_CODE=%%a"
