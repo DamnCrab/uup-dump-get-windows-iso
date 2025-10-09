@@ -368,6 +368,10 @@ class WindowsIsoBuilder implements Builder {
             try {
                 let scriptContent = fs.readFileSync(scriptPath, 'utf-8');
                 scriptContent = scriptContent.replace(/^\s*pause\s*$/gm, 'rem pause');
+                
+                // Replace powershell.exe with pwsh to ensure PowerShell 7+ is used
+                scriptContent = scriptContent.replace(/powershell\.exe|PowerShell/gi, 'pwsh');
+
                 fs.writeFileSync(scriptPath, scriptContent, 'utf-8');
                 this.logger.info(`所有 pause 命令已从脚本中移除 / All pause commands removed from script: ${scriptPath}`);
             } catch (err: any) {
@@ -379,7 +383,7 @@ class WindowsIsoBuilder implements Builder {
             const monitorPath = path.resolve(path.join(process.cwd(), 'scripts', 'monitor-uup-script.ps1'));
             const absScriptPath = path.resolve(scriptPath);
             const absScriptDir = path.resolve(scriptDir);
-            const childProcess = spawn('powershell.exe', ['-ExecutionPolicy', 'Bypass', '-File', monitorPath, '-scriptPath', absScriptPath, '-WorkingDirectory', absScriptDir, '-isoPattern', '*.iso', '-timeoutMinutes', '120'], {
+            const childProcess = spawn('pwsh.exe', ['-ExecutionPolicy', 'Bypass', '-File', monitorPath, '-scriptPath', absScriptPath, '-WorkingDirectory', absScriptDir, '-isoPattern', '*.iso', '-timeoutMinutes', '120'], {
                 cwd: scriptDir,
                 stdio: ['ignore', 'pipe', 'pipe']
             });
