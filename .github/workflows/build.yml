@@ -45,7 +45,7 @@ jobs:
           # Enterprise and Education editions / 企业版和教育版
           - name: windows-11-24h2-zh-cn-enterprise # Windows 11 24H2 中文简体企业版
           - name: windows-11-24h2-zh-cn-education  # Windows 11 24H2 中文简体教育版
-    runs-on: windows-2022  # Use Windows 2022 runner / 使用 Windows 2022 运行器
+    runs-on: windows-2025  # Use Windows 2025 runner / 使用 Windows 2025 运行器
     steps:
       # Random delay to prevent concurrency issues / 添加随机延时以防止并发问题
       - name: Random delay
