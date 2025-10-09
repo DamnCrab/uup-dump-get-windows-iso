@@ -1,74 +1,73 @@
-# GitHub Actions Workflow for Windows ISO Build
-# Windows ISO 构建的 GitHub Actions 工作流
-#
-# This workflow automatically builds Windows ISO files using UUP Dump
-# 该工作流使用 UUP Dump 自动构建 Windows ISO 文件
-
+# Auto build Windows ISO using UUP Dump
+# 使用 UUP Dump 自动构建 Windows ISO
 name: build
 
-# Trigger conditions / 触发条件
 on:
-  workflow_dispatch:  # Manual trigger / 手动触发
+  workflow_dispatch: # Manual trigger / 手动触发
   schedule:
-    #- cron: '0 * * * *' # hourly / 每小时
-    #- cron: '0 0 17 * *' # every month, the 17th day / 每月17日
-    - cron: '0 2 * * *' # daily at 2 AM UTC / 每日UTC时间2点
+    - cron: '0 0 * * 0,3' # Run at 00:00 on Sunday and Wednesday / 每周日和周三的00:00运行
 
 jobs:
+  # Cleanup old artifacts / 清理旧的构建产物
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge old artifacts
+        uses: kolpav/purge-artifacts-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          expire-in: 30d # Delete artifacts older than 30 days / 删除30天前的构建产物
+
   # Main build job / 主构建任务
   build:
-    continue-on-error: true  # Continue even if one matrix job fails / 即使某个矩阵任务失败也继续
+    needs: cleanup
+    continue-on-error: true
     strategy:
-      fail-fast: false      # Don't cancel other jobs on failure / 失败时不取消其他任务
+      fail-fast: false
       matrix:
-
         include:
-          # Windows 11 24H2 targets / Windows 11 24H2 目标
-          - name: windows-11-24h2-zh-cn-pro        # Windows 11 24H2 中文简体专业版
-          - name: windows-11-24h2-zh-cn-home       # Windows 11 24H2 中文简体家庭版
-          - name: windows-11-24h2-zh-cn-multi      # Windows 11 24H2 中文简体多版本
-          - name: windows-11-24h2-en-us-pro        # Windows 11 24H2 English US Professional
-          - name: windows-11-24h2-en-us-home       # Windows 11 24H2 English US Home
-          
-          # Windows 11 Insider Preview targets / Windows 11 Insider Preview 目标
-          - name: windows-11-insider-zh-cn         # Windows 11 Insider Preview 中文简体
-          - name: windows-11-insider-en-us         # Windows 11 Insider Preview English US
-          
-          # ARM64 targets / ARM64 目标
-          - name: windows-11-24h2-zh-cn-arm64      # Windows 11 24H2 中文简体 ARM64
-          
-          # Enterprise and Education editions / 企业版和教育版
-          - name: windows-11-24h2-zh-cn-enterprise # Windows 11 24H2 中文简体企业版
-          - name: windows-11-24h2-zh-cn-education  # Windows 11 24H2 中文简体教育版
-    runs-on: windows-2025  # Use Windows 2025 runner / 使用 Windows 2025 运行器
+          # Targets / 构建目标
+          - name: windows-11-24h2-zh-cn-pro
+          - name: windows-11-24h2-zh-cn-home
+          - name: windows-11-24h2-zh-cn-multi
+          - name: windows-11-24h2-en-us-pro
+          - name: windows-11-24h2-en-us-home
+          - name: windows-11-insider-zh-cn
+          - name: windows-11-insider-en-us
+          - name: windows-11-24h2-zh-cn-arm64
+          - name: windows-11-24h2-zh-cn-enterprise
+          - name: windows-11-24h2-zh-cn-education
+
+    runs-on: windows-2025
     steps:
-      # Random delay to prevent concurrency issues / 添加随机延时以防止并发问题
+      # Random delay / 随机延时
       - name: Random delay
         shell: pwsh
         run: Start-Sleep -Seconds (Get-Random -Minimum 1 -Maximum 60)
-      # Checkout source code / 检出源代码
+
+      # Checkout code / 检出代码
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Install pnpm package manager / 安装 pnpm 包管理器
+      # Install pnpm / 安装 pnpm
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
           version: 10
           run_install: false
 
-      # Setup Node.js environment / 设置 Node.js 环境
+      # Setup Node.js / 设置 Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24'  # Use Node.js 24 / 使用 Node.js 24
-          cache: 'pnpm'       # Cache pnpm dependencies / 缓存 pnpm 依赖
-      
-      # Install project dependencies / 安装项目依赖
+          node-version: '24'
+          cache: 'pnpm'
+
+      # Install dependencies / 安装依赖
       - name: Install dependencies
         run: pnpm install
-      
-      # Build Windows ISO for the specified target / 为指定目标构建 Windows ISO
+
+      # Build ISO / 构建 ISO
       - name: Build ISO
         shell: pwsh
         run: |
@@ -76,8 +75,8 @@ jobs:
           $pwshDir = Split-Path $pwshPath -Parent
           $env:Path = "$pwshDir;" + $env:Path
           pnpm start --target ${{ matrix.name }}
-      
-      # Upload build artifacts / 上传构建产物
+
+      # Upload artifacts / 上传构建产物
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -85,13 +84,15 @@ jobs:
           path: |
             output/**/*.iso
             output/**/uup_monitor.log
-          retention-days: 1
+          retention-days: 30 # Keep artifacts for 30 days / 构建产物保留30天
 
+  # Create release / 创建发布
   release:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
+      # Generate release notes / 生成发布说明
       - name: Generate release notes
         run: |
           cat > release-notes.md <<EOF
@@ -118,6 +119,7 @@ jobs:
           | [windows-11-24h2-zh-cn-education](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/windows-11-24h2-zh-cn-education) | Education (Simplified Chinese) |
           EOF
 
+      # Create Release / 创建发布
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
