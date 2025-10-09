@@ -45,7 +45,8 @@ try {
     Write-Output "Starting UUP script..." | Tee-Object -FilePath $logFile -Append
     
     # Execute UUP script
-    $process = Start-Process -FilePath "cmd.exe" -ArgumentList "/c `"$ScriptPath`"" -Wait -PassThru -NoNewWindow
+    $internalScriptPath = Join-Path $WorkingDirectory "uup_download_internal.cmd"
+    $process = Start-Process -FilePath "pwsh" -ArgumentList "-Command `"& '$internalScriptPath' `"" -Wait -PassThru -NoNewWindow
     $exitCode = $process.ExitCode
     
     Write-Output "UUP script completed with exit code: $exitCode" | Tee-Object -FilePath $logFile -Append
