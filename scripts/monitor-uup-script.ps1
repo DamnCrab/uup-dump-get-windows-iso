@@ -55,17 +55,21 @@ try {
     Write-Output "ISO files after execution: $($isoFilesAfter.Count)" | Tee-Object -FilePath $logFile -Append
     
     # Check if new ISO files were generated
-    if ($isoFilesAfter.Count -gt $isoFilesBefore.Count) {
-        Write-Output "SUCCESS: New ISO file created." | Tee-Object -FilePath $logFile -Append
-        $finalExitCode = 0
+    $newIso = $isoFilesAfter | Where-Object { $isoFilesBefore -notcontains $_ }
+    
+    if ($newIso) {
+        $isoName = $newIso.Name
+        $message = "SUCCESS:$isoName"
+        Write-Output $message | Tee-Object -FilePath $logFile -Append
+        "$message" | Out-File -FilePath $statusFile -Encoding UTF8
+        exit 0
     } else {
         # If exit code is 0 but no file is created, it is also considered an error
-        Write-Output "ERROR: No new ISO file was created" | Tee-Object -FilePath $logFile -Append
-        $finalExitCode = 1
+        $errorMessage = "No new ISO file was created"
+        Write-Output "ERROR: $errorMessage" | Tee-Object -FilePath $logFile -Append
+        "ERROR:$errorMessage" | Out-File -FilePath $statusFile -Encoding UTF8
+        exit 1
     }
-    
-    # Final exit code
-    exit $finalExitCode
     
 } catch {
     $errorMessage = $_.Exception.Message
