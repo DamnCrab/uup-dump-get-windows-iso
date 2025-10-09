@@ -111,11 +111,11 @@ export const TARGETS: Record<string, TargetConfig> = {
     }
   },
 
-  // Windows 11 Insider Preview (最新)
+  // Windows 11 Insider Preview (Dev Channel)
   'windows-11-insider-zh-cn': {
-    name: 'Windows 11 Insider Preview 中文简体',
-    description: 'Windows 11 Insider Preview 10.0.26120.5742 amd64 中文简体',
-    search: 'category:w11-insider',
+    name: 'Windows 11 Insider Preview (Dev) 中文简体',
+    description: 'Windows 11 Insider Preview (Dev Channel) amd64 中文简体',
+    search: 'category:w11-25h2-dev',
     language: 'zh-cn',
     sku: 'PROFESSIONAL',
     architecture: 'amd64',
@@ -129,9 +129,9 @@ export const TARGETS: Record<string, TargetConfig> = {
   },
 
   'windows-11-insider-en-us': {
-    name: 'Windows 11 Insider Preview English US',
-    description: 'Windows 11 Insider Preview 10.0.26120.5742 amd64 English US',
-    search: 'category:w11-insider',
+    name: 'Windows 11 Insider Preview (Dev) English US',
+    description: 'Windows 11 Insider Preview (Dev Channel) amd64 English US',
+    search: 'category:w11-25h2-dev',
     language: 'en-us',
     sku: 'PROFESSIONAL',
     architecture: 'amd64',
