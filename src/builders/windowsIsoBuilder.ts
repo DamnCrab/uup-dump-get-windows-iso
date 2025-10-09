@@ -372,13 +372,13 @@ class WindowsIsoBuilder implements Builder {
             // Remove all `pause` commands from the script to prevent it from hanging in non-interactive environments
             try {
                 let scriptContent = fs.readFileSync(scriptPath, 'utf-8');
-                scriptContent = scriptContent.replace(/^\s*pause\s*$/gm, 'rem pause');
-                
-                // Replace powershell.exe with pwsh to ensure PowerShell 7+ is used
-                scriptContent = scriptContent.replace(/powershell\.exe|PowerShell/gi, 'pwsh');
-
-                // Add retry logic to aria2c to handle rate limiting
+                scriptContent = scriptContent.replace(/^pause/gm, '');
+                scriptContent = scriptContent.replace(/@pause/gm, '');
+                scriptContent = scriptContent.replace(/"%~dp0\\..\\..\\..\\..\\tools\\aria2\\aria2c.exe"/g, 'aria2c.exe');
                 scriptContent = scriptContent.replace(/(aria2c\.exe"?)/g, '$1 --retry-wait=5 --max-tries=5');
+
+                // Force the script to use pwsh instead of powershell
+                scriptContent = scriptContent.replace(/powershell/gi, 'pwsh');
 
                 fs.writeFileSync(scriptPath, scriptContent, 'utf-8');
                 this.logger.info(`所有 pause 命令已从脚本中移除 / All pause commands removed from script: ${scriptPath}`);
