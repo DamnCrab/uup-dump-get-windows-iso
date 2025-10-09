@@ -151,6 +151,11 @@ class WindowsIsoBuilder implements Builder {
             this.logger.info(`下载构建脚本: ${downloadLink.url} / Downloading build script: ${downloadLink.url}`);
             
             const scriptPath = await this.downloadScript(downloadLink, target.name);
+
+            // Add a random delay to avoid rate limiting
+            const randomDelay = Math.floor(Math.random() * 10000) + 5000; // 5-15 seconds
+            this.logger.info(`等待 ${randomDelay / 1000} 秒以避免速率限制 / Waiting ${randomDelay / 1000} seconds to avoid rate limiting...`);
+            await new Promise(resolve => setTimeout(resolve, randomDelay));
             
             // Step 8: Execute build script / 步骤 8：执行构建脚本
             const isoPath = await this.executeScript(scriptPath, target.name);
@@ -371,6 +376,9 @@ class WindowsIsoBuilder implements Builder {
                 
                 // Replace powershell.exe with pwsh to ensure PowerShell 7+ is used
                 scriptContent = scriptContent.replace(/powershell\.exe|PowerShell/gi, 'pwsh');
+
+                // Add retry logic to aria2c to handle rate limiting
+                scriptContent = scriptContent.replace(/(aria2c\.exe"?)/g, '$1 --retry-wait=5 --max-tries=5');
 
                 fs.writeFileSync(scriptPath, scriptContent, 'utf-8');
                 this.logger.info(`所有 pause 命令已从脚本中移除 / All pause commands removed from script: ${scriptPath}`);
