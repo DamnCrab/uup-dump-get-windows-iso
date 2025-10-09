@@ -382,6 +382,9 @@ class WindowsIsoBuilder implements Builder {
 
                 fs.writeFileSync(scriptPath, scriptContent, 'utf-8');
                 this.logger.info(`所有 pause 命令已从脚本中移除 / All pause commands removed from script: ${scriptPath}`);
+
+                // Log the script content for debugging
+                this.logger.info(`uup_download_windows.cmd content:\n${scriptContent}`);
             } catch (err: any) {
                 reject(new Error(`无法从脚本中移除 pause 命令: ${err.message} / Failed to remove pause commands from script: ${err.message}`));
                 return;
