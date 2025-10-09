@@ -368,7 +368,7 @@ class WindowsIsoBuilder implements Builder {
             const monitorPath = path.resolve(path.join(process.cwd(), 'scripts', 'monitor-uup-script.cmd'));
             const absScriptPath = path.resolve(scriptPath);
             const absScriptDir = path.resolve(scriptDir);
-            const childProcess = spawn('cmd.exe', ['/c', monitorPath, absScriptPath, absScriptDir, '*.iso', '30'], {
+            const childProcess = spawn('cmd.exe', ['/c', monitorPath, absScriptPath, absScriptDir, '*.iso', '120'], {
                 cwd: scriptDir,
                 stdio: ['ignore', 'pipe', 'pipe']
             });

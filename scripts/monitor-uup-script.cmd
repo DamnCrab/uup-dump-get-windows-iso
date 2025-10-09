@@ -62,16 +62,21 @@ echo RUNNING > "%STATUS_FILE%"
 echo [%date% %time%] Monitor started > "%LOG_FILE%"
 
 echo [MONITOR] Starting UUP script: %SCRIPT_PATH%
+echo [MONITOR] Output will be logged to: %OUTPUT_LOG%
+echo [MONITOR] Exit code will be written to: %EXIT_CODE_FILE%
+
 start /b cmd /c "call "%SCRIPT_PATH%" > "%OUTPUT_LOG%" 2>&1 & echo %%errorlevel%% > "%EXIT_CODE_FILE%""
 
 set /a "TIMEOUT_SECONDS=%TIMEOUT_MINUTES% * 60"
-set /a "CHECK_INTERVAL=10"
+set /a "CHECK_INTERVAL=5"
 set /a "ELAPSED_SECONDS=0"
 
 echo [MONITOR] Monitoring with %TIMEOUT_MINUTES% minute timeout
+echo [MONITOR] Check interval: %CHECK_INTERVAL% seconds
 echo.
 
 :MONITOR_LOOP
+echo [MONITOR] Checking for exit code file: %EXIT_CODE_FILE%
 if exist "%EXIT_CODE_FILE%" (
     for /f "tokens=*" %%a in ("%EXIT_CODE_FILE%") do set "SCRIPT_EXIT_CODE=%%a"
     echo [MONITOR] UUP script completed with exit code: !SCRIPT_EXIT_CODE!
@@ -81,6 +86,11 @@ if exist "%EXIT_CODE_FILE%" (
         goto CHECK_ISO
     ) else (
         echo [ERROR] UUP script failed with exit code: !SCRIPT_EXIT_CODE!
+        echo [ERROR] Check output log: %OUTPUT_LOG%
+        if exist "%OUTPUT_LOG%" (
+            echo [ERROR] Last 10 lines of output:
+            powershell -Command "Get-Content '%OUTPUT_LOG%' | Select-Object -Last 10"
+        )
         echo FAILED:!SCRIPT_EXIT_CODE! > "%STATUS_FILE%"
         exit /b 1
     )
@@ -114,6 +124,11 @@ for %%f in (%ISO_PATTERN%) do (
 set /a "ELAPSED_SECONDS+=CHECK_INTERVAL"
 if !ELAPSED_SECONDS! GEQ !TIMEOUT_SECONDS! (
     echo [ERROR] Timeout reached (%TIMEOUT_MINUTES% minutes)
+    echo [ERROR] Check output log: %OUTPUT_LOG%
+    if exist "%OUTPUT_LOG%" (
+        echo [ERROR] Last 20 lines of output:
+        powershell -Command "Get-Content '%OUTPUT_LOG%' | Select-Object -Last 20"
+    )
     echo TIMEOUT > "%STATUS_FILE%"
     exit /b 1
 )
