@@ -86,9 +86,11 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.name }}  # Artifact name matches matrix name / 产物名称匹配矩阵名称
-          path: output/             # Upload output directory / 上传输出目录
-          retention-days: 1         # Keep artifacts for 1 day / 保留产物1天
+          name: ${{ matrix.name }}
+          path: |
+            output/**/*.iso
+            output/**/uup_monitor.log
+          retention-days: 1
   # Release job / 发布任务
   # Note: This job will not produce a useful release for large ISO files
   # 注意：此任务不会为大型 ISO 文件产生有用的发布
