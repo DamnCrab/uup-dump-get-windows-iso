@@ -364,11 +364,22 @@ class WindowsIsoBuilder implements Builder {
                 this.logger.warn('无法获取初始ISO列表 / Could not get initial ISO list');
             }
             
+            // Remove all `pause` commands from the script to prevent it from hanging in non-interactive environments
+            try {
+                let scriptContent = fs.readFileSync(scriptPath, 'utf-8');
+                scriptContent = scriptContent.replace(/^\s*pause\s*$/gm, 'rem pause');
+                fs.writeFileSync(scriptPath, scriptContent, 'utf-8');
+                this.logger.info(`所有 pause 命令已从脚本中移除 / All pause commands removed from script: ${scriptPath}`);
+            } catch (err: any) {
+                reject(new Error(`无法从脚本中移除 pause 命令: ${err.message} / Failed to remove pause commands from script: ${err.message}`));
+                return;
+            }
+
             // 使用 monitor-uup-script.cmd 执行和监控脚本
-            const monitorPath = path.resolve(path.join(process.cwd(), 'scripts', 'monitor-uup-script.cmd'));
+            const monitorPath = path.resolve(path.join(process.cwd(), 'scripts', 'monitor-uup-script.ps1'));
             const absScriptPath = path.resolve(scriptPath);
             const absScriptDir = path.resolve(scriptDir);
-            const childProcess = spawn('cmd.exe', ['/c', monitorPath, absScriptPath, absScriptDir, '*.iso', '120'], {
+            const childProcess = spawn('powershell.exe', ['-ExecutionPolicy', 'Bypass', '-File', monitorPath, '-scriptPath', absScriptPath, '-WorkingDirectory', absScriptDir, '-isoPattern', '*.iso', '-timeoutMinutes', '120'], {
                 cwd: scriptDir,
                 stdio: ['ignore', 'pipe', 'pipe']
             });
