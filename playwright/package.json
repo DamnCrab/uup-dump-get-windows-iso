@@ -1,0 +1,17 @@
+{
+  "name": "uupdump-playwright-scraper",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Scrape UUP dump channels, versions, and download parameters using Playwright",
+  "scripts": {
+    "scrape": "ts-node src/scrape.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.56.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "@types/node": "^24.8.1"
+  }
+}
