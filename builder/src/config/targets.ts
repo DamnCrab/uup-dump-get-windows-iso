@@ -28,39 +28,77 @@ import { TargetConfig, LanguageCode, WindowsSKU, Architecture } from '../types/i
  * - 下载配置选项
  */
 export const TARGETS: Record<string, TargetConfig> = {
-  // Windows 11 24H2 Chinese Simplified / Windows 11 24H2 中文简体
-  'windows-11-24h2-zh-cn-pro': {
-    name: 'Windows 11 24H2 中文简体专业版',
-    description: 'Windows 11 Version 24H2 (26100.4770) amd64 中文简体专业版',
-    search: 'category:w11-24h2',
+  // Windows 10 22H2 Multi Editions / Windows 10 22H2 多版本
+  'windows-10-22h2-zh-cn-multi': {
+    name: 'Windows 10 22H2 中文简体多版本',
+    description: 'Windows 10 Version 22H2 (19045.6456) amd64 中文简体多版本（专业版+虚拟版本）',
+    search: 'category:w10-22h2',
     language: 'zh-cn',
     sku: 'PROFESSIONAL',
     architecture: 'amd64',
     downloadConfig: {
-      autodl: '2', // 转换脚本包
+      autodl: '3', // 直接下载，支持虚拟版本
       updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
     }
   },
 
-  'windows-11-24h2-zh-cn-home': {
-    name: 'Windows 11 24H2 中文简体家庭版',
-    description: 'Windows 11 Version 24H2 (26100.4770) amd64 中文简体家庭版',
-    search: 'category:w11-24h2',
-    language: 'zh-cn',
-    sku: 'CORE',
+  'windows-10-22h2-en-us-multi': {
+    name: 'Windows 10 22H2 English US Multi',
+    description: 'Windows 10 Version 22H2 (19045.6456) amd64 English US Multi Editions',
+    search: 'category:w10-22h2',
+    language: 'en-us',
+    sku: 'PROFESSIONAL',
     architecture: 'amd64',
     downloadConfig: {
-      autodl: '2',
+      autodl: '3', // 直接下载，支持虚拟版本
       updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
     }
   },
 
+  // Windows 11 25H2 Multi Editions / Windows 11 25H2 多版本
+  'windows-11-25h2-zh-cn-multi': {
+    name: 'Windows 11 25H2 中文简体多版本',
+    description: 'Windows 11 Version 25H2 amd64 中文简体多版本（专业版+虚拟版本）',
+    search: 'category:w11-25h2',
+    language: 'zh-cn',
+    sku: 'PROFESSIONAL',
+    architecture: 'amd64',
+    downloadConfig: {
+      autodl: '3', // 直接下载，支持虚拟版本
+      updates: true,
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
+    }
+  },
+
+  'windows-11-25h2-en-us-multi': {
+    name: 'Windows 11 25H2 English US Multi',
+    description: 'Windows 11 Version 25H2 amd64 English US Multi Editions',
+    search: 'category:w11-25h2',
+    language: 'en-us',
+    sku: 'PROFESSIONAL',
+    architecture: 'amd64',
+    downloadConfig: {
+      autodl: '3', // 直接下载，支持虚拟版本
+      updates: true,
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
+    }
+  },
+
+  // Windows 11 24H2 Multi Editions / Windows 11 24H2 多版本
   'windows-11-24h2-zh-cn-multi': {
     name: 'Windows 11 24H2 中文简体多版本',
     description: 'Windows 11 Version 24H2 (26100.4770) amd64 中文简体多版本（专业版+虚拟版本）',
@@ -71,6 +109,93 @@ export const TARGETS: Record<string, TargetConfig> = {
     downloadConfig: {
       autodl: '3', // 直接下载，支持虚拟版本
       updates: true,
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
+    }
+  },
+
+  'windows-11-24h2-en-us-multi': {
+    name: 'Windows 11 24H2 English US Multi',
+    description: 'Windows 11 Version 24H2 (26100.4770) amd64 English US Multi Editions',
+    search: 'category:w11-24h2',
+    language: 'en-us',
+    sku: 'PROFESSIONAL',
+    architecture: 'amd64',
+    downloadConfig: {
+      autodl: '3', // 直接下载，支持虚拟版本
+      updates: true,
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
+    }
+  },
+
+  // Windows 11 Insider Preview Multi Editions / Windows 11 Insider 预览版多版本
+  'windows-11-insider-zh-cn-multi': {
+    name: 'Windows 11 Insider Preview 中文简体多版本',
+    description: 'Windows 11 Insider Preview (Dev Channel) amd64 中文简体多版本',
+    search: 'category:w11-25h2-dev',
+    language: 'zh-cn',
+    sku: 'PROFESSIONAL',
+    architecture: 'amd64',
+    downloadConfig: {
+      autodl: '3', // 直接下载，支持虚拟版本
+      updates: true,
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
+    }
+  },
+
+  'windows-11-insider-en-us-multi': {
+    name: 'Windows 11 Insider Preview English US Multi',
+    description: 'Windows 11 Insider Preview (Dev Channel) amd64 English US Multi Editions',
+    search: 'category:w11-25h2-dev',
+    language: 'en-us',
+    sku: 'PROFESSIONAL',
+    architecture: 'amd64',
+    downloadConfig: {
+      autodl: '3', // 直接下载，支持虚拟版本
+      updates: true,
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
+    }
+  },
+
+  // ARM64 Multi Editions / ARM64 多版本
+  'windows-11-24h2-zh-cn-arm64-multi': {
+    name: 'Windows 11 24H2 中文简体 ARM64 多版本',
+    description: 'Windows 11 Version 24H2 (26100.4770) arm64 中文简体多版本',
+    search: 'category:w11-24h2',
+    language: 'zh-cn',
+    sku: 'PROFESSIONAL',
+    architecture: 'arm64',
+    downloadConfig: {
+      autodl: '3', // 直接下载，支持虚拟版本
+      updates: true,
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
+    }
+  },
+
+  'windows-11-24h2-en-us-arm64-multi': {
+    name: 'Windows 11 24H2 English US ARM64 Multi',
+    description: 'Windows 11 Version 24H2 (26100.4770) arm64 English US Multi Editions',
+    search: 'category:w11-24h2',
+    language: 'en-us',
+    sku: 'PROFESSIONAL',
+    architecture: 'arm64',
+    downloadConfig: {
+      autodl: '3', // 直接下载，支持虚拟版本
+      updates: true,
       cleanup: false,
       netfx: false,
       esd: false,
@@ -78,122 +203,37 @@ export const TARGETS: Record<string, TargetConfig> = {
     }
   },
 
-  // Windows 11 24H2 英文美国
-  'windows-11-24h2-en-us-pro': {
-    name: 'Windows 11 24H2 English US Professional',
-    description: 'Windows 11 Version 24H2 (26100.4770) amd64 English US Professional',
-    search: 'category:w11-24h2',
-    language: 'en-us',
-    sku: 'PROFESSIONAL',
-    architecture: 'amd64',
-    downloadConfig: {
-      autodl: '2',
-      updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false
-    }
-  },
-
-  'windows-11-24h2-en-us-home': {
-    name: 'Windows 11 24H2 English US Home',
-    description: 'Windows 11 Version 24H2 (26100.4770) amd64 English US Home',
-    search: 'category:w11-24h2',
-    language: 'en-us',
-    sku: 'CORE',
-    architecture: 'amd64',
-    downloadConfig: {
-      autodl: '2',
-      updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false
-    }
-  },
-
-  // Windows 11 Insider Preview (Dev Channel)
-  'windows-11-insider-zh-cn': {
-    name: 'Windows 11 Insider Preview (Dev) 中文简体',
-    description: 'Windows 11 Insider Preview (Dev Channel) amd64 中文简体',
-    search: 'category:w11-25h2-dev',
-    language: 'zh-cn',
-    sku: 'PROFESSIONAL',
-    architecture: 'amd64',
-    downloadConfig: {
-      autodl: '2',
-      updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false
-    }
-  },
-
-  'windows-11-insider-en-us': {
-    name: 'Windows 11 Insider Preview (Dev) English US',
-    description: 'Windows 11 Insider Preview (Dev Channel) amd64 English US',
-    search: 'category:w11-25h2-dev',
-    language: 'en-us',
-    sku: 'PROFESSIONAL',
-    architecture: 'amd64',
-    downloadConfig: {
-      autodl: '2',
-      updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false
-    }
-  },
-
-  // ARM64 versions / ARM64 版本
-  'windows-11-24h2-zh-cn-arm64': {
-    name: 'Windows 11 24H2 中文简体 ARM64',
-    description: 'Windows 11 Version 24H2 (26100.4770) arm64 中文简体',
-    search: 'category:w11-24h2',
+  'windows-11-25h2-zh-cn-arm64-multi': {
+    name: 'Windows 11 25H2 中文简体 ARM64 多版本',
+    description: 'Windows 11 Version 25H2 arm64 中文简体多版本',
+    search: 'category:w11-25h2',
     language: 'zh-cn',
     sku: 'PROFESSIONAL',
     architecture: 'arm64',
     downloadConfig: {
-      autodl: '2',
-      updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false
-    }
-  },
-
-  // Enterprise edition configurations / 企业版配置
-  'windows-11-24h2-zh-cn-enterprise': {
-    name: 'Windows 11 24H2 中文简体企业版',
-    description: 'Windows 11 Version 24H2 (26100.4770) amd64 中文简体企业版',
-    search: 'category:w11-24h2',
-    language: 'zh-cn',
-    sku: 'PROFESSIONAL', // Base SKU / 基础SKU
-    architecture: 'amd64',
-    downloadConfig: {
       autodl: '3', // 直接下载，支持虚拟版本
       updates: true,
       cleanup: false,
       netfx: false,
       esd: false,
-      virtualEditions: ['ENTERPRISE'] // Virtual upgrade to Enterprise / 虚拟升级到企业版
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
     }
   },
 
-  // Education edition configurations / 教育版配置
-  'windows-11-24h2-zh-cn-education': {
-    name: 'Windows 11 24H2 中文简体教育版',
-    description: 'Windows 11 Version 24H2 (26100.4770) amd64 中文简体教育版',
-    search: 'category:w11-24h2',
-    language: 'zh-cn',
-    sku: 'PROFESSIONAL', // Base SKU / 基础SKU
-    architecture: 'amd64',
+  'windows-11-25h2-en-us-arm64-multi': {
+    name: 'Windows 11 25H2 English US ARM64 Multi',
+    description: 'Windows 11 Version 25H2 arm64 English US Multi Editions',
+    search: 'category:w11-25h2',
+    language: 'en-us',
+    sku: 'PROFESSIONAL',
+    architecture: 'arm64',
     downloadConfig: {
       autodl: '3', // 直接下载，支持虚拟版本
       updates: true,
-      cleanup: false,
-      netfx: false,
-      esd: false,
-      virtualEditions: ['EDUCATION'] // Virtual upgrade to Education / 虚拟升级到教育版
+      cleanup: true,
+      netfx: true,
+      esd: true,
+      virtualEditions: 'all' // 全选所有可用的虚拟版本
     }
   }
 };

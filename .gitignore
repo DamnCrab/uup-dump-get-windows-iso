@@ -1,7 +1,8 @@
 .vagrant/
-output*/
+builder/output/
 .idea
-node_modules
+builder/node_modules
+playwright/node_modules
 .vscode
 .output
 dist
