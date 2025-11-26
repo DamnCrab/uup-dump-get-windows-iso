@@ -220,20 +220,28 @@ async function probeDownloadParameters(page: Page, selectLangUrl: string): Promi
             return {action, method, autodlValues, opts, virtuals};
         });
         if (!formSnapshot) return {error: 'download options form not found'};
-        const {action, method, autodlValues, opts, virtuals} = formSnapshot as any;
+        type AutodlItem = { value: string; checked: boolean };
+        type OptItem = { name: string; value: string; checked: boolean; disabled: boolean };
+        const {action, method, autodlValues, opts, virtuals} = formSnapshot as {
+            action: string;
+            method: string;
+            autodlValues: AutodlItem[];
+            opts: OptItem[];
+            virtuals: OptItem[];
+        };
         const {id, edition} = parseQueryFromAction(action);
         if (!id || !edition) return {error: 'missing id or edition in action query'};
-        const autodlDefaults = (autodlValues as { value: string; checked: boolean }[])
-            .filter(v => v.checked)
-            .map(v => v.value as AutodlValue);
+        const autodlDefaults = autodlValues
+            .filter((v: AutodlItem) => v.checked)
+            .map((v: AutodlItem) => v.value as AutodlValue);
         const autodlDefault = autodlDefaults[0] || '2';
         const optional = {
-            autodl: {values: (autodlValues.map(v => v.value) as AutodlValue[]), default: autodlDefault},
-            updates: !!opts.find(o => o.name === 'updates')?.checked,
-            cleanup: !!opts.find(o => o.name === 'cleanup')?.checked,
-            netfx: !!opts.find(o => o.name === 'netfx')?.checked,
-            esd: !!opts.find(o => o.name === 'esd')?.checked,
-            virtualEditions: virtuals.map(v => v.value),
+            autodl: {values: autodlValues.map((v: AutodlItem) => v.value) as AutodlValue[], default: autodlDefault},
+            updates: !!opts.find((o: OptItem) => o.name === 'updates')?.checked,
+            cleanup: !!opts.find((o: OptItem) => o.name === 'cleanup')?.checked,
+            netfx: !!opts.find((o: OptItem) => o.name === 'netfx')?.checked,
+            esd: !!opts.find((o: OptItem) => o.name === 'esd')?.checked,
+            virtualEditions: virtuals.map((v: OptItem) => v.value),
         };
         return {
             required: {id, pack: pack!, edition},
