@@ -62,15 +62,19 @@ jobs:
         with:
           node-version: '24'
           cache: 'pnpm'
+          cache-dependency-path: 'builder/pnpm-lock.yaml'
 
       # Install dependencies / 安装依赖
       - name: Install dependencies
-        run: pnpm install
+        run: |
+          cd builder
+          pnpm install
 
       # Build ISO / 构建 ISO
       - name: Build ISO
         shell: pwsh
         run: |
+          cd builder
           $pwshPath = Get-Command pwsh | Select-Object -ExpandProperty Source
           $pwshDir = Split-Path $pwshPath -Parent
           $env:Path = "$pwshDir;" + $env:Path
@@ -82,8 +86,8 @@ jobs:
         with:
           name: ${{ matrix.name }}
           path: |
-            output/**/*.iso
-            output/**/uup_monitor.log
+            builder/output/**/*.iso
+            builder/output/**/uup_monitor.log
           retention-days: 30 # Keep artifacts for 30 days / 构建产物保留30天
 
   # Create release / 创建发布
