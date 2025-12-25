@@ -304,9 +304,7 @@ async function main() {
     await ensureOutputDir();
 
     // 启动浏览器
-    // 使用 headless: false (有头模式) 可显著减少被 Cloudflare 拦截的概率
-    // 配合真实的 User-Agent 和 Headers 模拟真实用户行为
-    const browser = await chromium.launch({ headless: false });
+    const browser = await chromium.launch({ headless: true });
 
     // 创建上下文，注入 Header
     const context = await browser.newContext(BROWSER_CONFIG);
