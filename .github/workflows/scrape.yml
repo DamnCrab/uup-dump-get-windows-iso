@@ -64,7 +64,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git add playwright/output/
           git commit -m "🤖 Auto update UUP Dump data - $(date -u +"%Y-%m-%d %H:%M UTC")"
-          git push
+          # Push to 'data' branch / 推送到 'data' 分支
+          git push -f origin HEAD:data
 
       # Upload artifacts / 上传构建产物
       - name: Upload artifacts
@@ -78,36 +79,14 @@ jobs:
       # Create summary / 创建摘要
       - name: Create summary
         run: |
-          echo "## 📊 UUP Dump 数据抓取完成" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**抓取时间**: $(date -u +"%Y-%m-%d %H:%M UTC")" >> $GITHUB_STEP_SUMMARY
-          echo "**工作流运行**: [查看详情](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## 📊 UUP Dump Data Update" >> $GITHUB_STEP_SUMMARY
+          echo "**Time**: $(date -u +"%Y-%m-%d %H:%M UTC")" >> $GITHUB_STEP_SUMMARY
+          echo "**Run Details**: [View Log](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
           
           if [[ -f "playwright/output/uupdump-data.json" ]]; then
-            echo "### 📁 生成的文件" >> $GITHUB_STEP_SUMMARY
-            echo "- \`playwright/output/uupdump-data.json\` - 主数据文件" >> $GITHUB_STEP_SUMMARY
-            echo "- \`playwright/output/uupdump-types-summary.json\` - 分类汇总文件" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            
-            # Show file sizes / 显示文件大小
-            echo "### 📏 文件大小" >> $GITHUB_STEP_SUMMARY
-            ls -lh playwright/output/*.json | awk '{print "- " $9 ": " $5}' >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            
-            # Show summary stats if types summary exists / 如果分类汇总存在则显示统计信息
-            if [[ -f "playwright/output/uupdump-types-summary.json" ]]; then
-              echo "### 📈 数据统计" >> $GITHUB_STEP_SUMMARY
-              node -e "
-                const fs = require('fs');
-                const data = JSON.parse(fs.readFileSync('playwright/output/uupdump-types-summary.json', 'utf8'));
-                console.log('| 版本类型 | 数量 |');
-                console.log('|---------|------|');
-                Object.entries(data.countsByType).forEach(([type, count]) => {
-                  console.log(\`| \${type} | \${count} |\`);
-                });
-              " >> $GITHUB_STEP_SUMMARY
-            fi
+            echo "### 📁 Generated Files" >> $GITHUB_STEP_SUMMARY
+            ls -lh playwright/output/*.json | awk '{print "- " $9 " (" $5 ")"}' >> $GITHUB_STEP_SUMMARY
           else
-            echo "⚠️ 未找到生成的数据文件" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ No data files generated." >> $GITHUB_STEP_SUMMARY
           fi

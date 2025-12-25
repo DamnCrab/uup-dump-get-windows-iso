@@ -1,294 +1,145 @@
 {
-  "scrapedAt": "2025-12-25T03:28:03.796Z",
-  "channels": [
+  "scrapedAt": "2025-12-25T08:31:03.465Z",
+  "hierarchy": [
     {
-      "category": "canary",
+      "name": "Canary Channel",
       "url": "https://uupdump.net/known.php?q=category:canary",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
+      "isDropdown": false,
+      "category": "canary",
+      "source": "dynamic"
     },
     {
-      "category": "dev",
+      "name": "Dev Channel",
       "url": "https://uupdump.net/known.php?q=category:dev",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
+      "isDropdown": false,
+      "category": "dev",
+      "source": "dynamic"
     },
     {
-      "category": "w11-26h1",
-      "url": "https://uupdump.net/known.php?q=category:w11-26h1",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
+      "name": "Windows 11",
+      "isDropdown": true,
+      "subLinks": [
+        {
+          "name": "26H1",
+          "url": "https://uupdump.net/known.php?q=category:w11-26h1",
+          "isDropdown": false,
+          "category": "w11-26h1",
+          "source": "dynamic"
+        },
+        {
+          "name": "25H2 Dev",
+          "url": "https://uupdump.net/known.php?q=category:w11-25h2-dev",
+          "isDropdown": false,
+          "category": "w11-25h2-dev",
+          "source": "dynamic"
+        },
+        {
+          "name": "25H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-25h2",
+          "isDropdown": false,
+          "category": "w11-25h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "24H2 Beta",
+          "url": "https://uupdump.net/known.php?q=category:w11-24h2-beta",
+          "isDropdown": false,
+          "category": "w11-24h2-beta",
+          "source": "dynamic"
+        },
+        {
+          "name": "24H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-24h2",
+          "isDropdown": false,
+          "category": "w11-24h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "23H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-23h2",
+          "isDropdown": false,
+          "category": "w11-23h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "22H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-22h2",
+          "isDropdown": false,
+          "category": "w11-22h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "21H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-21h2",
+          "isDropdown": false,
+          "category": "w11-21h2",
+          "source": "dynamic"
+        }
+      ],
+      "source": "dynamic"
     },
     {
-      "category": "w11-25h2-dev",
-      "url": "https://uupdump.net/known.php?q=category:w11-25h2-dev",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
+      "name": "Windows Server",
+      "isDropdown": true,
+      "subLinks": [
+        {
+          "name": "24H2",
+          "url": "https://uupdump.net/known.php?q=category:server-24h2",
+          "isDropdown": false,
+          "category": "server-24h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "23H2",
+          "url": "https://uupdump.net/known.php?q=category:server-23h2",
+          "isDropdown": false,
+          "category": "server-23h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "22H2",
+          "url": "https://uupdump.net/known.php?q=category:server-22h2",
+          "isDropdown": false,
+          "category": "server-22h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "21H2",
+          "url": "https://uupdump.net/known.php?q=category:server-21h2",
+          "isDropdown": false,
+          "category": "server-21h2",
+          "source": "dynamic"
+        }
+      ],
+      "source": "dynamic"
     },
     {
-      "category": "w11-25h2",
-      "url": "https://uupdump.net/known.php?q=category:w11-25h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w11-24h2-beta",
-      "url": "https://uupdump.net/known.php?q=category:w11-24h2-beta",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w11-24h2",
-      "url": "https://uupdump.net/known.php?q=category:w11-24h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w11-23h2",
-      "url": "https://uupdump.net/known.php?q=category:w11-23h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w11-22h2",
-      "url": "https://uupdump.net/known.php?q=category:w11-22h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w11-21h2",
-      "url": "https://uupdump.net/known.php?q=category:w11-21h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "server-24h2",
-      "url": "https://uupdump.net/known.php?q=category:server-24h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "server-23h2",
-      "url": "https://uupdump.net/known.php?q=category:server-23h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "server-22h2",
-      "url": "https://uupdump.net/known.php?q=category:server-22h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "server-21h2",
-      "url": "https://uupdump.net/known.php?q=category:server-21h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w10-22h2",
-      "url": "https://uupdump.net/known.php?q=category:w10-22h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w10-21h2",
-      "url": "https://uupdump.net/known.php?q=category:w10-21h2",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
-    },
-    {
-      "category": "w10-1809",
-      "url": "https://uupdump.net/known.php?q=category:w10-1809",
-      "pages": 2,
-      "versions": [],
-      "parametersByVersionId": {},
-      "versionTypeCounts": {
-        "Windows 11": 0,
-        "Windows 10": 0,
-        "Windows Server": 0,
-        "Windows 11 Insider Preview": 0,
-        "Cumulative Update for Windows 11": 0,
-        "Cumulative Update Preview for Windows 11": 0,
-        "Feature update to Windows 10": 0,
-        "Other": 0
-      }
+      "name": "Windows 10",
+      "isDropdown": true,
+      "subLinks": [
+        {
+          "name": "22H2",
+          "url": "https://uupdump.net/known.php?q=category:w10-22h2",
+          "isDropdown": false,
+          "category": "w10-22h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "21H2",
+          "url": "https://uupdump.net/known.php?q=category:w10-21h2",
+          "isDropdown": false,
+          "category": "w10-21h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "1809",
+          "url": "https://uupdump.net/known.php?q=category:w10-1809",
+          "isDropdown": false,
+          "category": "w10-1809",
+          "source": "dynamic"
+        }
+      ],
+      "source": "dynamic"
     }
   ]
 }
