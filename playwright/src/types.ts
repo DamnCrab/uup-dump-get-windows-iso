@@ -3,20 +3,28 @@ export type Arch = 'x64' | 'arm64' | 'x86' | 'amd64';
 
 // 版本类型枚举（通过标题算法匹配得到的分类）
 export type VersionType =
+  | 'Windows 11 Insider Preview'
   | 'Windows 11'
   | 'Windows 10'
   | 'Windows Server'
-  | 'Windows 11 Insider Preview'
+  | 'Feature update to Windows 10'
+  | 'Feature update to Windows 11'
+  | 'Feature update to Windows Insider Preview'
   | 'Cumulative Update for Windows 11'
   | 'Cumulative Update Preview for Windows 11'
-  | 'Feature update to Windows 10'
+  | 'Cumulative Update for Windows 10'
+  | 'Cumulative Update Preview for Windows 10'
+  | 'Cumulative Update for Azure Stack HCI'
+  | 'Cumulative Update for Windows CPC OS'
+  | 'Feature update to Azure Stack HCI'
+  | 'Windows Server Insider Preview'
   | 'Other';
 
 // 渠道链接（从首页发现或固定种子渠道）
 export interface ChannelLink {
   category: string; // 例如 canary、w11-25h2、w11-22h2
   url: string; // known.php?q=category:xxx
-  source: 'homepage' | 'seed';
+  source: 'homepage' | 'seed' | 'dynamic' | 'fallback';
 }
 
 // 版本条目（来自 known.php 渠道列表页的表格）
@@ -62,8 +70,7 @@ export interface ChannelData {
   category: string;
   url: string;
   pages: number; // 抓取的页数（当前为 2）
-  versions: VersionEntry[]; // 前两页聚合的版本条目
-  parametersByVersionId: Record<string, VersionParameters | { error: string }>;
+  versions: VersionType[]; // 实际发现的版本类型列表
   versionTypeCounts: Record<VersionType, number>;
 }
 
@@ -88,4 +95,35 @@ export interface TypesSummary {
   summaryAt: string;
   countsByType: Record<VersionType, number>;
   itemsByType: Record<VersionType, SummaryItem[]>;
+}
+
+// 简化版本条目（包含表单提交所需的完整参数）
+export interface SimplifiedVersionEntry {
+  id: string;
+  title: string;
+  href: string;
+  arch?: Arch;
+  addedAt?: string;
+  type: VersionType;
+  channel: string;
+  channelUrl: string;
+  // 表单提交参数（如果成功获取）
+  formParams?: {
+    pack?: string;
+    edition?: string[];
+    autodl?: AutodlValue;
+    updates?: boolean;
+    cleanup?: boolean;
+    netfx?: boolean;
+    esd?: boolean;
+    virtualEditions?: string[];
+    method?: 'GET' | 'POST';
+    formAction?: string;
+  };
+}
+
+// 简化的知识库结构（只包含平铺的versions数组）
+export interface SimplifiedKnowledgeBase {
+  scrapedAt: string;
+  versions: SimplifiedVersionEntry[];
 }

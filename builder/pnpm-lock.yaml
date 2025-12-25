@@ -31,7 +31,7 @@ importers:
         specifier: ^11.0.4
         version: 11.0.4
       '@types/node':
-        specifier: ^24.1.0
+        specifier: ^24.8.1
         version: 24.8.1
       tsx:
         specifier: ^4.20.6

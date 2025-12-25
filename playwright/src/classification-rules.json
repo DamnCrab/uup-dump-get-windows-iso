@@ -1,0 +1,109 @@
+{
+  "rules": [
+    {
+      "pattern": "windows server insider preview",
+      "flags": "i",
+      "type": "Windows Server Insider Preview",
+      "priority": 1,
+      "description": "Windows Server Insider Preview versions"
+    },
+    {
+      "pattern": "windows 11 insider preview",
+      "flags": "i",
+      "type": "Windows 11 Insider Preview",
+      "priority": 2,
+      "description": "Windows 11 Insider Preview versions"
+    },
+    {
+      "pattern": "feature update.*windows insider preview",
+      "flags": "i",
+      "type": "Feature update to Windows Insider Preview",
+      "priority": 3,
+      "description": "Feature updates for Windows Insider Preview"
+    },
+    {
+      "pattern": "cumulative update preview.*windows 11",
+      "flags": "i",
+      "type": "Cumulative Update Preview for Windows 11",
+      "priority": 4,
+      "description": "Preview cumulative updates for Windows 11"
+    },
+    {
+      "pattern": "cumulative update.*windows 11",
+      "flags": "i",
+      "type": "Cumulative Update for Windows 11",
+      "priority": 5,
+      "description": "Cumulative updates for Windows 11"
+    },
+    {
+      "pattern": "cumulative update preview.*windows 10",
+      "flags": "i",
+      "type": "Cumulative Update Preview for Windows 10",
+      "priority": 6,
+      "description": "Preview cumulative updates for Windows 10"
+    },
+    {
+      "pattern": "cumulative update.*windows 10",
+      "flags": "i",
+      "type": "Cumulative Update for Windows 10",
+      "priority": 7,
+      "description": "Cumulative updates for Windows 10"
+    },
+    {
+      "pattern": "cumulative update.*azure stack hci",
+      "flags": "i",
+      "type": "Cumulative Update for Azure Stack HCI",
+      "priority": 8,
+      "description": "Cumulative updates for Azure Stack HCI"
+    },
+    {
+      "pattern": "cumulative update.*windows cpc os",
+      "flags": "i",
+      "type": "Cumulative Update for Windows CPC OS",
+      "priority": 9,
+      "description": "Cumulative updates for Windows CPC OS"
+    },
+    {
+      "pattern": "feature update.*windows 11",
+      "flags": "i",
+      "type": "Feature update to Windows 11",
+      "priority": 10,
+      "description": "Feature updates for Windows 11"
+    },
+    {
+      "pattern": "feature update.*windows 10",
+      "flags": "i",
+      "type": "Feature update to Windows 10",
+      "priority": 11,
+      "description": "Feature updates for Windows 10"
+    },
+    {
+      "pattern": "feature update.*azure stack hci",
+      "flags": "i",
+      "type": "Feature update to Azure Stack HCI",
+      "priority": 12,
+      "description": "Feature updates for Azure Stack HCI"
+    },
+    {
+      "pattern": "windows server",
+      "flags": "i",
+      "type": "Windows Server",
+      "priority": 13,
+      "description": "General Windows Server versions"
+    },
+    {
+      "pattern": "windows 11",
+      "flags": "i",
+      "type": "Windows 11",
+      "priority": 14,
+      "description": "General Windows 11 versions"
+    },
+    {
+      "pattern": "windows 10",
+      "flags": "i",
+      "type": "Windows 10",
+      "priority": 15,
+      "description": "General Windows 10 versions"
+    }
+  ]
+}
