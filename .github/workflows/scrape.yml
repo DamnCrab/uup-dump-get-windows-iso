@@ -56,16 +56,29 @@ jobs:
             echo "changes=false" >> $GITHUB_OUTPUT
           fi
 
-      # Commit and push changes / 提交并推送变更
-      - name: Commit and push changes
+      # Deploy to data branch / 发布到 data 分支
+      - name: Deploy to data branch
         if: steps.changes.outputs.changes == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add playwright/output/
+          
+          # Save data to temp dir / 保存数据到临时目录
+          mkdir -p ../uupdump_data_temp
+          cp playwright/output/*.json ../uupdump_data_temp/
+          
+          # Switch to orphan branch / 切换到孤儿分支
+          git checkout --orphan data
+          git reset --hard
+          git clean -fdx
+          
+          # Restore data to root / 将数据恢复到根目录
+          cp ../uupdump_data_temp/*.json .
+          
+          # Commit and push / 提交并推送
+          git add *.json
           git commit -m "🤖 Auto update UUP Dump data - $(date -u +"%Y-%m-%d %H:%M UTC")"
-          # Push to 'data' branch / 推送到 'data' 分支
-          git push -f origin HEAD:data
+          git push -f origin data
 
       # Upload artifacts / 上传构建产物
       - name: Upload artifacts
