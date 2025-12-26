@@ -45,6 +45,7 @@ jobs:
         run: |
           cd playwright
           pnpm run scrape
+          pnpm run analyze
 
       # Check for changes / 检查是否有变更
       - name: Check for changes

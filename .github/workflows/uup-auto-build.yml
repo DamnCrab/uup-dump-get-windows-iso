@@ -21,20 +21,14 @@ jobs:
     - name: Install Dependencies
       run: |
         npm install -g pnpm
-        cd playwright
-        pnpm install
-        cd ../builder
+        cd builder
         pnpm install
 
-    - name: Install Playwright Browsers
-      run: |
-        cd playwright
-        npx playwright install chromium
-
-    - name: Update Build Data (Scraper)
-      run: |
-        cd playwright
-        npm run scrape
+    - name: Checkout Data Branch
+      uses: actions/checkout@v4
+      with:
+        ref: data
+        path: playwright/output
 
     - name: Run Auto Builder
       run: |

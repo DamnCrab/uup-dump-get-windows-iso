@@ -34,6 +34,12 @@ const BROWSER_CONFIG = {
 // 2. 工具函数
 // ==========================================
 
+// Helper to wait with jitter to avoid detection
+const delay = (min: number, max: number) => {
+    const ms = Math.floor(Math.random() * (max - min + 1)) + min;
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
+
 /**
  * 确保输出目录存在，如果不存在则创建
  */
@@ -258,6 +264,11 @@ async function scrapeChannel(page: Page, url: string, category: string, name: st
         // ------------------------------------
         if (totalPages > 1) {
             for (let p = 2; p <= totalPages; p++) {
+                // Rate limiting between pages (ADDED)
+                const waitPage = Math.floor(Math.random() * 2000) + 3000;
+                console.log(`等待 ${Math.round(waitPage / 1000)}秒 后抓取下一页...`);
+                await delay(3000, 5000);
+
                 // 构造分页 URL，注意使用 'p' 参数
                 const separator = url.includes('?') ? '&' : '?';
                 const pageUrl = `${url}${separator}p=${p}`;
@@ -331,6 +342,11 @@ async function main() {
     // 遍历所有渠道进行抓取并保存为独立文件
     for (const { link, parentName } of channelsToScrape) {
         if (!link.url) continue;
+
+        // Rate limiting between channels (ADDED)
+        const waitChannel = Math.floor(Math.random() * 3000) + 5000;
+        console.log(`等待 ${Math.round(waitChannel / 1000)}秒 后抓取下一个渠道...`);
+        await delay(5000, 8000);
 
         // 简单的重试机制
         let attempts = 0;

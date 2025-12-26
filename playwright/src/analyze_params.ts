@@ -14,8 +14,11 @@ import {
 const OUTPUT_DIR = path.resolve(__dirname, '..', 'output');
 const ANALYSIS_OUTPUT = path.join(OUTPUT_DIR, 'parameter_analysis.json');
 
-// Helper to wait
-const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+// Helper to wait with jitter to avoid detection
+const delay = (min: number, max: number) => {
+    const ms = Math.floor(Math.random() * (max - min + 1)) + min;
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
 
 interface AnalysisResult {
     category: string;
@@ -233,8 +236,25 @@ async function analyzeBuild(page: Page, buildId: string, title: string): Promise
 }
 
 async function main() {
-    const categoriesToAnalyze = ['w11-24h2.json', 'w10-22h2.json'];
-    const fullResults: AnalysisResult[] = [];
+    console.log('--- Starting Incremental Analysis ---');
+
+    // 1. Load existing analysis
+    let fullResults: AnalysisResult[] = [];
+    if (fs.existsSync(ANALYSIS_OUTPUT)) {
+        try {
+            fullResults = JSON.parse(fs.readFileSync(ANALYSIS_OUTPUT, 'utf-8'));
+            console.log(`Loaded existing analysis containing ${fullResults.length} categories.`);
+        } catch (e) {
+            console.error('Failed to load existing analysis, starting fresh.', e);
+        }
+    }
+
+    // 2. Identify category files (exclude non-category files)
+    const files = fs.readdirSync(OUTPUT_DIR).filter(f =>
+        f.endsWith('.json') &&
+        f !== 'parameter_analysis.json' &&
+        f !== 'uupdump-data.json'
+    );
 
     const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext({
@@ -242,32 +262,60 @@ async function main() {
     });
     const page = await context.newPage();
 
-    for (const catFile of categoriesToAnalyze) {
+    let newAnalysisCount = 0;
+
+    for (const catFile of files) {
         const filePath = path.join(OUTPUT_DIR, catFile);
-        if (!fs.existsSync(filePath)) continue;
-
         const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        const versions = data.versions.slice(0, 5);
+        const categoryName = data.category; // e.g. "w11-24h2"
 
-        const buildResults: BuildParams[] = [];
+        console.log(`\nChecking category: ${categoryName} (${catFile})`);
 
-        console.log(`Analyzing category: ${catFile}`);
-        for (const v of versions) {
-            const res = await analyzeBuild(page, v.id, v.title);
-            buildResults.push(res);
-            await delay(500);
+        // Find or create category entry in results
+        let catResult = fullResults.find(r => r.category === categoryName);
+        if (!catResult) {
+            catResult = { category: categoryName, builds: [] };
+            fullResults.push(catResult);
         }
 
-        fullResults.push({
-            category: data.category,
-            builds: buildResults
-        });
+        // Identify new builds
+        const existingIds = new Set(catResult.builds.map(b => b.id));
+        const allVersions = data.versions || [];
+        const newVersions = allVersions.filter((v: any) => !existingIds.has(v.id));
+
+        if (newVersions.length === 0) {
+            console.log(`  No new builds to analyze.`);
+            continue;
+        }
+
+        console.log(`  Found ${newVersions.length} new builds. Starting analysis...`);
+
+        for (const v of newVersions) {
+            try {
+                // Rate Limiting: Delay before request (5s - 10s)
+                const waitTime = Math.floor(Math.random() * 5000) + 5000;
+                console.log(`  Waiting ${Math.round(waitTime / 1000)}s...`);
+                await delay(5000, 10000);
+
+                const res = await analyzeBuild(page, v.id, v.title);
+
+                // Add to results
+                catResult!.builds.push(res);
+                newAnalysisCount++;
+
+                // Save incrementally so we don't lose progress
+                fs.writeFileSync(ANALYSIS_OUTPUT, JSON.stringify(fullResults, null, 2));
+                console.log(`  [Saved] Analyzed: ${v.title}`);
+
+            } catch (e) {
+                console.error(`  Failed to analyze ${v.id}:`, e);
+            }
+        }
     }
 
-    fs.writeFileSync(ANALYSIS_OUTPUT, JSON.stringify(fullResults, null, 2));
-    console.log(`Analysis saved to ${ANALYSIS_OUTPUT}`);
-
     await browser.close();
+    console.log(`\n--- Analysis Complete ---`);
+    console.log(`Total new builds analyzed: ${newAnalysisCount}`);
 }
 
 main().catch(console.error);

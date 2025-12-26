@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "description": "Scrape UUP dump channels, versions, and download parameters using Playwright",
   "scripts": {
-    "scrape": "ts-node src/scrape.ts"
+    "scrape": "ts-node src/scrape.ts",
+    "analyze": "ts-node src/analyze_params.ts"
   },
   "dependencies": {
     "playwright": "^1.56.1"
