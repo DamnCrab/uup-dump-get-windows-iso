@@ -27,7 +27,22 @@ interface AnalysisResult {
 
 async function analyzeBuild(page: Page, buildId: string, title: string): Promise<BuildParams> {
     const startUrl = `https://uupdump.net/selectlang.php?id=${buildId}`;
-    await page.goto(startUrl, { waitUntil: 'domcontentloaded' });
+
+    try {
+        console.log(`Analyzing ${buildId}... (Navigating)`);
+        await page.goto(startUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    } catch (e: any) {
+        console.error(`Navigation failed for ${buildId}: ${e.message}`);
+        return {
+            id: buildId,
+            title,
+            url: startUrl,
+            languages: [],
+            editions: [],
+            options: [],
+            error: `Navigation failed: ${e.message}`
+        };
+    }
 
     // Initial result structure
     const result: BuildParams = {
@@ -40,8 +55,6 @@ async function analyzeBuild(page: Page, buildId: string, title: string): Promise
     };
 
     try {
-        console.log(`Analyzing ${buildId}...`);
-
         // --- STEP 1: Languages ---
         // Extract languages
         const languages = await page.evaluate(() => {
