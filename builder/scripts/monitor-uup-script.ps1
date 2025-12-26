@@ -63,7 +63,8 @@ try {
         Write-Output $message | Tee-Object -FilePath $logFile -Append
         "$message" | Out-File -FilePath $statusFile -Encoding UTF8
         exit 0
-    } else {
+    }
+    else {
         # If exit code is 0 but no file is created, it is also considered an error
         $errorMessage = "No new ISO file was created"
         Write-Output "ERROR: $errorMessage" | Tee-Object -FilePath $logFile -Append
@@ -71,7 +72,8 @@ try {
         exit 1
     }
     
-} catch {
+}
+catch {
     $errorMessage = $_.Exception.Message
     "ERROR: $errorMessage" | Tee-Object -FilePath $logFile -Append -Encoding UTF8
     "ERROR:$errorMessage" | Out-File -FilePath $statusFile -Encoding UTF8

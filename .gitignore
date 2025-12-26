@@ -2,6 +2,7 @@
 builder/output/
 .idea
 builder/node_modules
+builder/temp
 playwright/node_modules
 .vscode
 .output

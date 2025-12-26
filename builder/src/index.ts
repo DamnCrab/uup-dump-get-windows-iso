@@ -1,132 +1,201 @@
-/**
- * UUP Dump Windows ISO Builder - Main Entry Point
- * UUP Dump Windows ISO 构建器 - 主入口点
- * 
- * This is the main entry point for the UUP Dump Windows ISO Builder.
- * It provides a command-line interface for downloading and building Windows ISO files
- * from Microsoft's Unified Update Platform (UUP) using the UUP dump project.
- * 
- * 这是 UUP Dump Windows ISO 构建器的主入口点。
- * 它提供了一个命令行界面，用于从微软的统一更新平台 (UUP) 下载并构建 Windows ISO 文件，
- * 使用 UUP dump 项目的功能。
- */
-
-import { Command } from 'commander';
-import UupDumpScraper from './scrapers/uupDumpScraper.js';
-import WindowsIsoBuilder from './builders/windowsIsoBuilder.js';
-import Logger from './utils/logger.js';
-import { TARGETS, getTargetByName, listTargets } from './config/targets.js';
-import { TargetConfig, BuildResult } from './types/index.js';
-
-// Global logger instance / 全局日志实例
-const logger = new Logger();
-
-// Target configurations have been moved to config/targets.ts
-// 目标配置已移至 config/targets.ts
 
 /**
- * Main function that handles command-line arguments and orchestrates the ISO building process
- * 主函数，处理命令行参数并协调 ISO 构建过程
+ * Windows ISO Generator
+ * Replaces the complex builder architecture with a direct script.
  */
-async function main(): Promise<void> {
-    // Initialize command-line interface / 初始化命令行界面
-    const program = new Command();
-    const mainLogger = new Logger('Main');
 
-    // Configure command-line options / 配置命令行选项
-    program
-        .name('uup-dump-iso-builder')
-        .description('从 UUP Dump 下载并构建 Windows ISO 镜像 / Download and build Windows ISO from UUP Dump')
-        .version('1.0.0')
-        .option('-t, --target <target>', '目标配置名称 / Target configuration name')
-        .option('-o, --output <path>', '输出目录 / Output directory', './output')
-        .option('-l, --list', '列出所有可用的目标配置 / List all available target configurations')
-        .option('-v, --verbose', '详细输出 / Verbose output')
-        .parse();
+import fs from 'fs-extra';
+import path from 'path';
+import axios from 'axios';
+import AdmZip from 'adm-zip';
+import { spawn } from 'child_process';
+import { fileURLToPath } from 'url';
 
-    // Parse command-line options / 解析命令行选项
-    const options = program.opts() as {
-        target?: string;
-        output?: string;
-        list?: boolean;
-        verbose?: boolean;
-    };
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-    // Enable verbose mode if requested / 如果请求则启用详细模式
-    if (options.verbose) {
-        // Verbose mode - Logger class doesn't support dynamic level setting yet
-        // 详细模式 - Logger类暂不支持动态设置级别
-        mainLogger.debug('启用详细输出模式 / Verbose output mode enabled');
-    }
+const CONFIG = {
+    // Test Case: Windows 11 Feature Update
+    buildId: "c45ca209-a5af-4551-8141-993c15a75b8b",
+    pack: "zh-cn",
+    // Base edition. The value in JSON is "PROFESSIONAL". The URL used "core;professional".
+    // Trying explicit combined value from analysis.
+    edition: "core;professional",
+    // Note: checking valid editions for this build from analysis:
+    // "CORE", "CORECOUNTRYSPECIFIC", "PROFESSIONAL", "PPIPRO"
+    // Usually for virtual editions we want the Professional base. 
+    // The previous analysis script used 'core;professional' for the URL.
+    // The user said "PROFESSIONAL", but mapped to value.
+    // Let's assume 'PROFESSIONAL' maps to 'PROFESSIONAL' or 'core;professional' as base.
+    // Actually, looking at the previous analysis output for this build:
+    // edtions: [{label: Windows Pro, value: PROFESSIONAL}]
+    // user said: "edition": "PROFESSIONAL"
 
-    // Handle list command - display all available targets / 处理列表命令 - 显示所有可用目标
-    if (options.list) {
-        console.log('\n可用的目标配置 / Available target configurations:');
-        Object.entries(TARGETS).forEach(([key, target]: [string, TargetConfig]) => {
-            console.log(`  ${key}: ${target.name}`);
-            console.log(`    描述 / Description: ${target.description}`);
-            console.log(`    语言 / Language: ${target.language}, 架构 / Architecture: ${target.architecture}`);
-            console.log(`    SKU: ${target.sku}`);
-            console.log('');
-        });
-        return;
-    }
+    autodl: "3", // Virtual Editions
 
-    // Validate that target is specified / 验证是否指定了目标
-    if (!options.target) {
-        console.log('请指定目标配置名称，使用 -t 或 --target 参数');
-        console.log('Please specify target configuration name using -t or --target parameter');
-        console.log('使用 -l 或 --list 查看所有可用的目标配置');
-        console.log('Use -l or --list to see all available target configurations');
-        process.exit(1);
-    }
+    // Virtual Editions to include (User said "Select All")
+    // From analysis: CoreSingleLanguage, ProfessionalWorkstation, ProfessionalEducation, Education, Enterprise, ServerRdsh, IoTEnterprise
+    virtualEditions: [
+        "CoreSingleLanguage",
+        "ProfessionalWorkstation",
+        "ProfessionalEducation",
+        "Education",
+        "Enterprise",
+        "ServerRdsh",
+        "IoTEnterprise"
+    ],
 
-    // Get target configuration / 获取目标配置
-    const targetConfig = getTargetByName(options.target);
-    if (!targetConfig) {
-        mainLogger.error(`未找到目标配置 / Target configuration not found: ${options.target}`);
-        mainLogger.info('使用 -l 或 --list 查看所有可用目标 / Use -l or --list to see all available targets');
-        process.exit(1);
-    }
+    // Options (User said "Select All")
+    options: {
+        updates: 1,
+        cleanup: 1,
+        netfx: 1,
+        esd: 1
+    },
+
+    outputDir: path.join(__dirname, '../output'),
+    tempDir: path.join(__dirname, '../temp')
+};
+
+async function main() {
+    console.log('Starting ISO Generation...');
+    console.log(`Build ID: ${CONFIG.buildId}`);
+
+    // Ensure directories
+    await fs.ensureDir(CONFIG.outputDir);
+    await fs.ensureDir(CONFIG.tempDir);
+
+    // 1. Construct POST Data for get.php
+    // Per analysis/browser behavior, the download button submits a POST form to https://uupdump.net/get.php
+    /*
+        <form action="get.php" method="post">
+            <input type="hidden" name="id" value="...">
+            <input type="hidden" name="pack" value="...">
+            <input type="hidden" name="edition" value="..."> (semicolon separated?)
+            <input type="hidden" name="autodl" value="3">
+            ... options ...
+        </form>
+    */
+
+    const formData = new URLSearchParams();
+    // id, pack, edition are passed in URL query params, NOT in body.
+    formData.append('autodl', CONFIG.autodl);
+
+    // Add options
+    if (CONFIG.options.updates) formData.append('updates', '1');
+    if (CONFIG.options.cleanup) formData.append('cleanup', '1');
+    if (CONFIG.options.netfx) formData.append('netfx', '1');
+    if (CONFIG.options.esd) formData.append('esd', '1');
+
+    // Add virtual editions
+    // In PHP/HTML form, name="virtualEditions[]". 
+    // URLSearchParams usually handles multiple keys if appended multiple times
+    CONFIG.virtualEditions.forEach(ve => {
+        formData.append('virtualEditions[]', ve);
+    });
+
+    console.log('Requesting download package from UUP dump...');
+    // Construct URL with query parameters
+    const url = `https://uupdump.net/get.php?id=${CONFIG.buildId}&pack=${CONFIG.pack}&edition=${encodeURIComponent(CONFIG.edition)}`;
+    console.log(`URL: ${url}`);
 
     try {
-        // Start the ISO building process / 开始 ISO 构建过程
-        mainLogger.info(`开始构建 / Starting build: ${targetConfig.name}`);
-        mainLogger.info(`输出目录 / Output directory: ${options.output || './output'}`);
+        const response = await axios.post(url, formData, {
+            responseType: 'arraybuffer',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        });
 
-        // Initialize scraper and builder / 初始化爬虫和构建器
-        const scraper = new UupDumpScraper();
-        const builder = new WindowsIsoBuilder(scraper, options.output || './output');
+        const zipPath = path.join(CONFIG.tempDir, `${CONFIG.buildId}.zip`);
+        await fs.writeFile(zipPath, response.data);
+        console.log(`Download package saved to: ${zipPath}`);
 
-        // Execute the build process / 执行构建过程
-        const result: BuildResult = await builder.buildIso(targetConfig);
+        // 2. Extract
+        const extractDir = path.join(CONFIG.tempDir, `${CONFIG.buildId}_extract`);
+        await fs.ensureDir(extractDir);
+        const zip = new AdmZip(zipPath);
+        zip.extractAllTo(extractDir, true);
+        console.log(`Extracted to: ${extractDir}`);
 
-        // Handle build result / 处理构建结果
-        if (result.success) {
-            mainLogger.info(`构建成功! / Build successful!`);
-            mainLogger.info(`ISO 文件 / ISO file: ${result.isoPath}`);
-        } else {
-            mainLogger.error(`构建失败 / Build failed: ${result.error}`);
-            process.exit(1);
+        // 3. Find and Prepare Script
+        const files = await fs.readdir(extractDir);
+        const scriptName = files.find(f => f.endsWith('.cmd') && (f.includes('convert') || f.includes('uup')));
+
+        if (!scriptName) {
+            throw new Error('No conversion script found in the downloaded package.');
         }
-    } catch (error: any) {
-        mainLogger.error('构建过程中发生错误 / Error occurred during build process:', error.message);
-        process.exit(1);
+
+        const scriptPath = path.join(extractDir, scriptName);
+        console.log(`Found script: ${scriptPath}`);
+
+        // Modify script to remove pauses (automation)
+        let content = await fs.readFile(scriptPath, 'utf8');
+        content = content.replace(/^pause/gim, ':: pause')
+            .replace(/@pause/gim, ':: @pause');
+
+        // Ensure aria2c has retry parameters
+        content = content.replace(/(aria2c\.exe"?)/g, '$1 --retry-wait=5 --max-tries=5');
+
+        await fs.writeFile(scriptPath, content);
+        console.log('Script patched for automation.');
+
+        // 4. Execute using Monitor Script
+        console.log('Launching monitor script...');
+        const monitorScript = path.join(__dirname, '../scripts/monitor-uup-script.ps1');
+
+        // Spawn PowerShell
+        const ps = spawn('powershell.exe', [
+            '-ExecutionPolicy', 'Bypass',
+            '-File', monitorScript,
+            '-ScriptPath', scriptPath,
+            '-WorkingDirectory', extractDir,
+            '-Timeout', '120' // 2 hours timeout
+        ], {
+            stdio: 'inherit'
+        });
+
+        ps.on('close', (code) => {
+            console.log(`Monitor script exited with code ${code}`);
+
+            // Check status file
+            const statusPath = path.join(extractDir, 'uup_monitor_status.txt');
+            if (fs.existsSync(statusPath)) {
+                const status = fs.readFileSync(statusPath, 'utf8').trim();
+                console.log(`Final Status: ${status}`);
+
+                // If success, move ISO
+                if (status.startsWith('SUCCESS:')) {
+                    const isoName = status.split(':')[1] || '';
+                    if (!isoName) {
+                        console.log('Error: ISO name missing in status.');
+                        return;
+                    }
+                    const srcIso = path.join(extractDir, isoName);
+                    const destIso = path.join(CONFIG.outputDir, isoName);
+                    console.log(`Moving ISO to ${destIso}`);
+                    if (fs.existsSync(srcIso)) {
+                        fs.moveSync(srcIso, destIso, { overwrite: true });
+                        console.log('DONE.');
+                    }
+                }
+            } else {
+                console.log('No status file found.');
+            }
+        });
+
+    } catch (err: any) {
+        if (axios.isAxiosError(err) && err.response) {
+            console.error('Error Status:', err.response.status);
+            console.error('Error Data:', err.response.data.toString());
+        }
+        if (err instanceof Error) {
+            console.error('Error Message:', err.message);
+        } else {
+            console.error('Error:', String(err));
+        }
     }
 }
 
-// Main program entry point / 主程序入口点
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-// Get current file path for ES modules / 获取 ES 模块的当前文件路径
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-// Execute main function if this file is run directly / 如果直接运行此文件则执行主函数
-if (process.argv[1] === __filename) {
-    main().catch(error => {
-        logger.error('程序执行失败 / Program execution failed:', error);
-        process.exit(1);
-    });
-}
+main();
