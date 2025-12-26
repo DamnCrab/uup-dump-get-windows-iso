@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "tsx src/index.ts",
+    "start": "tsx src/auto_build.ts",
+    "manual": "tsx src/index.ts",
     "compile": "tsc",
     "generate-matrix": "node scripts/generate-matrix.js"
   },

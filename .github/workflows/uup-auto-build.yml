@@ -1,0 +1,49 @@
+name: Automated UUP Build
+
+on:
+  schedule:
+    - cron: '0 2 */3 * *' # Run every 3 days at 2:00 UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install Dependencies
+      run: |
+        npm install -g pnpm
+        cd playwright
+        pnpm install
+        cd ../builder
+        pnpm install
+
+    - name: Install Playwright Browsers
+      run: |
+        cd playwright
+        npx playwright install chromium
+
+    - name: Update Build Data (Scraper)
+      run: |
+        cd playwright
+        npm start
+
+    - name: Run Auto Builder
+      run: |
+        cd builder
+        npm start
+
+    - name: Upload ISO Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: Windows-ISOs
+        path: builder/output/*.ISO
+        retention-days: 5
