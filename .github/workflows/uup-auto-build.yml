@@ -34,7 +34,7 @@ jobs:
     - name: Update Build Data (Scraper)
       run: |
         cd playwright
-        npm start
+        npm run scrape
 
     - name: Run Auto Builder
       run: |
