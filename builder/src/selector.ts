@@ -1,4 +1,4 @@
-import { pathExists, readJson } from 'fs-extra';
+import fs from 'fs-extra';
 import * as path from 'path';
 import { BuildRule } from './types';
 import { fileURLToPath } from 'url';
@@ -24,13 +24,13 @@ interface ScrapedCategory {
 export async function selectBuild(rule: BuildRule): Promise<string | null> {
     const jsonPath = path.join(DATA_DIR, `${rule.category}.json`);
 
-    if (!await pathExists(jsonPath)) {
+    if (!await fs.pathExists(jsonPath)) {
         console.error(`Category file not found: ${jsonPath}`);
         return null;
     }
 
     try {
-        const data: ScrapedCategory = await readJson(jsonPath);
+        const data: ScrapedCategory = await fs.readJson(jsonPath);
 
         // Filter versions
         const matches = data.versions.filter(v => {
