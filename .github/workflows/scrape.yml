@@ -99,7 +99,7 @@ jobs:
         with:
           name: uupdump-data-${{ github.run_number }}
           path: |
-            playwright/output/*.json
+            *.json
           retention-days: 7 # Keep artifacts for 7 days / 构建产物保留7天
 
       # Create summary / 创建摘要
@@ -109,10 +109,10 @@ jobs:
           echo "**Time**: $(date -u +"%Y-%m-%d %H:%M UTC")" >> $GITHUB_STEP_SUMMARY
           echo "**Run Details**: [View Log](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
           
-          if [[ -f "playwright/output/uupdump-data.json" ]]; then
+          if [[ -f "uupdump-data.json" ]]; then
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "### 📁 Generated Files" >> $GITHUB_STEP_SUMMARY
-            ls -lh playwright/output/*.json | awk '{print "- " $9 " (" $5 ")"}' >> $GITHUB_STEP_SUMMARY
+            ls -lh *.json | awk '{print "- " $9 " (" $5 ")"}' >> $GITHUB_STEP_SUMMARY
           else
             echo "⚠️ No data files generated." >> $GITHUB_STEP_SUMMARY
           fi
