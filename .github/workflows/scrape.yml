@@ -40,6 +40,18 @@ jobs:
           pnpm install
           npx playwright install chromium
 
+      # Restore previous analysis data / 恢复之前的分析数据
+      - name: Restore previous analysis
+        continue-on-error: true
+        run: |
+          mkdir -p playwright/output
+          git fetch origin data || echo "No data branch yet"
+          git checkout origin/data -- parameter_analysis.json || echo "No previous analysis found"
+          if [ -f parameter_analysis.json ]; then
+            mv parameter_analysis.json playwright/output/
+            echo "Restored parameter_analysis.json"
+          fi
+
       # Run Playwright scraping / 运行 Playwright 抓取
       - name: Run Playwright scraping
         run: |
