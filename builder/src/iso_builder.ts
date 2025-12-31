@@ -92,8 +92,14 @@ export async function buildIso(buildId: string, rule: BuildRule): Promise<void> 
         // Ensure aria2c has retry parameters
         content = content.replace(/(aria2c\.exe"?)/g, '$1 --retry-wait=5 --max-tries=5');
 
+        // FORCE PWSH: Replace legacy powershell invocations with pwsh
+        // This fixes 'Get-FileHash' not found errors in GitHub Actions env
+        content = content.replace(/%SystemRoot%\\System32\\WindowsPowerShell\\v1\.0\\powershell\.exe/gi, 'pwsh');
+        content = content.replace(/powershell\.exe/gi, 'pwsh');
+        content = content.replace(/\bpowershell\b/gi, 'pwsh');
+
         await fs.writeFile(scriptPath, content);
-        console.log('Script patched for automation.');
+        console.log('Script patched for automation (and forced pwsh).');
 
         // 5. Execute using Monitor Script
         console.log('Launching monitor script...');
@@ -104,7 +110,8 @@ export async function buildIso(buildId: string, rule: BuildRule): Promise<void> 
         }
 
         return new Promise<void>((resolve, reject) => {
-            const ps = spawn('powershell.exe', [
+            // Use pwsh (PowerShell Core) instead of powershell.exe
+            const ps = spawn('pwsh', [
                 '-ExecutionPolicy', 'Bypass',
                 '-File', monitorScript,
                 '-ScriptPath', scriptPath,
