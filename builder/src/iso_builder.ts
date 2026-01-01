@@ -9,8 +9,8 @@ import { BuildRule } from './types';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OUTPUT_DIR = path.join(__dirname, '../../output');
-const TEMP_DIR = path.join(__dirname, '../../temp');
+const OUTPUT_DIR = path.join(__dirname, '../output');
+const TEMP_DIR = path.join(__dirname, '../temp');
 const SCRIPTS_DIR = path.join(__dirname, '../scripts');
 
 export async function buildIso(buildId: string, rule: BuildRule): Promise<void> {
