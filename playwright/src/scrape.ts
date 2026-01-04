@@ -9,15 +9,16 @@ import {
 } from './types';
 
 // ==========================================
-// 1. 配置常量
+// 1. 配置常量 / Configuration Constants
 // ==========================================
 
 const HOMEPAGE = 'https://uupdump.net/';
-// 输出目录：项目根目录下的 output 文件夹
+// 输出目录：项目根目录下的 output 文件夹 / Output directory: output folder in project root
 const OUTPUT_DIR = path.resolve(__dirname, '..', 'output');
 const OUTPUT_JSON = path.join(OUTPUT_DIR, 'uupdump-data.json');
 
 // 浏览器配置：使用固定的 User-Agent 和 Header 以规避简单的反爬虫检查 (Cloudflare)
+// Browser Config: Use fixed User-Agent/Headers to bypass simple anti-bot checks
 const BROWSER_CONFIG = {
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     locale: 'en-US',
@@ -31,10 +32,10 @@ const BROWSER_CONFIG = {
 };
 
 // ==========================================
-// 2. 工具函数
+// 2. 工具函数 / Utility Functions
 // ==========================================
 
-// Helper to wait with jitter to avoid detection
+// Helper to wait with jitter to avoid detection / 随机等待以避免检测
 const delay = (min: number, max: number) => {
     const ms = Math.floor(Math.random() * (max - min + 1)) + min;
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -42,6 +43,7 @@ const delay = (min: number, max: number) => {
 
 /**
  * 确保输出目录存在，如果不存在则创建
+ * Ensure output directory exists
  */
 async function ensureOutputDir() {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -49,8 +51,9 @@ async function ensureOutputDir() {
 
 /**
  * 从 selectlang.php 的 url 中提取 id 参数
- * @param url 完整的 URL 字符串
- * @returns 提取出的 id，如果失败返回 undefined
+ * Extract id parameter from selectlang.php URL
+ * @param url Full URL string
+ * @returns extracted id or undefined
  */
 function getIdFromSelectLangUrl(url: string): string | undefined {
     try {

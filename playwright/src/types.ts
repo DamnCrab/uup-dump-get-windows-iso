@@ -45,12 +45,12 @@ export type UupVirtualEdition =
  * 表示首页 "Quick options" 或下拉菜单中的一个可点击项
  */
 export interface ChannelLink {
-  name: string;        // 显示名称，如 "Windows 11 22H2", "Dev Channel"
-  url?: string;        // 跳转链接 (如果是下拉菜单父级则可能为空)
-  isDropdown: boolean; // 是否为下拉菜单容器
-  subLinks?: ChannelLink[]; // 子链接列表 (仅当 isDropdown 为 true 时存在)
-  category?: string;   // 分类标识 (从 URL query 参数q中提取，如 'w11-22h2')
-  source: 'homepage' | 'seed' | 'dynamic' | 'fallback'; // 数据来源标识
+  name: string;        // Display Name / 显示名称，如 "Windows 11 22H2", "Dev Channel"
+  url?: string;        // Redirect URL / 跳转链接 (如果是下拉菜单父级则可能为空)
+  isDropdown: boolean; // Is dropdown container / 是否为下拉菜单容器
+  subLinks?: ChannelLink[]; // Sub-links / 子链接列表 (仅当 isDropdown 为 true 时存在)
+  category?: string;   // Category ID / 分类标识 (从 URL query 参数q中提取，如 'w11-22h2')
+  source: 'homepage' | 'seed' | 'dynamic' | 'fallback'; // Data source / 数据来源标识
 }
 
 /**
@@ -58,11 +58,11 @@ export interface ChannelLink {
  * 对应列表页 (known.php) 表格中的一行数据
  */
 export interface VersionEntry {
-  title: string;       // 版本完整标题 (如 "Windows 11 Insider Preview 26080.1...")
-  href: string;        // 详情页链接 (selectlang.php?id=...)
-  id?: string;         // 提取出的其 ID (uuid)
-  arch?: Arch;         // 架构
-  addedAt?: string;    // 添加日期
+  title: string;       // Full Title / 版本完整标题 (如 "Windows 11 Insider Preview 26080.1...")
+  href: string;        // Detail Page URL / 详情页链接 (selectlang.php?id=...)
+  id?: string;         // UUID / 提取出的其 ID (uuid)
+  arch?: Arch;         // Architecture / 架构
+  addedAt?: string;    // Date Added / 添加日期
 }
 
 /**
@@ -71,12 +71,12 @@ export interface VersionEntry {
  * 将被保存为独立 JSON 文件 (如 w11-24h2.json)
  */
 export interface ChannelData {
-  category: string;    // 分类标识 (文件名依据)
-  url: string;         // 抓取源 URL
-  name: string;        // 渠道名称
-  parentName?: string; // 父级名称 (如 "Windows 11")
-  pages: number;       // 抓取到的总页数或估算值
-  versions: VersionEntry[]; // 版本列表
+  category: string;    // Category ID / 分类标识 (文件名依据)
+  url: string;         // Source URL / 抓取源 URL
+  name: string;        // Channel Name / 渠道名称
+  parentName?: string; // Parent Channel Name / 父级名称 (如 "Windows 11")
+  pages: number;       // Scraped or Estimated Pages / 抓取到的总页数或估算值
+  versions: VersionEntry[]; // Version List / 版本列表
 }
 
 /**
@@ -84,8 +84,8 @@ export interface ChannelData {
  * 仅保存层级结构，具体数据存储在各自分类文件中
  */
 export interface KnowledgeBase {
-  scrapedAt: string;   // 抓取时间 (ISO 格式)
-  hierarchy: ChannelLink[]; // 首页完整的层级结构
+  scrapedAt: string;   // Scraped Time / 抓取时间 (ISO 格式)
+  hierarchy: ChannelLink[]; // Hierarchy / 首页完整的层级结构
 }
 
 /**
@@ -93,16 +93,16 @@ export interface KnowledgeBase {
  * 包含构建的 ID、语言、版本选项、下载方式等
  */
 export interface BuildParams {
-  id: string;          // 构建 ID (uuid)
-  title: string;       // 构建标题
-  url: string;         // 分析时的 URL (options page)
+  id: string;          // Build ID (uuid) / 构建 ID
+  title: string;       // Build Title / 构建标题
+  url: string;         // Options Page URL / 分析时的 URL
 
   // 语言选项
   languages: {
-    label: string;   // 显示名称 (如 "English (United States)")
-    value: UupLanguage; // 参数值 (strictly typed)
+    label: string;   // Display Name / 显示名称 (如 "English (United States)")
+    value: UupLanguage; // Value / 参数值
   }[];
-  defaultLanguage?: UupLanguage; // 默认选中或首选语言
+  defaultLanguage?: UupLanguage; // Default/Preferred Language / 默认选中或首选语言
 
   // 版本选项 (Editions)
   editions: {
@@ -128,5 +128,5 @@ export interface BuildParams {
     value: UupVirtualEdition;
   }[];
 
-  error?: string;      // 错误信息 (如果分析失败)
+  error?: string;      // Error Message / 错误信息 (如果分析失败)
 }

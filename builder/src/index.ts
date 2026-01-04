@@ -65,37 +65,28 @@ async function main() {
     await fs.ensureDir(CONFIG.outputDir);
     await fs.ensureDir(CONFIG.tempDir);
 
-    // 1. Construct POST Data for get.php
+    // 1. Construct POST Data for get.php / 构造 get.php 的 POST 数据
     // Per analysis/browser behavior, the download button submits a POST form to https://uupdump.net/get.php
-    /*
-        <form action="get.php" method="post">
-            <input type="hidden" name="id" value="...">
-            <input type="hidden" name="pack" value="...">
-            <input type="hidden" name="edition" value="..."> (semicolon separated?)
-            <input type="hidden" name="autodl" value="3">
-            ... options ...
-        </form>
-    */
+    // 根据分析/浏览器行为，下载按钮会向 https://uupdump.net/get.php 提交 POST 表单
 
     const formData = new URLSearchParams();
     // id, pack, edition are passed in URL query params, NOT in body.
+    // id, pack, edition 通过 URL 查询参数传递，而不是在 body 中。
     formData.append('autodl', CONFIG.autodl);
 
-    // Add options
+    // Add options / 添加选项
     if (CONFIG.options.updates) formData.append('updates', '1');
     if (CONFIG.options.cleanup) formData.append('cleanup', '1');
     if (CONFIG.options.netfx) formData.append('netfx', '1');
     if (CONFIG.options.esd) formData.append('esd', '1');
 
-    // Add virtual editions
-    // In PHP/HTML form, name="virtualEditions[]". 
-    // URLSearchParams usually handles multiple keys if appended multiple times
+    // Add virtual editions / 添加虚拟版本
     CONFIG.virtualEditions.forEach(ve => {
         formData.append('virtualEditions[]', ve);
     });
 
     console.log('Requesting download package from UUP dump...');
-    // Construct URL with query parameters
+    // Construct URL with query parameters / 构造带查询参数的 URL
     const url = `https://uupdump.net/get.php?id=${CONFIG.buildId}&pack=${CONFIG.pack}&edition=${encodeURIComponent(CONFIG.edition)}`;
     console.log(`URL: ${url}`);
 
@@ -112,36 +103,36 @@ async function main() {
         await fs.writeFile(zipPath, response.data);
         console.log(`Download package saved to: ${zipPath}`);
 
-        // 2. Extract
+        // 2. Extract / 解压
         const extractDir = path.join(CONFIG.tempDir, `${CONFIG.buildId}_extract`);
         await fs.ensureDir(extractDir);
         const zip = new AdmZip(zipPath);
         zip.extractAllTo(extractDir, true);
         console.log(`Extracted to: ${extractDir}`);
 
-        // 3. Find and Prepare Script
+        // 3. Find and Prepare Script / 查找并准备脚本
         const files = await fs.readdir(extractDir);
         const scriptName = files.find(f => f.endsWith('.cmd') && (f.includes('convert') || f.includes('uup')));
 
         if (!scriptName) {
-            throw new Error('No conversion script found in the downloaded package.');
+            throw new Error('No conversion script found in the downloaded package. / 下载包中未找到转换脚本。');
         }
 
         const scriptPath = path.join(extractDir, scriptName);
         console.log(`Found script: ${scriptPath}`);
 
-        // Modify script to remove pauses (automation)
+        // Modify script to remove pauses (automation) / 修改脚本移除暂停（自动化）
         let content = await fs.readFile(scriptPath, 'utf8');
         content = content.replace(/^pause/gim, ':: pause')
             .replace(/@pause/gim, ':: @pause');
 
-        // Ensure aria2c has retry parameters
+        // Ensure aria2c has retry parameters / 确保 aria2c 有重试参数
         content = content.replace(/(aria2c\.exe"?)/g, '$1 --retry-wait=5 --max-tries=5');
 
         await fs.writeFile(scriptPath, content);
         console.log('Script patched for automation.');
 
-        // 4. Execute using Monitor Script
+        // 4. Execute using Monitor Script / 使用监控脚本执行
         console.log('Launching monitor script...');
         const monitorScript = path.join(__dirname, '../scripts/monitor-uup-script.ps1');
 
@@ -151,7 +142,7 @@ async function main() {
             '-File', monitorScript,
             '-ScriptPath', scriptPath,
             '-WorkingDirectory', extractDir,
-            '-Timeout', '120' // 2 hours timeout
+            '-Timeout', '120' // 2 hours timeout / 2小时超时
         ], {
             stdio: 'inherit'
         });
@@ -159,13 +150,13 @@ async function main() {
         ps.on('close', (code) => {
             console.log(`Monitor script exited with code ${code}`);
 
-            // Check status file
+            // Check status file / 检查状态文件
             const statusPath = path.join(extractDir, 'uup_monitor_status.txt');
             if (fs.existsSync(statusPath)) {
                 const status = fs.readFileSync(statusPath, 'utf8').trim();
                 console.log(`Final Status: ${status}`);
 
-                // If success, move ISO
+                // If success, move ISO / 如果成功，移动 ISO
                 if (status.startsWith('SUCCESS:')) {
                     const isoName = status.split(':')[1] || '';
                     if (!isoName) {

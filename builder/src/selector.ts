@@ -32,7 +32,7 @@ export async function selectBuild(rule: BuildRule): Promise<string | null> {
     try {
         const data: ScrapedCategory = await fs.readJson(jsonPath);
 
-        // Filter versions
+        // Filter versions / 过滤版本
         const matches = data.versions.filter(v => {
             const archMatch = v.arch.toLowerCase() === rule.arch.toLowerCase();
             const titleMatch = rule.titlePattern.test(v.title);
@@ -44,7 +44,7 @@ export async function selectBuild(rule: BuildRule): Promise<string | null> {
             return null;
         }
 
-        // Sort by addedAt (descending)
+        // Sort by addedAt (descending) / 按添加时间降序排序
         // Format: "2025-12-09 19:01:31 UTC"
         matches.sort((a, b) => {
             return new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime();
