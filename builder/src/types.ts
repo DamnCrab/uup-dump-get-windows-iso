@@ -10,7 +10,11 @@ export type UupEdition =
     | "CORE" // Home / 家庭版
     | "CORECOUNTRYSPECIFIC" // Home China / 家庭中文版
     | "PROFESSIONAL" // Professional / 专业版
-    | "PPIPRO"; // Professional for Workstations
+    | "PPIPRO" // Professional for Workstations
+    | "SERVERSTANDARD" // Server Standard
+    | "SERVERDATACENTER" // Server Datacenter
+    | "SERVERSTANDARDCORE" // Server Standard (Desktop Experience)
+    | "SERVERDATACENTERCORE"; // Server Datacenter (Desktop Experience)
 
 export type UupOption = "updates" | "cleanup" | "netfx" | "esd";
 

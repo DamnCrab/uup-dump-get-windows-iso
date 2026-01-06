@@ -13,7 +13,7 @@ const OUTPUT_DIR = path.join(__dirname, '../output'); // Output directory / 输�
 const TEMP_DIR = path.join(__dirname, '../temp');     // Temp directory / 临时目录
 const SCRIPTS_DIR = path.join(__dirname, '../scripts'); // Scripts directory / 脚本目录
 
-export async function buildIso(buildId: string, rule: BuildRule): Promise<void> {
+export async function buildIso(buildId: string, rule: BuildRule): Promise<string> {
     console.log(`Starting ISO Build for ${buildId} using rule [${rule.name}]`);
 
     // Ensure directories
@@ -112,7 +112,7 @@ export async function buildIso(buildId: string, rule: BuildRule): Promise<void> 
             throw new Error(`Monitor script not found at ${monitorScript}`);
         }
 
-        return new Promise<void>((resolve, reject) => {
+        return new Promise<string>((resolve, reject) => {
             // Use pwsh (PowerShell Core) instead of powershell.exe
             const ps = spawn('pwsh', [
                 '-ExecutionPolicy', 'Bypass',
@@ -146,7 +146,7 @@ export async function buildIso(buildId: string, rule: BuildRule): Promise<void> 
                         if (fs.existsSync(srcIso)) {
                             fs.moveSync(srcIso, destIso, { overwrite: true });
                             console.log('Build Completed Successfully.');
-                            resolve();
+                            resolve(isoName);
                         } else {
                             reject(new Error('Generated ISO file not found'));
                         }

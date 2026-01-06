@@ -9,7 +9,8 @@ const __dirname = path.dirname(__filename);
 
 const DATA_DIR = path.resolve(__dirname, '../../playwright/output');
 
-interface ScrapedVersion {
+// Export ScrapedVersion so others can use it
+export interface ScrapedVersion {
     title: string;
     href: string;
     arch: string;
@@ -21,7 +22,7 @@ interface ScrapedCategory {
     versions: ScrapedVersion[];
 }
 
-export async function selectBuild(rule: BuildRule): Promise<string | null> {
+export async function selectBuild(rule: BuildRule): Promise<ScrapedVersion | null> {
     const jsonPath = path.join(DATA_DIR, `${rule.category}.json`);
 
     if (!await fs.pathExists(jsonPath)) {
@@ -55,7 +56,7 @@ export async function selectBuild(rule: BuildRule): Promise<string | null> {
 
         console.log(`[${rule.name}] Selected Build: ${latest.title} (${latest.id}) - ${latest.addedAt}`);
 
-        return latest.id;
+        return latest;
 
     } catch (error) {
         console.error(`Error selecting build for rule ${rule.name}:`, error);

@@ -1,8 +1,8 @@
 import fs from 'fs-extra';
-import * as path from 'path';
+import path from 'path';
 import { fileURLToPath } from 'url';
 import { rules } from './config/rules';
-import { selectBuild } from './selector';
+import { selectBuild, ScrapedVersion } from './selector';
 import { buildIso } from './iso_builder';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -18,6 +18,22 @@ interface BuildState {
     };
 }
 
+interface SummaryEntry {
+    rule: string;
+    buildId: string;
+    title: string;
+    arch: string;
+    isoName: string;
+    duration: string;
+    status: string;
+    details: string;
+    // Config details
+    language: string;
+    editions: string;
+    virtualEditions: string;
+    options: string;
+}
+
 async function loadState(): Promise<BuildState> {
     if (await fs.pathExists(STATE_FILE)) {
         return fs.readJson(STATE_FILE);
@@ -29,56 +45,113 @@ async function saveState(state: BuildState) {
     await fs.writeJson(STATE_FILE, state, { spaces: 2 });
 }
 
+function formatDuration(ms: number): string {
+    const minutes = Math.floor(ms / 60000);
+    const seconds = ((ms % 60000) / 1000).toFixed(0);
+    return `${minutes}m ${seconds}s`;
+}
+
 async function main() {
-    console.log('--- Starting Automated Build Process ---');
+    console.log('--- Starting Automated Build Process / 开始自动化构建流程 ---');
 
     const state = await loadState();
     let hasWork = false;
 
-    const summary: Array<{ rule: string, buildId: string, status: string, details: string }> = [];
+    const summary: SummaryEntry[] = [];
 
     for (const rule of rules) {
         console.log(`\nProcessing Rule: ${rule.name}`);
+        const startTime = Date.now();
+
+        // Prepare config strings for summary
+        const configDetails = {
+            language: rule.language,
+            editions: rule.editions.join(', '),
+            virtualEditions: rule.virtualEditions ? rule.virtualEditions.join(', ') : '-',
+            options: rule.options ? rule.options.join(', ') : '-'
+        };
 
         try {
-            const buildId = await selectBuild(rule);
+            const build = await selectBuild(rule);
 
             // If no build found / 如果未找到构建
-            if (!buildId) {
+            if (!build) {
                 console.log(`Skipping rule ${rule.name}: No available build found.`);
-                summary.push({ rule: rule.name, buildId: 'N/A', status: '⏭️ Skipped', details: 'No build found' });
+                summary.push({
+                    rule: rule.name,
+                    buildId: 'N/A',
+                    title: 'N/A',
+                    arch: rule.arch,
+                    isoName: '-',
+                    duration: '0s',
+                    status: '⏭️ Skipped',
+                    details: 'No matching build found',
+                    ...configDetails
+                });
                 continue;
             }
 
             const lastState = state[rule.name];
 
             // Check if we already built this ID successfully / 检查是否已成功构建此 ID
-            if (lastState && lastState.lastBuildId === buildId && lastState.status === 'success') {
-                console.log(`Skipping rule ${rule.name}: Build ${buildId} already completed successfully on ${lastState.lastBuildDate}.`);
-                summary.push({ rule: rule.name, buildId: buildId, status: '✅ Up-to-date', details: `Built on ${lastState.lastBuildDate}` });
+            if (lastState && lastState.lastBuildId === build.id && lastState.status === 'success') {
+                console.log(`Skipping rule ${rule.name}: Build ${build.id} already completed successfully on ${lastState.lastBuildDate}.`);
+                summary.push({
+                    rule: rule.name,
+                    buildId: build.id,
+                    title: build.title,
+                    arch: build.arch,
+                    isoName: '-',
+                    duration: '0s',
+                    status: '✅ Up-to-date',
+                    details: `Built on ${new Date(lastState.lastBuildDate).toLocaleDateString()}`,
+                    ...configDetails
+                });
                 continue;
             }
 
-            console.log(`New build detected for ${rule.name} (New: ${buildId}, Old: ${lastState?.lastBuildId || 'None'})`);
+            console.log(`New build detected for ${rule.name} (New: ${build.id}, Old: ${lastState?.lastBuildId || 'None'})`);
             hasWork = true;
 
             // Execute Build / 执行构建
-            await buildIso(buildId, rule);
+            const isoName = await buildIso(build.id, rule);
+            const duration = formatDuration(Date.now() - startTime);
 
             // Update State on Success / 成功后更新状态
             state[rule.name] = {
-                lastBuildId: buildId,
+                lastBuildId: build.id,
                 lastBuildDate: new Date().toISOString(),
                 status: 'success'
             };
             await saveState(state);
 
             console.log(`[SUCCESS] Rule ${rule.name} completed.`);
-            summary.push({ rule: rule.name, buildId: buildId, status: '🎉 Success', details: 'New ISO built' });
+            summary.push({
+                rule: rule.name,
+                buildId: build.id,
+                title: build.title,
+                arch: build.arch,
+                isoName: isoName,
+                duration: duration,
+                status: '🎉 Success',
+                details: 'New ISO built',
+                ...configDetails
+            });
 
         } catch (error: any) {
             console.error(`[FAILURE] Rule ${rule.name} failed:`, error);
-            summary.push({ rule: rule.name, buildId: 'Unknown', status: '❌ Failed', details: error.message });
+            const duration = formatDuration(Date.now() - startTime);
+            summary.push({
+                rule: rule.name,
+                buildId: 'Unknown',
+                title: 'Error',
+                arch: rule.arch,
+                isoName: '-',
+                duration: duration,
+                status: '❌ Failed',
+                details: error.message,
+                ...configDetails
+            });
         }
     }
 
@@ -91,9 +164,31 @@ async function main() {
     if (process.env.GITHUB_STEP_SUMMARY) {
         const summaryTable = [
             '### 🏗️ Build Summary / 构建摘要',
-            '| Rule / 规则 | Build ID | Status / 状态 | Details / 详情 |',
-            '|---|---|---|---|',
-            ...summary.map(s => `| ${s.rule} | \`${s.buildId}\` | ${s.status} | ${s.details} |`)
+            '| Rule / 规则 | Configuration / 配置 | Build Info / 构建信息 | Result / 结果 | Status / 状态 |',
+            '|---|---|---|---|---|',
+            ...summary.map(s => {
+                const config = [
+                    `**Lang:** \`${s.language}\``,
+                    `**Arch:** \`${s.arch}\``,
+                    `**Editions:** ${s.editions}`,
+                    `**Virtual:** ${s.virtualEditions}`,
+                    `**Opt:** ${s.options}`
+                ].join('<br/>');
+
+                // Fallback for N/A title
+                const displayTitle = s.title !== 'N/A' ? s.title : 'No Build Found';
+                const displayId = s.buildId !== 'N/A' ? `\`${s.buildId}\`` : '';
+
+                const buildInfo = s.buildId !== 'N/A'
+                    ? `**${displayTitle}**<br/>ID: ${displayId}`
+                    : '-';
+
+                const result = s.isoName !== '-'
+                    ? `\`${s.isoName}\`<br/>⏰ ${s.duration}`
+                    : '-';
+
+                return `| **${s.rule}** | ${config} | ${buildInfo} | ${result} | ${s.status}<br/>${s.details} |`;
+            })
         ].join('\n');
 
         await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, summaryTable + '\n\n');
