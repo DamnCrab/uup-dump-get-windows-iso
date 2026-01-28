@@ -6,8 +6,38 @@ on:
   workflow_dispatch: # Allow manual trigger
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          npm install -g pnpm
+          cd builder
+          pnpm install
+
+      - name: Generate Build Matrix
+        id: set-matrix
+        run: |
+          cd builder
+          echo "matrix=$(npx tsx src/auto_build.ts --list-rules)" >> $GITHUB_OUTPUT
+
   build:
+    needs: setup
     runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        rule: ${{ fromJson(needs.setup.outputs.matrix) }}
     
     steps:
     - name: Checkout Code
@@ -33,11 +63,12 @@ jobs:
     - name: Run Auto Builder
       run: |
         cd builder
-        npm start
+        npm start -- --rule "${{ matrix.rule }}"
 
     - name: Upload ISO Artifacts
+      if: success()
       uses: actions/upload-artifact@v4
       with:
-        name: Windows-ISOs
+        name: Windows-ISO-${{ matrix.rule }}
         path: builder/output/*.ISO
         retention-days: 5

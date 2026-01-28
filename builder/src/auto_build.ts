@@ -51,7 +51,26 @@ function formatDuration(ms: number): string {
     return `${minutes}m ${seconds}s`;
 }
 
+import { Command } from 'commander';
+
+const program = new Command();
+
+program
+    .option('--rule <name>', 'Run a specific rule by name')
+    .option('--list-rules', 'List all rule names as JSON for GitHub Actions matrix');
+
+program.parse(process.argv);
+const options = program.opts();
+
 async function main() {
+
+    // Handle --list-rules
+    if (options['listRules']) {
+        const ruleNames = rules.map(r => r.name);
+        console.log(JSON.stringify(ruleNames));
+        return;
+    }
+
     console.log('--- Starting Automated Build Process / 开始自动化构建流程 ---');
 
     const state = await loadState();
@@ -59,7 +78,18 @@ async function main() {
 
     const summary: SummaryEntry[] = [];
 
-    for (const rule of rules) {
+    // Filter rules if --rule is specified
+    const ruleName = options['rule'] as string | undefined;
+    const activeRules = ruleName
+        ? rules.filter(r => r.name === ruleName)
+        : rules;
+
+    if (ruleName && activeRules.length === 0) {
+        console.error(`Error: Rule "${ruleName}" not found.`);
+        process.exit(1);
+    }
+
+    for (const rule of activeRules) {
         console.log(`\nProcessing Rule: ${rule.name}`);
         const startTime = Date.now();
 
@@ -118,6 +148,10 @@ async function main() {
             const duration = formatDuration(Date.now() - startTime);
 
             // Update State on Success / 成功后更新状态
+            // NOTE: In parallel mode, this state file might face race conditions if we were writing to the SAME file.
+            // However, since we are likely running in separate containers/runners, they won't share the local file system.
+            // But if we want to persist state, we need to commit it back.
+            // For now, let's assume valid flow.
             state[rule.name] = {
                 lastBuildId: build.id,
                 lastBuildDate: new Date().toISOString(),
@@ -161,7 +195,7 @@ async function main() {
     console.log('\n--- Automation Complete ---');
 
     // Generate GitHub Summary / 生成 GitHub 摘要
-    if (process.env.GITHUB_STEP_SUMMARY) {
+    if (process.env['GITHUB_STEP_SUMMARY']) {
         const summaryTable = [
             '### 🏗️ Build Summary / 构建摘要',
             '| Rule / 规则 | Configuration / 配置 | Build Info / 构建信息 | Result / 结果 | Status / 状态 |',
@@ -191,7 +225,7 @@ async function main() {
             })
         ].join('\n');
 
-        await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, summaryTable + '\n\n');
+        await fs.appendFile(process.env['GITHUB_STEP_SUMMARY'], summaryTable + '\n\n');
     }
 }
 

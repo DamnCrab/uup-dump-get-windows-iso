@@ -87,7 +87,7 @@ export async function buildIso(buildId: string, rule: BuildRule): Promise<string
 
         // Modify script to remove pauses / 修改脚本移除暂停
         let content = await fs.readFile(scriptPath, 'utf8');
-        content = content.replace(/^pause/gim, ':: pause')
+        content = content.replace(/^\s*pause\b/gim, ':: pause')
             .replace(/@pause/gim, ':: @pause');
 
         // Ensure aria2c has retry parameters / 确保 aria2c 有重试参数
@@ -100,6 +100,15 @@ export async function buildIso(buildId: string, rule: BuildRule): Promise<string
         content = content.replace(/%SystemRoot%\\System32\\WindowsPowerShell\\v1\.0\\powershell\.exe/gi, 'pwsh');
         content = content.replace(/powershell\.exe/gi, 'pwsh');
         content = content.replace(/\bpowershell\b/gi, 'pwsh');
+
+        // Prevent "Press 0 or q to exit" loop / 防止“按 0 或 q 退出”循环
+        // Remove 'set /p' commands that might wait for input
+        // 移除可能等待输入的 'set /p' 命令
+        content = content.replace(/^\s*set\s+\/p\s+.*$/gim, ':: $&');
+
+        // Append exit command to ensure script terminates
+        // 追加退出命令以确保脚本终止
+        content += '\r\nexit 0\r\n';
 
         await fs.writeFile(scriptPath, content);
         console.log('Script patched for automation (and forced pwsh).');
