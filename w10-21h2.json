@@ -1,0 +1,2676 @@
+{
+  "category": "w10-21h2",
+  "url": "https://uupdump.net/known.php?q=category:w10-21h2",
+  "name": "21H2",
+  "parentName": "Windows 10",
+  "pages": 8,
+  "versions": [
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.6812) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=24e0ae70-6487-4cfe-9019-c165b561ca7e",
+      "arch": "x64",
+      "addedAt": "2026-01-26 13:00:33 UTC",
+      "id": "24e0ae70-6487-4cfe-9019-c165b561ca7e"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.6811) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d18bc97c-a871-4c8a-86df-991ee9d8e3dc",
+      "arch": "x64",
+      "addedAt": "2026-01-20 13:00:26 UTC",
+      "id": "d18bc97c-a871-4c8a-86df-991ee9d8e3dc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6809) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b9c2ee3d-2310-427c-a386-7c04caa66e65",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:01:27 UTC",
+      "id": "b9c2ee3d-2310-427c-a386-7c04caa66e65"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6809) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2e78f54c-deea-45ee-a164-f44588abcd9a",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 18:01:26 UTC",
+      "id": "2e78f54c-deea-45ee-a164-f44588abcd9a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6809) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ec781577-0ff4-4a01-bcd8-6376492f5929",
+      "arch": "x86",
+      "addedAt": "2026-01-13 18:01:27 UTC",
+      "id": "ec781577-0ff4-4a01-bcd8-6376492f5929"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.6693) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bdfc98d8-d2f5-4b1c-b75c-bb37c15ccbb6",
+      "arch": "x64",
+      "addedAt": "2025-12-19 13:00:26 UTC",
+      "id": "bdfc98d8-d2f5-4b1c-b75c-bb37c15ccbb6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6693) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=00faef79-4588-4ede-bd14-2e563d528628",
+      "arch": "x64",
+      "addedAt": "2025-12-23 20:27:54 UTC",
+      "id": "00faef79-4588-4ede-bd14-2e563d528628"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6693) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b00fa703-fc4a-414e-85f2-1bcbb3c73513",
+      "arch": "x86",
+      "addedAt": "2026-01-16 08:40:49 UTC",
+      "id": "b00fa703-fc4a-414e-85f2-1bcbb3c73513"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6691) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5d19c7c8-5545-4c39-8a38-6b60154097c8",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:01:04 UTC",
+      "id": "5d19c7c8-5545-4c39-8a38-6b60154097c8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6691) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a36c1569-8490-4a8b-b613-ba5828e4b228",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 18:01:05 UTC",
+      "id": "a36c1569-8490-4a8b-b613-ba5828e4b228"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6691) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b13ef660-1639-4a04-ad66-65a06d48b575",
+      "arch": "x86",
+      "addedAt": "2025-12-09 18:01:05 UTC",
+      "id": "b13ef660-1639-4a04-ad66-65a06d48b575"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6575) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1f41c0e5-e142-4636-ba48-e333cf9f14dc",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:16:10 UTC",
+      "id": "1f41c0e5-e142-4636-ba48-e333cf9f14dc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6575) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3096f983-6651-4cee-9ef5-d6a416cc39d0",
+      "arch": "arm64",
+      "addedAt": "2025-11-11 18:16:11 UTC",
+      "id": "3096f983-6651-4cee-9ef5-d6a416cc39d0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6575) x86",
+      "href": "https://uupdump.net/selectlang.php?id=75396fe4-e86b-465d-b1e2-e31b76ed6616",
+      "arch": "x86",
+      "addedAt": "2025-11-11 18:16:11 UTC",
+      "id": "75396fe4-e86b-465d-b1e2-e31b76ed6616"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6456) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5be8825e-0ca7-4697-90f8-70c7cfa32bb7",
+      "arch": "x64",
+      "addedAt": "2025-10-14 17:01:50 UTC",
+      "id": "5be8825e-0ca7-4697-90f8-70c7cfa32bb7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6456) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=bd00e8f4-5d43-46fc-a8a4-9d6a5f9a4439",
+      "arch": "arm64",
+      "addedAt": "2025-10-14 17:01:48 UTC",
+      "id": "bd00e8f4-5d43-46fc-a8a4-9d6a5f9a4439"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6456) x86",
+      "href": "https://uupdump.net/selectlang.php?id=65ab7f80-389e-4842-8732-2088e6a4e1b1",
+      "arch": "x86",
+      "addedAt": "2025-10-14 17:01:51 UTC",
+      "id": "65ab7f80-389e-4842-8732-2088e6a4e1b1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6332) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1ded0966-80fc-446b-a117-dc74ac450d73",
+      "arch": "x64",
+      "addedAt": "2025-09-09 17:01:34 UTC",
+      "id": "1ded0966-80fc-446b-a117-dc74ac450d73"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6332) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=08071f28-dd5e-4834-9c21-0e50b90f4559",
+      "arch": "arm64",
+      "addedAt": "2025-09-09 17:01:34 UTC",
+      "id": "08071f28-dd5e-4834-9c21-0e50b90f4559"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6332) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0bee0f95-98a5-42bf-a175-de7cf646a62d",
+      "arch": "x86",
+      "addedAt": "2025-09-09 17:01:32 UTC",
+      "id": "0bee0f95-98a5-42bf-a175-de7cf646a62d"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.6218) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dd9a0946-558a-49fe-91c9-f2822f73cf2e",
+      "arch": "x64",
+      "addedAt": "2025-08-20 07:00:36 UTC",
+      "id": "dd9a0946-558a-49fe-91c9-f2822f73cf2e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6218) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0146f3ec-b4ee-41a6-b81f-6bc2d9ed0aeb",
+      "arch": "x64",
+      "addedAt": "2025-08-19 23:27:12 UTC",
+      "id": "0146f3ec-b4ee-41a6-b81f-6bc2d9ed0aeb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6218) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3b32a494-20f8-4239-80dc-9bb0310ea07f",
+      "arch": "arm64",
+      "addedAt": "2025-08-19 23:26:58 UTC",
+      "id": "3b32a494-20f8-4239-80dc-9bb0310ea07f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6218) x86",
+      "href": "https://uupdump.net/selectlang.php?id=7b394d3c-7cb8-479c-9092-e472b74eb0a1",
+      "arch": "x86",
+      "addedAt": "2025-08-19 23:26:46 UTC",
+      "id": "7b394d3c-7cb8-479c-9092-e472b74eb0a1"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.6216) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=08c36d8e-bb81-4f1b-8456-b28b0e4bde04",
+      "arch": "x64",
+      "addedAt": "2025-08-16 00:30:49 UTC",
+      "id": "08c36d8e-bb81-4f1b-8456-b28b0e4bde04"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6216) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=18874073-e477-49c4-b656-5c0fc7c33f2b",
+      "arch": "x64",
+      "addedAt": "2025-08-12 17:01:14 UTC",
+      "id": "18874073-e477-49c4-b656-5c0fc7c33f2b"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.6216) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dc87c445-10e1-4637-aa36-c2a2546a4d7c",
+      "arch": "arm64",
+      "addedAt": "2025-08-16 00:30:50 UTC",
+      "id": "dc87c445-10e1-4637-aa36-c2a2546a4d7c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6216) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cc0b54a1-b6f9-4aea-9fec-501afed0dad7",
+      "arch": "arm64",
+      "addedAt": "2025-08-12 17:01:13 UTC",
+      "id": "cc0b54a1-b6f9-4aea-9fec-501afed0dad7"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.6216) x86",
+      "href": "https://uupdump.net/selectlang.php?id=949f8086-d7e6-4c43-8bc3-f94bce61e462",
+      "arch": "x86",
+      "addedAt": "2025-08-16 00:30:50 UTC",
+      "id": "949f8086-d7e6-4c43-8bc3-f94bce61e462"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6216) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b9013723-ae55-401e-b8b0-a6719a39597b",
+      "arch": "x86",
+      "addedAt": "2025-08-12 17:01:13 UTC",
+      "id": "b9013723-ae55-401e-b8b0-a6719a39597b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6093) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b19c0b13-d45e-4f2d-8696-db69db48fc82",
+      "arch": "x64",
+      "addedAt": "2025-07-08 17:01:42 UTC",
+      "id": "b19c0b13-d45e-4f2d-8696-db69db48fc82"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6093) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e2185916-4fff-4149-ad77-f2fbe4cd0aac",
+      "arch": "arm64",
+      "addedAt": "2025-07-08 17:01:41 UTC",
+      "id": "e2185916-4fff-4149-ad77-f2fbe4cd0aac"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.6093) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e1794b22-e7d7-426e-9180-20c23e92912f",
+      "arch": "x86",
+      "addedAt": "2025-07-08 17:01:43 UTC",
+      "id": "e1794b22-e7d7-426e-9180-20c23e92912f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5965) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=58a797df-a266-45be-a9ef-1b4856e562b9",
+      "arch": "x64",
+      "addedAt": "2025-06-10 17:02:09 UTC",
+      "id": "58a797df-a266-45be-a9ef-1b4856e562b9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5965) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1e01a2fe-3e6b-4e53-bc20-9072639c76d9",
+      "arch": "arm64",
+      "addedAt": "2025-06-10 17:02:10 UTC",
+      "id": "1e01a2fe-3e6b-4e53-bc20-9072639c76d9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5965) x86",
+      "href": "https://uupdump.net/selectlang.php?id=19daee59-2928-454d-9102-05536b421d42",
+      "arch": "x86",
+      "addedAt": "2025-06-10 17:02:09 UTC",
+      "id": "19daee59-2928-454d-9102-05536b421d42"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5859) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ea4d5cd2-56f1-4bdd-ae0d-09a0b3ac2c18",
+      "arch": "x64",
+      "addedAt": "2025-05-27 22:28:38 UTC",
+      "id": "ea4d5cd2-56f1-4bdd-ae0d-09a0b3ac2c18"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5859) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=58bc67be-b6c5-4942-8364-719ff4dd5f87",
+      "arch": "arm64",
+      "addedAt": "2025-05-27 22:28:17 UTC",
+      "id": "58bc67be-b6c5-4942-8364-719ff4dd5f87"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5859) x86",
+      "href": "https://uupdump.net/selectlang.php?id=aea13a5d-2a0c-4574-aa9b-c17b11f395da",
+      "arch": "x86",
+      "addedAt": "2025-05-27 22:28:50 UTC",
+      "id": "aea13a5d-2a0c-4574-aa9b-c17b11f395da"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.5856) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=03c50f72-ecc1-4806-a300-4a7ed58273d3",
+      "arch": "x64",
+      "addedAt": "2025-05-26 10:58:42 UTC",
+      "id": "03c50f72-ecc1-4806-a300-4a7ed58273d3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5854) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4ef6df23-de64-4bfa-9a43-6446e930f4d5",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:02:09 UTC",
+      "id": "4ef6df23-de64-4bfa-9a43-6446e930f4d5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5854) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9972581d-c015-49e4-9f22-dfdd050f08aa",
+      "arch": "arm64",
+      "addedAt": "2025-05-13 17:02:10 UTC",
+      "id": "9972581d-c015-49e4-9f22-dfdd050f08aa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5854) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8fc2c753-d5fe-4d1c-b817-999983d0d6cc",
+      "arch": "x86",
+      "addedAt": "2025-05-13 17:02:09 UTC",
+      "id": "8fc2c753-d5fe-4d1c-b817-999983d0d6cc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5737) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f2f8210a-579a-48fa-905f-035dfe083567",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:01:32 UTC",
+      "id": "f2f8210a-579a-48fa-905f-035dfe083567"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5737) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a803dc7a-6937-4438-8c59-c86e04dcf35c",
+      "arch": "arm64",
+      "addedAt": "2025-04-08 17:01:30 UTC",
+      "id": "a803dc7a-6937-4438-8c59-c86e04dcf35c"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.5737) x86",
+      "href": "https://uupdump.net/selectlang.php?id=2295ff59-f314-454c-a927-0e1a6ef3fb8b",
+      "arch": "x86",
+      "addedAt": "2025-04-08 17:01:32 UTC",
+      "id": "2295ff59-f314-454c-a927-0e1a6ef3fb8b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5737) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b228a00e-6c4f-46ad-a98c-654c46cdf6d3",
+      "arch": "x86",
+      "addedAt": "2025-04-08 17:16:43 UTC",
+      "id": "b228a00e-6c4f-46ad-a98c-654c46cdf6d3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5608) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c0f05dc1-f91f-473f-bf94-30b609009b29",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:01:37 UTC",
+      "id": "c0f05dc1-f91f-473f-bf94-30b609009b29"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5608) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=78c04771-cde3-4d2a-9242-7c7c4619f5e3",
+      "arch": "arm64",
+      "addedAt": "2025-03-11 17:01:38 UTC",
+      "id": "78c04771-cde3-4d2a-9242-7c7c4619f5e3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5608) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ec1896ec-7484-4cbd-8faf-262a6d4e83db",
+      "arch": "x86",
+      "addedAt": "2025-03-11 17:01:38 UTC",
+      "id": "ec1896ec-7484-4cbd-8faf-262a6d4e83db"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5487) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d9fed5e5-8d27-4f53-a82e-23f384ee8d17",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:01:25 UTC",
+      "id": "d9fed5e5-8d27-4f53-a82e-23f384ee8d17"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5487) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=58523f08-159c-4ceb-948d-9a1890219ddc",
+      "arch": "arm64",
+      "addedAt": "2025-02-11 18:01:26 UTC",
+      "id": "58523f08-159c-4ceb-948d-9a1890219ddc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5487) x86",
+      "href": "https://uupdump.net/selectlang.php?id=737d489b-5651-43fe-8404-5ace32ce1ae1",
+      "arch": "x86",
+      "addedAt": "2025-02-11 18:01:25 UTC",
+      "id": "737d489b-5651-43fe-8404-5ace32ce1ae1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5371) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ecf16ad7-ebf4-422d-869a-191f29a9a64f",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:01:55 UTC",
+      "id": "ecf16ad7-ebf4-422d-869a-191f29a9a64f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5371) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6cdf5b56-507e-402f-bdce-f91f51552e09",
+      "arch": "arm64",
+      "addedAt": "2025-01-14 18:01:55 UTC",
+      "id": "6cdf5b56-507e-402f-bdce-f91f51552e09"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5371) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ba2c300a-853e-4a97-bbda-f8d264108420",
+      "arch": "x86",
+      "addedAt": "2025-01-14 18:01:53 UTC",
+      "id": "ba2c300a-853e-4a97-bbda-f8d264108420"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5247) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1aa81dc2-1a01-4fae-affa-dbbf4d53c07e",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:01:29 UTC",
+      "id": "1aa81dc2-1a01-4fae-affa-dbbf4d53c07e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5247) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=24bd7ccf-5c80-4a25-a316-dce59da8b06e",
+      "arch": "arm64",
+      "addedAt": "2024-12-10 18:01:30 UTC",
+      "id": "24bd7ccf-5c80-4a25-a316-dce59da8b06e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5247) x86",
+      "href": "https://uupdump.net/selectlang.php?id=80a3a6ec-3a33-432d-bb2c-19beae74e58e",
+      "arch": "x86",
+      "addedAt": "2024-12-10 18:01:31 UTC",
+      "id": "80a3a6ec-3a33-432d-bb2c-19beae74e58e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5131) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0955d4cf-c8ee-477f-becd-d72a5be2f98d",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:16:00 UTC",
+      "id": "0955d4cf-c8ee-477f-becd-d72a5be2f98d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5131) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=bb330be7-699e-4bca-a85a-71d14f596936",
+      "arch": "arm64",
+      "addedAt": "2024-11-12 18:16:00 UTC",
+      "id": "bb330be7-699e-4bca-a85a-71d14f596936"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5131) x86",
+      "href": "https://uupdump.net/selectlang.php?id=3ba7da8c-0e1f-4b49-b52c-b4a78dd21bd5",
+      "arch": "x86",
+      "addedAt": "2024-11-12 18:15:58 UTC",
+      "id": "3ba7da8c-0e1f-4b49-b52c-b4a78dd21bd5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5011) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f548dcf7-683b-42f6-828a-9f9d2ff146af",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:01:19 UTC",
+      "id": "f548dcf7-683b-42f6-828a-9f9d2ff146af"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5011) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dca8c1ab-fc64-4681-89b2-b6abb63a1e76",
+      "arch": "arm64",
+      "addedAt": "2024-10-08 17:01:20 UTC",
+      "id": "dca8c1ab-fc64-4681-89b2-b6abb63a1e76"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.5011) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6c4d3b77-0e39-4067-9063-0c455490f07c",
+      "arch": "x86",
+      "addedAt": "2024-10-08 17:01:19 UTC",
+      "id": "6c4d3b77-0e39-4067-9063-0c455490f07c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4894) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c598cdd6-8d6a-4fa1-8161-8e96e362b127",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:02:05 UTC",
+      "id": "c598cdd6-8d6a-4fa1-8161-8e96e362b127"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4894) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5e871991-e808-4814-81ef-c6045dded2fb",
+      "arch": "arm64",
+      "addedAt": "2024-09-10 17:02:06 UTC",
+      "id": "5e871991-e808-4814-81ef-c6045dded2fb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4894) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fa82ea51-04ac-4e3e-a487-70429b5d2bdb",
+      "arch": "x86",
+      "addedAt": "2024-09-10 17:02:06 UTC",
+      "id": "fa82ea51-04ac-4e3e-a487-70429b5d2bdb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4780) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=df27ee69-4463-4e72-86f2-123f60a893bf",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:01:40 UTC",
+      "id": "df27ee69-4463-4e72-86f2-123f60a893bf"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4780) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c764ace2-04eb-4ac9-b456-8d9f1cb47352",
+      "arch": "arm64",
+      "addedAt": "2024-08-13 17:01:40 UTC",
+      "id": "c764ace2-04eb-4ac9-b456-8d9f1cb47352"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4780) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fe0e6691-6dba-41d3-997d-ed86b8a0da45",
+      "arch": "x86",
+      "addedAt": "2024-08-13 17:01:41 UTC",
+      "id": "fe0e6691-6dba-41d3-997d-ed86b8a0da45"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4651) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=caa1b708-ef0f-438f-95ba-c5be9cb5b718",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:01:24 UTC",
+      "id": "caa1b708-ef0f-438f-95ba-c5be9cb5b718"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4651) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=641c331b-2cf0-4b9c-91ec-bf0a0b46e42b",
+      "arch": "arm64",
+      "addedAt": "2024-07-09 17:01:23 UTC",
+      "id": "641c331b-2cf0-4b9c-91ec-bf0a0b46e42b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4651) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5d4283bf-7d4d-4daa-a442-f623dfc29399",
+      "arch": "x86",
+      "addedAt": "2024-07-09 17:01:22 UTC",
+      "id": "5d4283bf-7d4d-4daa-a442-f623dfc29399"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4529) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a0f51b86-2ddf-40a9-8df4-870619b2ff1d",
+      "arch": "x64",
+      "addedAt": "2024-06-11 17:01:34 UTC",
+      "id": "a0f51b86-2ddf-40a9-8df4-870619b2ff1d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4529) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dd9683c4-8aad-4e6d-8f2a-577c98c747d2",
+      "arch": "arm64",
+      "addedAt": "2024-06-11 17:01:35 UTC",
+      "id": "dd9683c4-8aad-4e6d-8f2a-577c98c747d2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4529) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8720e797-7c02-442c-bb3c-a3110089b2b3",
+      "arch": "x86",
+      "addedAt": "2024-06-11 17:01:33 UTC",
+      "id": "8720e797-7c02-442c-bb3c-a3110089b2b3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4412) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3d2af73b-32b6-4bd7-b717-46da4ee719c1",
+      "arch": "x64",
+      "addedAt": "2024-05-14 17:01:28 UTC",
+      "id": "3d2af73b-32b6-4bd7-b717-46da4ee719c1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4412) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c62d3888-d27c-4765-a019-e5f0d6ec6502",
+      "arch": "arm64",
+      "addedAt": "2024-05-14 17:01:27 UTC",
+      "id": "c62d3888-d27c-4765-a019-e5f0d6ec6502"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4412) x86",
+      "href": "https://uupdump.net/selectlang.php?id=f3ec4067-0f96-441f-ae73-8d0d426ed964",
+      "arch": "x86",
+      "addedAt": "2024-05-14 17:01:27 UTC",
+      "id": "f3ec4067-0f96-441f-ae73-8d0d426ed964"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4291) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6660c956-c620-4de7-94b4-c11c4f99bc70",
+      "arch": "x64",
+      "addedAt": "2024-04-09 17:00:55 UTC",
+      "id": "6660c956-c620-4de7-94b4-c11c4f99bc70"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4291) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=aac16b99-d708-4cb1-8bb0-ccec55c23546",
+      "arch": "arm64",
+      "addedAt": "2024-04-09 17:00:54 UTC",
+      "id": "aac16b99-d708-4cb1-8bb0-ccec55c23546"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4291) x86",
+      "href": "https://uupdump.net/selectlang.php?id=54f16eae-97dd-4128-bbba-d79128853a40",
+      "arch": "x86",
+      "addedAt": "2024-04-09 17:00:55 UTC",
+      "id": "54f16eae-97dd-4128-bbba-d79128853a40"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4170) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=19d6f2f0-22a2-457d-b99a-4daf36e746c2",
+      "arch": "x64",
+      "addedAt": "2024-03-12 19:54:26 UTC",
+      "id": "19d6f2f0-22a2-457d-b99a-4daf36e746c2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4170) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=13d9679e-e8ef-4c16-8bfb-6f05d25fae7d",
+      "arch": "arm64",
+      "addedAt": "2024-03-12 19:54:24 UTC",
+      "id": "13d9679e-e8ef-4c16-8bfb-6f05d25fae7d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4170) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8735bcf9-1cc4-44ab-88ea-8f71df13c5dd",
+      "arch": "x86",
+      "addedAt": "2024-03-12 19:54:26 UTC",
+      "id": "8735bcf9-1cc4-44ab-88ea-8f71df13c5dd"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4046) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8f378cec-5123-4340-aca9-e94c446ed27d",
+      "arch": "x64",
+      "addedAt": "2024-02-13 18:01:10 UTC",
+      "id": "8f378cec-5123-4340-aca9-e94c446ed27d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4046) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=13e149d8-a697-4d15-af09-f45339fa1a80",
+      "arch": "arm64",
+      "addedAt": "2024-02-13 18:01:08 UTC",
+      "id": "13e149d8-a697-4d15-af09-f45339fa1a80"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.4046) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ad4fc001-5441-4761-8f4a-1a47350c398a",
+      "arch": "x86",
+      "addedAt": "2024-02-13 18:01:08 UTC",
+      "id": "ad4fc001-5441-4761-8f4a-1a47350c398a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3930) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6990cf1d-3de8-437b-b220-119e6fca515f",
+      "arch": "x64",
+      "addedAt": "2024-01-09 18:15:51 UTC",
+      "id": "6990cf1d-3de8-437b-b220-119e6fca515f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3930) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fdeb9485-bd86-47f0-a511-de3d64926da2",
+      "arch": "arm64",
+      "addedAt": "2024-01-09 18:15:50 UTC",
+      "id": "fdeb9485-bd86-47f0-a511-de3d64926da2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3930) x86",
+      "href": "https://uupdump.net/selectlang.php?id=cde96590-48a0-425a-beb3-c228d2cabb42",
+      "arch": "x86",
+      "addedAt": "2024-01-09 18:15:50 UTC",
+      "id": "cde96590-48a0-425a-beb3-c228d2cabb42"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3803) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=59c70753-8452-47e1-b825-ec2c888ff741",
+      "arch": "x64",
+      "addedAt": "2023-12-12 18:00:58 UTC",
+      "id": "59c70753-8452-47e1-b825-ec2c888ff741"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3803) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6aa51dc2-8acc-4a0c-80a0-31a036d96f59",
+      "arch": "arm64",
+      "addedAt": "2023-12-12 18:00:56 UTC",
+      "id": "6aa51dc2-8acc-4a0c-80a0-31a036d96f59"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3803) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8d09c516-e2b6-4deb-81b0-ef7de0acfa8b",
+      "arch": "x86",
+      "addedAt": "2023-12-12 18:00:58 UTC",
+      "id": "8d09c516-e2b6-4deb-81b0-ef7de0acfa8b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3693) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=13ed57f1-9e58-41e0-993c-481a6d7d4be9",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:02:21 UTC",
+      "id": "13ed57f1-9e58-41e0-993c-481a6d7d4be9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3693) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ef906c1a-f834-4f56-b524-f383e6dc032b",
+      "arch": "arm64",
+      "addedAt": "2023-11-14 18:02:19 UTC",
+      "id": "ef906c1a-f834-4f56-b524-f383e6dc032b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3693) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8d8763f7-09e7-497d-813e-10fa27e48f92",
+      "arch": "x86",
+      "addedAt": "2023-11-14 18:02:20 UTC",
+      "id": "8d8763f7-09e7-497d-813e-10fa27e48f92"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.3570) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b7150a3d-8cc5-4e1e-ad6d-7c1422bacc1d",
+      "arch": "x64",
+      "addedAt": "2023-10-26 11:05:28 UTC",
+      "id": "b7150a3d-8cc5-4e1e-ad6d-7c1422bacc1d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3570) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4d5e0561-ce66-4894-9433-fb1624e73190",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:08:15 UTC",
+      "id": "4d5e0561-ce66-4894-9433-fb1624e73190"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.3570) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=439866b5-eb7b-4b04-b53f-e6827ccac9a3",
+      "arch": "arm64",
+      "addedAt": "2023-10-26 15:08:20 UTC",
+      "id": "439866b5-eb7b-4b04-b53f-e6827ccac9a3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3570) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9f9c990f-a2ed-4989-8433-52fc0bf5b9d8",
+      "arch": "arm64",
+      "addedAt": "2023-10-10 17:08:15 UTC",
+      "id": "9f9c990f-a2ed-4989-8433-52fc0bf5b9d8"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.3570) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ee8db64f-a6db-479e-af42-ddaad2b68694",
+      "arch": "x86",
+      "addedAt": "2023-10-26 15:08:20 UTC",
+      "id": "ee8db64f-a6db-479e-af42-ddaad2b68694"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3570) x86",
+      "href": "https://uupdump.net/selectlang.php?id=427c43da-3ce5-4bb0-adff-a844d1ff8417",
+      "arch": "x86",
+      "addedAt": "2023-10-10 17:08:13 UTC",
+      "id": "427c43da-3ce5-4bb0-adff-a844d1ff8417"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3448) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=88d620e0-f66f-489f-8b8b-b41279f8684e",
+      "arch": "x64",
+      "addedAt": "2023-09-12 17:03:29 UTC",
+      "id": "88d620e0-f66f-489f-8b8b-b41279f8684e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3448) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=51c00ba7-fec1-4eb7-9170-ce5fe774156e",
+      "arch": "arm64",
+      "addedAt": "2023-09-12 17:03:30 UTC",
+      "id": "51c00ba7-fec1-4eb7-9170-ce5fe774156e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3448) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a4fce3c2-ebe2-4643-850f-58ab03fe9b64",
+      "arch": "x86",
+      "addedAt": "2023-09-12 17:03:30 UTC",
+      "id": "a4fce3c2-ebe2-4643-850f-58ab03fe9b64"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.3324) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fc019751-31de-45c1-b0ca-4af1e3a3d7be",
+      "arch": "x64",
+      "addedAt": "2023-08-08 17:07:03 UTC",
+      "id": "fc019751-31de-45c1-b0ca-4af1e3a3d7be"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3324) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f29484a9-6de5-4dcd-80d4-4677498412db",
+      "arch": "x64",
+      "addedAt": "2023-08-08 18:32:40 UTC",
+      "id": "f29484a9-6de5-4dcd-80d4-4677498412db"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3324) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f1606d43-77dc-4b23-809f-3014315b465d",
+      "arch": "arm64",
+      "addedAt": "2023-08-08 18:32:39 UTC",
+      "id": "f1606d43-77dc-4b23-809f-3014315b465d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3324) x86",
+      "href": "https://uupdump.net/selectlang.php?id=dfb804e7-bb24-41dd-9db2-931203293d46",
+      "arch": "x86",
+      "addedAt": "2023-08-08 18:32:39 UTC",
+      "id": "dfb804e7-bb24-41dd-9db2-931203293d46"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.3208) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a1d796f1-7743-4b28-8f0f-bed043709d76",
+      "arch": "x64",
+      "addedAt": "2023-07-13 22:03:31 UTC",
+      "id": "a1d796f1-7743-4b28-8f0f-bed043709d76"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3208) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1b786802-e70f-4c24-891c-4766e1912ce2",
+      "arch": "x64",
+      "addedAt": "2023-07-12 08:17:46 UTC",
+      "id": "1b786802-e70f-4c24-891c-4766e1912ce2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3208) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6ee667d7-81bc-4972-977c-09241d5c62f0",
+      "arch": "arm64",
+      "addedAt": "2023-07-12 08:17:47 UTC",
+      "id": "6ee667d7-81bc-4972-977c-09241d5c62f0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3208) x86",
+      "href": "https://uupdump.net/selectlang.php?id=f333dbeb-1ef5-4661-a413-76f0d2e7a432",
+      "arch": "x86",
+      "addedAt": "2023-07-12 08:17:47 UTC",
+      "id": "f333dbeb-1ef5-4661-a413-76f0d2e7a432"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3086) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=787f94a1-0c6f-4df3-a964-ec5cf0ace004",
+      "arch": "x64",
+      "addedAt": "2023-06-14 10:41:40 UTC",
+      "id": "787f94a1-0c6f-4df3-a964-ec5cf0ace004"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3086) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=aa6f3dc2-f008-4a05-9d8b-270d15b3fb08",
+      "arch": "arm64",
+      "addedAt": "2023-06-14 10:41:40 UTC",
+      "id": "aa6f3dc2-f008-4a05-9d8b-270d15b3fb08"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.3086) x86",
+      "href": "https://uupdump.net/selectlang.php?id=36587bb7-4289-444e-8391-021d813f6b7d",
+      "arch": "x86",
+      "addedAt": "2023-06-14 10:41:38 UTC",
+      "id": "36587bb7-4289-444e-8391-021d813f6b7d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2965) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6b0e3a35-a126-4176-8602-2f9c515aba3f",
+      "arch": "x64",
+      "addedAt": "2023-05-09 17:02:45 UTC",
+      "id": "6b0e3a35-a126-4176-8602-2f9c515aba3f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2965) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=54ccded9-aa93-44cb-9ad1-71100f587a0e",
+      "arch": "arm64",
+      "addedAt": "2023-05-09 17:02:45 UTC",
+      "id": "54ccded9-aa93-44cb-9ad1-71100f587a0e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2965) x86",
+      "href": "https://uupdump.net/selectlang.php?id=630d819c-1aa3-48e3-9c34-fc2486c8ec3f",
+      "arch": "x86",
+      "addedAt": "2023-05-09 17:02:46 UTC",
+      "id": "630d819c-1aa3-48e3-9c34-fc2486c8ec3f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2846) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d12f36d1-0a2b-4612-a8e2-7e83537b1ab5",
+      "arch": "x64",
+      "addedAt": "2023-04-11 20:59:44 UTC",
+      "id": "d12f36d1-0a2b-4612-a8e2-7e83537b1ab5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2846) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a155c920-7899-4a76-8538-e4c14dacdcc2",
+      "arch": "arm64",
+      "addedAt": "2023-04-11 20:59:44 UTC",
+      "id": "a155c920-7899-4a76-8538-e4c14dacdcc2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2846) x86",
+      "href": "https://uupdump.net/selectlang.php?id=f2340fb4-2d57-4da4-b638-cc95ed156be0",
+      "arch": "x86",
+      "addedAt": "2023-04-11 20:59:43 UTC",
+      "id": "f2340fb4-2d57-4da4-b638-cc95ed156be0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2788) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=957cd04e-4e29-48f2-a582-710867c22b4a",
+      "arch": "x64",
+      "addedAt": "2023-03-21 21:09:42 UTC",
+      "id": "957cd04e-4e29-48f2-a582-710867c22b4a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2788) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=016d0bd2-ebb0-40ee-8ffe-35416f73c445",
+      "arch": "arm64",
+      "addedAt": "2023-03-21 21:09:38 UTC",
+      "id": "016d0bd2-ebb0-40ee-8ffe-35416f73c445"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2788) x86",
+      "href": "https://uupdump.net/selectlang.php?id=194cf4e0-be0c-4a4d-85eb-bb7b3ec5339a",
+      "arch": "x86",
+      "addedAt": "2023-03-21 21:09:42 UTC",
+      "id": "194cf4e0-be0c-4a4d-85eb-bb7b3ec5339a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=82cec21a-7169-49c4-8f5f-9c76b29c36ed",
+      "arch": "x64",
+      "addedAt": "2023-03-16 21:11:26 UTC",
+      "id": "82cec21a-7169-49c4-8f5f-9c76b29c36ed"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2787) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0d9e993d-95b7-4901-895a-e9dbc7f48528",
+      "arch": "arm64",
+      "addedAt": "2023-03-16 21:11:23 UTC",
+      "id": "0d9e993d-95b7-4901-895a-e9dbc7f48528"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2787) x86",
+      "href": "https://uupdump.net/selectlang.php?id=77f34146-e8fc-40e8-a76e-f007ca365179",
+      "arch": "x86",
+      "addedAt": "2023-03-16 21:11:24 UTC",
+      "id": "77f34146-e8fc-40e8-a76e-f007ca365179"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2728) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=58826b60-8047-4d55-bd41-34f4e9fe762f",
+      "arch": "x64",
+      "addedAt": "2023-03-14 17:10:56 UTC",
+      "id": "58826b60-8047-4d55-bd41-34f4e9fe762f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2728) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d8b64e52-0deb-44f6-923d-0356f9cb6989",
+      "arch": "arm64",
+      "addedAt": "2023-03-14 17:10:52 UTC",
+      "id": "d8b64e52-0deb-44f6-923d-0356f9cb6989"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2728) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ecf9faa5-9cf5-4f0f-89b7-18ccca6e099e",
+      "arch": "x86",
+      "addedAt": "2023-03-14 17:10:55 UTC",
+      "id": "ecf9faa5-9cf5-4f0f-89b7-18ccca6e099e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2673) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=19e3ee98-4573-4e82-a004-b6172b70f3d8",
+      "arch": "x64",
+      "addedAt": "2023-02-21 22:26:45 UTC",
+      "id": "19e3ee98-4573-4e82-a004-b6172b70f3d8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2673) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e663f395-bc4c-4ba1-be3a-b2ecdf9f1fd7",
+      "arch": "x64",
+      "addedAt": "2023-02-22 07:12:41 UTC",
+      "id": "e663f395-bc4c-4ba1-be3a-b2ecdf9f1fd7"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2673) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=86879390-1c05-4206-af05-b7e465a8a945",
+      "arch": "arm64",
+      "addedAt": "2023-02-22 11:04:17 UTC",
+      "id": "86879390-1c05-4206-af05-b7e465a8a945"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2673) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=18155762-af17-4c96-80b1-cf5b27167a8c",
+      "arch": "arm64",
+      "addedAt": "2023-02-22 11:03:14 UTC",
+      "id": "18155762-af17-4c96-80b1-cf5b27167a8c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2673) x86",
+      "href": "https://uupdump.net/selectlang.php?id=83736086-c7b9-4230-8b29-64a1309800fb",
+      "arch": "x86",
+      "addedAt": "2023-02-27 04:58:38 UTC",
+      "id": "83736086-c7b9-4230-8b29-64a1309800fb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2673) x86",
+      "href": "https://uupdump.net/selectlang.php?id=205bc94e-8234-42f9-9488-5b0e9cd1abb2",
+      "arch": "x86",
+      "addedAt": "2023-02-23 02:36:55 UTC",
+      "id": "205bc94e-8234-42f9-9488-5b0e9cd1abb2"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2670) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=08e1ae97-6591-4ae5-bbae-70daee564c25",
+      "arch": "x64",
+      "addedAt": "2023-02-19 10:57:31 UTC",
+      "id": "08e1ae97-6591-4ae5-bbae-70daee564c25"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2670) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fb5a2831-7ecb-48cf-9d86-6af48e56722e",
+      "arch": "x64",
+      "addedAt": "2023-02-16 22:09:18 UTC",
+      "id": "fb5a2831-7ecb-48cf-9d86-6af48e56722e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2670) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0605bf12-c793-4134-8dc6-e80b5f0a2214",
+      "arch": "arm64",
+      "addedAt": "2023-02-21 13:33:07 UTC",
+      "id": "0605bf12-c793-4134-8dc6-e80b5f0a2214"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2670) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=663bc326-4ea1-444a-a8bf-76792390a5ab",
+      "arch": "arm64",
+      "addedAt": "2023-02-16 22:09:17 UTC",
+      "id": "663bc326-4ea1-444a-a8bf-76792390a5ab"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2670) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1991e6d2-0e13-4e72-8828-bd2ccc2cb6c7",
+      "arch": "x86",
+      "addedAt": "2023-02-16 22:09:16 UTC",
+      "id": "1991e6d2-0e13-4e72-8828-bd2ccc2cb6c7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2604) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e09baff9-84d1-4df3-8ea8-27e61f330bb4",
+      "arch": "x64",
+      "addedAt": "2023-02-14 18:12:36 UTC",
+      "id": "e09baff9-84d1-4df3-8ea8-27e61f330bb4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2604) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8503c609-99de-4d09-b10a-bd372a8f5bfa",
+      "arch": "arm64",
+      "addedAt": "2023-02-14 18:36:24 UTC",
+      "id": "8503c609-99de-4d09-b10a-bd372a8f5bfa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2604) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8a3b3a11-0794-4193-a3b2-c298c8fe4057",
+      "arch": "x86",
+      "addedAt": "2023-02-14 18:36:24 UTC",
+      "id": "8a3b3a11-0794-4193-a3b2-c298c8fe4057"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2546) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3eb31ea7-d72b-45f1-aa2f-98303c545706",
+      "arch": "x64",
+      "addedAt": "2023-01-20 15:44:50 UTC",
+      "id": "3eb31ea7-d72b-45f1-aa2f-98303c545706"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2546) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7b878347-a1f0-4acc-b65a-f288339788fc",
+      "arch": "x64",
+      "addedAt": "2023-01-20 04:53:07 UTC",
+      "id": "7b878347-a1f0-4acc-b65a-f288339788fc"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2546) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7bbd5707-f2e6-4319-acaa-a5015ed4566c",
+      "arch": "arm64",
+      "addedAt": "2023-02-10 22:02:09 UTC",
+      "id": "7bbd5707-f2e6-4319-acaa-a5015ed4566c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2546) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5fa47032-2086-4167-b2b0-013838d8ae8c",
+      "arch": "arm64",
+      "addedAt": "2023-01-20 04:53:10 UTC",
+      "id": "5fa47032-2086-4167-b2b0-013838d8ae8c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2546) x86",
+      "href": "https://uupdump.net/selectlang.php?id=735626fa-b40b-4b54-a241-1422c3145ea5",
+      "arch": "x86",
+      "addedAt": "2023-01-20 04:53:08 UTC",
+      "id": "735626fa-b40b-4b54-a241-1422c3145ea5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2545) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b70f45b1-ec4b-4d4d-b83d-b0c7f84df144",
+      "arch": "x64",
+      "addedAt": "2023-01-12 22:02:23 UTC",
+      "id": "b70f45b1-ec4b-4d4d-b83d-b0c7f84df144"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2545) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c2c673ce-8a93-4a16-9a39-70193b977715",
+      "arch": "arm64",
+      "addedAt": "2023-01-13 18:15:04 UTC",
+      "id": "c2c673ce-8a93-4a16-9a39-70193b977715"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2545) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=432876ef-e689-4082-9674-8a999c7ee57a",
+      "arch": "arm64",
+      "addedAt": "2023-01-12 22:02:23 UTC",
+      "id": "432876ef-e689-4082-9674-8a999c7ee57a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2545) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6bcce867-cd35-4c42-8329-bfae7d12de83",
+      "arch": "x86",
+      "addedAt": "2023-01-12 22:02:24 UTC",
+      "id": "6bcce867-cd35-4c42-8329-bfae7d12de83"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2486) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=06d792a3-cfab-40fb-8f9b-ce5ceae49a71",
+      "arch": "x64",
+      "addedAt": "2023-01-11 08:25:28 UTC",
+      "id": "06d792a3-cfab-40fb-8f9b-ce5ceae49a71"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2486) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6c6b57cd-f19c-42d5-baea-713fea3942c8",
+      "arch": "arm64",
+      "addedAt": "2023-01-11 14:37:44 UTC",
+      "id": "6c6b57cd-f19c-42d5-baea-713fea3942c8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2486) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6c952690-e413-4f31-b07a-bead1b094dc9",
+      "arch": "x86",
+      "addedAt": "2023-01-11 14:40:09 UTC",
+      "id": "6c952690-e413-4f31-b07a-bead1b094dc9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2364) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3674b493-571a-4e96-839e-47eee110179c",
+      "arch": "x64",
+      "addedAt": "2022-12-19 16:58:56 UTC",
+      "id": "3674b493-571a-4e96-839e-47eee110179c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2364) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b02ef772-2f2a-4271-a711-5e04e345c429",
+      "arch": "arm64",
+      "addedAt": "2022-12-19 16:59:17 UTC",
+      "id": "b02ef772-2f2a-4271-a711-5e04e345c429"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2364) x86",
+      "href": "https://uupdump.net/selectlang.php?id=3f44de05-9072-4ce1-a908-ea52ca0970b1",
+      "arch": "x86",
+      "addedAt": "2022-12-19 16:59:06 UTC",
+      "id": "3f44de05-9072-4ce1-a908-ea52ca0970b1"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2311) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b855d2da-7349-4b6c-9310-74ea0ae86d08",
+      "arch": "x64",
+      "addedAt": "2022-11-15 19:14:17 UTC",
+      "id": "b855d2da-7349-4b6c-9310-74ea0ae86d08"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2311) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=50b80247-0699-4e40-a20f-194ce6bf56f2",
+      "arch": "x64",
+      "addedAt": "2022-11-15 18:03:11 UTC",
+      "id": "50b80247-0699-4e40-a20f-194ce6bf56f2"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2311) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=41a06e46-e30c-4cb9-91ef-e71e7495529e",
+      "arch": "arm64",
+      "addedAt": "2022-11-15 19:14:16 UTC",
+      "id": "41a06e46-e30c-4cb9-91ef-e71e7495529e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2311) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=774290db-bf56-4a27-8cb5-68661dbd0443",
+      "arch": "arm64",
+      "addedAt": "2022-11-15 18:03:50 UTC",
+      "id": "774290db-bf56-4a27-8cb5-68661dbd0443"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2311) x86",
+      "href": "https://uupdump.net/selectlang.php?id=02104619-501b-4bde-8fea-5c2013fdc5c5",
+      "arch": "x86",
+      "addedAt": "2022-11-15 19:14:15 UTC",
+      "id": "02104619-501b-4bde-8fea-5c2013fdc5c5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2311) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fa685cb1-2e59-486d-b2a8-eedf22be4556",
+      "arch": "x86",
+      "addedAt": "2022-11-15 18:03:36 UTC",
+      "id": "fa685cb1-2e59-486d-b2a8-eedf22be4556"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2251) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2314f880-3a62-4a87-856b-55e2e980ceda",
+      "arch": "x64",
+      "addedAt": "2022-11-08 18:00:22 UTC",
+      "id": "2314f880-3a62-4a87-856b-55e2e980ceda"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2251) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e4563d14-a6e6-4c54-919e-66afa4e22b59",
+      "arch": "arm64",
+      "addedAt": "2022-11-08 18:01:28 UTC",
+      "id": "e4563d14-a6e6-4c54-919e-66afa4e22b59"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2251) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b1dfd86a-4a85-4055-99e7-6f83d4376642",
+      "arch": "x86",
+      "addedAt": "2022-11-08 18:01:30 UTC",
+      "id": "b1dfd86a-4a85-4055-99e7-6f83d4376642"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.2194) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a6e58c9a-8d60-4851-a5c9-b9f4ecb98ddb",
+      "arch": "x64",
+      "addedAt": "2022-10-29 01:07:26 UTC",
+      "id": "a6e58c9a-8d60-4851-a5c9-b9f4ecb98ddb"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.2194) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=30a8b933-3e4a-4d6b-b0a7-ee59215305ff",
+      "arch": "arm64",
+      "addedAt": "2022-10-29 01:07:25 UTC",
+      "id": "30a8b933-3e4a-4d6b-b0a7-ee59215305ff"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.2194) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a71c6e28-09e3-46e5-9466-a9265da6d02e",
+      "arch": "x86",
+      "addedAt": "2022-10-29 01:07:25 UTC",
+      "id": "a71c6e28-09e3-46e5-9466-a9265da6d02e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2193) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e7791412-fada-4eca-b19b-df1a76475662",
+      "arch": "x64",
+      "addedAt": "2022-10-24 22:38:56 UTC",
+      "id": "e7791412-fada-4eca-b19b-df1a76475662"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2193) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=afd145b6-cb24-4c0c-ba19-2923f6635df0",
+      "arch": "x64",
+      "addedAt": "2022-10-24 22:06:44 UTC",
+      "id": "afd145b6-cb24-4c0c-ba19-2923f6635df0"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2193) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=49549704-999f-4091-9a55-f39276076c61",
+      "arch": "arm64",
+      "addedAt": "2022-10-24 22:39:21 UTC",
+      "id": "49549704-999f-4091-9a55-f39276076c61"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2193) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f47388e3-ea76-48d5-b8c6-691a0905ae1f",
+      "arch": "arm64",
+      "addedAt": "2022-10-24 22:07:58 UTC",
+      "id": "f47388e3-ea76-48d5-b8c6-691a0905ae1f"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2193) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b0c8a35a-ba64-43c7-bd1b-5489f4863a46",
+      "arch": "x86",
+      "addedAt": "2022-10-24 22:39:44 UTC",
+      "id": "b0c8a35a-ba64-43c7-bd1b-5489f4863a46"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2193) x86",
+      "href": "https://uupdump.net/selectlang.php?id=42f9f137-9fd8-4b53-ae58-74dc50f01f49",
+      "arch": "x86",
+      "addedAt": "2022-10-24 22:07:28 UTC",
+      "id": "42f9f137-9fd8-4b53-ae58-74dc50f01f49"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2192) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9ddafa1a-261c-4a97-9449-c9c603a325a0",
+      "arch": "x64",
+      "addedAt": "2022-10-18 23:13:22 UTC",
+      "id": "9ddafa1a-261c-4a97-9449-c9c603a325a0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2192) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b4f95874-6ce1-46d9-a042-90c36e598dec",
+      "arch": "arm64",
+      "addedAt": "2022-10-18 23:13:48 UTC",
+      "id": "b4f95874-6ce1-46d9-a042-90c36e598dec"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2192) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8f81617e-552c-41f5-825d-2b898e8deeb1",
+      "arch": "x86",
+      "addedAt": "2022-10-18 23:14:04 UTC",
+      "id": "8f81617e-552c-41f5-825d-2b898e8deeb1"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.2132) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=10dd81fc-9766-438e-ac1b-11d9ddf7da2f",
+      "arch": "x64",
+      "addedAt": "2022-10-18 00:57:49 UTC",
+      "id": "10dd81fc-9766-438e-ac1b-11d9ddf7da2f"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.2132) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a8f4590e-9d2d-431a-a4e9-f7d46cfb4cf4",
+      "arch": "arm64",
+      "addedAt": "2022-10-18 00:57:48 UTC",
+      "id": "a8f4590e-9d2d-431a-a4e9-f7d46cfb4cf4"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.2132) x86",
+      "href": "https://uupdump.net/selectlang.php?id=d767cbf3-9c02-43c7-8ddd-663dc1817353",
+      "arch": "x86",
+      "addedAt": "2022-10-18 00:57:48 UTC",
+      "id": "d767cbf3-9c02-43c7-8ddd-663dc1817353"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2130) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=20c74156-f8e4-4095-a75a-65139084ba0b",
+      "arch": "x64",
+      "addedAt": "2022-10-11 17:00:49 UTC",
+      "id": "20c74156-f8e4-4095-a75a-65139084ba0b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2130) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=40d2d146-a4b2-4e38-b9b9-22adf06ef1c2",
+      "arch": "arm64",
+      "addedAt": "2022-10-11 17:01:25 UTC",
+      "id": "40d2d146-a4b2-4e38-b9b9-22adf06ef1c2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2130) x86",
+      "href": "https://uupdump.net/selectlang.php?id=7d533c97-58ec-4493-8841-207aab36ed08",
+      "arch": "x86",
+      "addedAt": "2022-10-11 17:01:25 UTC",
+      "id": "7d533c97-58ec-4493-8841-207aab36ed08"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2075) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=43a7596e-ed74-4b65-bb75-08a08f8926ed",
+      "arch": "x64",
+      "addedAt": "2022-09-17 05:39:24 UTC",
+      "id": "43a7596e-ed74-4b65-bb75-08a08f8926ed"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2075) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a8eaeb9e-6de2-454c-8022-5b3fb5c8fce8",
+      "arch": "x64",
+      "addedAt": "2022-09-15 21:29:55 UTC",
+      "id": "a8eaeb9e-6de2-454c-8022-5b3fb5c8fce8"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2075) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=495264ce-ae66-4ff2-9a21-e1eab98035f4",
+      "arch": "arm64",
+      "addedAt": "2022-09-19 15:59:43 UTC",
+      "id": "495264ce-ae66-4ff2-9a21-e1eab98035f4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2075) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4e4900c4-5d9f-4276-98bc-27cd7e66ce4a",
+      "arch": "arm64",
+      "addedAt": "2022-09-15 21:29:54 UTC",
+      "id": "4e4900c4-5d9f-4276-98bc-27cd7e66ce4a"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.2075) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fce33380-5109-4f7d-8bff-083b60c75716",
+      "arch": "x86",
+      "addedAt": "2022-09-19 15:59:43 UTC",
+      "id": "fce33380-5109-4f7d-8bff-083b60c75716"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2075) x86",
+      "href": "https://uupdump.net/selectlang.php?id=04e76108-ab0d-45ff-baf1-32f7313c9f32",
+      "arch": "x86",
+      "addedAt": "2022-09-15 21:29:53 UTC",
+      "id": "04e76108-ab0d-45ff-baf1-32f7313c9f32"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2006) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cd33017e-ae97-46d3-907b-5482191489a2",
+      "arch": "x64",
+      "addedAt": "2022-09-13 17:01:12 UTC",
+      "id": "cd33017e-ae97-46d3-907b-5482191489a2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2006) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=654d2bff-5e9a-4563-b35e-7c5d9787f685",
+      "arch": "arm64",
+      "addedAt": "2022-09-13 17:01:11 UTC",
+      "id": "654d2bff-5e9a-4563-b35e-7c5d9787f685"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.2006) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a7b56c22-861f-48c1-9684-d1fe70b2b22a",
+      "arch": "x86",
+      "addedAt": "2022-09-13 17:01:10 UTC",
+      "id": "a7b56c22-861f-48c1-9684-d1fe70b2b22a"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1949) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f767306d-63b5-4b6e-8b0f-b830f106ca5c",
+      "arch": "x64",
+      "addedAt": "2022-08-26 22:25:38 UTC",
+      "id": "f767306d-63b5-4b6e-8b0f-b830f106ca5c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1949) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=89db66ac-6e28-41e7-8d7a-0dc8c9bf56a4",
+      "arch": "x64",
+      "addedAt": "2022-08-26 21:08:38 UTC",
+      "id": "89db66ac-6e28-41e7-8d7a-0dc8c9bf56a4"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1949) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fe119028-ccaf-4b74-9d55-48a2816361dc",
+      "arch": "arm64",
+      "addedAt": "2022-08-26 22:25:38 UTC",
+      "id": "fe119028-ccaf-4b74-9d55-48a2816361dc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1949) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=53304eba-fef3-47df-8eb1-5fd364c2cf7a",
+      "arch": "arm64",
+      "addedAt": "2022-08-26 21:08:39 UTC",
+      "id": "53304eba-fef3-47df-8eb1-5fd364c2cf7a"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1949) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4797f940-8e1b-4b09-a931-24656b3427f2",
+      "arch": "x86",
+      "addedAt": "2022-08-26 21:00:30 UTC",
+      "id": "4797f940-8e1b-4b09-a931-24656b3427f2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1949) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8a51b3d1-5fa8-4667-a36e-7afe9fd19186",
+      "arch": "x86",
+      "addedAt": "2022-08-26 21:08:37 UTC",
+      "id": "8a51b3d1-5fa8-4667-a36e-7afe9fd19186"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1947) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=042c00c9-742a-44a3-a21d-18d268cd3975",
+      "arch": "x64",
+      "addedAt": "2022-09-13 08:11:58 UTC",
+      "id": "042c00c9-742a-44a3-a21d-18d268cd3975"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1947) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=feae9ba0-7b4f-40d1-bf6a-453011acfab9",
+      "arch": "x64",
+      "addedAt": "2022-08-15 21:00:35 UTC",
+      "id": "feae9ba0-7b4f-40d1-bf6a-453011acfab9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1947) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f2a70294-4bbf-4f86-9ad4-6352ce42730d",
+      "arch": "arm64",
+      "addedAt": "2022-08-15 21:02:13 UTC",
+      "id": "f2a70294-4bbf-4f86-9ad4-6352ce42730d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1947) x86",
+      "href": "https://uupdump.net/selectlang.php?id=f4fb493c-bb80-4ec1-89c1-b7f060916efa",
+      "arch": "x86",
+      "addedAt": "2022-08-15 21:02:21 UTC",
+      "id": "f4fb493c-bb80-4ec1-89c1-b7f060916efa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1889) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fc82fd2a-9653-4437-92c1-e57554b2ff12",
+      "arch": "x64",
+      "addedAt": "2022-08-09 17:00:33 UTC",
+      "id": "fc82fd2a-9653-4437-92c1-e57554b2ff12"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1889) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a49c900b-cd20-458f-a9d8-cc1bf0afcb2a",
+      "arch": "arm64",
+      "addedAt": "2022-08-09 17:00:57 UTC",
+      "id": "a49c900b-cd20-458f-a9d8-cc1bf0afcb2a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1889) x86",
+      "href": "https://uupdump.net/selectlang.php?id=775f078d-2631-48f6-b911-fda1de943e38",
+      "arch": "x86",
+      "addedAt": "2022-08-09 17:03:41 UTC",
+      "id": "775f078d-2631-48f6-b911-fda1de943e38"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1865) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cd434284-acd5-4835-b186-b617c3459c3d",
+      "arch": "x64",
+      "addedAt": "2022-08-03 18:46:22 UTC",
+      "id": "cd434284-acd5-4835-b186-b617c3459c3d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1865) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3ba7c542-eed4-4fca-a9cb-2587d53ec522",
+      "arch": "x64",
+      "addedAt": "2022-07-26 21:01:25 UTC",
+      "id": "3ba7c542-eed4-4fca-a9cb-2587d53ec522"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1865) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d76cf81f-9fcd-4de5-ad87-1367700ec7ac",
+      "arch": "arm64",
+      "addedAt": "2022-08-03 20:05:33 UTC",
+      "id": "d76cf81f-9fcd-4de5-ad87-1367700ec7ac"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1865) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e81cb88f-352e-4e03-9558-219839d2b2e8",
+      "arch": "arm64",
+      "addedAt": "2022-07-26 21:01:27 UTC",
+      "id": "e81cb88f-352e-4e03-9558-219839d2b2e8"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1865) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4d54ad6f-37b9-4dd9-9c80-a18e063db74c",
+      "arch": "x86",
+      "addedAt": "2022-08-03 13:23:53 UTC",
+      "id": "4d54ad6f-37b9-4dd9-9c80-a18e063db74c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1865) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6d91ceb7-7b72-4724-a8e2-273851a171ef",
+      "arch": "x86",
+      "addedAt": "2022-07-26 21:01:25 UTC",
+      "id": "6d91ceb7-7b72-4724-a8e2-273851a171ef"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1862) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4009587d-164f-4964-b4f0-4f9de4c763b5",
+      "arch": "x64",
+      "addedAt": "2022-07-18 21:00:13 UTC",
+      "id": "4009587d-164f-4964-b4f0-4f9de4c763b5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1862) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=bd35c665-fe0a-484a-a17d-ecca975c2047",
+      "arch": "arm64",
+      "addedAt": "2022-07-18 21:00:12 UTC",
+      "id": "bd35c665-fe0a-484a-a17d-ecca975c2047"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1862) x86",
+      "href": "https://uupdump.net/selectlang.php?id=de9a64be-95b2-480b-aa43-f154bd39f4c0",
+      "arch": "x86",
+      "addedAt": "2022-07-18 21:01:00 UTC",
+      "id": "de9a64be-95b2-480b-aa43-f154bd39f4c0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1826) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8f39a272-4f37-4f3e-b191-f91c08b50807",
+      "arch": "x64",
+      "addedAt": "2022-07-12 17:00:24 UTC",
+      "id": "8f39a272-4f37-4f3e-b191-f91c08b50807"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1826) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9b93d97b-a3c1-429f-932f-a6bd0e978e8e",
+      "arch": "arm64",
+      "addedAt": "2022-07-12 17:02:27 UTC",
+      "id": "9b93d97b-a3c1-429f-932f-a6bd0e978e8e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1826) x86",
+      "href": "https://uupdump.net/selectlang.php?id=d0ce293a-3106-479f-95fe-529315124bc9",
+      "arch": "x86",
+      "addedAt": "2022-07-12 17:00:18 UTC",
+      "id": "d0ce293a-3106-479f-95fe-529315124bc9"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1806) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c77e8555-093b-4ddb-a08e-0fb640965246",
+      "arch": "x64",
+      "addedAt": "2022-06-28 21:03:05 UTC",
+      "id": "c77e8555-093b-4ddb-a08e-0fb640965246"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1806) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=abb3603c-defd-4385-ac3e-a7fb0ef589e4",
+      "arch": "x64",
+      "addedAt": "2022-06-23 21:01:40 UTC",
+      "id": "abb3603c-defd-4385-ac3e-a7fb0ef589e4"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1806) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fbaaaec2-c6d6-4174-9600-c7f735a73f85",
+      "arch": "arm64",
+      "addedAt": "2022-06-28 21:03:15 UTC",
+      "id": "fbaaaec2-c6d6-4174-9600-c7f735a73f85"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1806) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=26bd69e1-3ed6-4116-b7c8-f5dea4806fe6",
+      "arch": "arm64",
+      "addedAt": "2022-06-23 21:00:12 UTC",
+      "id": "26bd69e1-3ed6-4116-b7c8-f5dea4806fe6"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1806) x86",
+      "href": "https://uupdump.net/selectlang.php?id=828032f8-fc7e-40b4-bff3-d2e1baf995ae",
+      "arch": "x86",
+      "addedAt": "2022-06-28 21:02:55 UTC",
+      "id": "828032f8-fc7e-40b4-bff3-d2e1baf995ae"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1806) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a1c713dd-42d5-4474-9eff-bb68ed8fea43",
+      "arch": "x86",
+      "addedAt": "2022-06-23 21:01:41 UTC",
+      "id": "a1c713dd-42d5-4474-9eff-bb68ed8fea43"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1767) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=97d40dd3-6d25-40dd-9368-ca0b4c70cf2c",
+      "arch": "arm64",
+      "addedAt": "2022-06-20 21:03:48 UTC",
+      "id": "97d40dd3-6d25-40dd-9368-ca0b4c70cf2c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1766) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6b74eb77-d1b0-41fc-95b1-5b69d3009ef2",
+      "arch": "x64",
+      "addedAt": "2022-06-14 17:00:17 UTC",
+      "id": "6b74eb77-d1b0-41fc-95b1-5b69d3009ef2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1766) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f6d88589-ac01-4fe3-8938-f81d434c5d74",
+      "arch": "arm64",
+      "addedAt": "2022-06-14 17:04:50 UTC",
+      "id": "f6d88589-ac01-4fe3-8938-f81d434c5d74"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1766) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6517cd68-5f87-4724-8f77-6225c1d2e06e",
+      "arch": "x86",
+      "addedAt": "2022-06-14 17:03:46 UTC",
+      "id": "6517cd68-5f87-4724-8f77-6225c1d2e06e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1741) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=efc203c8-7b4c-401b-8f28-2e6a8b20d6f4",
+      "arch": "x64",
+      "addedAt": "2022-06-01 21:03:04 UTC",
+      "id": "efc203c8-7b4c-401b-8f28-2e6a8b20d6f4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1741) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=738ac477-d93f-486e-93b7-10bea9d7fafd",
+      "arch": "x64",
+      "addedAt": "2022-06-01 21:01:14 UTC",
+      "id": "738ac477-d93f-486e-93b7-10bea9d7fafd"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1741) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f6a9e8e5-7354-41a7-b5e2-f76554b07f1e",
+      "arch": "arm64",
+      "addedAt": "2022-06-01 21:03:27 UTC",
+      "id": "f6a9e8e5-7354-41a7-b5e2-f76554b07f1e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1741) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3aaf5463-5ddd-4d8d-8079-662260dad8fe",
+      "arch": "arm64",
+      "addedAt": "2022-06-01 21:01:13 UTC",
+      "id": "3aaf5463-5ddd-4d8d-8079-662260dad8fe"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1741) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a5351451-b417-4789-af11-323925f1f70a",
+      "arch": "x86",
+      "addedAt": "2022-06-01 21:03:12 UTC",
+      "id": "a5351451-b417-4789-af11-323925f1f70a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1741) x86",
+      "href": "https://uupdump.net/selectlang.php?id=05449c1d-9928-4761-888b-f79ba1a9b82a",
+      "arch": "x86",
+      "addedAt": "2022-06-01 21:01:12 UTC",
+      "id": "05449c1d-9928-4761-888b-f79ba1a9b82a"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1739) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=14a9b946-e2b7-4839-92ae-4d55281bd4a9",
+      "arch": "x64",
+      "addedAt": "2022-05-23 17:06:39 UTC",
+      "id": "14a9b946-e2b7-4839-92ae-4d55281bd4a9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1739) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=861425ff-a6f7-415d-8166-7763f98e658c",
+      "arch": "x64",
+      "addedAt": "2022-05-23 17:07:09 UTC",
+      "id": "861425ff-a6f7-415d-8166-7763f98e658c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1739) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1f03ebff-35cf-41f2-bd87-48e04889b9fe",
+      "arch": "arm64",
+      "addedAt": "2022-05-23 17:06:56 UTC",
+      "id": "1f03ebff-35cf-41f2-bd87-48e04889b9fe"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1739) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=af21cf96-ded3-48a0-a112-1f391f47ae56",
+      "arch": "arm64",
+      "addedAt": "2022-05-23 17:09:12 UTC",
+      "id": "af21cf96-ded3-48a0-a112-1f391f47ae56"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1739) x86",
+      "href": "https://uupdump.net/selectlang.php?id=c18a6e1b-3248-4b6e-b058-d7e91445f949",
+      "arch": "x86",
+      "addedAt": "2022-05-23 17:06:46 UTC",
+      "id": "c18a6e1b-3248-4b6e-b058-d7e91445f949"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1739) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6f7e2bd3-4526-46be-afe9-a5f8a9b9e9d4",
+      "arch": "x86",
+      "addedAt": "2022-05-23 17:09:04 UTC",
+      "id": "6f7e2bd3-4526-46be-afe9-a5f8a9b9e9d4"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1737) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9337a823-35a1-4f8d-aa67-ebcbc71eea85",
+      "arch": "x64",
+      "addedAt": "2022-05-12 18:58:57 UTC",
+      "id": "9337a823-35a1-4f8d-aa67-ebcbc71eea85"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1737) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=77739130-0195-44b1-96d0-570e4c40ec11",
+      "arch": "x64",
+      "addedAt": "2022-05-12 17:00:12 UTC",
+      "id": "77739130-0195-44b1-96d0-570e4c40ec11"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1737) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=81637544-d1ab-4fc5-8875-6b776d3e101b",
+      "arch": "arm64",
+      "addedAt": "2022-05-12 19:29:18 UTC",
+      "id": "81637544-d1ab-4fc5-8875-6b776d3e101b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1737) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=42dd6b23-db6b-4835-9564-76f2bbffd217",
+      "arch": "arm64",
+      "addedAt": "2022-05-12 17:00:09 UTC",
+      "id": "42dd6b23-db6b-4835-9564-76f2bbffd217"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1737) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5df75680-395a-45fb-a388-f0910e0c3bbc",
+      "arch": "x86",
+      "addedAt": "2022-05-12 19:28:55 UTC",
+      "id": "5df75680-395a-45fb-a388-f0910e0c3bbc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1737) x86",
+      "href": "https://uupdump.net/selectlang.php?id=04253119-0422-4029-b395-2ce9c8df32c8",
+      "arch": "x86",
+      "addedAt": "2022-05-12 17:00:10 UTC",
+      "id": "04253119-0422-4029-b395-2ce9c8df32c8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1706) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=804bab7d-450d-4a8d-a315-52601d77d322",
+      "arch": "x64",
+      "addedAt": "2022-05-10 17:03:52 UTC",
+      "id": "804bab7d-450d-4a8d-a315-52601d77d322"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1706) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7577e164-66c6-4e54-8dcc-44fa94069d76",
+      "arch": "arm64",
+      "addedAt": "2022-05-10 17:03:38 UTC",
+      "id": "7577e164-66c6-4e54-8dcc-44fa94069d76"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1706) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6e60b119-f13e-4aa4-a08c-3f801b23c4ac",
+      "arch": "x86",
+      "addedAt": "2022-05-10 17:03:51 UTC",
+      "id": "6e60b119-f13e-4aa4-a08c-3f801b23c4ac"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1682) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=574b114f-3727-4a41-8325-755ea6b6f49d",
+      "arch": "x64",
+      "addedAt": "2022-04-25 21:00:30 UTC",
+      "id": "574b114f-3727-4a41-8325-755ea6b6f49d"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1682) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2ef43ac6-9945-4f48-b47d-9356d8abf551",
+      "arch": "arm64",
+      "addedAt": "2022-04-25 21:00:57 UTC",
+      "id": "2ef43ac6-9945-4f48-b47d-9356d8abf551"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1682) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b22e48b7-dae8-4704-8164-59d1d59d7263",
+      "arch": "x86",
+      "addedAt": "2022-04-25 21:00:45 UTC",
+      "id": "b22e48b7-dae8-4704-8164-59d1d59d7263"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1682) x86",
+      "href": "https://uupdump.net/selectlang.php?id=c334e220-bb8a-44d0-8876-e4069d1ab0cc",
+      "arch": "x86",
+      "addedAt": "2022-04-25 21:27:58 UTC",
+      "id": "c334e220-bb8a-44d0-8876-e4069d1ab0cc"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1679) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c3692f29-b37f-472b-82f5-473840a2d94b",
+      "arch": "x64",
+      "addedAt": "2022-04-20 11:29:39 UTC",
+      "id": "c3692f29-b37f-472b-82f5-473840a2d94b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1679) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=90c2cbe0-460f-4ce9-bf1a-3e1b21b1bb7c",
+      "arch": "x64",
+      "addedAt": "2022-04-14 21:01:16 UTC",
+      "id": "90c2cbe0-460f-4ce9-bf1a-3e1b21b1bb7c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1679) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=62e289bb-fb6e-431b-a37e-23a8f035dc53",
+      "arch": "arm64",
+      "addedAt": "2022-04-20 11:30:45 UTC",
+      "id": "62e289bb-fb6e-431b-a37e-23a8f035dc53"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1679) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dbb708cf-ef79-418d-9a40-75a043a2b5b0",
+      "arch": "arm64",
+      "addedAt": "2022-04-14 21:01:14 UTC",
+      "id": "dbb708cf-ef79-418d-9a40-75a043a2b5b0"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1679) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5ffa7989-e58a-49d0-a4ea-9afd3ec7959b",
+      "arch": "x86",
+      "addedAt": "2022-04-20 11:30:19 UTC",
+      "id": "5ffa7989-e58a-49d0-a4ea-9afd3ec7959b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1679) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8cb1448d-3e73-405c-ab46-119dc7093fdc",
+      "arch": "x86",
+      "addedAt": "2022-04-14 21:01:16 UTC",
+      "id": "8cb1448d-3e73-405c-ab46-119dc7093fdc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1645) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2e47bed2-1c9b-45ec-aed1-f99d51ece1f3",
+      "arch": "x64",
+      "addedAt": "2022-04-12 17:01:11 UTC",
+      "id": "2e47bed2-1c9b-45ec-aed1-f99d51ece1f3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1645) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=655aefac-c9e5-42bd-a817-1df9d273e317",
+      "arch": "arm64",
+      "addedAt": "2022-04-12 17:03:39 UTC",
+      "id": "655aefac-c9e5-42bd-a817-1df9d273e317"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1645) x86",
+      "href": "https://uupdump.net/selectlang.php?id=12df4a55-253c-4ce0-b5f0-f4ea9673a5ba",
+      "arch": "x86",
+      "addedAt": "2022-04-12 17:02:09 UTC",
+      "id": "12df4a55-253c-4ce0-b5f0-f4ea9673a5ba"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1620) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d6097c97-671d-4f8d-8cea-af91535f1905",
+      "arch": "x64",
+      "addedAt": "2022-03-26 11:37:20 UTC",
+      "id": "d6097c97-671d-4f8d-8cea-af91535f1905"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1620) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3da83031-9062-4d3e-a58d-cd9201764188",
+      "arch": "x64",
+      "addedAt": "2022-03-22 17:00:14 UTC",
+      "id": "3da83031-9062-4d3e-a58d-cd9201764188"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1620) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b58d9116-62ae-4828-adfc-b0abaf7215af",
+      "arch": "arm64",
+      "addedAt": "2022-04-04 14:11:54 UTC",
+      "id": "b58d9116-62ae-4828-adfc-b0abaf7215af"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1620) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=703975b2-e9ba-40fa-a8df-444210a12268",
+      "arch": "arm64",
+      "addedAt": "2022-03-22 17:00:13 UTC",
+      "id": "703975b2-e9ba-40fa-a8df-444210a12268"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1620) x86",
+      "href": "https://uupdump.net/selectlang.php?id=c9340326-ca40-480e-b833-899a5e2a67ea",
+      "arch": "x86",
+      "addedAt": "2022-03-22 17:00:14 UTC",
+      "id": "c9340326-ca40-480e-b833-899a5e2a67ea"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1618) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a38af326-1aa0-466e-a003-868e89f68fd1",
+      "arch": "x64",
+      "addedAt": "2022-03-14 17:17:49 UTC",
+      "id": "a38af326-1aa0-466e-a003-868e89f68fd1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1618) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=da862c3e-b3aa-44f0-b803-7fa967b15da1",
+      "arch": "x64",
+      "addedAt": "2022-03-14 17:29:17 UTC",
+      "id": "da862c3e-b3aa-44f0-b803-7fa967b15da1"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1618) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=973ca3f6-39a8-4bf8-b5db-74932bd72949",
+      "arch": "arm64",
+      "addedAt": "2022-03-14 17:15:56 UTC",
+      "id": "973ca3f6-39a8-4bf8-b5db-74932bd72949"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1618) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=17bd4f0c-afc6-4e30-9c6c-153944de34e6",
+      "arch": "arm64",
+      "addedAt": "2022-03-14 17:22:05 UTC",
+      "id": "17bd4f0c-afc6-4e30-9c6c-153944de34e6"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1618) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5ace49fe-7ea1-450c-8046-0e3d4b475970",
+      "arch": "x86",
+      "addedAt": "2022-03-14 17:19:29 UTC",
+      "id": "5ace49fe-7ea1-450c-8046-0e3d4b475970"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1618) x86",
+      "href": "https://uupdump.net/selectlang.php?id=241f187a-be1c-47bd-8255-a922eb7917e1",
+      "arch": "x86",
+      "addedAt": "2022-03-14 17:24:44 UTC",
+      "id": "241f187a-be1c-47bd-8255-a922eb7917e1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1586) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9db97ad2-df8f-4f6d-bd26-4def71d7dc32",
+      "arch": "x64",
+      "addedAt": "2022-03-08 18:03:25 UTC",
+      "id": "9db97ad2-df8f-4f6d-bd26-4def71d7dc32"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1586) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=87824c7a-a419-4657-96c8-a4184b415752",
+      "arch": "arm64",
+      "addedAt": "2022-03-08 18:01:50 UTC",
+      "id": "87824c7a-a419-4657-96c8-a4184b415752"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1586) x86",
+      "href": "https://uupdump.net/selectlang.php?id=50654540-ab8a-4872-a142-d81ead3ca3fd",
+      "arch": "x86",
+      "addedAt": "2022-03-08 18:03:24 UTC",
+      "id": "50654540-ab8a-4872-a142-d81ead3ca3fd"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1566) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=70c2e2e7-9418-4a20-9920-b8fe0838bc45",
+      "arch": "x64",
+      "addedAt": "2022-02-15 18:03:00 UTC",
+      "id": "70c2e2e7-9418-4a20-9920-b8fe0838bc45"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1566) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9d506446-e622-438a-9c60-e811f83e36a5",
+      "arch": "x64",
+      "addedAt": "2022-02-15 18:07:26 UTC",
+      "id": "9d506446-e622-438a-9c60-e811f83e36a5"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1566) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=78f13895-91d5-487d-943e-498fbca147fa",
+      "arch": "arm64",
+      "addedAt": "2022-02-15 20:09:02 UTC",
+      "id": "78f13895-91d5-487d-943e-498fbca147fa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1566) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=481f3d48-f7cb-4dee-b8d6-20ab93b41844",
+      "arch": "arm64",
+      "addedAt": "2022-02-15 18:01:54 UTC",
+      "id": "481f3d48-f7cb-4dee-b8d6-20ab93b41844"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1566) x86",
+      "href": "https://uupdump.net/selectlang.php?id=985ad1d2-2937-4f1c-8a7e-8a6cfcbb1170",
+      "arch": "x86",
+      "addedAt": "2022-02-15 20:08:52 UTC",
+      "id": "985ad1d2-2937-4f1c-8a7e-8a6cfcbb1170"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1566) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a94e0a2d-c811-4182-8189-49637c0ad551",
+      "arch": "x86",
+      "addedAt": "2022-02-15 18:01:55 UTC",
+      "id": "a94e0a2d-c811-4182-8189-49637c0ad551"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1561) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cc143053-8939-4b72-a4bd-7d9caa97d12f",
+      "arch": "x64",
+      "addedAt": "2022-02-10 22:01:22 UTC",
+      "id": "cc143053-8939-4b72-a4bd-7d9caa97d12f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1561) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3476ad40-34cb-4d4d-a054-a8b3db3dbf4c",
+      "arch": "arm64",
+      "addedAt": "2022-02-10 22:01:23 UTC",
+      "id": "3476ad40-34cb-4d4d-a054-a8b3db3dbf4c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1561) x86",
+      "href": "https://uupdump.net/selectlang.php?id=733f8188-7898-434d-b9dc-471cc8c60347",
+      "arch": "x86",
+      "addedAt": "2022-02-10 22:01:25 UTC",
+      "id": "733f8188-7898-434d-b9dc-471cc8c60347"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1526) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=def6bc61-fed9-4b9e-b9ef-52c78a252421",
+      "arch": "x64",
+      "addedAt": "2022-02-08 18:02:48 UTC",
+      "id": "def6bc61-fed9-4b9e-b9ef-52c78a252421"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1526) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7da4a3ef-38d9-4528-b7f3-81610babf468",
+      "arch": "arm64",
+      "addedAt": "2022-02-08 18:00:18 UTC",
+      "id": "7da4a3ef-38d9-4528-b7f3-81610babf468"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1526) x86",
+      "href": "https://uupdump.net/selectlang.php?id=72b127eb-03df-43ac-8fdc-0fc35293aa6b",
+      "arch": "x86",
+      "addedAt": "2022-02-08 18:03:12 UTC",
+      "id": "72b127eb-03df-43ac-8fdc-0fc35293aa6b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1503) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=85127944-3b57-43b7-8551-953d9e39b572",
+      "arch": "x64",
+      "addedAt": "2022-01-26 10:40:04 UTC",
+      "id": "85127944-3b57-43b7-8551-953d9e39b572"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1503) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9cd39058-b7ff-40a8-a394-7b71aba5c96d",
+      "arch": "x64",
+      "addedAt": "2022-01-25 22:01:56 UTC",
+      "id": "9cd39058-b7ff-40a8-a394-7b71aba5c96d"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1503) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a56b4699-0261-4807-aee1-32039d63a06a",
+      "arch": "arm64",
+      "addedAt": "2022-01-26 10:39:55 UTC",
+      "id": "a56b4699-0261-4807-aee1-32039d63a06a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1503) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2b729717-dc30-488a-9301-7484208aba90",
+      "arch": "arm64",
+      "addedAt": "2022-01-25 22:01:55 UTC",
+      "id": "2b729717-dc30-488a-9301-7484208aba90"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1503) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8e5d28be-2151-4d6b-9d4f-480152569a26",
+      "arch": "x86",
+      "addedAt": "2022-01-26 10:40:17 UTC",
+      "id": "8e5d28be-2151-4d6b-9d4f-480152569a26"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1503) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e784ef37-32bb-4ff8-94ec-751c009aed68",
+      "arch": "x86",
+      "addedAt": "2022-01-25 22:01:55 UTC",
+      "id": "e784ef37-32bb-4ff8-94ec-751c009aed68"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1499) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ece0ea09-14c5-4f7c-8ae3-001b0aa6477a",
+      "arch": "x64",
+      "addedAt": "2022-01-14 22:03:52 UTC",
+      "id": "ece0ea09-14c5-4f7c-8ae3-001b0aa6477a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1499) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=55c91dc2-7d6a-44fe-abc9-778e5000e139",
+      "arch": "arm64",
+      "addedAt": "2022-01-14 22:06:06 UTC",
+      "id": "55c91dc2-7d6a-44fe-abc9-778e5000e139"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1499) x86",
+      "href": "https://uupdump.net/selectlang.php?id=66021674-d372-4ff0-8261-6afb60698bee",
+      "arch": "x86",
+      "addedAt": "2022-01-14 22:10:06 UTC",
+      "id": "66021674-d372-4ff0-8261-6afb60698bee"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1469) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=729d588b-c3e5-47da-b6ab-8daa16f5c0f3",
+      "arch": "x64",
+      "addedAt": "2022-01-18 01:43:16 UTC",
+      "id": "729d588b-c3e5-47da-b6ab-8daa16f5c0f3"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1469) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=56134c6b-39fa-455c-b715-beb1b3d246ca",
+      "arch": "arm64",
+      "addedAt": "2022-01-18 01:43:51 UTC",
+      "id": "56134c6b-39fa-455c-b715-beb1b3d246ca"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1469) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8a146c7a-6d84-44d5-a6c1-2471a4aaba81",
+      "arch": "x86",
+      "addedAt": "2022-01-18 01:43:37 UTC",
+      "id": "8a146c7a-6d84-44d5-a6c1-2471a4aaba81"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1466) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=da6435b2-3239-401b-9d1e-b50bcd43d8fe",
+      "arch": "x64",
+      "addedAt": "2022-01-11 18:01:32 UTC",
+      "id": "da6435b2-3239-401b-9d1e-b50bcd43d8fe"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1466) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b675aa57-1b84-4d41-a7e1-7cc1542480c2",
+      "arch": "arm64",
+      "addedAt": "2022-01-11 18:02:25 UTC",
+      "id": "b675aa57-1b84-4d41-a7e1-7cc1542480c2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1466) x86",
+      "href": "https://uupdump.net/selectlang.php?id=d5a5de05-e71d-4af0-b288-65a1a8396b00",
+      "arch": "x86",
+      "addedAt": "2022-01-11 18:02:40 UTC",
+      "id": "d5a5de05-e71d-4af0-b288-65a1a8396b00"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1415) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=39f5cf66-6e15-413d-b7b8-8dfb930ba69c",
+      "arch": "x64",
+      "addedAt": "2021-12-14 18:00:09 UTC",
+      "id": "39f5cf66-6e15-413d-b7b8-8dfb930ba69c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1415) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=09bff971-81f5-4cd4-b834-fc0e9ee83d59",
+      "arch": "arm64",
+      "addedAt": "2021-12-14 18:01:49 UTC",
+      "id": "09bff971-81f5-4cd4-b834-fc0e9ee83d59"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1415) x86",
+      "href": "https://uupdump.net/selectlang.php?id=46cea7dd-b503-4053-b6d8-2394226892c6",
+      "arch": "x86",
+      "addedAt": "2021-12-14 18:05:31 UTC",
+      "id": "46cea7dd-b503-4053-b6d8-2394226892c6"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1387) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=54304faa-2928-47e6-b3bf-621bef771bc6",
+      "arch": "x64",
+      "addedAt": "2021-11-23 14:11:19 UTC",
+      "id": "54304faa-2928-47e6-b3bf-621bef771bc6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1387) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e2d7464a-c8cc-4779-ad1d-36699425f3d3",
+      "arch": "x64",
+      "addedAt": "2021-11-22 22:06:44 UTC",
+      "id": "e2d7464a-c8cc-4779-ad1d-36699425f3d3"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1387) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3a53f83e-d5eb-4552-88d8-824f70432066",
+      "arch": "arm64",
+      "addedAt": "2021-11-23 14:11:29 UTC",
+      "id": "3a53f83e-d5eb-4552-88d8-824f70432066"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1387) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=99b61a91-de09-4430-b583-9e511fb37813",
+      "arch": "arm64",
+      "addedAt": "2021-11-22 22:01:57 UTC",
+      "id": "99b61a91-de09-4430-b583-9e511fb37813"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1387) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fbcb6306-76c3-431a-ba7d-4a4055bac127",
+      "arch": "x86",
+      "addedAt": "2021-11-22 22:18:10 UTC",
+      "id": "fbcb6306-76c3-431a-ba7d-4a4055bac127"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1387) x86",
+      "href": "https://uupdump.net/selectlang.php?id=689eb14b-9991-496a-9c47-81243cc128bd",
+      "arch": "x86",
+      "addedAt": "2021-11-22 22:22:58 UTC",
+      "id": "689eb14b-9991-496a-9c47-81243cc128bd"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1381) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6e322eca-7000-47db-9000-010038969e23",
+      "arch": "x64",
+      "addedAt": "2021-11-18 22:04:31 UTC",
+      "id": "6e322eca-7000-47db-9000-010038969e23"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1381) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=366000bd-1b76-4108-bf33-a18a52514261",
+      "arch": "x64",
+      "addedAt": "2021-11-18 22:01:38 UTC",
+      "id": "366000bd-1b76-4108-bf33-a18a52514261"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1381) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=95ea79ff-17c6-44e6-b8f6-9da02af66ade",
+      "arch": "arm64",
+      "addedAt": "2021-11-18 22:05:05 UTC",
+      "id": "95ea79ff-17c6-44e6-b8f6-9da02af66ade"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1381) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=65ba699a-2540-4d0f-a35d-f30c232f5fc8",
+      "arch": "arm64",
+      "addedAt": "2021-11-18 22:02:07 UTC",
+      "id": "65ba699a-2540-4d0f-a35d-f30c232f5fc8"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1381) x86",
+      "href": "https://uupdump.net/selectlang.php?id=3c53ec5d-f35f-49dc-a09e-d49d5abaa646",
+      "arch": "x86",
+      "addedAt": "2021-11-18 22:04:50 UTC",
+      "id": "3c53ec5d-f35f-49dc-a09e-d49d5abaa646"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1381) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1f157aca-8822-43bd-bf73-31fb37ce8a5b",
+      "arch": "x86",
+      "addedAt": "2021-11-18 22:01:58 UTC",
+      "id": "1f157aca-8822-43bd-bf73-31fb37ce8a5b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1379) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e8aa3d40-44f5-4dfd-b8bc-189520efd5af",
+      "arch": "x64",
+      "addedAt": "2021-11-16 23:43:13 UTC",
+      "id": "e8aa3d40-44f5-4dfd-b8bc-189520efd5af"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1379) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fe120f7d-1fb1-4bb2-8d4a-8bdca8b38c37",
+      "arch": "x64",
+      "addedAt": "2021-11-16 18:05:11 UTC",
+      "id": "fe120f7d-1fb1-4bb2-8d4a-8bdca8b38c37"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1379) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8d7ed77e-3561-4d2e-8d79-1b5d2fc67b95",
+      "arch": "arm64",
+      "addedAt": "2021-11-17 02:03:12 UTC",
+      "id": "8d7ed77e-3561-4d2e-8d79-1b5d2fc67b95"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1379) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b30bc2ab-1391-404a-8155-e63ecf3d0857",
+      "arch": "arm64",
+      "addedAt": "2021-11-16 18:05:42 UTC",
+      "id": "b30bc2ab-1391-404a-8155-e63ecf3d0857"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1379) x86",
+      "href": "https://uupdump.net/selectlang.php?id=82f16559-97fa-43f4-b189-eb0630a16856",
+      "arch": "x86",
+      "addedAt": "2021-11-17 02:02:58 UTC",
+      "id": "82f16559-97fa-43f4-b189-eb0630a16856"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1379) x86",
+      "href": "https://uupdump.net/selectlang.php?id=798efe6b-17e1-4791-9c8f-849b3fc77534",
+      "arch": "x86",
+      "addedAt": "2021-11-16 18:05:34 UTC",
+      "id": "798efe6b-17e1-4791-9c8f-849b3fc77534"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1348) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a2765bf4-c6db-46f9-b637-b6e6f6986b9d",
+      "arch": "x64",
+      "addedAt": "2021-11-10 09:49:55 UTC",
+      "id": "a2765bf4-c6db-46f9-b637-b6e6f6986b9d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1348) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=57b12775-4394-448c-b34e-cd67f1167f01",
+      "arch": "x64",
+      "addedAt": "2021-11-09 18:04:48 UTC",
+      "id": "57b12775-4394-448c-b34e-cd67f1167f01"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1348) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2f10460c-1cd4-4a97-be8e-42195122677d",
+      "arch": "arm64",
+      "addedAt": "2021-11-10 09:50:15 UTC",
+      "id": "2f10460c-1cd4-4a97-be8e-42195122677d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1348) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0e9ca1b3-e29a-4ad3-be1f-da9109d46f9f",
+      "arch": "arm64",
+      "addedAt": "2021-11-09 18:03:02 UTC",
+      "id": "0e9ca1b3-e29a-4ad3-be1f-da9109d46f9f"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1348) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e2b9a0e3-33be-48a2-976d-71edcafa0b8c",
+      "arch": "x86",
+      "addedAt": "2021-11-10 09:50:06 UTC",
+      "id": "e2b9a0e3-33be-48a2-976d-71edcafa0b8c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1348) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0cda7cda-db05-41e5-9b68-e061b65f3c8e",
+      "arch": "x86",
+      "addedAt": "2021-11-09 18:22:54 UTC",
+      "id": "0cda7cda-db05-41e5-9b68-e061b65f3c8e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1320) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=87559296-77bc-4eb7-88ce-334772f52157",
+      "arch": "x64",
+      "addedAt": "2021-10-26 17:02:08 UTC",
+      "id": "87559296-77bc-4eb7-88ce-334772f52157"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1320) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8d880336-4677-4f29-b2a1-d81bd6578339",
+      "arch": "arm64",
+      "addedAt": "2021-10-26 17:09:00 UTC",
+      "id": "8d880336-4677-4f29-b2a1-d81bd6578339"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1320) x86",
+      "href": "https://uupdump.net/selectlang.php?id=9714a4d1-e30d-4dfa-9968-47b4eaac632c",
+      "arch": "x86",
+      "addedAt": "2021-10-26 17:32:35 UTC",
+      "id": "9714a4d1-e30d-4dfa-9968-47b4eaac632c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1319) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f187bde0-91b2-4d2c-8759-058a2784a7de",
+      "arch": "x64",
+      "addedAt": "2021-10-19 21:03:17 UTC",
+      "id": "f187bde0-91b2-4d2c-8759-058a2784a7de"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1319) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=37cb4c06-811d-450e-949c-2883499c9d62",
+      "arch": "arm64",
+      "addedAt": "2021-10-19 21:04:45 UTC",
+      "id": "37cb4c06-811d-450e-949c-2883499c9d62"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1319) x86",
+      "href": "https://uupdump.net/selectlang.php?id=79aaa095-11fb-412a-ab6d-9a228e25f3b8",
+      "arch": "x86",
+      "addedAt": "2021-10-19 22:08:28 UTC",
+      "id": "79aaa095-11fb-412a-ab6d-9a228e25f3b8"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1288) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=feff71db-b2da-48e1-99d2-0cd1deec40d6",
+      "arch": "x64",
+      "addedAt": "2021-10-12 17:00:28 UTC",
+      "id": "feff71db-b2da-48e1-99d2-0cd1deec40d6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1288) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a7be36a2-22b1-4d4e-bfdd-6a962fc2319e",
+      "arch": "x64",
+      "addedAt": "2021-10-21 17:05:22 UTC",
+      "id": "a7be36a2-22b1-4d4e-bfdd-6a962fc2319e"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1288) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=53db08bf-52e8-4dc8-a179-776c89df1168",
+      "arch": "arm64",
+      "addedAt": "2021-10-12 17:05:26 UTC",
+      "id": "53db08bf-52e8-4dc8-a179-776c89df1168"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1288) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9b2ff7e3-5217-4f9d-b20d-ef9e928d13e9",
+      "arch": "arm64",
+      "addedAt": "2021-10-21 17:05:34 UTC",
+      "id": "9b2ff7e3-5217-4f9d-b20d-ef9e928d13e9"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1288) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4950bea7-0e2a-4e91-8382-a2068abcd255",
+      "arch": "x86",
+      "addedAt": "2021-10-12 17:32:44 UTC",
+      "id": "4950bea7-0e2a-4e91-8382-a2068abcd255"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1288) x86",
+      "href": "https://uupdump.net/selectlang.php?id=bbe55af6-9c98-4672-94eb-f2e6fb759503",
+      "arch": "x86",
+      "addedAt": "2021-10-21 17:05:47 UTC",
+      "id": "bbe55af6-9c98-4672-94eb-f2e6fb759503"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1266) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dc90204e-5396-4ea2-b7e6-a087114014d6",
+      "arch": "x64",
+      "addedAt": "2021-10-12 04:16:32 UTC",
+      "id": "dc90204e-5396-4ea2-b7e6-a087114014d6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1266) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=784e6fe7-ff70-44ab-a25d-7b2bdf543de8",
+      "arch": "x64",
+      "addedAt": "2021-09-30 21:01:33 UTC",
+      "id": "784e6fe7-ff70-44ab-a25d-7b2bdf543de8"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1266) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=23c8936c-fb60-4331-9849-e4074d9bc430",
+      "arch": "arm64",
+      "addedAt": "2021-10-12 09:59:57 UTC",
+      "id": "23c8936c-fb60-4331-9849-e4074d9bc430"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1266) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fa5865b7-a356-457c-81cc-7c2de44e624d",
+      "arch": "arm64",
+      "addedAt": "2021-09-30 21:07:32 UTC",
+      "id": "fa5865b7-a356-457c-81cc-7c2de44e624d"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1266) x86",
+      "href": "https://uupdump.net/selectlang.php?id=68beb768-1935-4205-af1d-a59853254025",
+      "arch": "x86",
+      "addedAt": "2021-10-12 09:59:43 UTC",
+      "id": "68beb768-1935-4205-af1d-a59853254025"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1266) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ce8bef00-2478-4d0d-8c7c-2a64d969979e",
+      "arch": "x86",
+      "addedAt": "2021-09-30 21:07:02 UTC",
+      "id": "ce8bef00-2478-4d0d-8c7c-2a64d969979e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1263) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ba4aa62b-a402-4985-a6e3-26a6e9d248a1",
+      "arch": "x64",
+      "addedAt": "2021-09-23 21:02:28 UTC",
+      "id": "ba4aa62b-a402-4985-a6e3-26a6e9d248a1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1263) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8d701b0c-be6d-4be7-9863-2f602de054fb",
+      "arch": "x64",
+      "addedAt": "2021-09-24 19:25:58 UTC",
+      "id": "8d701b0c-be6d-4be7-9863-2f602de054fb"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1263) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=effdd4b4-34c8-493b-967c-fcf4e286d3ef",
+      "arch": "arm64",
+      "addedAt": "2021-09-23 21:05:18 UTC",
+      "id": "effdd4b4-34c8-493b-967c-fcf4e286d3ef"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1263) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=eb210697-453f-4447-b6b5-2916f70b017c",
+      "arch": "arm64",
+      "addedAt": "2021-09-24 19:26:11 UTC",
+      "id": "eb210697-453f-4447-b6b5-2916f70b017c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1263) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0c208486-72cb-4948-90a5-acaca9557260",
+      "arch": "x86",
+      "addedAt": "2021-09-23 21:48:15 UTC",
+      "id": "0c208486-72cb-4948-90a5-acaca9557260"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1263) x86",
+      "href": "https://uupdump.net/selectlang.php?id=dd650080-16f3-42e0-ad42-0f6fa1de87b4",
+      "arch": "x86",
+      "addedAt": "2021-09-24 19:26:04 UTC",
+      "id": "dd650080-16f3-42e0-ad42-0f6fa1de87b4"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1237) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=344d7d4a-08dd-4571-a9b9-99043456f580",
+      "arch": "x64",
+      "addedAt": "2021-09-14 17:01:55 UTC",
+      "id": "344d7d4a-08dd-4571-a9b9-99043456f580"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1237) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9d696e0d-8ad4-4062-9b61-4f395d59b628",
+      "arch": "arm64",
+      "addedAt": "2021-09-14 17:02:22 UTC",
+      "id": "9d696e0d-8ad4-4062-9b61-4f395d59b628"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1237) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1404e2f6-48eb-469c-bcbe-9b362aca1fbe",
+      "arch": "x86",
+      "addedAt": "2021-09-14 17:20:44 UTC",
+      "id": "1404e2f6-48eb-469c-bcbe-9b362aca1fbe"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1202) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=14bad5f8-b46e-4cf5-9d32-bbec943b6703",
+      "arch": "x64",
+      "addedAt": "2021-08-31 21:00:35 UTC",
+      "id": "14bad5f8-b46e-4cf5-9d32-bbec943b6703"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1202) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b81fc11c-3f32-4a2c-83c3-03442bed3dc7",
+      "arch": "arm64",
+      "addedAt": "2021-08-31 21:01:12 UTC",
+      "id": "b81fc11c-3f32-4a2c-83c3-03442bed3dc7"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1202) x86",
+      "href": "https://uupdump.net/selectlang.php?id=47b7462c-1a49-40de-8d71-6b485086ffa7",
+      "arch": "x86",
+      "addedAt": "2021-08-31 21:01:12 UTC",
+      "id": "47b7462c-1a49-40de-8d71-6b485086ffa7"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1200) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b0af32af-871d-4e96-8133-68de63939b0f",
+      "arch": "x64",
+      "addedAt": "2021-08-18 17:01:12 UTC",
+      "id": "b0af32af-871d-4e96-8133-68de63939b0f"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1200) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=944dc077-d822-4586-a5fa-928714aa7af1",
+      "arch": "arm64",
+      "addedAt": "2021-08-18 17:01:49 UTC",
+      "id": "944dc077-d822-4586-a5fa-928714aa7af1"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1200) x86",
+      "href": "https://uupdump.net/selectlang.php?id=9aabfcb6-8b7b-465d-8b38-d53089f06beb",
+      "arch": "x86",
+      "addedAt": "2021-08-18 17:21:26 UTC",
+      "id": "9aabfcb6-8b7b-465d-8b38-d53089f06beb"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1165) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b3864ce2-e3c9-4c6a-9b81-fdd0e7514675",
+      "arch": "x64",
+      "addedAt": "2021-08-10 17:01:36 UTC",
+      "id": "b3864ce2-e3c9-4c6a-9b81-fdd0e7514675"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1165) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3284efcb-5c8a-4d85-ae6f-b83568f76ce1",
+      "arch": "arm64",
+      "addedAt": "2021-08-10 17:01:18 UTC",
+      "id": "3284efcb-5c8a-4d85-ae6f-b83568f76ce1"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 21H2 (19044.1165) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ec6c71de-656e-40af-a009-e65c802442c2",
+      "arch": "x86",
+      "addedAt": "2021-08-10 17:03:08 UTC",
+      "id": "ec6c71de-656e-40af-a009-e65c802442c2"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1151) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3b5a384d-0228-44b4-9328-887764f9e1ad",
+      "arch": "x64",
+      "addedAt": "2021-07-29 21:01:28 UTC",
+      "id": "3b5a384d-0228-44b4-9328-887764f9e1ad"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1151) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9e9908d1-d58f-438a-a97a-dc4461963f5d",
+      "arch": "arm64",
+      "addedAt": "2021-07-29 21:08:03 UTC",
+      "id": "9e9908d1-d58f-438a-a97a-dc4461963f5d"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1151) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4b8c680d-dc9c-4b1c-8dc1-b61f08afa485",
+      "arch": "x86",
+      "addedAt": "2021-07-29 21:52:36 UTC",
+      "id": "4b8c680d-dc9c-4b1c-8dc1-b61f08afa485"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1149) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dd631ce3-c755-4b66-bdd0-9bd82137c71c",
+      "arch": "x64",
+      "addedAt": "2021-07-21 01:14:14 UTC",
+      "id": "dd631ce3-c755-4b66-bdd0-9bd82137c71c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1149) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=704ab386-84c1-4419-a656-9dffc29d40ed",
+      "arch": "arm64",
+      "addedAt": "2021-07-21 01:27:47 UTC",
+      "id": "704ab386-84c1-4419-a656-9dffc29d40ed"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1149) x86",
+      "href": "https://uupdump.net/selectlang.php?id=90d19327-d658-42fb-9b5b-2fd09390c9e4",
+      "arch": "x86",
+      "addedAt": "2021-07-21 01:19:50 UTC",
+      "id": "90d19327-d658-42fb-9b5b-2fd09390c9e4"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1147) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=69858e36-53b7-45c8-9041-ed7073e762d8",
+      "arch": "x64",
+      "addedAt": "2021-07-15 22:32:09 UTC",
+      "id": "69858e36-53b7-45c8-9041-ed7073e762d8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 21H2 (19044.1147) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bf929762-ae43-4e9f-8a69-cdb0ccca01ef",
+      "arch": "x64",
+      "addedAt": "2024-06-03 02:34:35 UTC",
+      "id": "bf929762-ae43-4e9f-8a69-cdb0ccca01ef"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1147) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f6a9db4e-2be9-4e15-838f-6fa4b1779c72",
+      "arch": "arm64",
+      "addedAt": "2021-07-15 22:34:52 UTC",
+      "id": "f6a9db4e-2be9-4e15-838f-6fa4b1779c72"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 21H2 (19044.1147) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1afe6346-9c19-49c7-8e69-25ae49a16c02",
+      "arch": "x86",
+      "addedAt": "2021-07-15 22:35:07 UTC",
+      "id": "1afe6346-9c19-49c7-8e69-25ae49a16c02"
+    }
+  ]
+}
