@@ -1,0 +1,478 @@
+{
+  "category": "server-23h2",
+  "url": "https://uupdump.net/known.php?q=category:server-23h2",
+  "name": "23H2",
+  "parentName": "Windows Server",
+  "pages": 2,
+  "versions": [
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 23H2 (25398.2097) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=26b7a1d4-4cdb-4b39-b75d-ddb90dbbbcec",
+      "arch": "x64",
+      "addedAt": "2026-01-24 23:46:45 UTC",
+      "id": "26b7a1d4-4cdb-4b39-b75d-ddb90dbbbcec"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 23H2 (25398.2096) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cf4d7af8-7f9a-4d5f-b89c-38eaa9c4bc68",
+      "arch": "x64",
+      "addedAt": "2026-01-18 21:53:53 UTC",
+      "id": "cf4d7af8-7f9a-4d5f-b89c-38eaa9c4bc68"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.2092) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2fee948d-d887-4b3c-8987-fa215b4dbd4a",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:01:38 UTC",
+      "id": "2fee948d-d887-4b3c-8987-fa215b4dbd4a"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.2092) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9192ba5f-0ec8-4555-998e-5b829ce99e26",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:01:59 UTC",
+      "id": "9192ba5f-0ec8-4555-998e-5b829ce99e26"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.2025) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c54b5e2e-7432-4622-b356-2b91afa25190",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:01:21 UTC",
+      "id": "c54b5e2e-7432-4622-b356-2b91afa25190"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.2025) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=426708fd-7a6f-408b-b137-3de045867d75",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:01:38 UTC",
+      "id": "426708fd-7a6f-408b-b137-3de045867d75"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1965) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=048c916c-0aa2-4682-8f87-ed2844fb8e99",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:01:52 UTC",
+      "id": "048c916c-0aa2-4682-8f87-ed2844fb8e99"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1965) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0339876f-f37a-4fc2-8b1a-472f2498607d",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:02:15 UTC",
+      "id": "0339876f-f37a-4fc2-8b1a-472f2498607d"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1916) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a1a4e1f9-b33c-4156-8997-6da6c7e8f443",
+      "arch": "x64",
+      "addedAt": "2025-10-23 23:16:00 UTC",
+      "id": "a1a4e1f9-b33c-4156-8997-6da6c7e8f443"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1916) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9b5be1e9-79d6-4c3f-ad35-ca89c2c5d4ed",
+      "arch": "x64",
+      "addedAt": "2025-10-23 23:16:17 UTC",
+      "id": "9b5be1e9-79d6-4c3f-ad35-ca89c2c5d4ed"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1913) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8029ada2-e2cb-4f47-ab38-b1810247ad30",
+      "arch": "x64",
+      "addedAt": "2025-10-14 17:02:18 UTC",
+      "id": "8029ada2-e2cb-4f47-ab38-b1810247ad30"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1913) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4f430b82-06d3-470d-9e16-9c7c496c2a9a",
+      "arch": "x64",
+      "addedAt": "2025-10-14 17:02:46 UTC",
+      "id": "4f430b82-06d3-470d-9e16-9c7c496c2a9a"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1849) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5f43a486-22b5-4d3a-ab76-34cadcbb261d",
+      "arch": "x64",
+      "addedAt": "2025-09-09 17:01:47 UTC",
+      "id": "5f43a486-22b5-4d3a-ab76-34cadcbb261d"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1849) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9adaecf6-50dc-44ea-a833-f894268a20cc",
+      "arch": "x64",
+      "addedAt": "2025-09-09 17:02:06 UTC",
+      "id": "9adaecf6-50dc-44ea-a833-f894268a20cc"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 23H2 (25398.1791) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ed69aa8c-8b84-429c-bb9f-e09429823abc",
+      "arch": "x64",
+      "addedAt": "2025-08-16 00:46:04 UTC",
+      "id": "ed69aa8c-8b84-429c-bb9f-e09429823abc"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1791) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c38ad97e-9d4f-4cb2-810d-18f5ba99790f",
+      "arch": "x64",
+      "addedAt": "2025-08-12 17:01:27 UTC",
+      "id": "c38ad97e-9d4f-4cb2-810d-18f5ba99790f"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1791) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a9ee4e02-9e84-4e29-a706-2d8e521efcb9",
+      "arch": "x64",
+      "addedAt": "2025-08-12 17:01:38 UTC",
+      "id": "a9ee4e02-9e84-4e29-a706-2d8e521efcb9"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1732) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=df412922-2913-4c28-968f-21c3c737870c",
+      "arch": "x64",
+      "addedAt": "2025-07-08 17:01:54 UTC",
+      "id": "df412922-2913-4c28-968f-21c3c737870c"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1732) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3bd3fd22-770c-4a3a-9c1b-c213b3f38078",
+      "arch": "x64",
+      "addedAt": "2025-07-08 17:02:04 UTC",
+      "id": "3bd3fd22-770c-4a3a-9c1b-c213b3f38078"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1665) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a7dcf12d-8931-4669-8edb-687c004cc2a6",
+      "arch": "x64",
+      "addedAt": "2025-06-10 17:02:30 UTC",
+      "id": "a7dcf12d-8931-4669-8edb-687c004cc2a6"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1665) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dcd5033c-26cf-4b5a-a58b-4cf0d7b2c244",
+      "arch": "x64",
+      "addedAt": "2025-06-10 17:02:44 UTC",
+      "id": "dcd5033c-26cf-4b5a-a58b-4cf0d7b2c244"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1611) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a728473c-e8b0-4ae3-ad66-846b87ef536a",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:01:46 UTC",
+      "id": "a728473c-e8b0-4ae3-ad66-846b87ef536a"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1611) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b4f4e19c-1b53-468b-b272-f3c080a6df44",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:03:10 UTC",
+      "id": "b4f4e19c-1b53-468b-b272-f3c080a6df44"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1551) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=49f10bbb-fedd-4613-95c5-74148cf5bae7",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:02:14 UTC",
+      "id": "49f10bbb-fedd-4613-95c5-74148cf5bae7"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1551) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=be5d0598-cfee-4abe-895b-d8c6fc9071c3",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:02:45 UTC",
+      "id": "be5d0598-cfee-4abe-895b-d8c6fc9071c3"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1486) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dd8ec599-9f8c-47b0-bc46-df563bc4e626",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:01:52 UTC",
+      "id": "dd8ec599-9f8c-47b0-bc46-df563bc4e626"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1486) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=181aba35-ce83-4c7d-9009-8d3351574ea8",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:02:15 UTC",
+      "id": "181aba35-ce83-4c7d-9009-8d3351574ea8"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1425) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a9a00eaf-03f3-4f9e-8aad-dd2baa46a603",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:01:32 UTC",
+      "id": "a9a00eaf-03f3-4f9e-8aad-dd2baa46a603"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1425) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f5bc36e3-d016-4cab-b965-1c998563e51e",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:01:51 UTC",
+      "id": "f5bc36e3-d016-4cab-b965-1c998563e51e"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1369) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9befb3e0-b8fa-404c-a62c-754a45ce693b",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:02:11 UTC",
+      "id": "9befb3e0-b8fa-404c-a62c-754a45ce693b"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1369) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f7623c4b-9d87-4f42-bd63-cb2548cee069",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:02:28 UTC",
+      "id": "f7623c4b-9d87-4f42-bd63-cb2548cee069"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1308) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f272aa08-ee78-4400-898a-f2333acbb7e3",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:01:41 UTC",
+      "id": "f272aa08-ee78-4400-898a-f2333acbb7e3"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1308) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d6633097-6beb-41e9-92d4-d95c7d89a296",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:17:03 UTC",
+      "id": "d6633097-6beb-41e9-92d4-d95c7d89a296"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1251) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=63365e5b-4b0a-44ec-9dc3-aa5e68abc4a5",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:02:18 UTC",
+      "id": "63365e5b-4b0a-44ec-9dc3-aa5e68abc4a5"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1251) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=18bd6535-01a6-48b7-9bd8-a1a1c7929c45",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:02:48 UTC",
+      "id": "18bd6535-01a6-48b7-9bd8-a1a1c7929c45"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1189) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d6c8b547-a2c2-4539-bde3-f9343fb7c757",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:01:32 UTC",
+      "id": "d6c8b547-a2c2-4539-bde3-f9343fb7c757"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1189) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d289e1be-37f2-4980-96a9-5ceae469fff2",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:16:46 UTC",
+      "id": "d289e1be-37f2-4980-96a9-5ceae469fff2"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1128) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8a883ae4-4260-4972-b8ec-17b0f311acdc",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:02:26 UTC",
+      "id": "8a883ae4-4260-4972-b8ec-17b0f311acdc"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1128) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5202443a-9d39-4459-9dda-48abbf5f8af1",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:02:47 UTC",
+      "id": "5202443a-9d39-4459-9dda-48abbf5f8af1"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1085) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6e55d759-d9f7-4975-b7dd-49f98e7b032d",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:01:52 UTC",
+      "id": "6e55d759-d9f7-4975-b7dd-49f98e7b032d"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1085) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8b6d5a9c-01fe-4d80-a3f3-4c761eb01994",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:02:29 UTC",
+      "id": "8b6d5a9c-01fe-4d80-a3f3-4c761eb01994"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.1009) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8d75ee41-8349-4d3c-a688-c618bfea5e8a",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:01:40 UTC",
+      "id": "8d75ee41-8349-4d3c-a688-c618bfea5e8a"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1009) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=31357333-eeec-4295-abd8-d81e6d57393a",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:02:00 UTC",
+      "id": "31357333-eeec-4295-abd8-d81e6d57393a"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.950) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=02636583-e5d6-4ced-9448-c1fb9651e689",
+      "arch": "x64",
+      "addedAt": "2024-06-11 17:02:31 UTC",
+      "id": "02636583-e5d6-4ced-9448-c1fb9651e689"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.950) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0ca2f5c9-57bd-48ef-b833-5287082e9169",
+      "arch": "x64",
+      "addedAt": "2024-06-11 17:02:22 UTC",
+      "id": "0ca2f5c9-57bd-48ef-b833-5287082e9169"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.887) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=70a2b03a-f86e-4af6-aea6-a6586f2467ad",
+      "arch": "x64",
+      "addedAt": "2024-05-14 17:01:44 UTC",
+      "id": "70a2b03a-f86e-4af6-aea6-a6586f2467ad"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.887) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c8c2410f-b814-409c-b9ab-602b7adb1fb6",
+      "arch": "x64",
+      "addedAt": "2024-05-14 17:02:04 UTC",
+      "id": "c8c2410f-b814-409c-b9ab-602b7adb1fb6"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.830) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=259474b7-3fc7-4537-924e-e5bfb5a945df",
+      "arch": "x64",
+      "addedAt": "2024-04-09 17:01:16 UTC",
+      "id": "259474b7-3fc7-4537-924e-e5bfb5a945df"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.830) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=164292dd-776a-4152-89e0-a68438e82e01",
+      "arch": "x64",
+      "addedAt": "2024-04-09 17:01:30 UTC",
+      "id": "164292dd-776a-4152-89e0-a68438e82e01"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.763) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=673ff3e5-dbaf-44a0-a3fd-435d12d552bd",
+      "arch": "x64",
+      "addedAt": "2024-03-12 19:54:38 UTC",
+      "id": "673ff3e5-dbaf-44a0-a3fd-435d12d552bd"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.763) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=eb38ee0a-58f3-4d2e-b1e8-c8cd544246be",
+      "arch": "x64",
+      "addedAt": "2024-03-12 17:13:14 UTC",
+      "id": "eb38ee0a-58f3-4d2e-b1e8-c8cd544246be"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.709) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=aa98b859-83e4-44ea-b052-e1027c283f39",
+      "arch": "x64",
+      "addedAt": "2024-02-13 18:01:17 UTC",
+      "id": "aa98b859-83e4-44ea-b052-e1027c283f39"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.709) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b5f0b18e-7d00-4aa5-a399-04045239e866",
+      "arch": "x64",
+      "addedAt": "2024-02-13 18:01:27 UTC",
+      "id": "b5f0b18e-7d00-4aa5-a399-04045239e866"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.643) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fb6021d7-54ef-441b-a31b-71f1f722b3ef",
+      "arch": "x64",
+      "addedAt": "2024-01-09 18:01:23 UTC",
+      "id": "fb6021d7-54ef-441b-a31b-71f1f722b3ef"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.643) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=eb94f61c-c8b5-4988-b154-2c3c0f1f2b57",
+      "arch": "x64",
+      "addedAt": "2024-01-09 18:01:29 UTC",
+      "id": "eb94f61c-c8b5-4988-b154-2c3c0f1f2b57"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.584) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d2a954c5-1215-488d-9675-d1284defbc93",
+      "arch": "x64",
+      "addedAt": "2023-12-12 18:01:14 UTC",
+      "id": "d2a954c5-1215-488d-9675-d1284defbc93"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.584) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5f876b5a-61a0-4289-bc5c-966f283a86de",
+      "arch": "x64",
+      "addedAt": "2023-12-12 18:01:27 UTC",
+      "id": "5f876b5a-61a0-4289-bc5c-966f283a86de"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.531) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=db0e506c-5393-4c26-ae16-51bc62793b86",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:03:01 UTC",
+      "id": "db0e506c-5393-4c26-ae16-51bc62793b86"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.531) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3212456b-0c98-45b0-96a7-d393437215c7",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:03:28 UTC",
+      "id": "3212456b-0c98-45b0-96a7-d393437215c7"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.469) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3c50d994-f8f3-4c8a-8e4c-646ae3e0fdb1",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:03:28 UTC",
+      "id": "3c50d994-f8f3-4c8a-8e4c-646ae3e0fdb1"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.469) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ce7c48c4-b024-4c65-b689-099fdc4aa374",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:03:33 UTC",
+      "id": "ce7c48c4-b024-4c65-b689-099fdc4aa374"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 23H2 (25398.408) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=358e12e8-282d-4b95-96d2-f3c4dc18baa4",
+      "arch": "x64",
+      "addedAt": "2023-09-12 17:05:09 UTC",
+      "id": "358e12e8-282d-4b95-96d2-f3c4dc18baa4"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 23H2 (25398.345) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2953ae48-67e2-478e-8e63-bb9d4bc27ae3",
+      "arch": "x64",
+      "addedAt": "2023-08-08 17:05:05 UTC",
+      "id": "2953ae48-67e2-478e-8e63-bb9d4bc27ae3"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2 (25398.287) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=21e0d12a-ca39-4468-978d-ab32b8bc1956",
+      "arch": "x64",
+      "addedAt": "2023-07-12 08:03:45 UTC",
+      "id": "21e0d12a-ca39-4468-978d-ab32b8bc1956"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.287) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2892fb44-abdf-478c-af7f-5afec04035c9",
+      "arch": "x64",
+      "addedAt": "2023-07-12 07:33:28 UTC",
+      "id": "2892fb44-abdf-478c-af7f-5afec04035c9"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 23H2, dev build  (25398.1) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=772fc069-f7b5-46de-b138-fedb1613b1f0",
+      "arch": "x64",
+      "addedAt": "2023-08-05 19:16:03 UTC",
+      "id": "772fc069-f7b5-46de-b138-fedb1613b1f0"
+    },
+    {
+      "title": "Windows Server, version 23H2 (25398.1) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ebf14a71-0f6e-4958-9bf4-27c746050640",
+      "arch": "x64",
+      "addedAt": "2023-07-03 14:46:52 UTC",
+      "id": "ebf14a71-0f6e-4958-9bf4-27c746050640"
+    }
+  ]
+}

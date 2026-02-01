@@ -1,0 +1,555 @@
+{
+  "category": "server-24h2",
+  "url": "https://uupdump.net/known.php?q=category:server-24h2",
+  "name": "24H2",
+  "parentName": "Windows Server",
+  "pages": 2,
+  "versions": [
+    {
+      "title": "Update for Microsoft server operating system (26100.32236) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d8c7200c-ec60-4649-839b-8e693c3cf1c9",
+      "arch": "x64",
+      "addedAt": "2026-01-24 23:46:08 UTC",
+      "id": "d8c7200c-ec60-4649-839b-8e693c3cf1c9"
+    },
+    {
+      "title": "Update for Microsoft server operating system (26100.32234) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7e93eab7-101b-4d82-bc98-543d9fcd72c7",
+      "arch": "x64",
+      "addedAt": "2026-01-17 23:23:40 UTC",
+      "id": "7e93eab7-101b-4d82-bc98-543d9fcd72c7"
+    },
+    {
+      "title": "Security Update for Microsoft server operating system (26100.32230) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e34c6d2c-4b0d-438f-a0bb-56dca2b817cd",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:01:46 UTC",
+      "id": "e34c6d2c-4b0d-438f-a0bb-56dca2b817cd"
+    },
+    {
+      "title": "Security Update for Microsoft server operating system (26100.32230) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=05dc2da0-6a9e-4758-bdc9-169800dd8a29",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 18:01:44 UTC",
+      "id": "05dc2da0-6a9e-4758-bdc9-169800dd8a29"
+    },
+    {
+      "title": "Security Update for Microsoft server operating system (26100.7462) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a0b412d2-8304-478a-ba2f-0be358d663aa",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:01:26 UTC",
+      "id": "a0b412d2-8304-478a-ba2f-0be358d663aa"
+    },
+    {
+      "title": "Security Update for Microsoft server operating system (26100.7462) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8dd849e6-7fc4-40fe-8c67-8954b49b1714",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 18:01:25 UTC",
+      "id": "8dd849e6-7fc4-40fe-8c67-8954b49b1714"
+    },
+    {
+      "title": "Update for Microsoft server operating system (26100.7178) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=60fc8ab3-3c86-4f0b-8979-e43699780008",
+      "arch": "x64",
+      "addedAt": "2025-11-19 09:42:09 UTC",
+      "id": "60fc8ab3-3c86-4f0b-8979-e43699780008"
+    },
+    {
+      "title": "Update for Microsoft server operating system (26100.7178) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0c64c869-c296-40ea-b3ff-d5d6a1e87e62",
+      "arch": "arm64",
+      "addedAt": "2025-11-19 09:48:13 UTC",
+      "id": "0c64c869-c296-40ea-b3ff-d5d6a1e87e62"
+    },
+    {
+      "title": "Security Update for Microsoft server operating system (26100.7171) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a5ebda55-e80d-4b07-bdbd-6cacede28256",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:02:07 UTC",
+      "id": "a5ebda55-e80d-4b07-bdbd-6cacede28256"
+    },
+    {
+      "title": "Security Update for Microsoft server operating system (26100.7171) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=674b6191-cd48-4df8-b7ce-969c87bcd98c",
+      "arch": "arm64",
+      "addedAt": "2025-11-11 18:02:08 UTC",
+      "id": "674b6191-cd48-4df8-b7ce-969c87bcd98c"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.6899) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e01b294c-9edc-45e7-8029-64af26104e95",
+      "arch": "x64",
+      "addedAt": "2025-10-14 17:02:37 UTC",
+      "id": "e01b294c-9edc-45e7-8029-64af26104e95"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.6899) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a65e6c06-30e1-4bce-a3e5-20e4b479c8f9",
+      "arch": "arm64",
+      "addedAt": "2025-10-14 17:02:35 UTC",
+      "id": "a65e6c06-30e1-4bce-a3e5-20e4b479c8f9"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.6584) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=43612285-4243-4b39-b35d-057d5c800d69",
+      "arch": "x64",
+      "addedAt": "2025-09-09 17:01:55 UTC",
+      "id": "43612285-4243-4b39-b35d-057d5c800d69"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.6584) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=493053c0-7c1d-4020-8dd0-8e90f077b1f4",
+      "arch": "arm64",
+      "addedAt": "2025-09-09 17:01:53 UTC",
+      "id": "493053c0-7c1d-4020-8dd0-8e90f077b1f4"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4946) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8ede8b5a-589e-47ec-8ccf-0c070cef69cf",
+      "arch": "x64",
+      "addedAt": "2025-08-12 17:01:33 UTC",
+      "id": "8ede8b5a-589e-47ec-8ccf-0c070cef69cf"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4946) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=39f5e8fc-0598-4d8d-87ff-b40ffb36ee76",
+      "arch": "arm64",
+      "addedAt": "2025-08-12 17:01:31 UTC",
+      "id": "39f5e8fc-0598-4d8d-87ff-b40ffb36ee76"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.4851) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=56bd20f7-ca33-4834-9789-f6f8756c2695",
+      "arch": "x64",
+      "addedAt": "2025-08-12 18:49:02 UTC",
+      "id": "56bd20f7-ca33-4834-9789-f6f8756c2695"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.4851) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=88a3ed95-0c22-4fc8-9bf2-3612ab4b2cb2",
+      "arch": "arm64",
+      "addedAt": "2025-08-12 18:49:18 UTC",
+      "id": "88a3ed95-0c22-4fc8-9bf2-3612ab4b2cb2"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.4662) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f53a42d4-98d0-4a3e-8045-fa3f70e7059d",
+      "arch": "arm64",
+      "addedAt": "2025-07-15 01:43:30 UTC",
+      "id": "f53a42d4-98d0-4a3e-8045-fa3f70e7059d"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4656) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1e16ff06-7094-494f-873a-7d72b84c21a9",
+      "arch": "x64",
+      "addedAt": "2025-07-14 03:51:52 UTC",
+      "id": "1e16ff06-7094-494f-873a-7d72b84c21a9"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4656) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8949539c-ad48-4ae6-a45b-11ae73f3bcf8",
+      "arch": "arm64",
+      "addedAt": "2025-07-14 03:52:01 UTC",
+      "id": "8949539c-ad48-4ae6-a45b-11ae73f3bcf8"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4652) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c6c7808e-7e6f-4fe3-9442-73a7924f294b",
+      "arch": "x64",
+      "addedAt": "2025-07-08 17:01:58 UTC",
+      "id": "c6c7808e-7e6f-4fe3-9442-73a7924f294b"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4652) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8181f1f7-f013-4f71-8c1c-2655bc532165",
+      "arch": "arm64",
+      "addedAt": "2025-07-08 17:01:56 UTC",
+      "id": "8181f1f7-f013-4f71-8c1c-2655bc532165"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4349) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dc616f05-dd63-47e3-9365-ff4bc05397eb",
+      "arch": "x64",
+      "addedAt": "2025-06-10 17:02:35 UTC",
+      "id": "dc616f05-dd63-47e3-9365-ff4bc05397eb"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4349) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=241bfcb4-bfd8-4e7f-8824-169cf9d1cdf5",
+      "arch": "arm64",
+      "addedAt": "2025-06-10 17:02:33 UTC",
+      "id": "241bfcb4-bfd8-4e7f-8824-169cf9d1cdf5"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.4270) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9f319d48-4885-42fc-9032-5ac7fa2cf344",
+      "arch": "x64",
+      "addedAt": "2025-06-12 03:27:02 UTC",
+      "id": "9f319d48-4885-42fc-9032-5ac7fa2cf344"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.4270) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=727bbbc7-a915-421c-a0ab-27d71452cbb3",
+      "arch": "arm64",
+      "addedAt": "2025-06-12 03:27:14 UTC",
+      "id": "727bbbc7-a915-421c-a0ab-27d71452cbb3"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4066) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2f29f768-37c1-4ae8-a4ac-11936713deeb",
+      "arch": "x64",
+      "addedAt": "2025-05-27 22:22:12 UTC",
+      "id": "2f29f768-37c1-4ae8-a4ac-11936713deeb"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4066) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=646fa467-8002-4a4c-aff8-e1ac868345df",
+      "arch": "arm64",
+      "addedAt": "2025-05-27 22:22:00 UTC",
+      "id": "646fa467-8002-4a4c-aff8-e1ac868345df"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4061) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c08bcc5c-d702-4f0c-8f0d-e38f374bbbf2",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:03:01 UTC",
+      "id": "c08bcc5c-d702-4f0c-8f0d-e38f374bbbf2"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.4061) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=576f49aa-07d9-4c77-bf10-c4392da90a09",
+      "arch": "arm64",
+      "addedAt": "2025-05-13 17:02:59 UTC",
+      "id": "576f49aa-07d9-4c77-bf10-c4392da90a09"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.3981) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2baf73fe-b1f9-4f4c-9cb2-b2893bb4c82f",
+      "arch": "x64",
+      "addedAt": "2025-05-20 10:25:24 UTC",
+      "id": "2baf73fe-b1f9-4f4c-9cb2-b2893bb4c82f"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.3981) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=486f5c22-cbbf-4ca9-a28a-790a5eff549c",
+      "arch": "arm64",
+      "addedAt": "2025-05-20 10:25:17 UTC",
+      "id": "486f5c22-cbbf-4ca9-a28a-790a5eff549c"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.3775) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=155b8544-ab33-4b0d-b753-38e3f7b03d58",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:02:31 UTC",
+      "id": "155b8544-ab33-4b0d-b753-38e3f7b03d58"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.3775) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dec6edf2-1051-40a6-a449-0f89e28fdb02",
+      "arch": "arm64",
+      "addedAt": "2025-04-08 17:02:28 UTC",
+      "id": "dec6edf2-1051-40a6-a449-0f89e28fdb02"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.3476) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7cea3e2e-2c07-4e67-a561-c500c656cc66",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:02:09 UTC",
+      "id": "7cea3e2e-2c07-4e67-a561-c500c656cc66"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.3476) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=845e11de-3e8f-4c1b-bad0-b99777ca27b2",
+      "arch": "arm64",
+      "addedAt": "2025-03-11 17:02:07 UTC",
+      "id": "845e11de-3e8f-4c1b-bad0-b99777ca27b2"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.3403) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=16f08b2e-35b9-4ad8-8a0e-3cad15ac2edf",
+      "arch": "x64",
+      "addedAt": "2025-05-20 10:27:32 UTC",
+      "id": "16f08b2e-35b9-4ad8-8a0e-3cad15ac2edf"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.3403) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6b39e585-2060-44af-b2f4-dde27310d0af",
+      "arch": "arm64",
+      "addedAt": "2025-05-20 10:28:17 UTC",
+      "id": "6b39e585-2060-44af-b2f4-dde27310d0af"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.3194) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=61b2b82f-a2e4-4620-8adb-176f9f4d1e58",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:01:44 UTC",
+      "id": "61b2b82f-a2e4-4620-8adb-176f9f4d1e58"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.3194) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8281503f-22f0-462f-8183-f20b93f55171",
+      "arch": "arm64",
+      "addedAt": "2025-02-11 18:01:41 UTC",
+      "id": "8281503f-22f0-462f-8183-f20b93f55171"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.3107) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4b0ac338-dd5d-400d-afcc-7463b4ea7116",
+      "arch": "x64",
+      "addedAt": "2025-05-20 10:28:54 UTC",
+      "id": "4b0ac338-dd5d-400d-afcc-7463b4ea7116"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.3107) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d8a2dd4f-00df-4dc1-8aca-92b5ed06aa0c",
+      "arch": "arm64",
+      "addedAt": "2025-05-20 10:28:39 UTC",
+      "id": "d8a2dd4f-00df-4dc1-8aca-92b5ed06aa0c"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.2894) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2b0a275d-6e82-4833-bafe-5e06d1800a9b",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:02:21 UTC",
+      "id": "2b0a275d-6e82-4833-bafe-5e06d1800a9b"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.2894) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ca38b9b4-0eba-4fff-a7ca-183a408076d5",
+      "arch": "arm64",
+      "addedAt": "2025-01-14 18:02:19 UTC",
+      "id": "ca38b9b4-0eba-4fff-a7ca-183a408076d5"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.2605) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ed603b9a-f2f0-47dc-8090-232b014c8d58",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:01:49 UTC",
+      "id": "ed603b9a-f2f0-47dc-8090-232b014c8d58"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.2605) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0d4a3e01-dd5c-4e7b-ae8e-1c137101a07a",
+      "arch": "arm64",
+      "addedAt": "2024-12-10 18:01:47 UTC",
+      "id": "0d4a3e01-dd5c-4e7b-ae8e-1c137101a07a"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.2528) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8a09d53a-3594-488e-85db-f5d84191b78d",
+      "arch": "x64",
+      "addedAt": "2024-12-12 19:53:16 UTC",
+      "id": "8a09d53a-3594-488e-85db-f5d84191b78d"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.2528) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e13a9f92-91ad-4330-8737-cff96f02af00",
+      "arch": "arm64",
+      "addedAt": "2024-12-12 19:55:24 UTC",
+      "id": "e13a9f92-91ad-4330-8737-cff96f02af00"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 24H2 (26100.2314) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f10180dd-88e2-44b0-8b0c-88020cecba33",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:02:42 UTC",
+      "id": "f10180dd-88e2-44b0-8b0c-88020cecba33"
+    },
+    {
+      "title": "Windows Server 2025 (26100.2314) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c4bd87c1-c34e-452f-9d2c-16ee2ec9e19a",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:02:37 UTC",
+      "id": "c4bd87c1-c34e-452f-9d2c-16ee2ec9e19a"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.2314) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0b431f77-84cf-43f9-87ae-8afcabed8ba9",
+      "arch": "arm64",
+      "addedAt": "2024-11-12 18:02:34 UTC",
+      "id": "0b431f77-84cf-43f9-87ae-8afcabed8ba9"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.2240) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=776ade9d-a2a0-4381-9155-299b18c27732",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:16:04 UTC",
+      "id": "776ade9d-a2a0-4381-9155-299b18c27732"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.2240) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=668004ba-3dac-4e6f-ad41-90fa545b8820",
+      "arch": "arm64",
+      "addedAt": "2024-11-12 18:15:51 UTC",
+      "id": "668004ba-3dac-4e6f-ad41-90fa545b8820"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 24H2 (26100.2033) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bbb80b23-aba7-4b88-86bd-b505cc94c704",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:02:00 UTC",
+      "id": "bbb80b23-aba7-4b88-86bd-b505cc94c704"
+    },
+    {
+      "title": "Windows Server 2025 (26100.2033) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=88285020-3ed0-4f3f-90c7-d2fa3581bd7f",
+      "arch": "x64",
+      "addedAt": "2024-11-04 18:19:30 UTC",
+      "id": "88285020-3ed0-4f3f-90c7-d2fa3581bd7f"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 24H2 (26100.2033) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fe74ffc1-ed59-4cfa-8f3e-07db720d53a8",
+      "arch": "arm64",
+      "addedAt": "2024-10-08 17:01:58 UTC",
+      "id": "fe74ffc1-ed59-4cfa-8f3e-07db720d53a8"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.1742) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8cec498b-8ace-4e8d-b213-6fc8d7dda844",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:02:37 UTC",
+      "id": "8cec498b-8ace-4e8d-b213-6fc8d7dda844"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.1742) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f507a704-9ca8-4aaa-aa71-ee2fb142d82b",
+      "arch": "arm64",
+      "addedAt": "2024-09-10 17:02:35 UTC",
+      "id": "f507a704-9ca8-4aaa-aa71-ee2fb142d82b"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.1656) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7847a2fa-d4cc-43b7-90b9-3317d905efd9",
+      "arch": "x64",
+      "addedAt": "2025-05-20 10:24:29 UTC",
+      "id": "7847a2fa-d4cc-43b7-90b9-3317d905efd9"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.1656) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ff6ac77e-d30f-4452-9d3d-2dcbc85afac7",
+      "arch": "arm64",
+      "addedAt": "2025-05-20 10:24:40 UTC",
+      "id": "ff6ac77e-d30f-4452-9d3d-2dcbc85afac7"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.1457) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=64e50296-e7ca-4284-89a1-5f09dc7dd93a",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:02:21 UTC",
+      "id": "64e50296-e7ca-4284-89a1-5f09dc7dd93a"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.1457) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d4fe1bb4-7755-427e-812e-e49bb519ee32",
+      "arch": "arm64",
+      "addedAt": "2024-08-13 17:02:19 UTC",
+      "id": "d4fe1bb4-7755-427e-812e-e49bb519ee32"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.1386) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=033d5929-dffd-418a-8097-83726a5c2cef",
+      "arch": "x64",
+      "addedAt": "2024-08-15 13:43:09 UTC",
+      "id": "033d5929-dffd-418a-8097-83726a5c2cef"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.1386) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0544a2e2-db53-430b-9afe-c7901f6a58de",
+      "arch": "arm64",
+      "addedAt": "2024-08-15 13:43:07 UTC",
+      "id": "0544a2e2-db53-430b-9afe-c7901f6a58de"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.1150) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a874afac-39f6-4ca6-b5e5-f4f5fe62d9cc",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:01:51 UTC",
+      "id": "a874afac-39f6-4ca6-b5e5-f4f5fe62d9cc"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.1150) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1370329f-38a3-443d-a3a1-99206b0bf483",
+      "arch": "arm64",
+      "addedAt": "2024-07-09 17:01:49 UTC",
+      "id": "1370329f-38a3-443d-a3a1-99206b0bf483"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.863) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ef61691c-6510-486b-9f80-efab0569604f",
+      "arch": "x64",
+      "addedAt": "2024-06-15 19:24:21 UTC",
+      "id": "ef61691c-6510-486b-9f80-efab0569604f"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.863) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b60567b3-35c8-4c38-87ab-72770141a1b7",
+      "arch": "arm64",
+      "addedAt": "2024-06-15 20:05:20 UTC",
+      "id": "b60567b3-35c8-4c38-87ab-72770141a1b7"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI Version 24H2 (Hotpatch capable) (26100.793) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4f550453-9d5a-4c9d-bce8-af0ba1470ec5",
+      "arch": "x64",
+      "addedAt": "2024-07-07 16:15:33 UTC",
+      "id": "4f550453-9d5a-4c9d-bce8-af0ba1470ec5"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI Version 24H2 (Hotpatch capable) (26100.793) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7b7e46ff-f17d-4e4e-8064-dc38046e2dc3",
+      "arch": "arm64",
+      "addedAt": "2024-07-07 16:55:44 UTC",
+      "id": "7b7e46ff-f17d-4e4e-8064-dc38046e2dc3"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.560) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7767fa29-dc85-43fa-9707-c57e58a65bb2",
+      "arch": "x64",
+      "addedAt": "2024-05-17 19:28:12 UTC",
+      "id": "7767fa29-dc85-43fa-9707-c57e58a65bb2"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.560) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=eb42e5a9-a220-41bf-bf99-6724678b7d79",
+      "arch": "arm64",
+      "addedAt": "2024-05-17 19:28:20 UTC",
+      "id": "eb42e5a9-a220-41bf-bf99-6724678b7d79"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system Version 24H2 (Hotpatch capable) (26100.500) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ac08369a-5df8-4cfc-ba16-dd6ab9017172",
+      "arch": "x64",
+      "addedAt": "2025-05-20 10:22:10 UTC",
+      "id": "ac08369a-5df8-4cfc-ba16-dd6ab9017172"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.268) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=868a7898-9ca2-4cb8-a263-8a3c6e52ef80",
+      "arch": "x64",
+      "addedAt": "2024-04-26 17:43:58 UTC",
+      "id": "868a7898-9ca2-4cb8-a263-8a3c6e52ef80"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 24H2 (26100.268) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fb12fdae-dd42-4d2d-b8cc-380a968e8d10",
+      "arch": "arm64",
+      "addedAt": "2024-04-26 17:44:16 UTC",
+      "id": "fb12fdae-dd42-4d2d-b8cc-380a968e8d10"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 24H2 (26100.1) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1c1dd3cf-eefb-4a49-909c-3c810aa2fcb7",
+      "arch": "x64",
+      "addedAt": "2024-05-27 06:26:23 UTC",
+      "id": "1c1dd3cf-eefb-4a49-909c-3c810aa2fcb7"
+    },
+    {
+      "title": "Windows Server 2025 (26100.1) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=30da46b4-2ff2-4682-a9ae-23b66dd98713",
+      "arch": "x64",
+      "addedAt": "2024-05-27 06:25:15 UTC",
+      "id": "30da46b4-2ff2-4682-a9ae-23b66dd98713"
+    }
+  ]
+}
