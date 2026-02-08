@@ -1,0 +1,99 @@
+{
+  "category": "canary",
+  "url": "https://uupdump.net/known.php?q=category:canary",
+  "name": "Canary Channel",
+  "pages": 1,
+  "versions": [
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1546) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1d49566a-0165-4bfb-8c4d-0efc332b6ec1",
+      "arch": "x64",
+      "addedAt": "2026-02-04 22:00:15 UTC",
+      "id": "1d49566a-0165-4bfb-8c4d-0efc332b6ec1"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1546) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c3d62729-13b3-4e32-908c-22cdff31ec71",
+      "arch": "arm64",
+      "addedAt": "2026-02-04 22:00:12 UTC",
+      "id": "c3d62729-13b3-4e32-908c-22cdff31ec71"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1495) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3690e475-be4f-4290-a16e-fbcfde67b7f3",
+      "arch": "x64",
+      "addedAt": "2026-01-28 22:00:14 UTC",
+      "id": "3690e475-be4f-4290-a16e-fbcfde67b7f3"
+    },
+    {
+      "title": "Windows 11 Insider Preview Quality Update (28020.1495) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9846e7b3-ad5f-46a4-bf42-c694f8c2f95e",
+      "arch": "x64",
+      "addedAt": "2026-02-02 15:05:29 UTC",
+      "id": "9846e7b3-ad5f-46a4-bf42-c694f8c2f95e"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1495) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2a6b2d4b-2064-475d-adf1-7d64ca83f870",
+      "arch": "arm64",
+      "addedAt": "2026-01-28 22:00:12 UTC",
+      "id": "2a6b2d4b-2064-475d-adf1-7d64ca83f870"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1371) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=27bd90b0-7fb1-4de1-a402-f38ee58466ca",
+      "arch": "x64",
+      "addedAt": "2026-01-14 22:00:21 UTC",
+      "id": "27bd90b0-7fb1-4de1-a402-f38ee58466ca"
+    },
+    {
+      "title": "Windows 11 Insider Preview Quality Update (28020.1371) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3cc959f1-630c-44e3-88f8-ed78dadac197",
+      "arch": "x64",
+      "addedAt": "2026-01-15 11:42:39 UTC",
+      "id": "3cc959f1-630c-44e3-88f8-ed78dadac197"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1371) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d5071187-90c1-45ce-a3b2-3c0108ee7ae7",
+      "arch": "arm64",
+      "addedAt": "2026-01-14 22:00:18 UTC",
+      "id": "d5071187-90c1-45ce-a3b2-3c0108ee7ae7"
+    },
+    {
+      "title": "Windows 11 Insider Preview Quality Update (28020.1371) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1ad0c0ce-f591-4fe6-a58a-6f3503fb74ea",
+      "arch": "arm64",
+      "addedAt": "2026-01-19 05:15:05 UTC",
+      "id": "1ad0c0ce-f591-4fe6-a58a-6f3503fb74ea"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1362) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5510915e-64a2-4775-9c03-2057f94e36fc",
+      "arch": "x64",
+      "addedAt": "2025-12-15 22:00:17 UTC",
+      "id": "5510915e-64a2-4775-9c03-2057f94e36fc"
+    },
+    {
+      "title": "Windows 11 Insider Preview Quality Update (28020.1362) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4264d874-8da5-492f-8495-830be82501c6",
+      "arch": "x64",
+      "addedAt": "2025-12-16 06:42:21 UTC",
+      "id": "4264d874-8da5-492f-8495-830be82501c6"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (28020.1362) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0b0f4f60-61c7-4125-b8d2-581efacdc2d2",
+      "arch": "arm64",
+      "addedAt": "2025-12-15 22:00:14 UTC",
+      "id": "0b0f4f60-61c7-4125-b8d2-581efacdc2d2"
+    },
+    {
+      "title": "Windows 11 Insider Preview Quality Update (28020.1362) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=706eec62-696c-451c-ac61-5ca35e2ddb5d",
+      "arch": "arm64",
+      "addedAt": "2025-12-16 07:30:11 UTC",
+      "id": "706eec62-696c-451c-ac61-5ca35e2ddb5d"
+    }
+  ]
+}

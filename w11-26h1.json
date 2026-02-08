@@ -1,0 +1,93 @@
+{
+  "category": "w11-26h1",
+  "url": "https://uupdump.net/known.php?q=category:w11-26h1",
+  "name": "26H1",
+  "parentName": "Windows 11",
+  "pages": 1,
+  "versions": [
+    {
+      "title": "Preview Update for Windows 11 (28000.1516) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2230c2bc-b304-45d9-b122-12d9470171ff",
+      "arch": "arm64",
+      "addedAt": "2026-01-30 13:11:20 UTC",
+      "id": "2230c2bc-b304-45d9-b122-12d9470171ff"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1450) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0e1cec91-9bb2-41ad-929f-fe36a5beda02",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:33:11 UTC",
+      "id": "0e1cec91-9bb2-41ad-929f-fe36a5beda02"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1450) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5ee05231-b479-40cf-8ea4-c0202e66f100",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 18:00:25 UTC",
+      "id": "5ee05231-b479-40cf-8ea4-c0202e66f100"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1450) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7f62e99e-c9ed-40f9-91f0-d988b6b98e86",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 19:34:45 UTC",
+      "id": "7f62e99e-c9ed-40f9-91f0-d988b6b98e86"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1340) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3d01a661-1c2c-4c2b-8e79-12c85e8e9b30",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:00:20 UTC",
+      "id": "3d01a661-1c2c-4c2b-8e79-12c85e8e9b30"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1340) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c79f8a7f-88ad-4d60-9ed8-3c4e71816dad",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 18:52:38 UTC",
+      "id": "c79f8a7f-88ad-4d60-9ed8-3c4e71816dad"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1340) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=936676fd-eb9e-44e1-842b-3a4b8fca7e9c",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 18:08:59 UTC",
+      "id": "936676fd-eb9e-44e1-842b-3a4b8fca7e9c"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1199) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=99c26968-2e97-4873-ab14-22c3cc115c30",
+      "arch": "x64",
+      "addedAt": "2025-11-18 18:00:12 UTC",
+      "id": "99c26968-2e97-4873-ab14-22c3cc115c30"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1199) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=02242beb-9b26-4445-b9b8-978df2430b1c",
+      "arch": "arm64",
+      "addedAt": "2025-11-18 18:00:13 UTC",
+      "id": "02242beb-9b26-4445-b9b8-978df2430b1c"
+    },
+    {
+      "title": "Windows 11 Insider Preview 28000.1 (br_release) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=082a33fb-8cb5-4cc6-abb3-611c3f7ecd35",
+      "arch": "x64",
+      "addedAt": "2025-11-07 18:00:19 UTC",
+      "id": "082a33fb-8cb5-4cc6-abb3-611c3f7ecd35"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ac21edb9-f99c-4a6e-8fed-c9356366340d",
+      "arch": "arm64",
+      "addedAt": "2026-02-02 20:17:51 UTC",
+      "id": "ac21edb9-f99c-4a6e-8fed-c9356366340d"
+    },
+    {
+      "title": "Windows 11 Insider Preview 28000.1 (br_release) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=950545af-8cd0-49ce-bc8c-789258edc8ba",
+      "arch": "arm64",
+      "addedAt": "2025-11-07 18:00:11 UTC",
+      "id": "950545af-8cd0-49ce-bc8c-789258edc8ba"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "scrapedAt": "2026-02-08T04:33:34.410Z",
+  "hierarchy": [
+    {
+      "name": "Canary Channel",
+      "url": "https://uupdump.net/known.php?q=category:canary",
+      "isDropdown": false,
+      "category": "canary",
+      "source": "dynamic"
+    },
+    {
+      "name": "Dev Channel",
+      "url": "https://uupdump.net/known.php?q=category:dev",
+      "isDropdown": false,
+      "category": "dev",
+      "source": "dynamic"
+    },
+    {
+      "name": "Windows 11",
+      "isDropdown": true,
+      "subLinks": [
+        {
+          "name": "26H1",
+          "url": "https://uupdump.net/known.php?q=category:w11-26h1",
+          "isDropdown": false,
+          "category": "w11-26h1",
+          "source": "dynamic"
+        },
+        {
+          "name": "25H2 Beta",
+          "url": "https://uupdump.net/known.php?q=category:w11-25h2-beta",
+          "isDropdown": false,
+          "category": "w11-25h2-beta",
+          "source": "dynamic"
+        },
+        {
+          "name": "25H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-25h2",
+          "isDropdown": false,
+          "category": "w11-25h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "24H2 Beta",
+          "url": "https://uupdump.net/known.php?q=category:w11-24h2-beta",
+          "isDropdown": false,
+          "category": "w11-24h2-beta",
+          "source": "dynamic"
+        },
+        {
+          "name": "24H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-24h2",
+          "isDropdown": false,
+          "category": "w11-24h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "23H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-23h2",
+          "isDropdown": false,
+          "category": "w11-23h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "22H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-22h2",
+          "isDropdown": false,
+          "category": "w11-22h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "21H2",
+          "url": "https://uupdump.net/known.php?q=category:w11-21h2",
+          "isDropdown": false,
+          "category": "w11-21h2",
+          "source": "dynamic"
+        }
+      ],
+      "source": "dynamic"
+    },
+    {
+      "name": "Windows Server",
+      "isDropdown": true,
+      "subLinks": [
+        {
+          "name": "24H2",
+          "url": "https://uupdump.net/known.php?q=category:server-24h2",
+          "isDropdown": false,
+          "category": "server-24h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "23H2",
+          "url": "https://uupdump.net/known.php?q=category:server-23h2",
+          "isDropdown": false,
+          "category": "server-23h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "22H2",
+          "url": "https://uupdump.net/known.php?q=category:server-22h2",
+          "isDropdown": false,
+          "category": "server-22h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "21H2",
+          "url": "https://uupdump.net/known.php?q=category:server-21h2",
+          "isDropdown": false,
+          "category": "server-21h2",
+          "source": "dynamic"
+        }
+      ],
+      "source": "dynamic"
+    },
+    {
+      "name": "Windows 10",
+      "isDropdown": true,
+      "subLinks": [
+        {
+          "name": "22H2",
+          "url": "https://uupdump.net/known.php?q=category:w10-22h2",
+          "isDropdown": false,
+          "category": "w10-22h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "21H2",
+          "url": "https://uupdump.net/known.php?q=category:w10-21h2",
+          "isDropdown": false,
+          "category": "w10-21h2",
+          "source": "dynamic"
+        },
+        {
+          "name": "1809",
+          "url": "https://uupdump.net/known.php?q=category:w10-1809",
+          "isDropdown": false,
+          "category": "w10-1809",
+          "source": "dynamic"
+        }
+      ],
+      "source": "dynamic"
+    }
+  ]
+}

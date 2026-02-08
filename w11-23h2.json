@@ -1,0 +1,1458 @@
+{
+  "category": "w11-23h2",
+  "url": "https://uupdump.net/known.php?q=category:w11-23h2",
+  "name": "23H2",
+  "parentName": "Windows 11",
+  "pages": 5,
+  "versions": [
+    {
+      "title": "Windows 11, version 23H2 (22631.6495) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=51ac5244-1907-4a06-ae4f-132c783a5eca",
+      "arch": "x64",
+      "addedAt": "2026-01-24 23:44:26 UTC",
+      "id": "51ac5244-1907-4a06-ae4f-132c783a5eca"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6495) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=90db6a8b-5c02-4321-8328-48640ec79ff6",
+      "arch": "arm64",
+      "addedAt": "2026-01-25 10:06:51 UTC",
+      "id": "90db6a8b-5c02-4321-8328-48640ec79ff6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6494) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a55ec4df-8c39-4147-b9b7-83ec8747f5be",
+      "arch": "x64",
+      "addedAt": "2026-01-17 23:22:53 UTC",
+      "id": "a55ec4df-8c39-4147-b9b7-83ec8747f5be"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6494) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=58f74f21-252f-4827-a1bc-0639c699b17d",
+      "arch": "arm64",
+      "addedAt": "2026-01-18 13:00:14 UTC",
+      "id": "58f74f21-252f-4827-a1bc-0639c699b17d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6491) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9443fe15-1a5f-4418-904a-0c242bdd0235",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:54:06 UTC",
+      "id": "9443fe15-1a5f-4418-904a-0c242bdd0235"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6345) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bec99c96-0eac-4392-a96b-dbda76a76335",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:30:05 UTC",
+      "id": "bec99c96-0eac-4392-a96b-dbda76a76335"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6345) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3a16f8ec-ffa9-4c90-a731-9f06b38f9c03",
+      "arch": "arm64",
+      "addedAt": "2025-12-10 12:56:06 UTC",
+      "id": "3a16f8ec-ffa9-4c90-a731-9f06b38f9c03"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6276) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2d63d892-c431-44b6-be0b-ba7aa40c244a",
+      "arch": "x64",
+      "addedAt": "2025-11-20 22:17:25 UTC",
+      "id": "2d63d892-c431-44b6-be0b-ba7aa40c244a"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6276) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=995659bb-b52f-4c86-ac22-06224b7d3d33",
+      "arch": "arm64",
+      "addedAt": "2025-11-20 22:17:35 UTC",
+      "id": "995659bb-b52f-4c86-ac22-06224b7d3d33"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.6269) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=15b52347-4527-445b-871e-dcf7202c9e69",
+      "arch": "x64",
+      "addedAt": "2025-11-20 02:15:30 UTC",
+      "id": "15b52347-4527-445b-871e-dcf7202c9e69"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6269) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=02207d32-4a22-4c4a-9446-d9d239271832",
+      "arch": "x64",
+      "addedAt": "2025-11-13 18:00:50 UTC",
+      "id": "02207d32-4a22-4c4a-9446-d9d239271832"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.6269) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=bcb18b95-c27b-4ae8-8dee-4738e509ea94",
+      "arch": "arm64",
+      "addedAt": "2025-11-20 02:15:29 UTC",
+      "id": "bcb18b95-c27b-4ae8-8dee-4738e509ea94"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6269) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cb07885b-a0e0-41cd-9d00-f141cd3ca62a",
+      "arch": "arm64",
+      "addedAt": "2025-11-13 18:00:47 UTC",
+      "id": "cb07885b-a0e0-41cd-9d00-f141cd3ca62a"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6199) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6be32a2f-5662-445d-9497-70f067861852",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:00:21 UTC",
+      "id": "6be32a2f-5662-445d-9497-70f067861852"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6199) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a02785fa-0ba0-4fe0-9579-f4e716877f7e",
+      "arch": "arm64",
+      "addedAt": "2025-11-11 18:00:38 UTC",
+      "id": "a02785fa-0ba0-4fe0-9579-f4e716877f7e"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6133) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=216ae83f-b519-41fb-9218-7baae9c404ff",
+      "arch": "x64",
+      "addedAt": "2025-10-28 17:00:41 UTC",
+      "id": "216ae83f-b519-41fb-9218-7baae9c404ff"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6133) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a5e6c75d-42f7-4fff-bb1c-4ca5dec3e6a3",
+      "arch": "arm64",
+      "addedAt": "2025-10-28 17:00:36 UTC",
+      "id": "a5e6c75d-42f7-4fff-bb1c-4ca5dec3e6a3"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6132) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=56dd69e2-20b8-4275-8908-cc22bb94fd94",
+      "arch": "x64",
+      "addedAt": "2025-10-22 17:00:40 UTC",
+      "id": "56dd69e2-20b8-4275-8908-cc22bb94fd94"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6132) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=75995c35-9c74-4cc8-ab48-209b76ce7ba3",
+      "arch": "arm64",
+      "addedAt": "2025-10-22 17:00:37 UTC",
+      "id": "75995c35-9c74-4cc8-ab48-209b76ce7ba3"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6130) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2a19edd9-c6a3-499b-9ae3-5e1a6b5c4c97",
+      "arch": "x64",
+      "addedAt": "2025-10-16 17:01:18 UTC",
+      "id": "2a19edd9-c6a3-499b-9ae3-5e1a6b5c4c97"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6130) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7702f052-998a-438c-886f-a0ee9944cdf6",
+      "arch": "arm64",
+      "addedAt": "2025-10-16 17:01:15 UTC",
+      "id": "7702f052-998a-438c-886f-a0ee9944cdf6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6060) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=09682f56-2557-4864-9a8a-e623866c7100",
+      "arch": "x64",
+      "addedAt": "2025-10-14 17:00:46 UTC",
+      "id": "09682f56-2557-4864-9a8a-e623866c7100"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.6060) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b0d01dca-5971-4f77-8338-924a38ac4f4a",
+      "arch": "arm64",
+      "addedAt": "2025-10-14 17:00:43 UTC",
+      "id": "b0d01dca-5971-4f77-8338-924a38ac4f4a"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5984) (2) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cb213a20-f802-4885-a433-abaf60da11e9",
+      "arch": "x64",
+      "addedAt": "2025-09-23 17:00:51 UTC",
+      "id": "cb213a20-f802-4885-a433-abaf60da11e9"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5984) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b55fde7e-913d-4300-8668-f616ab3af9e0",
+      "arch": "x64",
+      "addedAt": "2025-09-16 17:00:31 UTC",
+      "id": "b55fde7e-913d-4300-8668-f616ab3af9e0"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5984) (2) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a7e37df9-0259-4b67-8c50-201f0c96bdad",
+      "arch": "arm64",
+      "addedAt": "2025-09-23 17:00:48 UTC",
+      "id": "a7e37df9-0259-4b67-8c50-201f0c96bdad"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5984) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=eae800da-dcdf-4ac0-87e9-bb01b12a207f",
+      "arch": "arm64",
+      "addedAt": "2025-09-16 17:00:33 UTC",
+      "id": "eae800da-dcdf-4ac0-87e9-bb01b12a207f"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5982) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=061f5fdf-5b24-4c15-888e-3d3dbe0358fe",
+      "arch": "x64",
+      "addedAt": "2025-09-11 17:00:36 UTC",
+      "id": "061f5fdf-5b24-4c15-888e-3d3dbe0358fe"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5982) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d2067b04-533b-470a-8e1d-2a154cd735a2",
+      "arch": "arm64",
+      "addedAt": "2025-09-11 17:00:33 UTC",
+      "id": "d2067b04-533b-470a-8e1d-2a154cd735a2"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5909) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5be08c32-7d3a-407c-98c6-06d831ba7cc3",
+      "arch": "x64",
+      "addedAt": "2025-09-09 17:15:43 UTC",
+      "id": "5be08c32-7d3a-407c-98c6-06d831ba7cc3"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5909) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f3586b59-9d75-4c9f-9d17-6f65a12a1741",
+      "arch": "arm64",
+      "addedAt": "2025-09-09 17:15:40 UTC",
+      "id": "f3586b59-9d75-4c9f-9d17-6f65a12a1741"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5840) (2) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=27b2d265-ace8-4c08-86fa-e3f1aa1ed8bc",
+      "arch": "x64",
+      "addedAt": "2025-08-26 17:00:31 UTC",
+      "id": "27b2d265-ace8-4c08-86fa-e3f1aa1ed8bc"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5840) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=015584c5-f818-4296-bd06-ffd8eb643794",
+      "arch": "x64",
+      "addedAt": "2025-08-21 17:00:39 UTC",
+      "id": "015584c5-f818-4296-bd06-ffd8eb643794"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5840) (2) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0fd323a8-ee4a-4b76-a324-a8de75b1c95d",
+      "arch": "arm64",
+      "addedAt": "2025-08-26 17:00:28 UTC",
+      "id": "0fd323a8-ee4a-4b76-a324-a8de75b1c95d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5840) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e8717948-54dd-49a9-b408-9a70741fd66c",
+      "arch": "arm64",
+      "addedAt": "2025-08-21 17:00:41 UTC",
+      "id": "e8717948-54dd-49a9-b408-9a70741fd66c"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5837) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b9ebcc87-0879-4902-99be-20f72963dd40",
+      "arch": "x64",
+      "addedAt": "2025-08-14 17:01:03 UTC",
+      "id": "b9ebcc87-0879-4902-99be-20f72963dd40"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5837) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dbd69fdd-0188-40c2-b869-b7ae879186cd",
+      "arch": "arm64",
+      "addedAt": "2025-08-14 17:01:05 UTC",
+      "id": "dbd69fdd-0188-40c2-b869-b7ae879186cd"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5771) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b3c4d927-ef14-4467-b425-53879d238725",
+      "arch": "x64",
+      "addedAt": "2025-08-19 22:55:42 UTC",
+      "id": "b3c4d927-ef14-4467-b425-53879d238725"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5771) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0243eea7-b133-4b24-beff-254a3a005047",
+      "arch": "arm64",
+      "addedAt": "2025-08-19 23:28:56 UTC",
+      "id": "0243eea7-b133-4b24-beff-254a3a005047"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.5768) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=62e28e1c-7907-463c-8166-17081f354105",
+      "arch": "x64",
+      "addedAt": "2025-08-24 00:45:20 UTC",
+      "id": "62e28e1c-7907-463c-8166-17081f354105"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5768) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=439308a6-c89e-4608-8bf6-73aa4d49c6f2",
+      "arch": "x64",
+      "addedAt": "2025-08-12 17:00:31 UTC",
+      "id": "439308a6-c89e-4608-8bf6-73aa4d49c6f2"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.5768) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=86be5f35-b76a-4f18-aaf7-2d6f5e00cc2b",
+      "arch": "arm64",
+      "addedAt": "2025-08-24 00:45:18 UTC",
+      "id": "86be5f35-b76a-4f18-aaf7-2d6f5e00cc2b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5768) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=774615b3-a1a5-4138-a87c-8b1583b82d78",
+      "arch": "arm64",
+      "addedAt": "2025-08-12 17:00:28 UTC",
+      "id": "774615b3-a1a5-4138-a87c-8b1583b82d78"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5699) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=47ac90a8-1810-4842-b2fc-1a13e69218a8",
+      "arch": "x64",
+      "addedAt": "2025-07-15 21:00:50 UTC",
+      "id": "47ac90a8-1810-4842-b2fc-1a13e69218a8"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5699) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dc0feafe-b4ed-49dd-9b40-f3e0236c5e31",
+      "arch": "arm64",
+      "addedAt": "2025-07-15 21:00:47 UTC",
+      "id": "dc0feafe-b4ed-49dd-9b40-f3e0236c5e31"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5696) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b8803c9d-145e-486e-a58c-aa38991b4b0a",
+      "arch": "x64",
+      "addedAt": "2025-07-10 17:00:43 UTC",
+      "id": "b8803c9d-145e-486e-a58c-aa38991b4b0a"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5696) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5b67c9ca-710b-41a7-a6a9-f95496c23a2c",
+      "arch": "arm64",
+      "addedAt": "2025-07-10 17:00:44 UTC",
+      "id": "5b67c9ca-710b-41a7-a6a9-f95496c23a2c"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5624) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5e6ac05f-dae3-48c7-9502-e2ae6ff54f0f",
+      "arch": "x64",
+      "addedAt": "2025-07-08 17:00:44 UTC",
+      "id": "5e6ac05f-dae3-48c7-9502-e2ae6ff54f0f"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5624) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e468f0aa-4ca6-4ae0-b6cb-14baf220dbdf",
+      "arch": "arm64",
+      "addedAt": "2025-07-08 17:00:46 UTC",
+      "id": "e468f0aa-4ca6-4ae0-b6cb-14baf220dbdf"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5549) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9b730125-8426-42fc-9800-01220a4a05da",
+      "arch": "x64",
+      "addedAt": "2025-06-26 21:03:08 UTC",
+      "id": "9b730125-8426-42fc-9800-01220a4a05da"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5549) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5232939b-ec6f-4641-8c6a-3e6f7bd3c2b6",
+      "arch": "arm64",
+      "addedAt": "2025-06-26 21:15:24 UTC",
+      "id": "5232939b-ec6f-4641-8c6a-3e6f7bd3c2b6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5548) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c2151bd2-59f9-4a1a-8d49-49c53a9498fa",
+      "arch": "x64",
+      "addedAt": "2025-06-19 17:01:02 UTC",
+      "id": "c2151bd2-59f9-4a1a-8d49-49c53a9498fa"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5548) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f14f5f5e-bf44-4c98-b67c-f9c54e009782",
+      "arch": "arm64",
+      "addedAt": "2025-06-19 17:00:59 UTC",
+      "id": "f14f5f5e-bf44-4c98-b67c-f9c54e009782"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5545) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=80348dd4-7136-460e-9d50-52f6b683e9cd",
+      "arch": "x64",
+      "addedAt": "2025-06-12 17:00:15 UTC",
+      "id": "80348dd4-7136-460e-9d50-52f6b683e9cd"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5545) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8f919c72-2909-4b51-8249-9a7179cb5fe3",
+      "arch": "arm64",
+      "addedAt": "2025-06-12 17:01:05 UTC",
+      "id": "8f919c72-2909-4b51-8249-9a7179cb5fe3"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5472) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=15b753b5-6057-434d-a4b8-e3be179f82ed",
+      "arch": "x64",
+      "addedAt": "2025-06-10 17:00:56 UTC",
+      "id": "15b753b5-6057-434d-a4b8-e3be179f82ed"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5472) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=207f95be-09fc-4b5c-81a9-3a23a887eb10",
+      "arch": "arm64",
+      "addedAt": "2025-06-10 17:00:52 UTC",
+      "id": "207f95be-09fc-4b5c-81a9-3a23a887eb10"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5415) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a6fa8fea-d8bc-4c98-99a1-a7b3ec64de0d",
+      "arch": "x64",
+      "addedAt": "2025-06-01 21:43:51 UTC",
+      "id": "a6fa8fea-d8bc-4c98-99a1-a7b3ec64de0d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5415) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0045fcea-c729-4e78-9dcc-a4f43da71c60",
+      "arch": "arm64",
+      "addedAt": "2025-06-03 04:58:18 UTC",
+      "id": "0045fcea-c729-4e78-9dcc-a4f43da71c60"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5413) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8e35062d-100e-4662-872e-a60e9e778aa2",
+      "arch": "x64",
+      "addedAt": "2025-05-27 17:00:30 UTC",
+      "id": "8e35062d-100e-4662-872e-a60e9e778aa2"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5413) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=26b9a4b1-a6a2-423c-a0b2-ebf99f173d04",
+      "arch": "arm64",
+      "addedAt": "2025-05-27 17:00:27 UTC",
+      "id": "26b9a4b1-a6a2-423c-a0b2-ebf99f173d04"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5409) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=918485a9-fdf8-49de-b4d0-c8a5bab88597",
+      "arch": "x64",
+      "addedAt": "2025-05-15 17:01:04 UTC",
+      "id": "918485a9-fdf8-49de-b4d0-c8a5bab88597"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5409) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=70cdd544-2dac-49b9-b312-52a5f7cdeb4f",
+      "arch": "arm64",
+      "addedAt": "2025-05-15 17:00:46 UTC",
+      "id": "70cdd544-2dac-49b9-b312-52a5f7cdeb4f"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5335) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b1b83379-3f19-46af-929a-43dcbf883b4a",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:00:44 UTC",
+      "id": "b1b83379-3f19-46af-929a-43dcbf883b4a"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5335) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f2b775be-c464-490b-882c-6b7ad06a23a9",
+      "arch": "arm64",
+      "addedAt": "2025-05-13 17:00:40 UTC",
+      "id": "f2b775be-c464-490b-882c-6b7ad06a23a9"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5262) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9d578e61-54ff-463e-8ed6-ed9c19e0b6b6",
+      "arch": "x64",
+      "addedAt": "2025-04-22 21:01:19 UTC",
+      "id": "9d578e61-54ff-463e-8ed6-ed9c19e0b6b6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5262) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=38dac0ed-2931-49e9-a272-1f669bc25dad",
+      "arch": "arm64",
+      "addedAt": "2025-04-22 21:01:21 UTC",
+      "id": "38dac0ed-2931-49e9-a272-1f669bc25dad"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5261) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=771d3860-0961-4042-baec-962109e82225",
+      "arch": "x64",
+      "addedAt": "2025-04-15 21:01:20 UTC",
+      "id": "771d3860-0961-4042-baec-962109e82225"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5261) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=acca9da4-c4af-46f0-a9c8-82ed52607dda",
+      "arch": "arm64",
+      "addedAt": "2025-04-15 21:01:16 UTC",
+      "id": "acca9da4-c4af-46f0-a9c8-82ed52607dda"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.5192) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9c728323-b2bb-4764-8602-4592cbb3b937",
+      "arch": "x64",
+      "addedAt": "2025-04-14 17:01:09 UTC",
+      "id": "9c728323-b2bb-4764-8602-4592cbb3b937"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5192) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ea289cb3-bd10-40d2-a647-e1d63dd3a95c",
+      "arch": "x64",
+      "addedAt": "2025-04-12 00:36:11 UTC",
+      "id": "ea289cb3-bd10-40d2-a647-e1d63dd3a95c"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5192) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fed5e3c7-1010-4424-8c5b-4bc0176294cb",
+      "arch": "arm64",
+      "addedAt": "2025-04-13 08:57:25 UTC",
+      "id": "fed5e3c7-1010-4424-8c5b-4bc0176294cb"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5189) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dcec0074-275a-494b-bc14-fa62bc11828b",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:00:40 UTC",
+      "id": "dcec0074-275a-494b-bc14-fa62bc11828b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5189) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c9cc37ec-190f-4dbe-9629-acc07442ebd1",
+      "arch": "arm64",
+      "addedAt": "2025-04-08 17:00:36 UTC",
+      "id": "c9cc37ec-190f-4dbe-9629-acc07442ebd1"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.5126) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=378bd772-2791-4e42-a8ae-83a8b226a620",
+      "arch": "x64",
+      "addedAt": "2025-03-25 21:01:28 UTC",
+      "id": "378bd772-2791-4e42-a8ae-83a8b226a620"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5126) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=35c0e7b5-36d7-4561-97c0-cb07e8134d98",
+      "arch": "x64",
+      "addedAt": "2025-03-25 17:01:34 UTC",
+      "id": "35c0e7b5-36d7-4561-97c0-cb07e8134d98"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.5126) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=03e0af59-a9f4-4f81-9bee-901c3cc4bb25",
+      "arch": "arm64",
+      "addedAt": "2025-03-25 21:01:29 UTC",
+      "id": "03e0af59-a9f4-4f81-9bee-901c3cc4bb25"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5126) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2e55753e-e2dd-4d16-a162-09bff536227b",
+      "arch": "arm64",
+      "addedAt": "2025-03-25 17:01:31 UTC",
+      "id": "2e55753e-e2dd-4d16-a162-09bff536227b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5116) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=589a907a-25e1-40ef-901f-08389fc0c597",
+      "arch": "x64",
+      "addedAt": "2025-03-13 17:00:37 UTC",
+      "id": "589a907a-25e1-40ef-901f-08389fc0c597"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5116) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=10a0ee0e-be33-4f04-86d5-deed49f447ee",
+      "arch": "arm64",
+      "addedAt": "2025-03-13 17:01:31 UTC",
+      "id": "10a0ee0e-be33-4f04-86d5-deed49f447ee"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5039) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=96cee0a4-2179-43dd-9483-2d4e1b1306f5",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:00:37 UTC",
+      "id": "96cee0a4-2179-43dd-9483-2d4e1b1306f5"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.5039) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a6fc5931-4b77-472f-8ef8-742f627d6cc6",
+      "arch": "arm64",
+      "addedAt": "2025-03-11 17:00:39 UTC",
+      "id": "a6fc5931-4b77-472f-8ef8-742f627d6cc6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4974) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=50b6bfc0-2282-4fc7-b646-ca60d6a9ddbd",
+      "arch": "x64",
+      "addedAt": "2025-02-25 18:01:27 UTC",
+      "id": "50b6bfc0-2282-4fc7-b646-ca60d6a9ddbd"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4974) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=82dad659-bd1d-4b36-8409-7f4e74597c34",
+      "arch": "arm64",
+      "addedAt": "2025-02-25 18:01:46 UTC",
+      "id": "82dad659-bd1d-4b36-8409-7f4e74597c34"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4969) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=29f78f1c-589e-4f8b-92a3-7d2c931f1e98",
+      "arch": "x64",
+      "addedAt": "2025-02-13 18:00:24 UTC",
+      "id": "29f78f1c-589e-4f8b-92a3-7d2c931f1e98"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4969) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=14e43bd0-838d-4cf2-8422-80cbee71437f",
+      "arch": "arm64",
+      "addedAt": "2025-02-13 18:01:17 UTC",
+      "id": "14e43bd0-838d-4cf2-8422-80cbee71437f"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4890) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ed923794-5926-441f-90b7-42edb0086961",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:00:32 UTC",
+      "id": "ed923794-5926-441f-90b7-42edb0086961"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4890) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=eebb654f-366c-4c91-9053-4c137bf0a8c5",
+      "arch": "arm64",
+      "addedAt": "2025-02-11 18:00:28 UTC",
+      "id": "eebb654f-366c-4c91-9053-4c137bf0a8c5"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4830) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cf1704a2-1229-4564-b0d2-5b549c6dc48c",
+      "arch": "x64",
+      "addedAt": "2025-01-29 22:00:32 UTC",
+      "id": "cf1704a2-1229-4564-b0d2-5b549c6dc48c"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4830) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8f548457-7656-4ffe-8350-0aa593cc3d1c",
+      "arch": "arm64",
+      "addedAt": "2025-01-29 22:01:05 UTC",
+      "id": "8f548457-7656-4ffe-8350-0aa593cc3d1c"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4825) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4a4ad4ab-70ed-4d17-9d45-012d248f701d",
+      "arch": "x64",
+      "addedAt": "2025-01-17 18:01:05 UTC",
+      "id": "4a4ad4ab-70ed-4d17-9d45-012d248f701d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4825) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fa8f4622-2a13-4988-9a12-e95c3acecd59",
+      "arch": "arm64",
+      "addedAt": "2025-01-17 18:01:07 UTC",
+      "id": "fa8f4622-2a13-4988-9a12-e95c3acecd59"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4751) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3f5dc602-69f1-47e0-a241-f4174867392a",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:00:54 UTC",
+      "id": "3f5dc602-69f1-47e0-a241-f4174867392a"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4751) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b66520e7-bf51-41d3-a26b-db275fe85548",
+      "arch": "arm64",
+      "addedAt": "2025-01-14 18:00:56 UTC",
+      "id": "b66520e7-bf51-41d3-a26b-db275fe85548"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4602) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0c36c0e6-8397-424d-b460-26cc0d044c7f",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:00:47 UTC",
+      "id": "0c36c0e6-8397-424d-b460-26cc0d044c7f"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4602) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a2b2e765-4612-44d8-9fb0-b11b699aaf4b",
+      "arch": "arm64",
+      "addedAt": "2024-12-10 18:00:49 UTC",
+      "id": "a2b2e765-4612-44d8-9fb0-b11b699aaf4b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4541) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f3691231-0586-44d5-859b-e25f5eb9cfb7",
+      "arch": "x64",
+      "addedAt": "2024-11-19 18:02:49 UTC",
+      "id": "f3691231-0586-44d5-859b-e25f5eb9cfb7"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4541) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=894d8548-224b-447e-a66d-b36d66348d0b",
+      "arch": "arm64",
+      "addedAt": "2024-11-19 18:00:36 UTC",
+      "id": "894d8548-224b-447e-a66d-b36d66348d0b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4534) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1d9398a5-2b21-469d-a671-797faa004bce",
+      "arch": "x64",
+      "addedAt": "2024-11-14 18:00:18 UTC",
+      "id": "1d9398a5-2b21-469d-a671-797faa004bce"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4534) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=42498596-6f7b-4707-9f46-709af0780555",
+      "arch": "arm64",
+      "addedAt": "2024-11-14 18:00:47 UTC",
+      "id": "42498596-6f7b-4707-9f46-709af0780555"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4460) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c0d7552a-57ff-4e43-a1cf-762034fc9506",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:00:34 UTC",
+      "id": "c0d7552a-57ff-4e43-a1cf-762034fc9506"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4460) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a5c421b3-745b-4608-9470-63d89be96ab7",
+      "arch": "arm64",
+      "addedAt": "2024-11-12 18:00:37 UTC",
+      "id": "a5c421b3-745b-4608-9470-63d89be96ab7"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4391) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=64aa3acc-d2d2-4f80-af12-80820c44c14b",
+      "arch": "x64",
+      "addedAt": "2024-10-22 17:00:08 UTC",
+      "id": "64aa3acc-d2d2-4f80-af12-80820c44c14b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4391) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a8b0dc5b-927e-4258-a328-ae08b7697ef4",
+      "arch": "arm64",
+      "addedAt": "2024-10-22 17:00:27 UTC",
+      "id": "a8b0dc5b-927e-4258-a328-ae08b7697ef4"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4387) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e93eb708-98ec-494c-b4fc-025c6b012173",
+      "arch": "x64",
+      "addedAt": "2024-10-10 21:00:40 UTC",
+      "id": "e93eb708-98ec-494c-b4fc-025c6b012173"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4387) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7545df2f-3391-4572-a0c2-1deffb1a0470",
+      "arch": "arm64",
+      "addedAt": "2024-10-10 21:00:41 UTC",
+      "id": "7545df2f-3391-4572-a0c2-1deffb1a0470"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4317) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1d73161d-38ed-4230-a859-f7a9fc61c2f4",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:00:39 UTC",
+      "id": "1d73161d-38ed-4230-a859-f7a9fc61c2f4"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4317) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=be0f42b1-33d4-423f-9ed9-22b58395bc04",
+      "arch": "arm64",
+      "addedAt": "2024-10-08 17:00:35 UTC",
+      "id": "be0f42b1-33d4-423f-9ed9-22b58395bc04"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.4249) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f22478d7-da3f-4c7b-8259-a5d34233ba34",
+      "arch": "x64",
+      "addedAt": "2024-09-29 15:46:20 UTC",
+      "id": "f22478d7-da3f-4c7b-8259-a5d34233ba34"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4249) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1e442ec4-1ba4-48de-95d9-b35d2cd4db72",
+      "arch": "x64",
+      "addedAt": "2024-09-26 17:00:47 UTC",
+      "id": "1e442ec4-1ba4-48de-95d9-b35d2cd4db72"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.4249) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b85cb6bb-7dfd-495b-a4b8-a1daf37d550d",
+      "arch": "arm64",
+      "addedAt": "2024-09-29 15:46:40 UTC",
+      "id": "b85cb6bb-7dfd-495b-a4b8-a1daf37d550d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4249) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d28d80de-5112-4265-9bc5-5649fc890cc6",
+      "arch": "arm64",
+      "addedAt": "2024-09-26 17:02:18 UTC",
+      "id": "d28d80de-5112-4265-9bc5-5649fc890cc6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4247) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3ec42f84-4c09-482c-90be-e031a38d3cc9",
+      "arch": "x64",
+      "addedAt": "2024-09-23 17:00:25 UTC",
+      "id": "3ec42f84-4c09-482c-90be-e031a38d3cc9"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4247) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=84c67f94-bdf3-40b9-b901-44d4576360b6",
+      "arch": "arm64",
+      "addedAt": "2024-09-23 17:00:44 UTC",
+      "id": "84c67f94-bdf3-40b9-b901-44d4576360b6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4169) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8dda76ff-194a-4a47-b1e7-c303136bf54e",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:00:12 UTC",
+      "id": "8dda76ff-194a-4a47-b1e7-c303136bf54e"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4169) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=780cbbd2-4554-444b-b823-c1831df775d5",
+      "arch": "arm64",
+      "addedAt": "2024-09-10 17:01:06 UTC",
+      "id": "780cbbd2-4554-444b-b823-c1831df775d5"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.4112) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=20c2c103-2de7-4341-b4ad-07c16b4ce157",
+      "arch": "x64",
+      "addedAt": "2024-08-27 19:00:53 UTC",
+      "id": "20c2c103-2de7-4341-b4ad-07c16b4ce157"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4112) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3046790b-373b-457a-9e85-ef14aeea182a",
+      "arch": "x64",
+      "addedAt": "2024-08-27 17:00:36 UTC",
+      "id": "3046790b-373b-457a-9e85-ef14aeea182a"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.4112) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7b6dd4e3-6cf2-47e3-aace-a0723d184c45",
+      "arch": "arm64",
+      "addedAt": "2024-08-27 19:00:53 UTC",
+      "id": "7b6dd4e3-6cf2-47e3-aace-a0723d184c45"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4112) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=61c0b6d7-9616-401b-bdd8-51b4f02fcc8f",
+      "arch": "arm64",
+      "addedAt": "2024-08-27 17:00:17 UTC",
+      "id": "61c0b6d7-9616-401b-bdd8-51b4f02fcc8f"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4108) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fa8dfa59-196d-442d-8469-0c8a51a06828",
+      "arch": "x64",
+      "addedAt": "2024-08-19 21:01:15 UTC",
+      "id": "fa8dfa59-196d-442d-8469-0c8a51a06828"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4108) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6ab47fd5-232b-4db7-b1b6-bb6ea3e7653d",
+      "arch": "arm64",
+      "addedAt": "2024-08-19 21:01:11 UTC",
+      "id": "6ab47fd5-232b-4db7-b1b6-bb6ea3e7653d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4037) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b81608e0-6b51-4771-affc-ce14dba2ca83",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:00:07 UTC",
+      "id": "b81608e0-6b51-4771-affc-ce14dba2ca83"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.4037) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a925e79d-d0a0-4091-b7d5-0f0c2f4cafd5",
+      "arch": "arm64",
+      "addedAt": "2024-08-13 17:00:38 UTC",
+      "id": "a925e79d-d0a0-4091-b7d5-0f0c2f4cafd5"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3958) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=70713178-6750-4dcd-8aa3-36a77d3fa70d",
+      "arch": "x64",
+      "addedAt": "2024-07-25 17:00:26 UTC",
+      "id": "70713178-6750-4dcd-8aa3-36a77d3fa70d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3958) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cac113da-8295-4a34-a2e2-5be7da9a372b",
+      "arch": "arm64",
+      "addedAt": "2024-07-25 17:01:07 UTC",
+      "id": "cac113da-8295-4a34-a2e2-5be7da9a372b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3951) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7a87ae9d-1431-4eeb-a010-e7e3260058ad",
+      "arch": "x64",
+      "addedAt": "2024-07-11 17:00:42 UTC",
+      "id": "7a87ae9d-1431-4eeb-a010-e7e3260058ad"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3951) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=437963ce-a9d8-4f07-b0bc-65270b69bcae",
+      "arch": "arm64",
+      "addedAt": "2024-07-11 17:00:44 UTC",
+      "id": "437963ce-a9d8-4f07-b0bc-65270b69bcae"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3880) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9e4fba0d-b944-48f0-b053-287944332257",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:00:35 UTC",
+      "id": "9e4fba0d-b944-48f0-b053-287944332257"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3880) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e1ecc26b-3674-4024-8d56-5fe166619eff",
+      "arch": "arm64",
+      "addedAt": "2024-07-09 17:00:37 UTC",
+      "id": "e1ecc26b-3674-4024-8d56-5fe166619eff"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3810) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e0fe4721-975d-4378-a09d-92082d677d29",
+      "arch": "x64",
+      "addedAt": "2024-06-25 21:01:24 UTC",
+      "id": "e0fe4721-975d-4378-a09d-92082d677d29"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3810) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c91afaea-1949-4c3f-8906-91e848c6b1fe",
+      "arch": "arm64",
+      "addedAt": "2024-06-25 21:01:26 UTC",
+      "id": "c91afaea-1949-4c3f-8906-91e848c6b1fe"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3807) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fc9e6770-4c71-422b-8eda-fab07f97db57",
+      "arch": "x64",
+      "addedAt": "2024-06-13 17:19:16 UTC",
+      "id": "fc9e6770-4c71-422b-8eda-fab07f97db57"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3807) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dc013537-666a-4c83-b7f1-dd2995e3884e",
+      "arch": "x64",
+      "addedAt": "2024-06-13 17:33:48 UTC",
+      "id": "dc013537-666a-4c83-b7f1-dd2995e3884e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3807) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7116486c-c890-4763-a0fa-939a1efce979",
+      "arch": "arm64",
+      "addedAt": "2024-06-13 17:15:34 UTC",
+      "id": "7116486c-c890-4763-a0fa-939a1efce979"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3807) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8761b6ee-a22e-406b-bae8-abf8b9cd2aa2",
+      "arch": "arm64",
+      "addedAt": "2024-06-13 17:28:33 UTC",
+      "id": "8761b6ee-a22e-406b-bae8-abf8b9cd2aa2"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3737) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0e16a39c-aa41-44be-9663-e780dd452f1e",
+      "arch": "x64",
+      "addedAt": "2024-06-11 17:00:13 UTC",
+      "id": "0e16a39c-aa41-44be-9663-e780dd452f1e"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3737) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6b7c92f4-375a-4989-ab69-85318c58f59b",
+      "arch": "arm64",
+      "addedAt": "2024-06-11 17:00:36 UTC",
+      "id": "6b7c92f4-375a-4989-ab69-85318c58f59b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3672) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8feed3b3-9036-4cbf-be32-b0c88f764e37",
+      "arch": "x64",
+      "addedAt": "2024-05-29 21:00:28 UTC",
+      "id": "8feed3b3-9036-4cbf-be32-b0c88f764e37"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3672) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a4c5cae4-5f07-4896-a303-8963b0570eb6",
+      "arch": "arm64",
+      "addedAt": "2024-05-29 21:00:30 UTC",
+      "id": "a4c5cae4-5f07-4896-a303-8963b0570eb6"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3668) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=593f698d-708d-4d73-a5d2-811bfbf7c133",
+      "arch": "x64",
+      "addedAt": "2024-05-16 17:45:07 UTC",
+      "id": "593f698d-708d-4d73-a5d2-811bfbf7c133"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3668) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0866b775-7ebc-47d8-91b1-4aa00f224335",
+      "arch": "arm64",
+      "addedAt": "2024-05-16 17:30:30 UTC",
+      "id": "0866b775-7ebc-47d8-91b1-4aa00f224335"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3668) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=bef09951-e4b0-442a-822d-5eb976ec55a8",
+      "arch": "arm64",
+      "addedAt": "2024-05-16 17:45:44 UTC",
+      "id": "bef09951-e4b0-442a-822d-5eb976ec55a8"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3593) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5910b449-8a5a-47e3-b7e1-c9d83bee7c21",
+      "arch": "x64",
+      "addedAt": "2024-05-14 17:00:08 UTC",
+      "id": "5910b449-8a5a-47e3-b7e1-c9d83bee7c21"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3593) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1344d593-6ba8-4c70-893a-5d7aa7df8a0f",
+      "arch": "arm64",
+      "addedAt": "2024-05-14 17:00:39 UTC",
+      "id": "1344d593-6ba8-4c70-893a-5d7aa7df8a0f"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3527) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=af807cf8-5c46-41f1-81ac-2ea51e64fba4",
+      "arch": "x64",
+      "addedAt": "2024-04-23 21:00:20 UTC",
+      "id": "af807cf8-5c46-41f1-81ac-2ea51e64fba4"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3527) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ccd8093f-a11d-4747-86ef-6f8b7a9c3f08",
+      "arch": "arm64",
+      "addedAt": "2024-04-23 21:00:32 UTC",
+      "id": "ccd8093f-a11d-4747-86ef-6f8b7a9c3f08"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3520) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=57d5718b-02a3-49b0-bff1-202f0811a060",
+      "arch": "x64",
+      "addedAt": "2024-04-11 17:00:38 UTC",
+      "id": "57d5718b-02a3-49b0-bff1-202f0811a060"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3520) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3e784f25-be02-48dd-b14b-4e873bacb526",
+      "arch": "arm64",
+      "addedAt": "2024-04-11 17:00:34 UTC",
+      "id": "3e784f25-be02-48dd-b14b-4e873bacb526"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3447) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2dce4b1a-819f-42df-89d3-e35238f5d323",
+      "arch": "x64",
+      "addedAt": "2024-04-09 17:00:24 UTC",
+      "id": "2dce4b1a-819f-42df-89d3-e35238f5d323"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3447) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=aa308332-7ee6-43c7-bbbe-a1b6b14b5e8c",
+      "arch": "arm64",
+      "addedAt": "2024-04-09 17:00:20 UTC",
+      "id": "aa308332-7ee6-43c7-bbbe-a1b6b14b5e8c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3374) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3d28b46d-bcd2-42ef-928a-e1bc0d7503f4",
+      "arch": "x64",
+      "addedAt": "2024-03-26 21:00:05 UTC",
+      "id": "3d28b46d-bcd2-42ef-928a-e1bc0d7503f4"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3374) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d9c561ec-7f71-44c7-aad2-d86d4b6a9053",
+      "arch": "x64",
+      "addedAt": "2024-03-26 21:00:36 UTC",
+      "id": "d9c561ec-7f71-44c7-aad2-d86d4b6a9053"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3374) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d0a5e600-5cff-494b-8905-2cef7ecc290e",
+      "arch": "arm64",
+      "addedAt": "2024-03-26 21:00:28 UTC",
+      "id": "d0a5e600-5cff-494b-8905-2cef7ecc290e"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3374) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=22a72a45-b3cb-4af9-9f43-975ca4bda20b",
+      "arch": "arm64",
+      "addedAt": "2024-03-26 21:00:38 UTC",
+      "id": "22a72a45-b3cb-4af9-9f43-975ca4bda20b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3371) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e446c6a2-22b5-4fa8-9a25-28c82860ccab",
+      "arch": "x64",
+      "addedAt": "2024-03-21 17:00:27 UTC",
+      "id": "e446c6a2-22b5-4fa8-9a25-28c82860ccab"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3371) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=96ddb213-f0eb-444c-a053-33249dde6410",
+      "arch": "x64",
+      "addedAt": "2024-03-21 17:00:50 UTC",
+      "id": "96ddb213-f0eb-444c-a053-33249dde6410"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3371) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a45ab998-b50e-478a-ba78-86e36f2f221b",
+      "arch": "arm64",
+      "addedAt": "2024-03-21 17:00:28 UTC",
+      "id": "a45ab998-b50e-478a-ba78-86e36f2f221b"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3371) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c9237fc6-7af8-47fb-a680-e150ade6330e",
+      "arch": "arm64",
+      "addedAt": "2024-03-21 17:00:52 UTC",
+      "id": "c9237fc6-7af8-47fb-a680-e150ade6330e"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3296) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=07dd20c8-a2de-4792-a336-2ab01b43a160",
+      "arch": "x64",
+      "addedAt": "2024-03-12 17:01:59 UTC",
+      "id": "07dd20c8-a2de-4792-a336-2ab01b43a160"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3296) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e1d642f1-d6d7-4256-b4b3-ae628b9519a6",
+      "arch": "arm64",
+      "addedAt": "2024-03-12 17:00:09 UTC",
+      "id": "e1d642f1-d6d7-4256-b4b3-ae628b9519a6"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3235) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=60d3afa0-7acf-4274-9fd3-81629b39c0e8",
+      "arch": "x64",
+      "addedAt": "2024-02-29 18:05:22 UTC",
+      "id": "60d3afa0-7acf-4274-9fd3-81629b39c0e8"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3235) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d7cfe811-f371-4187-8267-1beef215651b",
+      "arch": "x64",
+      "addedAt": "2024-02-29 18:00:14 UTC",
+      "id": "d7cfe811-f371-4187-8267-1beef215651b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3235) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b8905b62-e575-44dc-867e-517e36469d0a",
+      "arch": "arm64",
+      "addedAt": "2024-02-29 18:05:27 UTC",
+      "id": "b8905b62-e575-44dc-867e-517e36469d0a"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3235) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a5057211-cb8b-4feb-b4b6-383df14a062b",
+      "arch": "arm64",
+      "addedAt": "2024-02-29 18:01:13 UTC",
+      "id": "a5057211-cb8b-4feb-b4b6-383df14a062b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3227) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=af6a6f04-e90a-46ee-9214-86fc0d21e6a9",
+      "arch": "x64",
+      "addedAt": "2024-02-15 18:00:45 UTC",
+      "id": "af6a6f04-e90a-46ee-9214-86fc0d21e6a9"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3227) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=329b657c-5e69-46f4-929e-1b7a45305e1b",
+      "arch": "x64",
+      "addedAt": "2024-02-15 18:00:12 UTC",
+      "id": "329b657c-5e69-46f4-929e-1b7a45305e1b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3227) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=27dcabb8-a953-40cc-9fd2-ab64d45d7aad",
+      "arch": "arm64",
+      "addedAt": "2024-02-15 18:00:44 UTC",
+      "id": "27dcabb8-a953-40cc-9fd2-ab64d45d7aad"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3227) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=713117ee-11a7-4c76-8dfa-461a9db19146",
+      "arch": "arm64",
+      "addedAt": "2024-02-15 18:00:55 UTC",
+      "id": "713117ee-11a7-4c76-8dfa-461a9db19146"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3155) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=18947b65-2180-4838-a051-2dbe1ee40064",
+      "arch": "x64",
+      "addedAt": "2024-02-13 18:00:29 UTC",
+      "id": "18947b65-2180-4838-a051-2dbe1ee40064"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3155) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5ccae8c1-740c-42ce-912c-521607f187ef",
+      "arch": "arm64",
+      "addedAt": "2024-02-13 18:00:25 UTC",
+      "id": "5ccae8c1-740c-42ce-912c-521607f187ef"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3085) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=67e01db6-66d7-47d4-a47f-6528603e2ef1",
+      "arch": "x64",
+      "addedAt": "2024-01-23 22:00:21 UTC",
+      "id": "67e01db6-66d7-47d4-a47f-6528603e2ef1"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3085) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0dd6b1ee-9167-418d-b4a3-491f21c8ba6c",
+      "arch": "x64",
+      "addedAt": "2024-01-23 22:00:29 UTC",
+      "id": "0dd6b1ee-9167-418d-b4a3-491f21c8ba6c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3085) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=141194d9-8ce1-457c-8726-f984293db8cc",
+      "arch": "arm64",
+      "addedAt": "2024-01-23 22:00:20 UTC",
+      "id": "141194d9-8ce1-457c-8726-f984293db8cc"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3085) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ebde6b33-3aaf-40ef-b997-33807c5be8d0",
+      "arch": "arm64",
+      "addedAt": "2024-01-23 22:00:26 UTC",
+      "id": "ebde6b33-3aaf-40ef-b997-33807c5be8d0"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3078) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ee65e810-670d-4c34-a0c4-1026a7fd53b2",
+      "arch": "x64",
+      "addedAt": "2024-01-11 18:00:39 UTC",
+      "id": "ee65e810-670d-4c34-a0c4-1026a7fd53b2"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3078) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b17b4c3e-9403-4b4f-90eb-9654e461e02e",
+      "arch": "x64",
+      "addedAt": "2024-01-11 18:00:50 UTC",
+      "id": "b17b4c3e-9403-4b4f-90eb-9654e461e02e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.3078) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=af4d9d46-99c1-45cf-8936-ffca8163c299",
+      "arch": "arm64",
+      "addedAt": "2024-01-11 18:00:40 UTC",
+      "id": "af4d9d46-99c1-45cf-8936-ffca8163c299"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3078) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f728e5c5-0f06-4bcf-b242-3e0763a9f36d",
+      "arch": "arm64",
+      "addedAt": "2024-01-11 18:00:45 UTC",
+      "id": "f728e5c5-0f06-4bcf-b242-3e0763a9f36d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3007) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b46a1232-2383-4626-946c-2d78dee5d557",
+      "arch": "x64",
+      "addedAt": "2024-01-09 18:00:17 UTC",
+      "id": "b46a1232-2383-4626-946c-2d78dee5d557"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.3007) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=54604950-23e7-4c9b-bd56-2b8295c56ee3",
+      "arch": "arm64",
+      "addedAt": "2024-01-09 18:00:18 UTC",
+      "id": "54604950-23e7-4c9b-bd56-2b8295c56ee3"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2861) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dcb87cd9-604a-498c-9a8f-f3f3633cc655",
+      "arch": "x64",
+      "addedAt": "2023-12-12 18:00:22 UTC",
+      "id": "dcb87cd9-604a-498c-9a8f-f3f3633cc655"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2861) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8cb83256-ee42-4b74-ab91-7256963caf20",
+      "arch": "arm64",
+      "addedAt": "2023-12-12 18:00:24 UTC",
+      "id": "8cb83256-ee42-4b74-ab91-7256963caf20"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.2792) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2ab11205-2841-4e85-bb7e-de1b9844768d",
+      "arch": "x64",
+      "addedAt": "2023-12-04 22:00:30 UTC",
+      "id": "2ab11205-2841-4e85-bb7e-de1b9844768d"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2792) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=64686512-561b-4390-a48a-0470611eeede",
+      "arch": "x64",
+      "addedAt": "2023-12-04 22:00:39 UTC",
+      "id": "64686512-561b-4390-a48a-0470611eeede"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.2792) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ca042750-0e99-4982-92dd-225123876227",
+      "arch": "arm64",
+      "addedAt": "2023-12-04 22:00:29 UTC",
+      "id": "ca042750-0e99-4982-92dd-225123876227"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2792) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=55a4cce9-47ba-4e7e-83fb-0b45d63f6e4b",
+      "arch": "arm64",
+      "addedAt": "2023-12-04 22:00:41 UTC",
+      "id": "55a4cce9-47ba-4e7e-83fb-0b45d63f6e4b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.2787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=21a2d757-04d0-4077-9add-c65ce8732bd0",
+      "arch": "x64",
+      "addedAt": "2023-11-16 22:00:28 UTC",
+      "id": "21a2d757-04d0-4077-9add-c65ce8732bd0"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=850173b3-c30d-449a-8478-cc07fd3f62ea",
+      "arch": "x64",
+      "addedAt": "2023-11-16 22:00:48 UTC",
+      "id": "850173b3-c30d-449a-8478-cc07fd3f62ea"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.2787) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9d64722e-9b25-42fd-a53c-59ce263711ef",
+      "arch": "arm64",
+      "addedAt": "2023-11-16 22:00:27 UTC",
+      "id": "9d64722e-9b25-42fd-a53c-59ce263711ef"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2787) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7f9bd588-b830-4fff-850d-b46d6a0d5558",
+      "arch": "arm64",
+      "addedAt": "2023-11-16 22:00:45 UTC",
+      "id": "7f9bd588-b830-4fff-850d-b46d6a0d5558"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2715) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2d652122-0ea3-477a-9807-c8506fec8fc4",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:00:37 UTC",
+      "id": "2d652122-0ea3-477a-9807-c8506fec8fc4"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2715) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1c6bfec0-f734-4868-aa02-b462e8cb7247",
+      "arch": "arm64",
+      "addedAt": "2023-11-14 18:00:47 UTC",
+      "id": "1c6bfec0-f734-4868-aa02-b462e8cb7247"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.2506) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e9e39e2f-6ab9-4d1e-a869-1b3001c9987e",
+      "arch": "x64",
+      "addedAt": "2023-10-31 17:00:39 UTC",
+      "id": "e9e39e2f-6ab9-4d1e-a869-1b3001c9987e"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.2506) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c209c54e-18ea-4815-a131-6971a5c23a84",
+      "arch": "x64",
+      "addedAt": "2023-11-08 01:39:08 UTC",
+      "id": "c209c54e-18ea-4815-a131-6971a5c23a84"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2506) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a8198661-827d-4c74-9c8f-c70b7f8cd025",
+      "arch": "x64",
+      "addedAt": "2023-10-26 21:00:37 UTC",
+      "id": "a8198661-827d-4c74-9c8f-c70b7f8cd025"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 11 Version 23H2 (22631.2506) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9cdb577e-edcd-4db1-8910-04e1e397a59a",
+      "arch": "arm64",
+      "addedAt": "2023-10-31 17:00:37 UTC",
+      "id": "9cdb577e-edcd-4db1-8910-04e1e397a59a"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.2506) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=28c8c6a5-6f67-4027-ba00-dc259a75a7f0",
+      "arch": "arm64",
+      "addedAt": "2023-11-08 12:32:21 UTC",
+      "id": "28c8c6a5-6f67-4027-ba00-dc259a75a7f0"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2506) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=881c7736-6a55-4581-8743-73adda29e00e",
+      "arch": "arm64",
+      "addedAt": "2023-10-26 21:00:33 UTC",
+      "id": "881c7736-6a55-4581-8743-73adda29e00e"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.2428) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f3bbc9fb-3d60-465b-93ea-2ef7a040ec11",
+      "arch": "x64",
+      "addedAt": "2023-10-17 02:01:06 UTC",
+      "id": "f3bbc9fb-3d60-465b-93ea-2ef7a040ec11"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2428) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2871d66d-99c8-4ca9-932a-b1e007bea7ea",
+      "arch": "x64",
+      "addedAt": "2023-10-19 18:21:01 UTC",
+      "id": "2871d66d-99c8-4ca9-932a-b1e007bea7ea"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.2428) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=35580831-34a3-48cd-ad07-b1062c144dfa",
+      "arch": "arm64",
+      "addedAt": "2023-10-17 02:01:04 UTC",
+      "id": "35580831-34a3-48cd-ad07-b1062c144dfa"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2428) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=027dd29f-1e46-4cf1-97bf-52b4ad2d28a8",
+      "arch": "arm64",
+      "addedAt": "2023-10-19 18:20:57 UTC",
+      "id": "027dd29f-1e46-4cf1-97bf-52b4ad2d28a8"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.2361) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=29b87706-e789-4797-86ff-58df8efe7e3e",
+      "arch": "x64",
+      "addedAt": "2023-09-26 17:03:19 UTC",
+      "id": "29b87706-e789-4797-86ff-58df8efe7e3e"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2361) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c73b58aa-a549-4dcf-a66d-ec9c87cf99a1",
+      "arch": "x64",
+      "addedAt": "2023-09-26 17:03:26 UTC",
+      "id": "c73b58aa-a549-4dcf-a66d-ec9c87cf99a1"
+    },
+    {
+      "title": "Cumulative Update for Windows 11 Version 23H2 (22631.2361) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f1b3a16b-c3b2-4b97-9827-ee0e08f0eaff",
+      "arch": "arm64",
+      "addedAt": "2023-09-26 17:03:20 UTC",
+      "id": "f1b3a16b-c3b2-4b97-9827-ee0e08f0eaff"
+    },
+    {
+      "title": "Windows 11, version 23H2 (22631.2361) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=93b58b28-7d1c-487c-95fc-8c31b20dc41b",
+      "arch": "arm64",
+      "addedAt": "2023-09-26 17:03:23 UTC",
+      "id": "93b58b28-7d1c-487c-95fc-8c31b20dc41b"
+    }
+  ]
+}

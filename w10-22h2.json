@@ -1,0 +1,3257 @@
+{
+  "category": "w10-22h2",
+  "url": "https://uupdump.net/known.php?q=category:w10-22h2",
+  "name": "22H2",
+  "parentName": "Windows 10",
+  "pages": 10,
+  "versions": [
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6812) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7bfe9732-a1ca-46b3-a629-9f2176b8b5c2",
+      "arch": "x64",
+      "addedAt": "2026-01-26 13:00:18 UTC",
+      "id": "7bfe9732-a1ca-46b3-a629-9f2176b8b5c2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6812) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=678b22ba-dc53-4864-99a8-63914d2000db",
+      "arch": "x64",
+      "addedAt": "2026-01-24 23:45:10 UTC",
+      "id": "678b22ba-dc53-4864-99a8-63914d2000db"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6812) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ef6a044c-9140-4444-852f-e3c0e1d9efaf",
+      "arch": "arm64",
+      "addedAt": "2026-01-24 23:46:16 UTC",
+      "id": "ef6a044c-9140-4444-852f-e3c0e1d9efaf"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6812) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8b4bad5b-3b8a-4005-bb96-c43afd7359b9",
+      "arch": "x86",
+      "addedAt": "2026-01-24 23:46:16 UTC",
+      "id": "8b4bad5b-3b8a-4005-bb96-c43afd7359b9"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6811) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=175ad0bf-2142-4d74-9707-0a28b07dd1c3",
+      "arch": "x64",
+      "addedAt": "2026-01-20 13:00:11 UTC",
+      "id": "175ad0bf-2142-4d74-9707-0a28b07dd1c3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6811) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3671e4cd-b7f1-4aa7-987a-ec2dbb82d0f3",
+      "arch": "x64",
+      "addedAt": "2026-01-17 23:23:07 UTC",
+      "id": "3671e4cd-b7f1-4aa7-987a-ec2dbb82d0f3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6811) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=85de9223-c42b-469e-acc6-2c83b52c09db",
+      "arch": "arm64",
+      "addedAt": "2026-01-17 23:31:08 UTC",
+      "id": "85de9223-c42b-469e-acc6-2c83b52c09db"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6811) x86",
+      "href": "https://uupdump.net/selectlang.php?id=26ee936e-f108-44e9-bb84-d86177711810",
+      "arch": "x86",
+      "addedAt": "2026-01-17 23:31:07 UTC",
+      "id": "26ee936e-f108-44e9-bb84-d86177711810"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6809) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e2688552-a50e-42eb-aac5-a6d583a110e1",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:18:57 UTC",
+      "id": "e2688552-a50e-42eb-aac5-a6d583a110e1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6809) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c7132b30-ac72-47b0-9317-32083a9f76a7",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:19:30 UTC",
+      "id": "c7132b30-ac72-47b0-9317-32083a9f76a7"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6809) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2d3e42da-4b73-42be-821e-99f391ce376b",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 18:18:56 UTC",
+      "id": "2d3e42da-4b73-42be-821e-99f391ce376b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6809) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5523bd4e-1665-4e3e-86ef-943901b47d4b",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 18:19:30 UTC",
+      "id": "5523bd4e-1665-4e3e-86ef-943901b47d4b"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6809) x86",
+      "href": "https://uupdump.net/selectlang.php?id=30803121-e32e-4142-ac51-a96259db56dd",
+      "arch": "x86",
+      "addedAt": "2026-01-13 18:18:56 UTC",
+      "id": "30803121-e32e-4142-ac51-a96259db56dd"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6809) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5a388d33-9d9a-4ad0-8182-a0384e2aa072",
+      "arch": "x86",
+      "addedAt": "2026-01-13 18:19:31 UTC",
+      "id": "5a388d33-9d9a-4ad0-8182-a0384e2aa072"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6693) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6f6dabca-f0d9-46f1-a977-6cec0c6948ba",
+      "arch": "x64",
+      "addedAt": "2025-12-19 12:03:57 UTC",
+      "id": "6f6dabca-f0d9-46f1-a977-6cec0c6948ba"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6693) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cb374ac2-382e-424a-a839-862b5f7a48d9",
+      "arch": "x64",
+      "addedAt": "2025-12-18 22:50:08 UTC",
+      "id": "cb374ac2-382e-424a-a839-862b5f7a48d9"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6693) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=da01cd4e-f01b-4ccf-89e5-f6de586bf1d2",
+      "arch": "arm64",
+      "addedAt": "2025-12-19 18:09:50 UTC",
+      "id": "da01cd4e-f01b-4ccf-89e5-f6de586bf1d2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6693) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b3c97ed5-d52f-4d29-9e20-6a8f9165b073",
+      "arch": "arm64",
+      "addedAt": "2025-12-19 18:09:10 UTC",
+      "id": "b3c97ed5-d52f-4d29-9e20-6a8f9165b073"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6693) x86",
+      "href": "https://uupdump.net/selectlang.php?id=83f45e37-6fc0-4032-8159-d98ec486cd3e",
+      "arch": "x86",
+      "addedAt": "2025-12-19 18:09:50 UTC",
+      "id": "83f45e37-6fc0-4032-8159-d98ec486cd3e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6693) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5a5920bb-ab1f-4ef7-b322-829c393cdfd1",
+      "arch": "x86",
+      "addedAt": "2025-12-19 18:09:10 UTC",
+      "id": "5a5920bb-ab1f-4ef7-b322-829c393cdfd1"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6691) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6610e6e9-928d-4315-aa8e-2775f07d5014",
+      "arch": "x64",
+      "addedAt": "2025-12-09 19:13:17 UTC",
+      "id": "6610e6e9-928d-4315-aa8e-2775f07d5014"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6691) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2517c0c1-94d4-4433-b3f7-61c14a3dac3c",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:45:17 UTC",
+      "id": "2517c0c1-94d4-4433-b3f7-61c14a3dac3c"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6691) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1f6ba69e-0ec9-40ba-80cf-4ac36af81698",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 19:13:16 UTC",
+      "id": "1f6ba69e-0ec9-40ba-80cf-4ac36af81698"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6691) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=31862144-9fe0-47bc-917a-f11b5922949e",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 19:14:38 UTC",
+      "id": "31862144-9fe0-47bc-917a-f11b5922949e"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6691) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1ff7e020-56bd-4ae3-a489-6a4b8de4b9c8",
+      "arch": "x86",
+      "addedAt": "2025-12-09 19:13:16 UTC",
+      "id": "1ff7e020-56bd-4ae3-a489-6a4b8de4b9c8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6691) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4a16a8c0-8e8b-4562-aa78-9f5c788e5c1f",
+      "arch": "x86",
+      "addedAt": "2025-12-09 19:14:26 UTC",
+      "id": "4a16a8c0-8e8b-4562-aa78-9f5c788e5c1f"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6575) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e5738445-7de0-4a63-8586-e8e9766e8c5e",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:00:58 UTC",
+      "id": "e5738445-7de0-4a63-8586-e8e9766e8c5e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6575) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c3d000fb-037b-488b-bf52-7530171bfbd3",
+      "arch": "x64",
+      "addedAt": "2025-11-11 20:01:29 UTC",
+      "id": "c3d000fb-037b-488b-bf52-7530171bfbd3"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6575) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e3092448-6268-4d03-9abd-7c2c0769e07c",
+      "arch": "arm64",
+      "addedAt": "2025-11-11 18:00:59 UTC",
+      "id": "e3092448-6268-4d03-9abd-7c2c0769e07c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6575) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=79201f6f-db39-4f8d-8817-b31bd699b314",
+      "arch": "arm64",
+      "addedAt": "2025-11-11 20:01:49 UTC",
+      "id": "79201f6f-db39-4f8d-8817-b31bd699b314"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6575) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ceca7e74-9974-48c3-a622-df5a5cacabe1",
+      "arch": "x86",
+      "addedAt": "2025-11-11 18:00:59 UTC",
+      "id": "ceca7e74-9974-48c3-a622-df5a5cacabe1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6575) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8c10c883-071c-43c3-bff8-8ed82fba2436",
+      "arch": "x86",
+      "addedAt": "2025-11-11 20:01:40 UTC",
+      "id": "8c10c883-071c-43c3-bff8-8ed82fba2436"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6466) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cb4f8361-64fb-4e79-b0fa-a54bd6bca17b",
+      "arch": "x64",
+      "addedAt": "2025-11-11 19:00:15 UTC",
+      "id": "cb4f8361-64fb-4e79-b0fa-a54bd6bca17b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6466) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=257afda5-b401-44d4-92cd-674fb9518b15",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:01:46 UTC",
+      "id": "257afda5-b401-44d4-92cd-674fb9518b15"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6466) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2c14518f-d7a2-41e6-8730-dc1f2416c08e",
+      "arch": "arm64",
+      "addedAt": "2025-11-11 21:12:27 UTC",
+      "id": "2c14518f-d7a2-41e6-8730-dc1f2416c08e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6466) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4b1ca206-71bc-4ba2-8039-984ef91b4aaa",
+      "arch": "arm64",
+      "addedAt": "2025-11-11 18:01:44 UTC",
+      "id": "4b1ca206-71bc-4ba2-8039-984ef91b4aaa"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6466) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5a594c70-560a-4c57-8b91-ac4a10257560",
+      "arch": "x86",
+      "addedAt": "2025-11-11 21:12:28 UTC",
+      "id": "5a594c70-560a-4c57-8b91-ac4a10257560"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6466) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0ff0108c-b5b0-44cc-ab8e-7861ed3e0f19",
+      "arch": "x86",
+      "addedAt": "2025-11-11 18:01:44 UTC",
+      "id": "0ff0108c-b5b0-44cc-ab8e-7861ed3e0f19"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6456) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fecdba26-1a88-4564-8b2e-4c2853eb9bf0",
+      "arch": "x64",
+      "addedAt": "2025-10-14 17:01:41 UTC",
+      "id": "fecdba26-1a88-4564-8b2e-4c2853eb9bf0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6456) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4f99aa62-3237-4d0c-ae0e-d5e26a1f4e8a",
+      "arch": "arm64",
+      "addedAt": "2025-10-14 17:01:42 UTC",
+      "id": "4f99aa62-3237-4d0c-ae0e-d5e26a1f4e8a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6456) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6f74a2f6-b680-41dc-b1a3-5e77fb503eec",
+      "arch": "x86",
+      "addedAt": "2025-10-14 17:01:42 UTC",
+      "id": "6f74a2f6-b680-41dc-b1a3-5e77fb503eec"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6396) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fd91b7ad-3d5c-462e-b4c0-bc0439d9d152",
+      "arch": "x64",
+      "addedAt": "2025-09-25 21:00:32 UTC",
+      "id": "fd91b7ad-3d5c-462e-b4c0-bc0439d9d152"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6396) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3e0ccb30-6c14-487e-b203-61ba52ad5a4d",
+      "arch": "arm64",
+      "addedAt": "2025-09-25 21:00:31 UTC",
+      "id": "3e0ccb30-6c14-487e-b203-61ba52ad5a4d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6396) x86",
+      "href": "https://uupdump.net/selectlang.php?id=c20a40ff-ae22-456f-915d-8f11f29fae9a",
+      "arch": "x86",
+      "addedAt": "2025-09-25 21:00:32 UTC",
+      "id": "c20a40ff-ae22-456f-915d-8f11f29fae9a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6390) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e780ac2d-7f53-4c03-9105-a04330b8421e",
+      "arch": "x64",
+      "addedAt": "2025-09-16 17:00:52 UTC",
+      "id": "e780ac2d-7f53-4c03-9105-a04330b8421e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6390) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=30e1dbc4-14a6-45f4-9ce4-40042936d68e",
+      "arch": "arm64",
+      "addedAt": "2025-09-16 17:00:50 UTC",
+      "id": "30e1dbc4-14a6-45f4-9ce4-40042936d68e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6390) x86",
+      "href": "https://uupdump.net/selectlang.php?id=02e1a2ed-ff85-465d-862f-85655363adc7",
+      "arch": "x86",
+      "addedAt": "2025-09-16 17:00:51 UTC",
+      "id": "02e1a2ed-ff85-465d-862f-85655363adc7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6388) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8c55aba3-6235-4539-b6bf-25a05d3340ea",
+      "arch": "x64",
+      "addedAt": "2025-09-11 17:01:10 UTC",
+      "id": "8c55aba3-6235-4539-b6bf-25a05d3340ea"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6388) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ec66832e-1428-4f61-ad7d-59994cb4c902",
+      "arch": "arm64",
+      "addedAt": "2025-09-11 17:01:11 UTC",
+      "id": "ec66832e-1428-4f61-ad7d-59994cb4c902"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6388) x86",
+      "href": "https://uupdump.net/selectlang.php?id=50bea2e6-5f52-48da-a7e3-2f96741d8ccc",
+      "arch": "x86",
+      "addedAt": "2025-09-11 17:01:11 UTC",
+      "id": "50bea2e6-5f52-48da-a7e3-2f96741d8ccc"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6332) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=079f8c49-178e-4b14-afd2-f52a0a60172c",
+      "arch": "x64",
+      "addedAt": "2025-10-06 03:18:11 UTC",
+      "id": "079f8c49-178e-4b14-afd2-f52a0a60172c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6332) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e9d71029-712a-4428-9bf1-91cee0e6d067",
+      "arch": "x64",
+      "addedAt": "2025-09-09 17:01:16 UTC",
+      "id": "e9d71029-712a-4428-9bf1-91cee0e6d067"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6332) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a1449259-b8d5-4f14-82dd-1e9dc1701aae",
+      "arch": "arm64",
+      "addedAt": "2025-09-09 17:01:15 UTC",
+      "id": "a1449259-b8d5-4f14-82dd-1e9dc1701aae"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6332) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8ba5b275-889d-441f-8c71-62ff1a9555f4",
+      "arch": "x86",
+      "addedAt": "2025-09-09 17:01:17 UTC",
+      "id": "8ba5b275-889d-441f-8c71-62ff1a9555f4"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6282) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c7e90d32-5a3e-4be7-96dc-00f0e7946643",
+      "arch": "x64",
+      "addedAt": "2025-08-27 04:31:35 UTC",
+      "id": "c7e90d32-5a3e-4be7-96dc-00f0e7946643"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6282) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=50d1ab0b-62b4-46d5-88e3-26f5a9df46bb",
+      "arch": "x64",
+      "addedAt": "2025-08-26 17:00:47 UTC",
+      "id": "50d1ab0b-62b4-46d5-88e3-26f5a9df46bb"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6282) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=794fb234-40ed-4255-9cb5-7aeeab3d39cb",
+      "arch": "arm64",
+      "addedAt": "2025-08-27 04:31:34 UTC",
+      "id": "794fb234-40ed-4255-9cb5-7aeeab3d39cb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6282) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7a3abf64-f277-4eae-8377-2b3987468e1f",
+      "arch": "arm64",
+      "addedAt": "2025-08-26 17:00:45 UTC",
+      "id": "7a3abf64-f277-4eae-8377-2b3987468e1f"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6282) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8beed7cf-abfc-4fa1-a265-91d308e97218",
+      "arch": "x86",
+      "addedAt": "2025-08-27 04:31:34 UTC",
+      "id": "8beed7cf-abfc-4fa1-a265-91d308e97218"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6282) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5267e897-dbe1-489f-8b66-e91f8f6ce6bf",
+      "arch": "x86",
+      "addedAt": "2025-08-26 17:00:45 UTC",
+      "id": "5267e897-dbe1-489f-8b66-e91f8f6ce6bf"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6280) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d8944d88-b209-4de6-a0e7-14850d6deef7",
+      "arch": "x64",
+      "addedAt": "2025-08-21 19:56:59 UTC",
+      "id": "d8944d88-b209-4de6-a0e7-14850d6deef7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6280) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=aa40a552-e5f7-4977-80a8-3a757ad2b12d",
+      "arch": "x64",
+      "addedAt": "2025-08-21 17:01:06 UTC",
+      "id": "aa40a552-e5f7-4977-80a8-3a757ad2b12d"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6280) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a9bf0680-c28b-486f-b27d-16d3a39fc1d4",
+      "arch": "arm64",
+      "addedAt": "2025-08-21 19:57:15 UTC",
+      "id": "a9bf0680-c28b-486f-b27d-16d3a39fc1d4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6280) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a4f1ee7c-88e8-4787-84b1-4b15ebda8a71",
+      "arch": "arm64",
+      "addedAt": "2025-08-21 17:01:05 UTC",
+      "id": "a4f1ee7c-88e8-4787-84b1-4b15ebda8a71"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6280) x86",
+      "href": "https://uupdump.net/selectlang.php?id=06d2990d-7d7c-43c4-9cfc-6a017e986e09",
+      "arch": "x86",
+      "addedAt": "2025-08-21 19:57:06 UTC",
+      "id": "06d2990d-7d7c-43c4-9cfc-6a017e986e09"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6280) x86",
+      "href": "https://uupdump.net/selectlang.php?id=14a53d10-8e00-4676-a476-6edd147ef95a",
+      "arch": "x86",
+      "addedAt": "2025-08-21 17:01:07 UTC",
+      "id": "14a53d10-8e00-4676-a476-6edd147ef95a"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6276) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=07d8405b-c498-4546-9610-9d44633d42fa",
+      "arch": "x64",
+      "addedAt": "2025-08-14 19:41:18 UTC",
+      "id": "07d8405b-c498-4546-9610-9d44633d42fa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6276) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=59167e02-6c2b-489c-8a19-0a8a88345405",
+      "arch": "x64",
+      "addedAt": "2025-08-14 17:01:18 UTC",
+      "id": "59167e02-6c2b-489c-8a19-0a8a88345405"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6276) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=64afee8a-d844-44c2-b5c2-015ec87513d6",
+      "arch": "arm64",
+      "addedAt": "2025-08-14 19:41:37 UTC",
+      "id": "64afee8a-d844-44c2-b5c2-015ec87513d6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6276) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d4a1170a-e14c-4a61-8f9e-67639c064aca",
+      "arch": "arm64",
+      "addedAt": "2025-08-14 17:01:17 UTC",
+      "id": "d4a1170a-e14c-4a61-8f9e-67639c064aca"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6276) x86",
+      "href": "https://uupdump.net/selectlang.php?id=af50f8f6-b4c7-41ab-a95d-a50dbf3a70d6",
+      "arch": "x86",
+      "addedAt": "2025-08-14 19:41:43 UTC",
+      "id": "af50f8f6-b4c7-41ab-a95d-a50dbf3a70d6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6276) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fdddbf76-acce-49ff-a996-4da76429c01a",
+      "arch": "x86",
+      "addedAt": "2025-08-14 17:01:18 UTC",
+      "id": "fdddbf76-acce-49ff-a996-4da76429c01a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6218) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b4346387-2a99-4664-9111-55eb7cb72c18",
+      "arch": "x64",
+      "addedAt": "2025-08-19 22:54:54 UTC",
+      "id": "b4346387-2a99-4664-9111-55eb7cb72c18"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6218) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c06655a0-a5a8-4555-8b4c-d691ae19d29b",
+      "arch": "arm64",
+      "addedAt": "2025-08-19 23:27:41 UTC",
+      "id": "c06655a0-a5a8-4555-8b4c-d691ae19d29b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6218) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1b6800d8-308f-4e7d-9cb6-4f8fdca2b8cb",
+      "arch": "x86",
+      "addedAt": "2025-08-19 23:27:31 UTC",
+      "id": "1b6800d8-308f-4e7d-9cb6-4f8fdca2b8cb"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6216) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4eeb4705-e743-421d-a16d-303e3e783449",
+      "arch": "x64",
+      "addedAt": "2025-08-12 18:51:18 UTC",
+      "id": "4eeb4705-e743-421d-a16d-303e3e783449"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6216) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=26e14a2a-e705-4ab7-a108-42dc50a8d9c9",
+      "arch": "x64",
+      "addedAt": "2025-08-12 17:00:53 UTC",
+      "id": "26e14a2a-e705-4ab7-a108-42dc50a8d9c9"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6216) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6baa142a-66be-4bd5-9344-8a4248f4e8e4",
+      "arch": "arm64",
+      "addedAt": "2025-08-12 18:51:01 UTC",
+      "id": "6baa142a-66be-4bd5-9344-8a4248f4e8e4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6216) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=42f44e79-1134-47d0-ad9c-10c1950bff5e",
+      "arch": "arm64",
+      "addedAt": "2025-08-12 17:01:07 UTC",
+      "id": "42f44e79-1134-47d0-ad9c-10c1950bff5e"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.6216) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ebc2a731-5267-46db-bfe0-50351856425e",
+      "arch": "x86",
+      "addedAt": "2025-08-12 18:51:43 UTC",
+      "id": "ebc2a731-5267-46db-bfe0-50351856425e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6216) x86",
+      "href": "https://uupdump.net/selectlang.php?id=af3d089b-d6a3-4bc4-b572-1dcfac841a97",
+      "arch": "x86",
+      "addedAt": "2025-08-12 17:01:08 UTC",
+      "id": "af3d089b-d6a3-4bc4-b572-1dcfac841a97"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6159) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7a76381e-7987-4955-8bae-39fd729d14ca",
+      "arch": "x64",
+      "addedAt": "2025-07-22 21:28:05 UTC",
+      "id": "7a76381e-7987-4955-8bae-39fd729d14ca"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6159) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b3cb5dd8-6b1a-495d-8b90-8be39014df89",
+      "arch": "x64",
+      "addedAt": "2025-07-15 21:02:06 UTC",
+      "id": "b3cb5dd8-6b1a-495d-8b90-8be39014df89"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6159) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b271ca41-a3a5-434a-bf41-be3142d5a88c",
+      "arch": "arm64",
+      "addedAt": "2025-07-22 21:28:23 UTC",
+      "id": "b271ca41-a3a5-434a-bf41-be3142d5a88c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6159) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=77dd9369-0b5b-4bf6-b3ea-5ab78b10b631",
+      "arch": "arm64",
+      "addedAt": "2025-07-15 21:02:07 UTC",
+      "id": "77dd9369-0b5b-4bf6-b3ea-5ab78b10b631"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.6159) x86",
+      "href": "https://uupdump.net/selectlang.php?id=92295683-12e4-4153-9510-51709a80ef78",
+      "arch": "x86",
+      "addedAt": "2025-07-22 21:28:16 UTC",
+      "id": "92295683-12e4-4153-9510-51709a80ef78"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6159) x86",
+      "href": "https://uupdump.net/selectlang.php?id=d1a27172-065a-4486-ba03-232a58991063",
+      "arch": "x86",
+      "addedAt": "2025-07-15 21:02:05 UTC",
+      "id": "d1a27172-065a-4486-ba03-232a58991063"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6156) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=48acca18-f387-4113-80d3-7e9481ade47f",
+      "arch": "x64",
+      "addedAt": "2025-07-10 17:01:12 UTC",
+      "id": "48acca18-f387-4113-80d3-7e9481ade47f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6156) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b5018a0d-41dc-4bc0-a5a3-3f8465edce4b",
+      "arch": "arm64",
+      "addedAt": "2025-07-10 17:01:11 UTC",
+      "id": "b5018a0d-41dc-4bc0-a5a3-3f8465edce4b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6156) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1833ea0a-5a90-4e48-ada6-728077dca9f2",
+      "arch": "x86",
+      "addedAt": "2025-07-10 17:01:11 UTC",
+      "id": "1833ea0a-5a90-4e48-ada6-728077dca9f2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6093) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b6f0c2a8-d0d3-46e4-8b86-ca00718783d5",
+      "arch": "x64",
+      "addedAt": "2025-07-08 17:01:06 UTC",
+      "id": "b6f0c2a8-d0d3-46e4-8b86-ca00718783d5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6093) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e90c719e-9368-403c-b3c7-a80d6dc0a42a",
+      "arch": "arm64",
+      "addedAt": "2025-07-08 17:01:04 UTC",
+      "id": "e90c719e-9368-403c-b3c7-a80d6dc0a42a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6093) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ad402db6-99d4-4954-9dcb-44a73614b620",
+      "arch": "x86",
+      "addedAt": "2025-07-08 17:01:05 UTC",
+      "id": "ad402db6-99d4-4954-9dcb-44a73614b620"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6036) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=71b45765-6a0e-4a84-9fab-039f85ad2c82",
+      "arch": "x64",
+      "addedAt": "2025-06-24 17:00:46 UTC",
+      "id": "71b45765-6a0e-4a84-9fab-039f85ad2c82"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6036) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cf7204ac-4be4-4bd8-ba31-78e70de79417",
+      "arch": "arm64",
+      "addedAt": "2025-06-24 17:00:47 UTC",
+      "id": "cf7204ac-4be4-4bd8-ba31-78e70de79417"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6036) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8cd45712-c6ea-49da-853b-d13aedeebcf5",
+      "arch": "x86",
+      "addedAt": "2025-06-24 17:00:46 UTC",
+      "id": "8cd45712-c6ea-49da-853b-d13aedeebcf5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6033) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1e076336-5785-4d12-8fb9-bd3364898240",
+      "arch": "x64",
+      "addedAt": "2025-06-19 17:01:20 UTC",
+      "id": "1e076336-5785-4d12-8fb9-bd3364898240"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6033) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=de801966-9c26-4540-a913-bbbcd0dccd06",
+      "arch": "arm64",
+      "addedAt": "2025-06-19 17:01:21 UTC",
+      "id": "de801966-9c26-4540-a913-bbbcd0dccd06"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6033) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ae655a7e-6da3-4cc3-911c-bb8e066ac216",
+      "arch": "x86",
+      "addedAt": "2025-06-19 17:01:20 UTC",
+      "id": "ae655a7e-6da3-4cc3-911c-bb8e066ac216"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6029) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=88068b7d-28b6-4236-8880-f04814a41dec",
+      "arch": "x64",
+      "addedAt": "2025-06-12 17:01:35 UTC",
+      "id": "88068b7d-28b6-4236-8880-f04814a41dec"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6029) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4f444afc-2c25-45da-9211-d24f2a5ab241",
+      "arch": "arm64",
+      "addedAt": "2025-06-12 17:01:33 UTC",
+      "id": "4f444afc-2c25-45da-9211-d24f2a5ab241"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.6029) x86",
+      "href": "https://uupdump.net/selectlang.php?id=143f898c-7a45-4578-b3a8-7e1cc421451a",
+      "arch": "x86",
+      "addedAt": "2025-06-12 17:01:33 UTC",
+      "id": "143f898c-7a45-4578-b3a8-7e1cc421451a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5968) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b29632d9-662d-4c6b-ae08-2c60d9af3a18",
+      "arch": "x64",
+      "addedAt": "2025-06-17 17:23:51 UTC",
+      "id": "b29632d9-662d-4c6b-ae08-2c60d9af3a18"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5968) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=50fa8e51-e409-4b12-939b-22b06b3fe8ef",
+      "arch": "arm64",
+      "addedAt": "2025-06-17 17:23:36 UTC",
+      "id": "50fa8e51-e409-4b12-939b-22b06b3fe8ef"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5968) x86",
+      "href": "https://uupdump.net/selectlang.php?id=2278ac0f-c2dc-42d9-add3-37ae39371606",
+      "arch": "x86",
+      "addedAt": "2025-06-17 17:23:25 UTC",
+      "id": "2278ac0f-c2dc-42d9-add3-37ae39371606"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5965) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ca228258-2724-4539-a3b4-58f7ef7ff08d",
+      "arch": "x64",
+      "addedAt": "2025-06-10 17:01:21 UTC",
+      "id": "ca228258-2724-4539-a3b4-58f7ef7ff08d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5965) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5bee81ec-aa07-4051-a81e-e076ec146f96",
+      "arch": "arm64",
+      "addedAt": "2025-06-10 17:01:21 UTC",
+      "id": "5bee81ec-aa07-4051-a81e-e076ec146f96"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5965) x86",
+      "href": "https://uupdump.net/selectlang.php?id=70d8f71c-52d3-4d6c-8a32-a76cb840dc21",
+      "arch": "x86",
+      "addedAt": "2025-06-10 17:01:19 UTC",
+      "id": "70d8f71c-52d3-4d6c-8a32-a76cb840dc21"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5917) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=598d27dc-ad81-41aa-8c83-42b88e60c823",
+      "arch": "x64",
+      "addedAt": "2025-05-28 21:01:06 UTC",
+      "id": "598d27dc-ad81-41aa-8c83-42b88e60c823"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5917) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=087a73d9-133a-4141-b08c-6305b2c9b5ba",
+      "arch": "arm64",
+      "addedAt": "2025-05-28 21:01:10 UTC",
+      "id": "087a73d9-133a-4141-b08c-6305b2c9b5ba"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5917) x86",
+      "href": "https://uupdump.net/selectlang.php?id=2530b24f-1b56-4de1-9205-960c3e90ac17",
+      "arch": "x86",
+      "addedAt": "2025-05-28 21:01:10 UTC",
+      "id": "2530b24f-1b56-4de1-9205-960c3e90ac17"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5912) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fadd14b9-dcb5-43ba-8f8d-e37e1d69d1a0",
+      "arch": "x64",
+      "addedAt": "2025-05-15 17:01:32 UTC",
+      "id": "fadd14b9-dcb5-43ba-8f8d-e37e1d69d1a0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5912) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4eeef4ea-912f-42af-9267-97b3b6b483c3",
+      "arch": "arm64",
+      "addedAt": "2025-05-15 17:01:31 UTC",
+      "id": "4eeef4ea-912f-42af-9267-97b3b6b483c3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5912) x86",
+      "href": "https://uupdump.net/selectlang.php?id=3e9da0ef-a89a-421e-bc39-25569f99c851",
+      "arch": "x86",
+      "addedAt": "2025-05-15 17:01:32 UTC",
+      "id": "3e9da0ef-a89a-421e-bc39-25569f99c851"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5859) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bf499b2e-fcd5-49f0-912d-daee635e8121",
+      "arch": "x64",
+      "addedAt": "2025-05-27 22:27:13 UTC",
+      "id": "bf499b2e-fcd5-49f0-912d-daee635e8121"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5859) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ecf7b2fe-72ee-47c2-a59e-b8bde3e06bec",
+      "arch": "arm64",
+      "addedAt": "2025-05-27 22:26:56 UTC",
+      "id": "ecf7b2fe-72ee-47c2-a59e-b8bde3e06bec"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5859) x86",
+      "href": "https://uupdump.net/selectlang.php?id=baaa5c57-d319-447b-aa26-3234861345b1",
+      "arch": "x86",
+      "addedAt": "2025-05-27 22:27:23 UTC",
+      "id": "baaa5c57-d319-447b-aa26-3234861345b1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5856) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e99e734d-933f-470e-b78c-d08410ecc719",
+      "arch": "x64",
+      "addedAt": "2025-05-19 17:25:12 UTC",
+      "id": "e99e734d-933f-470e-b78c-d08410ecc719"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5856) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d1574008-efee-4d6b-aa75-171aad3a41ca",
+      "arch": "arm64",
+      "addedAt": "2025-05-19 17:25:00 UTC",
+      "id": "d1574008-efee-4d6b-aa75-171aad3a41ca"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5856) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a42ce376-1c8f-4644-a9d1-e93bcb6c7c01",
+      "arch": "x86",
+      "addedAt": "2025-05-19 17:24:30 UTC",
+      "id": "a42ce376-1c8f-4644-a9d1-e93bcb6c7c01"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5854) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=960b5860-55a0-4814-8a98-4cefe92923d0",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:01:18 UTC",
+      "id": "960b5860-55a0-4814-8a98-4cefe92923d0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5854) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5bddb6e4-cc87-40b5-a185-e5eb7e5726b9",
+      "arch": "arm64",
+      "addedAt": "2025-05-13 17:01:56 UTC",
+      "id": "5bddb6e4-cc87-40b5-a185-e5eb7e5726b9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5854) x86",
+      "href": "https://uupdump.net/selectlang.php?id=dc84a9c4-2f03-43cf-a677-fe099f33fbd1",
+      "arch": "x86",
+      "addedAt": "2025-05-13 17:01:57 UTC",
+      "id": "dc84a9c4-2f03-43cf-a677-fe099f33fbd1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5796) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=32622a79-26a2-4b88-8804-659e9ccad935",
+      "arch": "x64",
+      "addedAt": "2025-04-22 17:00:32 UTC",
+      "id": "32622a79-26a2-4b88-8804-659e9ccad935"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5796) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=145aea80-969d-4d49-951f-7c08f1d35e9e",
+      "arch": "arm64",
+      "addedAt": "2025-04-22 17:00:30 UTC",
+      "id": "145aea80-969d-4d49-951f-7c08f1d35e9e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5796) x86",
+      "href": "https://uupdump.net/selectlang.php?id=591cb681-b8ba-4f42-9c0f-7722ac3081be",
+      "arch": "x86",
+      "addedAt": "2025-04-22 17:00:31 UTC",
+      "id": "591cb681-b8ba-4f42-9c0f-7722ac3081be"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5794) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a87c198a-68a9-41e3-8bc9-0d0a46be97d4",
+      "arch": "x64",
+      "addedAt": "2025-04-14 21:00:47 UTC",
+      "id": "a87c198a-68a9-41e3-8bc9-0d0a46be97d4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5794) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d47773da-a99e-473f-b075-5863cecfa2cd",
+      "arch": "arm64",
+      "addedAt": "2025-04-14 21:00:46 UTC",
+      "id": "d47773da-a99e-473f-b075-5863cecfa2cd"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5794) x86",
+      "href": "https://uupdump.net/selectlang.php?id=7a700faf-003e-47fb-9f00-f575474c19cb",
+      "arch": "x86",
+      "addedAt": "2025-04-14 21:00:45 UTC",
+      "id": "7a700faf-003e-47fb-9f00-f575474c19cb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5737) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=175ecfb6-6712-45a7-a398-6d6645b1d196",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:00:57 UTC",
+      "id": "175ecfb6-6712-45a7-a398-6d6645b1d196"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5737) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6276d652-b906-4951-a66a-97c50e0f8343",
+      "arch": "arm64",
+      "addedAt": "2025-04-08 17:00:58 UTC",
+      "id": "6276d652-b906-4951-a66a-97c50e0f8343"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5737) x86",
+      "href": "https://uupdump.net/selectlang.php?id=59d0be36-dadc-4776-aeae-947e7143e643",
+      "arch": "x86",
+      "addedAt": "2025-04-08 17:00:59 UTC",
+      "id": "59d0be36-dadc-4776-aeae-947e7143e643"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5679) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=96f41b66-37c9-4566-8111-bc3fe7f5f7fe",
+      "arch": "x64",
+      "addedAt": "2025-03-25 17:01:03 UTC",
+      "id": "96f41b66-37c9-4566-8111-bc3fe7f5f7fe"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5679) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b982f914-19d2-4e4e-acbc-42ea026907d6",
+      "arch": "arm64",
+      "addedAt": "2025-03-25 17:01:47 UTC",
+      "id": "b982f914-19d2-4e4e-acbc-42ea026907d6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5679) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e89ff00b-cedc-49ef-a346-46a74dea884f",
+      "arch": "x86",
+      "addedAt": "2025-03-25 17:01:48 UTC",
+      "id": "e89ff00b-cedc-49ef-a346-46a74dea884f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5674) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=daf9c454-949c-4014-bb48-c77b39d17bca",
+      "arch": "x64",
+      "addedAt": "2025-03-13 17:00:53 UTC",
+      "id": "daf9c454-949c-4014-bb48-c77b39d17bca"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5674) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c90bb9db-b801-422c-be2d-0835f202e7e3",
+      "arch": "arm64",
+      "addedAt": "2025-03-13 17:01:36 UTC",
+      "id": "c90bb9db-b801-422c-be2d-0835f202e7e3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5674) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fe2edb4c-204a-49f5-89dd-9821e9fea7d1",
+      "arch": "x86",
+      "addedAt": "2025-03-13 17:01:37 UTC",
+      "id": "fe2edb4c-204a-49f5-89dd-9821e9fea7d1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5608) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=36f57c23-0465-4d85-8cb0-d7e500a760f9",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:01:07 UTC",
+      "id": "36f57c23-0465-4d85-8cb0-d7e500a760f9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5608) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8dc75e07-612f-4dab-993d-de95150d9836",
+      "arch": "arm64",
+      "addedAt": "2025-03-11 17:01:07 UTC",
+      "id": "8dc75e07-612f-4dab-993d-de95150d9836"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5608) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5306a65e-2b5a-42af-8c9c-18cc874751d2",
+      "arch": "x86",
+      "addedAt": "2025-03-11 17:01:05 UTC",
+      "id": "5306a65e-2b5a-42af-8c9c-18cc874751d2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5555) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=150177bd-f080-41b6-b01d-f2041b2c256d",
+      "arch": "x64",
+      "addedAt": "2025-02-25 18:02:10 UTC",
+      "id": "150177bd-f080-41b6-b01d-f2041b2c256d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5555) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a3d9bb37-5b3c-4155-80c7-adc8238abf52",
+      "arch": "arm64",
+      "addedAt": "2025-02-25 18:02:11 UTC",
+      "id": "a3d9bb37-5b3c-4155-80c7-adc8238abf52"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5555) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1b617481-14fc-46da-9975-7d2dc0e5fa15",
+      "arch": "x86",
+      "addedAt": "2025-02-25 18:02:11 UTC",
+      "id": "1b617481-14fc-46da-9975-7d2dc0e5fa15"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5552) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=33fa0f0d-3240-4dce-be1e-53124e988367",
+      "arch": "x64",
+      "addedAt": "2025-02-13 18:00:42 UTC",
+      "id": "33fa0f0d-3240-4dce-be1e-53124e988367"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5552) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f9f354ea-b004-4871-82bd-02be3b4632ea",
+      "arch": "arm64",
+      "addedAt": "2025-02-13 18:01:02 UTC",
+      "id": "f9f354ea-b004-4871-82bd-02be3b4632ea"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5552) x86",
+      "href": "https://uupdump.net/selectlang.php?id=f720d701-0bc1-482f-905d-3321643915a7",
+      "arch": "x86",
+      "addedAt": "2025-02-13 18:01:02 UTC",
+      "id": "f720d701-0bc1-482f-905d-3321643915a7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5487) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=90230020-57e7-432f-a166-9aa5f0e87c94",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:00:56 UTC",
+      "id": "90230020-57e7-432f-a166-9aa5f0e87c94"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5487) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=664d27e8-ecea-4b3f-8066-6a244f72b013",
+      "arch": "arm64",
+      "addedAt": "2025-02-11 18:00:55 UTC",
+      "id": "664d27e8-ecea-4b3f-8066-6a244f72b013"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5487) x86",
+      "href": "https://uupdump.net/selectlang.php?id=bf8e0dcb-1ac4-4705-a631-ef925dbd3061",
+      "arch": "x86",
+      "addedAt": "2025-02-11 18:00:55 UTC",
+      "id": "bf8e0dcb-1ac4-4705-a631-ef925dbd3061"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5440) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9cfe297d-ab55-4c82-899d-91e6eccdeb4f",
+      "arch": "x64",
+      "addedAt": "2025-01-28 22:01:00 UTC",
+      "id": "9cfe297d-ab55-4c82-899d-91e6eccdeb4f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5440) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ed542f2f-339a-4a7c-84cd-5d3747e57ac8",
+      "arch": "arm64",
+      "addedAt": "2025-01-28 22:01:29 UTC",
+      "id": "ed542f2f-339a-4a7c-84cd-5d3747e57ac8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5440) x86",
+      "href": "https://uupdump.net/selectlang.php?id=88cab3af-a5e9-4e4e-9637-e52a6065b138",
+      "arch": "x86",
+      "addedAt": "2025-01-28 22:01:30 UTC",
+      "id": "88cab3af-a5e9-4e4e-9637-e52a6065b138"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5435) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f54598f0-b776-4942-8bef-6eb14b3eb1c4",
+      "arch": "x64",
+      "addedAt": "2025-01-17 18:02:24 UTC",
+      "id": "f54598f0-b776-4942-8bef-6eb14b3eb1c4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5435) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9d5cb72b-7a20-4d61-87c9-5f3297ea0bc0",
+      "arch": "arm64",
+      "addedAt": "2025-01-17 18:02:23 UTC",
+      "id": "9d5cb72b-7a20-4d61-87c9-5f3297ea0bc0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5435) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8ab33b23-0dca-4fd0-b5b3-c10cc8e12cfa",
+      "arch": "x86",
+      "addedAt": "2025-01-17 18:02:23 UTC",
+      "id": "8ab33b23-0dca-4fd0-b5b3-c10cc8e12cfa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5371) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fd386e36-5c3f-42de-8356-28e6dbf4aada",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:01:13 UTC",
+      "id": "fd386e36-5c3f-42de-8356-28e6dbf4aada"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5371) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cb3df62d-1bcf-4630-80fc-b17ad8968ad2",
+      "arch": "arm64",
+      "addedAt": "2025-01-14 18:01:14 UTC",
+      "id": "cb3df62d-1bcf-4630-80fc-b17ad8968ad2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5371) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ebdf2c99-ec0c-4cb5-824c-e58fa7b2800a",
+      "arch": "x86",
+      "addedAt": "2025-01-14 18:01:14 UTC",
+      "id": "ebdf2c99-ec0c-4cb5-824c-e58fa7b2800a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5247) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e1885854-aea0-453d-9e64-bfd00535a925",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:01:09 UTC",
+      "id": "e1885854-aea0-453d-9e64-bfd00535a925"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5247) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d1aaf6a7-c80b-49bb-8d79-99b6a3cfb5c1",
+      "arch": "arm64",
+      "addedAt": "2024-12-10 18:01:07 UTC",
+      "id": "d1aaf6a7-c80b-49bb-8d79-99b6a3cfb5c1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5247) x86",
+      "href": "https://uupdump.net/selectlang.php?id=21dec2dc-8213-4021-a31c-7dd07e034dd5",
+      "arch": "x86",
+      "addedAt": "2024-12-10 18:01:07 UTC",
+      "id": "21dec2dc-8213-4021-a31c-7dd07e034dd5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5198) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7ab4fc06-757e-4b13-897e-7f76bba9e469",
+      "arch": "x64",
+      "addedAt": "2024-11-21 18:02:31 UTC",
+      "id": "7ab4fc06-757e-4b13-897e-7f76bba9e469"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5198) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=11cc8044-90bb-438d-9c7b-ba8f00bd4eed",
+      "arch": "arm64",
+      "addedAt": "2024-11-21 18:02:31 UTC",
+      "id": "11cc8044-90bb-438d-9c7b-ba8f00bd4eed"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5198) x86",
+      "href": "https://uupdump.net/selectlang.php?id=03e7f864-f321-466d-8a39-49c764c19f02",
+      "arch": "x86",
+      "addedAt": "2024-11-21 18:02:32 UTC",
+      "id": "03e7f864-f321-466d-8a39-49c764c19f02"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5196) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=476e30d4-de6d-407b-bb6d-344fd1e64dc7",
+      "arch": "x64",
+      "addedAt": "2024-11-19 18:03:22 UTC",
+      "id": "476e30d4-de6d-407b-bb6d-344fd1e64dc7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5196) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cc65efc6-d637-4780-bc2c-d8648df19d28",
+      "arch": "arm64",
+      "addedAt": "2024-11-19 18:03:21 UTC",
+      "id": "cc65efc6-d637-4780-bc2c-d8648df19d28"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5196) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a40b70ac-2763-4b61-88c0-ccac4f61d38a",
+      "arch": "x86",
+      "addedAt": "2024-11-19 18:03:20 UTC",
+      "id": "a40b70ac-2763-4b61-88c0-ccac4f61d38a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5194) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=74db1138-e0bb-4698-aed9-ec4ea015cee8",
+      "arch": "x64",
+      "addedAt": "2024-11-14 18:01:02 UTC",
+      "id": "74db1138-e0bb-4698-aed9-ec4ea015cee8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5194) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b1f38cfc-d666-4270-8106-4dccbd1cc616",
+      "arch": "arm64",
+      "addedAt": "2024-11-14 18:01:00 UTC",
+      "id": "b1f38cfc-d666-4270-8106-4dccbd1cc616"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5194) x86",
+      "href": "https://uupdump.net/selectlang.php?id=c8e4042b-d6f9-4158-ac72-4ee70a6e2bc2",
+      "arch": "x86",
+      "addedAt": "2024-11-14 18:01:01 UTC",
+      "id": "c8e4042b-d6f9-4158-ac72-4ee70a6e2bc2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5131) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=098e93a5-93b5-405b-814e-3009a27b4864",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:01:13 UTC",
+      "id": "098e93a5-93b5-405b-814e-3009a27b4864"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5131) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0df49cbd-1432-4d37-b9a4-81364b076804",
+      "arch": "arm64",
+      "addedAt": "2024-11-12 18:01:14 UTC",
+      "id": "0df49cbd-1432-4d37-b9a4-81364b076804"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5131) x86",
+      "href": "https://uupdump.net/selectlang.php?id=c2a656ea-022e-40a6-a3d3-6edc66da996e",
+      "arch": "x86",
+      "addedAt": "2024-11-12 18:01:12 UTC",
+      "id": "c2a656ea-022e-40a6-a3d3-6edc66da996e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5073) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=60d84f07-7bce-4652-a0cd-24608a0cd0fc",
+      "arch": "x64",
+      "addedAt": "2024-10-22 17:00:41 UTC",
+      "id": "60d84f07-7bce-4652-a0cd-24608a0cd0fc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5073) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1c0479da-3f88-4ea9-ac33-00f4903257aa",
+      "arch": "arm64",
+      "addedAt": "2024-10-22 17:00:42 UTC",
+      "id": "1c0479da-3f88-4ea9-ac33-00f4903257aa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5073) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6a01ee15-d373-4df1-85b4-86e44f68af43",
+      "arch": "x86",
+      "addedAt": "2024-10-22 17:00:40 UTC",
+      "id": "6a01ee15-d373-4df1-85b4-86e44f68af43"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5070) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=64ad5ee4-fa4e-4106-a2e5-c9f1c3eb6e4a",
+      "arch": "x64",
+      "addedAt": "2024-10-14 21:00:26 UTC",
+      "id": "64ad5ee4-fa4e-4106-a2e5-c9f1c3eb6e4a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5070) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=67d2d29f-5cdb-4943-9516-e27b9b632d53",
+      "arch": "arm64",
+      "addedAt": "2024-10-14 21:00:45 UTC",
+      "id": "67d2d29f-5cdb-4943-9516-e27b9b632d53"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5070) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1061081c-949c-4964-ad7c-bbcdb61ace4d",
+      "arch": "x86",
+      "addedAt": "2024-10-14 21:00:46 UTC",
+      "id": "1061081c-949c-4964-ad7c-bbcdb61ace4d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5011) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4596a622-905b-4876-bb7f-c48b7b6226ad",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:01:00 UTC",
+      "id": "4596a622-905b-4876-bb7f-c48b7b6226ad"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5011) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ad910233-da99-4ab9-9b91-6b72f768fc72",
+      "arch": "arm64",
+      "addedAt": "2024-10-08 17:01:01 UTC",
+      "id": "ad910233-da99-4ab9-9b91-6b72f768fc72"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.5011) x86",
+      "href": "https://uupdump.net/selectlang.php?id=7ba8ab7b-8c58-49e3-8cd4-85f80951b3fb",
+      "arch": "x86",
+      "addedAt": "2024-10-08 17:00:59 UTC",
+      "id": "7ba8ab7b-8c58-49e3-8cd4-85f80951b3fb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4957) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=953f39d1-3e91-4270-befd-e7957b8590ac",
+      "arch": "x64",
+      "addedAt": "2024-09-24 21:00:54 UTC",
+      "id": "953f39d1-3e91-4270-befd-e7957b8590ac"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4957) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b863def0-9d91-4e8d-9a40-df71df50e680",
+      "arch": "arm64",
+      "addedAt": "2024-09-24 21:00:58 UTC",
+      "id": "b863def0-9d91-4e8d-9a40-df71df50e680"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4957) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fe1f57e3-f40a-4e10-a34a-0607b5998c9a",
+      "arch": "x86",
+      "addedAt": "2024-09-24 21:00:58 UTC",
+      "id": "fe1f57e3-f40a-4e10-a34a-0607b5998c9a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4955) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=36bd498a-41b1-4d22-aed3-41d3a5b2c3dc",
+      "arch": "x64",
+      "addedAt": "2024-09-16 21:01:08 UTC",
+      "id": "36bd498a-41b1-4d22-aed3-41d3a5b2c3dc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4955) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7893c58a-4e94-4bea-9cb8-36766704b0fc",
+      "arch": "arm64",
+      "addedAt": "2024-09-16 21:01:20 UTC",
+      "id": "7893c58a-4e94-4bea-9cb8-36766704b0fc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4955) x86",
+      "href": "https://uupdump.net/selectlang.php?id=fc348bf4-2b84-4c0c-89cd-7c285229df34",
+      "arch": "x86",
+      "addedAt": "2024-09-16 21:01:20 UTC",
+      "id": "fc348bf4-2b84-4c0c-89cd-7c285229df34"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4894) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f2f33f64-14ce-4e4c-9c6e-a71c07276e33",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:00:48 UTC",
+      "id": "f2f33f64-14ce-4e4c-9c6e-a71c07276e33"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4894) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=787c7b93-9342-4cbd-95ef-374aa177fff3",
+      "arch": "arm64",
+      "addedAt": "2024-09-10 17:01:34 UTC",
+      "id": "787c7b93-9342-4cbd-95ef-374aa177fff3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4894) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5fb708ae-81ca-41cd-9f22-ccc9cc897c46",
+      "arch": "x86",
+      "addedAt": "2024-09-10 17:01:34 UTC",
+      "id": "5fb708ae-81ca-41cd-9f22-ccc9cc897c46"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4842) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fcc8f5c5-5c96-4077-9783-9e7e8f9d8e14",
+      "arch": "x64",
+      "addedAt": "2024-08-22 21:00:45 UTC",
+      "id": "fcc8f5c5-5c96-4077-9783-9e7e8f9d8e14"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4842) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=23811e27-6ff8-4d9a-a87f-ccadaf8ec8ad",
+      "arch": "arm64",
+      "addedAt": "2024-08-22 21:01:36 UTC",
+      "id": "23811e27-6ff8-4d9a-a87f-ccadaf8ec8ad"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4842) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4fd93f6e-3e8c-4d12-a32b-09c10335524f",
+      "arch": "x86",
+      "addedAt": "2024-08-22 21:01:35 UTC",
+      "id": "4fd93f6e-3e8c-4d12-a32b-09c10335524f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4780) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8717a3fa-98ac-4ca8-b87d-df92e1008a63",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:00:56 UTC",
+      "id": "8717a3fa-98ac-4ca8-b87d-df92e1008a63"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4780) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=043a3134-3c55-481b-bbbb-1f68d98834f4",
+      "arch": "arm64",
+      "addedAt": "2024-08-13 17:00:54 UTC",
+      "id": "043a3134-3c55-481b-bbbb-1f68d98834f4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4780) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6b2c7372-e1fb-4c89-8456-902902e5ae7c",
+      "arch": "x86",
+      "addedAt": "2024-08-13 17:00:56 UTC",
+      "id": "6b2c7372-e1fb-4c89-8456-902902e5ae7c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4717) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c71c7e40-40b6-471b-adf1-2ee9f2beba34",
+      "arch": "x64",
+      "addedAt": "2024-07-23 21:00:39 UTC",
+      "id": "c71c7e40-40b6-471b-adf1-2ee9f2beba34"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4717) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=721acb5d-7965-4ced-ae39-a26daf71d11d",
+      "arch": "arm64",
+      "addedAt": "2024-07-23 21:00:44 UTC",
+      "id": "721acb5d-7965-4ced-ae39-a26daf71d11d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4717) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e811c5d0-1df3-4c57-b992-479f1de7f73a",
+      "arch": "x86",
+      "addedAt": "2024-07-23 21:00:44 UTC",
+      "id": "e811c5d0-1df3-4c57-b992-479f1de7f73a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4713) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8e25946e-38b8-4323-9e28-575f445fb6b6",
+      "arch": "x64",
+      "addedAt": "2024-07-11 17:00:42 UTC",
+      "id": "8e25946e-38b8-4323-9e28-575f445fb6b6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4713) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3faa8130-0e0f-4f33-ba84-e68dbf83da37",
+      "arch": "arm64",
+      "addedAt": "2024-07-11 17:01:21 UTC",
+      "id": "3faa8130-0e0f-4f33-ba84-e68dbf83da37"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4713) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5c5d2169-9876-436c-95ad-20303ad01972",
+      "arch": "x86",
+      "addedAt": "2024-07-11 17:01:21 UTC",
+      "id": "5c5d2169-9876-436c-95ad-20303ad01972"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4651) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=de029f6a-7498-4e10-8501-d1581b153ddd",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:00:58 UTC",
+      "id": "de029f6a-7498-4e10-8501-d1581b153ddd"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4651) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=57a33781-3e4c-447a-bd59-f7e621f29680",
+      "arch": "arm64",
+      "addedAt": "2024-07-09 17:00:56 UTC",
+      "id": "57a33781-3e4c-447a-bd59-f7e621f29680"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4651) x86",
+      "href": "https://uupdump.net/selectlang.php?id=cd2d32e1-31b3-42d0-95b9-d1ba206b5573",
+      "arch": "x86",
+      "addedAt": "2024-07-09 17:00:56 UTC",
+      "id": "cd2d32e1-31b3-42d0-95b9-d1ba206b5573"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4598) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=48a5686b-2c90-4db7-a578-c8399d8b02cd",
+      "arch": "x64",
+      "addedAt": "2024-06-25 21:01:13 UTC",
+      "id": "48a5686b-2c90-4db7-a578-c8399d8b02cd"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4598) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=43a5e68a-09d6-496e-ae8a-4d1de1367692",
+      "arch": "arm64",
+      "addedAt": "2024-06-25 21:01:12 UTC",
+      "id": "43a5e68a-09d6-496e-ae8a-4d1de1367692"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4598) x86",
+      "href": "https://uupdump.net/selectlang.php?id=74ec98b8-3f74-475d-91e3-8058a3c8efbf",
+      "arch": "x86",
+      "addedAt": "2024-06-25 21:01:12 UTC",
+      "id": "74ec98b8-3f74-475d-91e3-8058a3c8efbf"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4593) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6d014c9e-61a2-431b-a229-bc7ea20518ba",
+      "arch": "x64",
+      "addedAt": "2024-06-13 17:00:37 UTC",
+      "id": "6d014c9e-61a2-431b-a229-bc7ea20518ba"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4593) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8fea680a-b33a-4390-a470-8bb182c87433",
+      "arch": "arm64",
+      "addedAt": "2024-06-13 17:01:01 UTC",
+      "id": "8fea680a-b33a-4390-a470-8bb182c87433"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4593) x86",
+      "href": "https://uupdump.net/selectlang.php?id=eb02aa27-e5e9-4167-9a6d-7142659f4c37",
+      "arch": "x86",
+      "addedAt": "2024-06-13 17:01:00 UTC",
+      "id": "eb02aa27-e5e9-4167-9a6d-7142659f4c37"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4529) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cd8257ce-cb10-4a06-a107-1e60725358fa",
+      "arch": "x64",
+      "addedAt": "2024-06-11 17:00:59 UTC",
+      "id": "cd8257ce-cb10-4a06-a107-1e60725358fa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4529) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7f23203b-77a7-4a7a-8ca7-963eff9e8918",
+      "arch": "arm64",
+      "addedAt": "2024-06-11 17:00:57 UTC",
+      "id": "7f23203b-77a7-4a7a-8ca7-963eff9e8918"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4529) x86",
+      "href": "https://uupdump.net/selectlang.php?id=63a5da4a-8407-4f61-a983-5abfc4a39e05",
+      "arch": "x86",
+      "addedAt": "2024-06-11 17:00:57 UTC",
+      "id": "63a5da4a-8407-4f61-a983-5abfc4a39e05"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4474) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b8d2df04-86bd-4d00-b46f-c33df4a394a3",
+      "arch": "x64",
+      "addedAt": "2024-05-29 21:00:48 UTC",
+      "id": "b8d2df04-86bd-4d00-b46f-c33df4a394a3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4474) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3cfde680-4318-4b70-8154-4a44720d5936",
+      "arch": "arm64",
+      "addedAt": "2024-05-29 21:00:49 UTC",
+      "id": "3cfde680-4318-4b70-8154-4a44720d5936"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4474) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4d769aa5-0624-453a-b62d-e836ee507df2",
+      "arch": "x86",
+      "addedAt": "2024-05-29 21:00:49 UTC",
+      "id": "4d769aa5-0624-453a-b62d-e836ee507df2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4472) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=39143328-3eb9-4179-b9c7-0f6dcbd964aa",
+      "arch": "x64",
+      "addedAt": "2024-05-20 17:01:13 UTC",
+      "id": "39143328-3eb9-4179-b9c7-0f6dcbd964aa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4472) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e0e616cf-9fbb-4e8a-81cf-f87d87993821",
+      "arch": "arm64",
+      "addedAt": "2024-05-20 17:01:11 UTC",
+      "id": "e0e616cf-9fbb-4e8a-81cf-f87d87993821"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4472) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0708b1c7-6ea3-4d9a-b01d-12c3f1f2b255",
+      "arch": "x86",
+      "addedAt": "2024-05-20 17:01:11 UTC",
+      "id": "0708b1c7-6ea3-4d9a-b01d-12c3f1f2b255"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4412) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2f47a1bf-101d-4967-90f0-fa9f6f5cdf0d",
+      "arch": "x64",
+      "addedAt": "2024-05-14 17:01:03 UTC",
+      "id": "2f47a1bf-101d-4967-90f0-fa9f6f5cdf0d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4412) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=aaa06a25-1eed-4909-aea7-7548580d9c81",
+      "arch": "arm64",
+      "addedAt": "2024-05-14 17:01:03 UTC",
+      "id": "aaa06a25-1eed-4909-aea7-7548580d9c81"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4412) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6a57e66a-cc5d-4684-a35b-6b0a81cdccfa",
+      "arch": "x86",
+      "addedAt": "2024-05-14 17:01:04 UTC",
+      "id": "6a57e66a-cc5d-4684-a35b-6b0a81cdccfa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4355) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=446f2934-e38b-4801-a529-fcf40231a02a",
+      "arch": "x64",
+      "addedAt": "2024-04-23 21:00:52 UTC",
+      "id": "446f2934-e38b-4801-a529-fcf40231a02a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4355) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6424a1f6-b9d8-420b-95ce-80a1cbee1054",
+      "arch": "arm64",
+      "addedAt": "2024-04-23 21:00:51 UTC",
+      "id": "6424a1f6-b9d8-420b-95ce-80a1cbee1054"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4355) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4277a09a-1f4a-492c-a474-4143cab62007",
+      "arch": "x86",
+      "addedAt": "2024-04-23 21:00:53 UTC",
+      "id": "4277a09a-1f4a-492c-a474-4143cab62007"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.4353) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f3df3e5e-a9aa-4b84-be01-6e42539db020",
+      "arch": "x64",
+      "addedAt": "2024-04-15 17:00:15 UTC",
+      "id": "f3df3e5e-a9aa-4b84-be01-6e42539db020"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4353) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e5d6d50f-6ff3-4323-b7d6-d6daa7ab9d80",
+      "arch": "x64",
+      "addedAt": "2024-04-15 17:15:41 UTC",
+      "id": "e5d6d50f-6ff3-4323-b7d6-d6daa7ab9d80"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4353) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e3c77828-9e9b-4d51-b2b9-85b89d7e5f83",
+      "arch": "arm64",
+      "addedAt": "2024-04-15 17:01:08 UTC",
+      "id": "e3c77828-9e9b-4d51-b2b9-85b89d7e5f83"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4353) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e28f21b2-1549-4228-9d94-0335109d0e0f",
+      "arch": "x86",
+      "addedAt": "2024-04-15 17:01:09 UTC",
+      "id": "e28f21b2-1549-4228-9d94-0335109d0e0f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4291) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f4fcb90a-fde2-4bfa-8fc7-84ff8628643d",
+      "arch": "x64",
+      "addedAt": "2024-04-09 17:00:39 UTC",
+      "id": "f4fcb90a-fde2-4bfa-8fc7-84ff8628643d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4291) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=158e8ec9-f3ed-4dc4-8fa9-43040e03f487",
+      "arch": "arm64",
+      "addedAt": "2024-04-09 17:00:37 UTC",
+      "id": "158e8ec9-f3ed-4dc4-8fa9-43040e03f487"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4291) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e72d1502-9493-4cd7-b258-d160d25997d8",
+      "arch": "x86",
+      "addedAt": "2024-04-09 17:00:37 UTC",
+      "id": "e72d1502-9493-4cd7-b258-d160d25997d8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4239) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6ee3be2f-ebaf-4e6d-9e74-a9d37a53bfe8",
+      "arch": "x64",
+      "addedAt": "2024-03-26 21:00:26 UTC",
+      "id": "6ee3be2f-ebaf-4e6d-9e74-a9d37a53bfe8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4239) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=94d797f0-ca10-483b-a43b-992a0be4e705",
+      "arch": "arm64",
+      "addedAt": "2024-03-26 21:00:49 UTC",
+      "id": "94d797f0-ca10-483b-a43b-992a0be4e705"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4239) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0e57f791-eb3d-43d3-9877-94c7486cbe91",
+      "arch": "x86",
+      "addedAt": "2024-03-26 21:00:50 UTC",
+      "id": "0e57f791-eb3d-43d3-9877-94c7486cbe91"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4235) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0954b458-dff2-4262-88a4-1c9f169e938b",
+      "arch": "x64",
+      "addedAt": "2024-03-19 17:00:48 UTC",
+      "id": "0954b458-dff2-4262-88a4-1c9f169e938b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4235) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=54434ed0-8cb8-4279-855a-564491136b99",
+      "arch": "arm64",
+      "addedAt": "2024-03-19 17:00:48 UTC",
+      "id": "54434ed0-8cb8-4279-855a-564491136b99"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4235) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b5080ce6-8be3-4776-917b-48a03eb411ec",
+      "arch": "x86",
+      "addedAt": "2024-03-19 17:00:46 UTC",
+      "id": "b5080ce6-8be3-4776-917b-48a03eb411ec"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4233) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=28997d3a-e5d4-40f9-8d35-7a85dc7f4d98",
+      "arch": "x64",
+      "addedAt": "2024-03-14 17:00:42 UTC",
+      "id": "28997d3a-e5d4-40f9-8d35-7a85dc7f4d98"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4233) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d8fdf3e5-6e19-4431-9392-4668cf78cbf3",
+      "arch": "arm64",
+      "addedAt": "2024-03-14 17:00:40 UTC",
+      "id": "d8fdf3e5-6e19-4431-9392-4668cf78cbf3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4233) x86",
+      "href": "https://uupdump.net/selectlang.php?id=6cbc35c1-e1fc-4546-9262-bd60342bb973",
+      "arch": "x86",
+      "addedAt": "2024-03-14 17:00:41 UTC",
+      "id": "6cbc35c1-e1fc-4546-9262-bd60342bb973"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4170) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3ce84465-3024-4b40-8747-ef5afd25644f",
+      "arch": "x64",
+      "addedAt": "2024-03-12 17:04:30 UTC",
+      "id": "3ce84465-3024-4b40-8747-ef5afd25644f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4170) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2d4c3368-0996-4418-ab01-4f804ffacc98",
+      "arch": "arm64",
+      "addedAt": "2024-03-12 17:04:49 UTC",
+      "id": "2d4c3368-0996-4418-ab01-4f804ffacc98"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4170) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ea31efaa-66c7-453b-a3b7-722d13dce058",
+      "arch": "x86",
+      "addedAt": "2024-03-12 17:04:39 UTC",
+      "id": "ea31efaa-66c7-453b-a3b7-722d13dce058"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4123) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1f35ee93-65fe-42d6-a62a-40cbb49364b2",
+      "arch": "x64",
+      "addedAt": "2024-02-29 18:04:19 UTC",
+      "id": "1f35ee93-65fe-42d6-a62a-40cbb49364b2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4123) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c2a66119-5d0a-489b-84e1-a1452ef3891c",
+      "arch": "arm64",
+      "addedAt": "2024-02-29 18:04:40 UTC",
+      "id": "c2a66119-5d0a-489b-84e1-a1452ef3891c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4123) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5038380a-2344-448c-93ec-20b4c292bac4",
+      "arch": "x86",
+      "addedAt": "2024-02-29 18:07:08 UTC",
+      "id": "5038380a-2344-448c-93ec-20b4c292bac4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4116) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f433aac2-8356-4321-87ce-ab56831c8a65",
+      "arch": "x64",
+      "addedAt": "2024-02-15 18:01:27 UTC",
+      "id": "f433aac2-8356-4321-87ce-ab56831c8a65"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4116) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cef0dfb0-c943-4cd4-81a6-bc9878b6e16c",
+      "arch": "arm64",
+      "addedAt": "2024-02-15 18:01:26 UTC",
+      "id": "cef0dfb0-c943-4cd4-81a6-bc9878b6e16c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4116) x86",
+      "href": "https://uupdump.net/selectlang.php?id=84634514-da62-4166-b397-555f566f13c2",
+      "arch": "x86",
+      "addedAt": "2024-02-15 18:01:28 UTC",
+      "id": "84634514-da62-4166-b397-555f566f13c2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4046) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=61c4a135-b280-49eb-9120-f88e30d8bc1e",
+      "arch": "x64",
+      "addedAt": "2024-02-13 18:00:48 UTC",
+      "id": "61c4a135-b280-49eb-9120-f88e30d8bc1e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4046) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f8d5e3a2-f809-469a-b669-22dbac11add2",
+      "arch": "arm64",
+      "addedAt": "2024-02-13 18:00:47 UTC",
+      "id": "f8d5e3a2-f809-469a-b669-22dbac11add2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.4046) x86",
+      "href": "https://uupdump.net/selectlang.php?id=571b92e1-9ebb-4d74-80be-6f01b247a1f7",
+      "arch": "x86",
+      "addedAt": "2024-02-13 18:00:46 UTC",
+      "id": "571b92e1-9ebb-4d74-80be-6f01b247a1f7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3996) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=035d3119-ab89-4771-8dea-8f291986630b",
+      "arch": "x64",
+      "addedAt": "2024-01-23 18:00:36 UTC",
+      "id": "035d3119-ab89-4771-8dea-8f291986630b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3996) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=344599fa-5009-41c7-b1ff-e1cbd3e4b8b7",
+      "arch": "arm64",
+      "addedAt": "2024-01-23 18:00:37 UTC",
+      "id": "344599fa-5009-41c7-b1ff-e1cbd3e4b8b7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3996) x86",
+      "href": "https://uupdump.net/selectlang.php?id=7718c0b4-9ec3-4d2d-b0d3-8741c22d65ac",
+      "arch": "x86",
+      "addedAt": "2024-01-23 18:00:35 UTC",
+      "id": "7718c0b4-9ec3-4d2d-b0d3-8741c22d65ac"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3992) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8ed7ea8d-2c38-4ce5-a1ea-ab786275ce06",
+      "arch": "x64",
+      "addedAt": "2024-01-11 18:15:42 UTC",
+      "id": "8ed7ea8d-2c38-4ce5-a1ea-ab786275ce06"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3992) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b4d098c1-251a-4203-b807-cd10bbb15cfa",
+      "arch": "arm64",
+      "addedAt": "2024-01-11 18:16:06 UTC",
+      "id": "b4d098c1-251a-4203-b807-cd10bbb15cfa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3992) x86",
+      "href": "https://uupdump.net/selectlang.php?id=66cfd98d-18e1-48ac-acc6-d59449807354",
+      "arch": "x86",
+      "addedAt": "2024-01-11 18:15:42 UTC",
+      "id": "66cfd98d-18e1-48ac-acc6-d59449807354"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3930) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d8fb5cff-e224-457a-9086-90dee2c30fec",
+      "arch": "x64",
+      "addedAt": "2024-01-09 18:00:38 UTC",
+      "id": "d8fb5cff-e224-457a-9086-90dee2c30fec"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3930) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c6c07661-26db-4e26-b8db-fe34340136d9",
+      "arch": "arm64",
+      "addedAt": "2024-01-09 18:00:37 UTC",
+      "id": "c6c07661-26db-4e26-b8db-fe34340136d9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3930) x86",
+      "href": "https://uupdump.net/selectlang.php?id=927e7c93-ddba-426b-8912-34616f6c8ddd",
+      "arch": "x86",
+      "addedAt": "2024-01-09 18:00:39 UTC",
+      "id": "927e7c93-ddba-426b-8912-34616f6c8ddd"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3803) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=169eb6b3-af73-4a01-a70b-c4c31fb731a9",
+      "arch": "x64",
+      "addedAt": "2023-12-12 18:00:44 UTC",
+      "id": "169eb6b3-af73-4a01-a70b-c4c31fb731a9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3803) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=20a8f86d-f809-4609-882d-7e513b9dc519",
+      "arch": "arm64",
+      "addedAt": "2023-12-12 18:00:45 UTC",
+      "id": "20a8f86d-f809-4609-882d-7e513b9dc519"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3803) x86",
+      "href": "https://uupdump.net/selectlang.php?id=198a1f3d-57cf-4cf4-9418-3ec96470651d",
+      "arch": "x86",
+      "addedAt": "2023-12-12 18:00:44 UTC",
+      "id": "198a1f3d-57cf-4cf4-9418-3ec96470651d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3758) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ad04a3e0-d7fb-45ab-8eb4-73a58b611ae0",
+      "arch": "x64",
+      "addedAt": "2023-11-30 22:00:24 UTC",
+      "id": "ad04a3e0-d7fb-45ab-8eb4-73a58b611ae0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3758) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=740c7442-a27f-4d00-9665-37f439ef1acc",
+      "arch": "arm64",
+      "addedAt": "2023-11-30 22:00:40 UTC",
+      "id": "740c7442-a27f-4d00-9665-37f439ef1acc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3758) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a5e17efd-b8e8-44ec-800c-257ad96aa3a0",
+      "arch": "x86",
+      "addedAt": "2023-11-30 22:00:40 UTC",
+      "id": "a5e17efd-b8e8-44ec-800c-257ad96aa3a0"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.3757) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c0608bce-146b-4451-b1ec-168af6f867e5",
+      "arch": "x64",
+      "addedAt": "2023-11-27 23:35:39 UTC",
+      "id": "c0608bce-146b-4451-b1ec-168af6f867e5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3757) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8005dbc9-b3b7-4198-b6cc-351959d136e1",
+      "arch": "x64",
+      "addedAt": "2023-11-20 22:00:32 UTC",
+      "id": "8005dbc9-b3b7-4198-b6cc-351959d136e1"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.3757) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cf2e1f06-fb7f-4283-b1e8-5fca95477426",
+      "arch": "arm64",
+      "addedAt": "2023-11-28 15:04:53 UTC",
+      "id": "cf2e1f06-fb7f-4283-b1e8-5fca95477426"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3757) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=24459654-c669-40ea-a3e1-c1098c353f03",
+      "arch": "arm64",
+      "addedAt": "2023-11-20 22:00:33 UTC",
+      "id": "24459654-c669-40ea-a3e1-c1098c353f03"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3757) x86",
+      "href": "https://uupdump.net/selectlang.php?id=dd705f1a-c3c7-476a-b9e9-38a13a10949a",
+      "arch": "x86",
+      "addedAt": "2023-11-20 22:00:31 UTC",
+      "id": "dd705f1a-c3c7-476a-b9e9-38a13a10949a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3754) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3f89a0a6-cfea-4f80-8312-025f94655192",
+      "arch": "x64",
+      "addedAt": "2023-11-16 18:01:00 UTC",
+      "id": "3f89a0a6-cfea-4f80-8312-025f94655192"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3754) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3feacdff-bcbd-408b-92a5-8924c5d9483a",
+      "arch": "arm64",
+      "addedAt": "2023-11-16 18:00:58 UTC",
+      "id": "3feacdff-bcbd-408b-92a5-8924c5d9483a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3754) x86",
+      "href": "https://uupdump.net/selectlang.php?id=61a679ee-5f85-4199-867a-a2569c3f03bc",
+      "arch": "x86",
+      "addedAt": "2023-11-16 18:00:59 UTC",
+      "id": "61a679ee-5f85-4199-867a-a2569c3f03bc"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.3693) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ed138d1a-9e5a-4338-ab55-6827321a570a",
+      "arch": "x64",
+      "addedAt": "2023-11-27 23:35:14 UTC",
+      "id": "ed138d1a-9e5a-4338-ab55-6827321a570a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3693) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bd306c8a-5ce6-4358-9e8c-b4e203f5e085",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:01:37 UTC",
+      "id": "bd306c8a-5ce6-4358-9e8c-b4e203f5e085"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.3693) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=71714c91-ba6c-4b67-b4f5-53fe112aef83",
+      "arch": "arm64",
+      "addedAt": "2023-11-28 15:32:07 UTC",
+      "id": "71714c91-ba6c-4b67-b4f5-53fe112aef83"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3693) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cfbce079-a7ab-4265-b94e-66f730c720af",
+      "arch": "arm64",
+      "addedAt": "2023-11-14 18:01:37 UTC",
+      "id": "cfbce079-a7ab-4265-b94e-66f730c720af"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3693) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1f4580cd-5bf1-4662-a723-f7dccf3bbb91",
+      "arch": "x86",
+      "addedAt": "2023-11-14 18:01:38 UTC",
+      "id": "1f4580cd-5bf1-4662-a723-f7dccf3bbb91"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3636) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f1d17e5b-0ef2-4a23-950a-ab4de0ff7630",
+      "arch": "x64",
+      "addedAt": "2023-10-26 21:01:05 UTC",
+      "id": "f1d17e5b-0ef2-4a23-950a-ab4de0ff7630"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3636) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f76da120-154e-48b5-ab32-57f9b989ff0c",
+      "arch": "arm64",
+      "addedAt": "2023-10-26 21:01:05 UTC",
+      "id": "f76da120-154e-48b5-ab32-57f9b989ff0c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3636) x86",
+      "href": "https://uupdump.net/selectlang.php?id=7d08d67e-d6ef-42a2-ac1e-3c60e4f34dcd",
+      "arch": "x86",
+      "addedAt": "2023-10-26 21:01:06 UTC",
+      "id": "7d08d67e-d6ef-42a2-ac1e-3c60e4f34dcd"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3633) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=56a3bf23-b9a0-4eac-9cf2-70072e6a7751",
+      "arch": "x64",
+      "addedAt": "2023-10-18 02:01:21 UTC",
+      "id": "56a3bf23-b9a0-4eac-9cf2-70072e6a7751"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3633) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1b56e222-052c-414b-83fe-bbc02ab22c58",
+      "arch": "arm64",
+      "addedAt": "2023-10-18 02:01:19 UTC",
+      "id": "1b56e222-052c-414b-83fe-bbc02ab22c58"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3633) x86",
+      "href": "https://uupdump.net/selectlang.php?id=84fdaa98-eb96-464f-9eb1-827a73fcc932",
+      "arch": "x86",
+      "addedAt": "2023-10-18 02:01:19 UTC",
+      "id": "84fdaa98-eb96-464f-9eb1-827a73fcc932"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3570) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2a023074-e74a-493d-86c9-be98c74b5658",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:01:25 UTC",
+      "id": "2a023074-e74a-493d-86c9-be98c74b5658"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3570) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=439de294-9f13-42a7-bc4d-f47a1503901d",
+      "arch": "arm64",
+      "addedAt": "2023-10-10 17:01:26 UTC",
+      "id": "439de294-9f13-42a7-bc4d-f47a1503901d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3570) x86",
+      "href": "https://uupdump.net/selectlang.php?id=f8dacdc6-94bd-48b4-9a09-bfd855bf0df6",
+      "arch": "x86",
+      "addedAt": "2023-10-10 17:01:24 UTC",
+      "id": "f8dacdc6-94bd-48b4-9a09-bfd855bf0df6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3516) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=450757d1-c8ee-4abb-a988-4510e0af20f1",
+      "arch": "x64",
+      "addedAt": "2023-09-26 17:03:12 UTC",
+      "id": "450757d1-c8ee-4abb-a988-4510e0af20f1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3516) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=28907042-5f81-499f-ac20-d6a98741cdf0",
+      "arch": "arm64",
+      "addedAt": "2023-09-26 17:03:12 UTC",
+      "id": "28907042-5f81-499f-ac20-d6a98741cdf0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3516) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0fb6ccaa-e0d0-4e4d-8127-30a364f80b86",
+      "arch": "x86",
+      "addedAt": "2023-09-26 17:03:11 UTC",
+      "id": "0fb6ccaa-e0d0-4e4d-8127-30a364f80b86"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3513) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5dea5950-ac3a-41c6-ae18-be310050c123",
+      "arch": "x64",
+      "addedAt": "2023-09-18 21:20:45 UTC",
+      "id": "5dea5950-ac3a-41c6-ae18-be310050c123"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3513) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7376fc28-4ae0-473c-85ed-8c711ac12f34",
+      "arch": "arm64",
+      "addedAt": "2023-09-18 21:20:43 UTC",
+      "id": "7376fc28-4ae0-473c-85ed-8c711ac12f34"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3513) x86",
+      "href": "https://uupdump.net/selectlang.php?id=2e9d3812-57df-4b13-bec6-f218a9603dba",
+      "arch": "x86",
+      "addedAt": "2023-09-18 21:20:44 UTC",
+      "id": "2e9d3812-57df-4b13-bec6-f218a9603dba"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3448) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4467b357-2680-47a1-8551-bea3fed7085b",
+      "arch": "x64",
+      "addedAt": "2023-09-12 17:03:40 UTC",
+      "id": "4467b357-2680-47a1-8551-bea3fed7085b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3448) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e7aa23fd-630f-440d-9d4b-7abf00519692",
+      "arch": "arm64",
+      "addedAt": "2023-09-12 17:03:44 UTC",
+      "id": "e7aa23fd-630f-440d-9d4b-7abf00519692"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3448) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a9334fec-5900-48d6-852b-7536e61148cc",
+      "arch": "x86",
+      "addedAt": "2023-09-12 17:03:43 UTC",
+      "id": "a9334fec-5900-48d6-852b-7536e61148cc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3393) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f482b9b9-1b34-45a6-bfb6-ef6be8f81829",
+      "arch": "x64",
+      "addedAt": "2023-08-22 17:03:13 UTC",
+      "id": "f482b9b9-1b34-45a6-bfb6-ef6be8f81829"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3393) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f0594261-c8af-463f-8895-a3054a6d4081",
+      "arch": "arm64",
+      "addedAt": "2023-08-22 17:03:14 UTC",
+      "id": "f0594261-c8af-463f-8895-a3054a6d4081"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3393) x86",
+      "href": "https://uupdump.net/selectlang.php?id=c29947fe-0ac7-4b9a-9e2e-4ef5bd13b096",
+      "arch": "x86",
+      "addedAt": "2023-08-22 17:03:13 UTC",
+      "id": "c29947fe-0ac7-4b9a-9e2e-4ef5bd13b096"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.3391) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=29a7a230-bf81-417b-8342-b54a8cccc11e",
+      "arch": "x64",
+      "addedAt": "2023-08-10 17:03:45 UTC",
+      "id": "29a7a230-bf81-417b-8342-b54a8cccc11e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3391) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=07b5d982-3a98-4209-8953-de3eae9e9317",
+      "arch": "x64",
+      "addedAt": "2023-08-10 18:21:44 UTC",
+      "id": "07b5d982-3a98-4209-8953-de3eae9e9317"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3391) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b5eee211-75dd-47cd-a36a-66e2bebb190b",
+      "arch": "arm64",
+      "addedAt": "2023-08-10 17:03:20 UTC",
+      "id": "b5eee211-75dd-47cd-a36a-66e2bebb190b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3391) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0d95158a-8142-4fd7-99c7-797571b921cf",
+      "arch": "x86",
+      "addedAt": "2023-08-10 17:03:20 UTC",
+      "id": "0d95158a-8142-4fd7-99c7-797571b921cf"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3324) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3dcf3076-f269-49d2-a253-2faf3e20057e",
+      "arch": "x64",
+      "addedAt": "2023-08-08 17:03:33 UTC",
+      "id": "3dcf3076-f269-49d2-a253-2faf3e20057e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3324) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=490c1948-4335-4e23-ad57-645cf45729f5",
+      "arch": "arm64",
+      "addedAt": "2023-08-08 17:03:32 UTC",
+      "id": "490c1948-4335-4e23-ad57-645cf45729f5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3324) x86",
+      "href": "https://uupdump.net/selectlang.php?id=2f4c6810-eb6e-4488-a8ce-aee9408c0ee1",
+      "arch": "x86",
+      "addedAt": "2023-08-08 17:03:32 UTC",
+      "id": "2f4c6810-eb6e-4488-a8ce-aee9408c0ee1"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.3271) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=55611979-b660-4afd-ab0c-3c017202ceb1",
+      "arch": "x64",
+      "addedAt": "2023-08-01 07:09:11 UTC",
+      "id": "55611979-b660-4afd-ab0c-3c017202ceb1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3271) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=321b8021-be37-4b12-9713-c4a66f8099b2",
+      "arch": "x64",
+      "addedAt": "2023-07-25 17:03:13 UTC",
+      "id": "321b8021-be37-4b12-9713-c4a66f8099b2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3271) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=351c2d58-0461-4f6c-b957-28651034c19c",
+      "arch": "arm64",
+      "addedAt": "2023-07-25 17:03:13 UTC",
+      "id": "351c2d58-0461-4f6c-b957-28651034c19c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3271) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0c9c86d9-03ef-437a-bf38-195ca6bda7ef",
+      "arch": "x86",
+      "addedAt": "2023-07-25 17:03:12 UTC",
+      "id": "0c9c86d9-03ef-437a-bf38-195ca6bda7ef"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3269) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5c5f51d6-2602-406a-9bcb-825f6ee5cb10",
+      "arch": "x64",
+      "addedAt": "2023-07-13 17:03:17 UTC",
+      "id": "5c5f51d6-2602-406a-9bcb-825f6ee5cb10"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3269) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=da8479c4-b30e-40fe-9fdb-6688da008b1c",
+      "arch": "arm64",
+      "addedAt": "2023-07-13 17:03:17 UTC",
+      "id": "da8479c4-b30e-40fe-9fdb-6688da008b1c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3269) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e8172004-27fc-4a3f-a2f1-35cf54056cda",
+      "arch": "x86",
+      "addedAt": "2023-07-13 17:03:16 UTC",
+      "id": "e8172004-27fc-4a3f-a2f1-35cf54056cda"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.3208) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d9b8cfaf-4904-4031-a2a5-81d80e25dac5",
+      "arch": "x64",
+      "addedAt": "2023-08-01 07:09:11 UTC",
+      "id": "d9b8cfaf-4904-4031-a2a5-81d80e25dac5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3208) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=49c101a1-1044-43d6-83ee-c8baebfa69a1",
+      "arch": "x64",
+      "addedAt": "2023-07-11 17:03:23 UTC",
+      "id": "49c101a1-1044-43d6-83ee-c8baebfa69a1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3208) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7f99d527-f371-4b7c-8fef-2d976ce0b0f6",
+      "arch": "arm64",
+      "addedAt": "2023-07-11 17:03:24 UTC",
+      "id": "7f99d527-f371-4b7c-8fef-2d976ce0b0f6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3208) x86",
+      "href": "https://uupdump.net/selectlang.php?id=cf62dc01-2836-4592-841c-0d161075e136",
+      "arch": "x86",
+      "addedAt": "2023-07-11 17:03:24 UTC",
+      "id": "cf62dc01-2836-4592-841c-0d161075e136"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3155) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=90ad25f6-1ea3-4452-bb91-babad6f61969",
+      "arch": "x64",
+      "addedAt": "2023-06-27 17:03:07 UTC",
+      "id": "90ad25f6-1ea3-4452-bb91-babad6f61969"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3155) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3ef377ed-a40e-4603-b179-bb556bbf0f20",
+      "arch": "arm64",
+      "addedAt": "2023-06-27 17:03:06 UTC",
+      "id": "3ef377ed-a40e-4603-b179-bb556bbf0f20"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3155) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8e881618-6ad9-4a30-b1b5-7d5949018436",
+      "arch": "x86",
+      "addedAt": "2023-06-27 17:03:07 UTC",
+      "id": "8e881618-6ad9-4a30-b1b5-7d5949018436"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3154) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=47278140-1a78-4d36-b6b8-161dc8f4faec",
+      "arch": "x64",
+      "addedAt": "2023-06-22 17:03:15 UTC",
+      "id": "47278140-1a78-4d36-b6b8-161dc8f4faec"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3154) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=897fb8eb-5ea6-4aed-be2b-25cfc218ed42",
+      "arch": "arm64",
+      "addedAt": "2023-06-22 17:03:15 UTC",
+      "id": "897fb8eb-5ea6-4aed-be2b-25cfc218ed42"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.3154) x86",
+      "href": "https://uupdump.net/selectlang.php?id=a3bf27fe-f294-47ee-9e2c-8011609bf085",
+      "arch": "x86",
+      "addedAt": "2023-06-27 05:30:33 UTC",
+      "id": "a3bf27fe-f294-47ee-9e2c-8011609bf085"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3154) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4d9217dd-3d1a-43c9-8151-ae28469e3922",
+      "arch": "x86",
+      "addedAt": "2023-06-22 17:03:14 UTC",
+      "id": "4d9217dd-3d1a-43c9-8151-ae28469e3922"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3086) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cef0f044-b039-4a2a-a5ca-f919f0efe6fc",
+      "arch": "x64",
+      "addedAt": "2023-06-14 10:41:41 UTC",
+      "id": "cef0f044-b039-4a2a-a5ca-f919f0efe6fc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3086) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=47d5aead-2334-4d64-bbd7-1980bed86956",
+      "arch": "arm64",
+      "addedAt": "2023-06-14 10:41:39 UTC",
+      "id": "47d5aead-2334-4d64-bbd7-1980bed86956"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3086) x86",
+      "href": "https://uupdump.net/selectlang.php?id=d20b7d4b-3135-4715-be2e-5e47252ef589",
+      "arch": "x86",
+      "addedAt": "2023-06-14 10:41:39 UTC",
+      "id": "d20b7d4b-3135-4715-be2e-5e47252ef589"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.3031) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d330075e-8620-4cc8-a822-f211277cbe5c",
+      "arch": "x64",
+      "addedAt": "2023-05-24 07:13:14 UTC",
+      "id": "d330075e-8620-4cc8-a822-f211277cbe5c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3031) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=46bae697-f3df-452f-8a9b-efbbbf88b3bb",
+      "arch": "x64",
+      "addedAt": "2023-06-14 11:14:18 UTC",
+      "id": "46bae697-f3df-452f-8a9b-efbbbf88b3bb"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3031) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6db21a1e-53af-48cb-a0ba-94e1b852c33b",
+      "arch": "arm64",
+      "addedAt": "2023-06-14 11:14:17 UTC",
+      "id": "6db21a1e-53af-48cb-a0ba-94e1b852c33b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3031) x86",
+      "href": "https://uupdump.net/selectlang.php?id=400d7cc4-345e-4447-9f75-9a7566acb352",
+      "arch": "x86",
+      "addedAt": "2023-06-14 11:14:17 UTC",
+      "id": "400d7cc4-345e-4447-9f75-9a7566acb352"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3030) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dd23bea2-63c0-45c1-b422-833a47aae6a4",
+      "arch": "x64",
+      "addedAt": "2023-05-11 17:02:52 UTC",
+      "id": "dd23bea2-63c0-45c1-b422-833a47aae6a4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3030) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6861838d-b46f-4498-a473-ca35d4798df6",
+      "arch": "arm64",
+      "addedAt": "2023-05-11 17:02:53 UTC",
+      "id": "6861838d-b46f-4498-a473-ca35d4798df6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.3030) x86",
+      "href": "https://uupdump.net/selectlang.php?id=46c0ab88-5b0d-41ad-a927-172ecfcb3d98",
+      "arch": "x86",
+      "addedAt": "2023-05-11 17:02:52 UTC",
+      "id": "46c0ab88-5b0d-41ad-a927-172ecfcb3d98"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2965) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c820c6e2-be6d-4ba1-9f8f-29c76f6dd714",
+      "arch": "x64",
+      "addedAt": "2023-05-24 07:13:14 UTC",
+      "id": "c820c6e2-be6d-4ba1-9f8f-29c76f6dd714"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2965) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=baa6fbf9-7467-4ffa-8a30-289aad2d9aa5",
+      "arch": "x64",
+      "addedAt": "2023-05-09 17:02:46 UTC",
+      "id": "baa6fbf9-7467-4ffa-8a30-289aad2d9aa5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2965) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b606163d-7a70-485d-9d02-a0b4311b6993",
+      "arch": "arm64",
+      "addedAt": "2023-05-09 17:02:46 UTC",
+      "id": "b606163d-7a70-485d-9d02-a0b4311b6993"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2965) x86",
+      "href": "https://uupdump.net/selectlang.php?id=44f91eb3-3039-41ec-9d34-f993afbbf79f",
+      "arch": "x86",
+      "addedAt": "2023-05-09 17:02:45 UTC",
+      "id": "44f91eb3-3039-41ec-9d34-f993afbbf79f"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2913) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a15c5288-6c35-4f48-b8c6-07b5705dd600",
+      "arch": "x64",
+      "addedAt": "2023-04-26 14:52:30 UTC",
+      "id": "a15c5288-6c35-4f48-b8c6-07b5705dd600"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2913) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c7fbaf93-9337-4261-b778-a6e829c07833",
+      "arch": "x64",
+      "addedAt": "2023-04-25 17:00:55 UTC",
+      "id": "c7fbaf93-9337-4261-b778-a6e829c07833"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2913) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2bdd2a25-6f99-4fb2-af4a-248e23d34db5",
+      "arch": "arm64",
+      "addedAt": "2023-04-26 14:52:40 UTC",
+      "id": "2bdd2a25-6f99-4fb2-af4a-248e23d34db5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2913) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=448b517a-f071-4fab-bb27-728a14bf43f9",
+      "arch": "arm64",
+      "addedAt": "2023-04-25 17:00:54 UTC",
+      "id": "448b517a-f071-4fab-bb27-728a14bf43f9"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2913) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0c1b1644-a834-43ee-a4ed-4f51ed9ef87e",
+      "arch": "x86",
+      "addedAt": "2023-04-26 14:52:39 UTC",
+      "id": "0c1b1644-a834-43ee-a4ed-4f51ed9ef87e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2913) x86",
+      "href": "https://uupdump.net/selectlang.php?id=08b3c017-0b84-4d77-8914-6c123a8a0f77",
+      "arch": "x86",
+      "addedAt": "2023-04-25 17:00:55 UTC",
+      "id": "08b3c017-0b84-4d77-8914-6c123a8a0f77"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2908) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=736bc410-ca18-4235-932c-25c5f62578b9",
+      "arch": "x64",
+      "addedAt": "2023-04-13 17:01:33 UTC",
+      "id": "736bc410-ca18-4235-932c-25c5f62578b9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2908) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d523cbcd-c2ba-4dd0-a15c-baa75f0c7cf7",
+      "arch": "x64",
+      "addedAt": "2023-04-13 18:43:07 UTC",
+      "id": "d523cbcd-c2ba-4dd0-a15c-baa75f0c7cf7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2908) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4db6f662-c978-4f55-bd85-0c0dbb592c83",
+      "arch": "arm64",
+      "addedAt": "2023-04-13 17:01:34 UTC",
+      "id": "4db6f662-c978-4f55-bd85-0c0dbb592c83"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2908) x86",
+      "href": "https://uupdump.net/selectlang.php?id=becd7fa2-6626-4f77-8fca-721ce2b07ffa",
+      "arch": "x86",
+      "addedAt": "2023-04-13 17:01:34 UTC",
+      "id": "becd7fa2-6626-4f77-8fca-721ce2b07ffa"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2846) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9485af52-245e-4136-ab4e-2908d3cf4b34",
+      "arch": "x64",
+      "addedAt": "2023-04-16 00:13:23 UTC",
+      "id": "9485af52-245e-4136-ab4e-2908d3cf4b34"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2846) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f9e3c41f-c631-4ccb-ac7f-b52506c17fe7",
+      "arch": "x64",
+      "addedAt": "2023-04-11 17:01:53 UTC",
+      "id": "f9e3c41f-c631-4ccb-ac7f-b52506c17fe7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2846) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=77c62128-c30e-4c47-af83-a04d6860a2a2",
+      "arch": "arm64",
+      "addedAt": "2023-04-11 17:01:53 UTC",
+      "id": "77c62128-c30e-4c47-af83-a04d6860a2a2"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2846) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b6582c6b-f98c-4989-8802-6e259a1134ed",
+      "arch": "x86",
+      "addedAt": "2023-04-11 17:01:54 UTC",
+      "id": "b6582c6b-f98c-4989-8802-6e259a1134ed"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2788) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ba6ffe4b-3111-4876-92c7-f4b36a119d65",
+      "arch": "x64",
+      "addedAt": "2023-04-07 23:13:19 UTC",
+      "id": "ba6ffe4b-3111-4876-92c7-f4b36a119d65"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2788) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=28c4fd46-de85-4fa1-aa90-666c06ace3a3",
+      "arch": "x64",
+      "addedAt": "2023-03-21 21:09:39 UTC",
+      "id": "28c4fd46-de85-4fa1-aa90-666c06ace3a3"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2788) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8a6b93c3-764e-4fca-b3b0-937a3fd72aaa",
+      "arch": "arm64",
+      "addedAt": "2023-03-21 21:09:40 UTC",
+      "id": "8a6b93c3-764e-4fca-b3b0-937a3fd72aaa"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2788) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e726608c-69d4-49a7-a287-796286360899",
+      "arch": "x86",
+      "addedAt": "2023-03-21 21:09:37 UTC",
+      "id": "e726608c-69d4-49a7-a287-796286360899"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0d2e059f-7630-4665-8561-b43c43877151",
+      "arch": "x64",
+      "addedAt": "2023-03-16 21:11:28 UTC",
+      "id": "0d2e059f-7630-4665-8561-b43c43877151"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2787) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dac50d1a-b37f-4ccc-ac84-8f4ff0ef1c52",
+      "arch": "arm64",
+      "addedAt": "2023-03-16 21:11:26 UTC",
+      "id": "dac50d1a-b37f-4ccc-ac84-8f4ff0ef1c52"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2787) x86",
+      "href": "https://uupdump.net/selectlang.php?id=f121450f-ce8f-4167-b7ce-e6e43f14a250",
+      "arch": "x86",
+      "addedAt": "2023-03-16 21:11:27 UTC",
+      "id": "f121450f-ce8f-4167-b7ce-e6e43f14a250"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2728) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7d5c9bef-8711-48f5-a58c-47bbda25d509",
+      "arch": "x64",
+      "addedAt": "2023-03-14 17:10:54 UTC",
+      "id": "7d5c9bef-8711-48f5-a58c-47bbda25d509"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2728) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a08772c8-e688-457b-8d1c-9201e970fcee",
+      "arch": "arm64",
+      "addedAt": "2023-03-14 17:10:56 UTC",
+      "id": "a08772c8-e688-457b-8d1c-9201e970fcee"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2728) x86",
+      "href": "https://uupdump.net/selectlang.php?id=ddf1d41c-b3df-4ba7-ab15-1ccc01863f53",
+      "arch": "x86",
+      "addedAt": "2023-03-14 17:10:54 UTC",
+      "id": "ddf1d41c-b3df-4ba7-ab15-1ccc01863f53"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2673) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a3d8e655-c92c-455f-b02f-0e0f154a6ea1",
+      "arch": "x64",
+      "addedAt": "2023-02-22 05:57:20 UTC",
+      "id": "a3d8e655-c92c-455f-b02f-0e0f154a6ea1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2673) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d5ee5cec-81c0-4bc3-8a3a-283c0563f0e5",
+      "arch": "x64",
+      "addedAt": "2023-02-21 22:02:10 UTC",
+      "id": "d5ee5cec-81c0-4bc3-8a3a-283c0563f0e5"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2673) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f357d844-7794-49fc-be66-d9304a22690c",
+      "arch": "arm64",
+      "addedAt": "2023-02-26 17:13:09 UTC",
+      "id": "f357d844-7794-49fc-be66-d9304a22690c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2673) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d1f70867-bcd0-40d2-bcc9-0f951bd0fa3c",
+      "arch": "arm64",
+      "addedAt": "2023-02-21 22:02:11 UTC",
+      "id": "d1f70867-bcd0-40d2-bcc9-0f951bd0fa3c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2673) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5dce8f5f-af82-4060-92f5-011e8ecd35f0",
+      "arch": "x86",
+      "addedAt": "2023-02-26 19:22:32 UTC",
+      "id": "5dce8f5f-af82-4060-92f5-011e8ecd35f0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2673) x86",
+      "href": "https://uupdump.net/selectlang.php?id=526530f8-8c20-4e8d-a6b9-bdde9765db17",
+      "arch": "x86",
+      "addedAt": "2023-02-21 22:02:09 UTC",
+      "id": "526530f8-8c20-4e8d-a6b9-bdde9765db17"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2670) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1079d788-0f17-48fa-8779-94285f4190f8",
+      "arch": "x64",
+      "addedAt": "2023-02-17 04:46:47 UTC",
+      "id": "1079d788-0f17-48fa-8779-94285f4190f8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2670) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ceca7851-67c8-4a1a-84dd-a3c58196367b",
+      "arch": "x64",
+      "addedAt": "2023-02-16 22:08:48 UTC",
+      "id": "ceca7851-67c8-4a1a-84dd-a3c58196367b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2670) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4a2cf45c-8295-4d07-99a5-1a94fea8963f",
+      "arch": "arm64",
+      "addedAt": "2023-02-16 22:08:48 UTC",
+      "id": "4a2cf45c-8295-4d07-99a5-1a94fea8963f"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2670) x86",
+      "href": "https://uupdump.net/selectlang.php?id=673fde7d-af91-4412-9636-a21f5175e69d",
+      "arch": "x86",
+      "addedAt": "2023-02-16 22:08:47 UTC",
+      "id": "673fde7d-af91-4412-9636-a21f5175e69d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2604) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=31978a90-7b9b-403b-9e58-ebcfbf1545c1",
+      "arch": "x64",
+      "addedAt": "2023-02-14 18:00:19 UTC",
+      "id": "31978a90-7b9b-403b-9e58-ebcfbf1545c1"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2604) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c4d1a15f-9673-4187-b6ea-ba16ec7cfe54",
+      "arch": "arm64",
+      "addedAt": "2023-02-14 18:00:18 UTC",
+      "id": "c4d1a15f-9673-4187-b6ea-ba16ec7cfe54"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2604) x86",
+      "href": "https://uupdump.net/selectlang.php?id=8544f2eb-6d1f-4516-841b-074c70cf854c",
+      "arch": "x86",
+      "addedAt": "2023-02-14 18:00:18 UTC",
+      "id": "8544f2eb-6d1f-4516-841b-074c70cf854c"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2546) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e6a36a8a-df6d-4e32-b526-630326782c8a",
+      "arch": "x64",
+      "addedAt": "2023-01-20 06:35:43 UTC",
+      "id": "e6a36a8a-df6d-4e32-b526-630326782c8a"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2546) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6c003e3a-9ac7-49bf-a823-a548d3864672",
+      "arch": "x64",
+      "addedAt": "2023-01-20 04:53:10 UTC",
+      "id": "6c003e3a-9ac7-49bf-a823-a548d3864672"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2546) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=664be0b3-5867-4abc-84bc-473e4c24ce31",
+      "arch": "arm64",
+      "addedAt": "2023-01-21 00:06:06 UTC",
+      "id": "664be0b3-5867-4abc-84bc-473e4c24ce31"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2546) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4025bda1-5d6c-41f2-a4f4-b9272b8472ed",
+      "arch": "arm64",
+      "addedAt": "2023-01-20 04:53:09 UTC",
+      "id": "4025bda1-5d6c-41f2-a4f4-b9272b8472ed"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2546) x86",
+      "href": "https://uupdump.net/selectlang.php?id=263fe369-2a3e-4013-a071-c922db9856b8",
+      "arch": "x86",
+      "addedAt": "2023-01-21 04:56:09 UTC",
+      "id": "263fe369-2a3e-4013-a071-c922db9856b8"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2546) x86",
+      "href": "https://uupdump.net/selectlang.php?id=797be41b-d1e5-4f6e-8155-1189cd239208",
+      "arch": "x86",
+      "addedAt": "2023-01-20 04:53:11 UTC",
+      "id": "797be41b-d1e5-4f6e-8155-1189cd239208"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2545) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=45b1aa0a-952e-4951-bd49-bed51840205b",
+      "arch": "x64",
+      "addedAt": "2023-01-14 01:05:16 UTC",
+      "id": "45b1aa0a-952e-4951-bd49-bed51840205b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2545) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8b2844ef-cb78-4181-a203-381baa20a7c8",
+      "arch": "x64",
+      "addedAt": "2023-01-12 22:00:52 UTC",
+      "id": "8b2844ef-cb78-4181-a203-381baa20a7c8"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2545) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=77caad69-66b9-42a0-a115-f11e03a14f30",
+      "arch": "arm64",
+      "addedAt": "2023-01-14 06:25:39 UTC",
+      "id": "77caad69-66b9-42a0-a115-f11e03a14f30"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2545) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4e6b73bc-0f80-4883-8856-d6c4baf700c9",
+      "arch": "arm64",
+      "addedAt": "2023-01-12 22:01:49 UTC",
+      "id": "4e6b73bc-0f80-4883-8856-d6c4baf700c9"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2545) x86",
+      "href": "https://uupdump.net/selectlang.php?id=27c46548-f1e7-4ac1-8be5-e8e9b8e5aec7",
+      "arch": "x86",
+      "addedAt": "2023-01-17 19:05:56 UTC",
+      "id": "27c46548-f1e7-4ac1-8be5-e8e9b8e5aec7"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2545) x86",
+      "href": "https://uupdump.net/selectlang.php?id=74ee411f-928d-4f28-bca9-c63fd69f60c0",
+      "arch": "x86",
+      "addedAt": "2023-01-12 22:01:32 UTC",
+      "id": "74ee411f-928d-4f28-bca9-c63fd69f60c0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2486) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=91f922a2-939e-4731-87ff-07323486fa8f",
+      "arch": "x64",
+      "addedAt": "2023-01-10 18:01:09 UTC",
+      "id": "91f922a2-939e-4731-87ff-07323486fa8f"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2486) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0ab4f8ca-4f29-410f-8464-82ce85349b91",
+      "arch": "arm64",
+      "addedAt": "2023-02-14 17:46:38 UTC",
+      "id": "0ab4f8ca-4f29-410f-8464-82ce85349b91"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2486) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5b72062d-9009-4011-98bd-171b2ca368ac",
+      "arch": "arm64",
+      "addedAt": "2023-01-10 18:09:17 UTC",
+      "id": "5b72062d-9009-4011-98bd-171b2ca368ac"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2486) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1ae36bcf-8ba3-4903-99f7-a2feca72c51b",
+      "arch": "x86",
+      "addedAt": "2023-01-10 18:09:17 UTC",
+      "id": "1ae36bcf-8ba3-4903-99f7-a2feca72c51b"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2364) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7d576d08-2e3a-4984-9ed0-0ccb7d2ee4f9",
+      "arch": "x64",
+      "addedAt": "2022-12-23 11:27:02 UTC",
+      "id": "7d576d08-2e3a-4984-9ed0-0ccb7d2ee4f9"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2364) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e72bc343-e8d4-4856-a154-4dd01ef987ff",
+      "arch": "x64",
+      "addedAt": "2022-12-19 16:25:29 UTC",
+      "id": "e72bc343-e8d4-4856-a154-4dd01ef987ff"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2364) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3adc13dd-3158-47b2-bbbc-ddc3a1e20663",
+      "arch": "arm64",
+      "addedAt": "2022-12-19 16:59:17 UTC",
+      "id": "3adc13dd-3158-47b2-bbbc-ddc3a1e20663"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2364) x86",
+      "href": "https://uupdump.net/selectlang.php?id=e92e60e7-fd23-4013-9483-6985db4638aa",
+      "arch": "x86",
+      "addedAt": "2022-12-19 16:57:50 UTC",
+      "id": "e92e60e7-fd23-4013-9483-6985db4638aa"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2311) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=06de75ed-a0fc-4b11-b0ec-1c4130f59b2c",
+      "arch": "x64",
+      "addedAt": "2022-11-15 19:09:53 UTC",
+      "id": "06de75ed-a0fc-4b11-b0ec-1c4130f59b2c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2311) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fc59a088-0c58-4efd-a108-3a65acd966b6",
+      "arch": "x64",
+      "addedAt": "2022-11-15 18:03:13 UTC",
+      "id": "fc59a088-0c58-4efd-a108-3a65acd966b6"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2311) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c6f6c34f-8df3-4d33-b7cd-15745cc54768",
+      "arch": "arm64",
+      "addedAt": "2022-11-15 19:09:53 UTC",
+      "id": "c6f6c34f-8df3-4d33-b7cd-15745cc54768"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2311) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3e0f9bd8-9905-4761-8f29-334198320f25",
+      "arch": "arm64",
+      "addedAt": "2022-11-15 18:03:51 UTC",
+      "id": "3e0f9bd8-9905-4761-8f29-334198320f25"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2311) x86",
+      "href": "https://uupdump.net/selectlang.php?id=2c89d083-91a1-4f24-aee8-4e006bd9f00d",
+      "arch": "x86",
+      "addedAt": "2022-11-15 19:09:52 UTC",
+      "id": "2c89d083-91a1-4f24-aee8-4e006bd9f00d"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2311) x86",
+      "href": "https://uupdump.net/selectlang.php?id=b79220ee-7263-4c6c-b7de-d1248db0a126",
+      "arch": "x86",
+      "addedAt": "2022-11-15 18:03:37 UTC",
+      "id": "b79220ee-7263-4c6c-b7de-d1248db0a126"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2310) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=876a19cc-e2f9-488e-a4c5-563b60bb0324",
+      "arch": "x64",
+      "addedAt": "2022-11-10 22:15:23 UTC",
+      "id": "876a19cc-e2f9-488e-a4c5-563b60bb0324"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2310) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=216be9a2-a065-4e29-ad7e-1569fff44af6",
+      "arch": "x64",
+      "addedAt": "2022-11-10 22:15:57 UTC",
+      "id": "216be9a2-a065-4e29-ad7e-1569fff44af6"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2310) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c6e6d332-9218-4a40-85ab-0cb496296449",
+      "arch": "arm64",
+      "addedAt": "2022-11-10 22:15:21 UTC",
+      "id": "c6e6d332-9218-4a40-85ab-0cb496296449"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2310) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=687e4cfa-a2f6-4034-9f6c-a04925b922df",
+      "arch": "arm64",
+      "addedAt": "2022-11-10 22:15:57 UTC",
+      "id": "687e4cfa-a2f6-4034-9f6c-a04925b922df"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2310) x86",
+      "href": "https://uupdump.net/selectlang.php?id=bf2de874-70a8-4cce-ac32-e381b62b2f65",
+      "arch": "x86",
+      "addedAt": "2022-11-10 22:15:22 UTC",
+      "id": "bf2de874-70a8-4cce-ac32-e381b62b2f65"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2310) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1c95994c-8d53-46cf-bb50-ad8f13c7b26e",
+      "arch": "x86",
+      "addedAt": "2022-11-10 22:15:58 UTC",
+      "id": "1c95994c-8d53-46cf-bb50-ad8f13c7b26e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2251) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4b198c0a-71de-4f6f-b7e1-831729d92c77",
+      "arch": "x64",
+      "addedAt": "2022-11-08 18:00:23 UTC",
+      "id": "4b198c0a-71de-4f6f-b7e1-831729d92c77"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2251) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3365ea11-76fa-4000-b954-440318ab931c",
+      "arch": "arm64",
+      "addedAt": "2022-11-08 18:04:00 UTC",
+      "id": "3365ea11-76fa-4000-b954-440318ab931c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2251) x86",
+      "href": "https://uupdump.net/selectlang.php?id=d5db6747-a97e-40ba-b839-87719b0adba1",
+      "arch": "x86",
+      "addedAt": "2022-11-08 18:01:29 UTC",
+      "id": "d5db6747-a97e-40ba-b839-87719b0adba1"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2194) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1617284e-dc6c-487e-a88b-6a548380c2f0",
+      "arch": "x64",
+      "addedAt": "2022-10-29 07:49:32 UTC",
+      "id": "1617284e-dc6c-487e-a88b-6a548380c2f0"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2194) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a0b8e9c7-7559-45bb-b797-f2f6e49c21ee",
+      "arch": "arm64",
+      "addedAt": "2022-10-29 07:50:03 UTC",
+      "id": "a0b8e9c7-7559-45bb-b797-f2f6e49c21ee"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2194) x86",
+      "href": "https://uupdump.net/selectlang.php?id=3f57cd2b-48a7-406f-a1b4-9fb1eb55c26e",
+      "arch": "x86",
+      "addedAt": "2022-10-29 07:49:50 UTC",
+      "id": "3f57cd2b-48a7-406f-a1b4-9fb1eb55c26e"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2193) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7798bb0e-a20b-4572-8eb8-3f886e73fb44",
+      "arch": "x64",
+      "addedAt": "2022-10-25 10:33:38 UTC",
+      "id": "7798bb0e-a20b-4572-8eb8-3f886e73fb44"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2193) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bfbeb0e2-1f9f-44ca-9337-eeb16c6862fd",
+      "arch": "x64",
+      "addedAt": "2022-10-25 18:25:21 UTC",
+      "id": "bfbeb0e2-1f9f-44ca-9337-eeb16c6862fd"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2193) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=beb8fa43-7f7d-4706-9523-1df285a0ba0e",
+      "arch": "arm64",
+      "addedAt": "2022-10-25 10:33:37 UTC",
+      "id": "beb8fa43-7f7d-4706-9523-1df285a0ba0e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2193) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b0e41d72-5dd3-48d1-bcbb-0834de419670",
+      "arch": "arm64",
+      "addedAt": "2022-10-25 18:25:36 UTC",
+      "id": "b0e41d72-5dd3-48d1-bcbb-0834de419670"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2193) x86",
+      "href": "https://uupdump.net/selectlang.php?id=895ef5a1-556f-4b4e-a76e-c14be73093e5",
+      "arch": "x86",
+      "addedAt": "2022-10-25 10:33:37 UTC",
+      "id": "895ef5a1-556f-4b4e-a76e-c14be73093e5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2193) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4c457b2c-5fa2-4fd4-bff8-4373067e4e48",
+      "arch": "x86",
+      "addedAt": "2022-10-25 18:42:32 UTC",
+      "id": "4c457b2c-5fa2-4fd4-bff8-4373067e4e48"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2132) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cc058192-46cc-4b93-a7b3-397f445f55b3",
+      "arch": "x64",
+      "addedAt": "2022-10-29 09:39:23 UTC",
+      "id": "cc058192-46cc-4b93-a7b3-397f445f55b3"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2130) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=68a82dc5-a291-4744-8964-0abb00b9b030",
+      "arch": "x64",
+      "addedAt": "2022-10-11 18:56:51 UTC",
+      "id": "68a82dc5-a291-4744-8964-0abb00b9b030"
+    },
+    {
+      "title": "Feature update to Windows 10 Team (19045.2130) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=32a3e279-d82f-4579-b899-270a391b85cc",
+      "arch": "x64",
+      "addedAt": "2023-08-29 05:40:45 UTC",
+      "id": "32a3e279-d82f-4579-b899-270a391b85cc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2130) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8905edce-8eb6-44ac-ba28-9230ccfe5dd4",
+      "arch": "x64",
+      "addedAt": "2022-10-12 09:51:46 UTC",
+      "id": "8905edce-8eb6-44ac-ba28-9230ccfe5dd4"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2130) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=33a8e4d9-41d7-410a-89c6-2e94b3ba752c",
+      "arch": "arm64",
+      "addedAt": "2022-10-11 18:57:09 UTC",
+      "id": "33a8e4d9-41d7-410a-89c6-2e94b3ba752c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2130) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ac636943-c27c-465d-adb2-5fd8c60eb98a",
+      "arch": "arm64",
+      "addedAt": "2022-10-12 04:38:35 UTC",
+      "id": "ac636943-c27c-465d-adb2-5fd8c60eb98a"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2130) x86",
+      "href": "https://uupdump.net/selectlang.php?id=33948b14-448e-42a2-8caf-1f4a594b9a53",
+      "arch": "x86",
+      "addedAt": "2022-10-11 18:57:01 UTC",
+      "id": "33948b14-448e-42a2-8caf-1f4a594b9a53"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2130) x86",
+      "href": "https://uupdump.net/selectlang.php?id=1146b74d-6a0f-4702-9e37-135204b608ee",
+      "arch": "x86",
+      "addedAt": "2022-10-12 16:48:36 UTC",
+      "id": "1146b74d-6a0f-4702-9e37-135204b608ee"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2075) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bc2f95c5-2f9c-415e-a3e9-e7c230cfc731",
+      "arch": "x64",
+      "addedAt": "2022-09-20 17:35:56 UTC",
+      "id": "bc2f95c5-2f9c-415e-a3e9-e7c230cfc731"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2075) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=94193002-577e-467a-ac19-9c30eaba1523",
+      "arch": "x64",
+      "addedAt": "2022-09-20 17:36:19 UTC",
+      "id": "94193002-577e-467a-ac19-9c30eaba1523"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2075) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5927605a-52db-4af2-bff4-04f64095b7af",
+      "arch": "arm64",
+      "addedAt": "2022-09-20 17:35:55 UTC",
+      "id": "5927605a-52db-4af2-bff4-04f64095b7af"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2075) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d66da1df-7fd6-44bd-bccf-9b3dde2791ae",
+      "arch": "arm64",
+      "addedAt": "2022-09-20 17:36:20 UTC",
+      "id": "d66da1df-7fd6-44bd-bccf-9b3dde2791ae"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.2075) x86",
+      "href": "https://uupdump.net/selectlang.php?id=53922be8-2abd-4915-ba10-30a6e077c0fc",
+      "arch": "x86",
+      "addedAt": "2022-09-20 17:35:55 UTC",
+      "id": "53922be8-2abd-4915-ba10-30a6e077c0fc"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2075) x86",
+      "href": "https://uupdump.net/selectlang.php?id=5aeda3be-be4f-496f-b99d-1c0a19ffc4ff",
+      "arch": "x86",
+      "addedAt": "2022-09-20 17:36:18 UTC",
+      "id": "5aeda3be-be4f-496f-b99d-1c0a19ffc4ff"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2006) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ff7d2dd9-996a-4cb6-94c6-641f45c893ce",
+      "arch": "x64",
+      "addedAt": "2022-09-13 19:14:48 UTC",
+      "id": "ff7d2dd9-996a-4cb6-94c6-641f45c893ce"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2006) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d46a4fc9-2fd9-4a12-b8fd-0c9e22a5456c",
+      "arch": "x64",
+      "addedAt": "2022-09-13 19:15:48 UTC",
+      "id": "d46a4fc9-2fd9-4a12-b8fd-0c9e22a5456c"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2006) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f5973a43-ca3a-44f5-a3af-af7df4a57be6",
+      "arch": "arm64",
+      "addedAt": "2022-09-13 19:15:12 UTC",
+      "id": "f5973a43-ca3a-44f5-a3af-af7df4a57be6"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2006) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=af111696-38ec-4bf8-944b-b08461fa3613",
+      "arch": "arm64",
+      "addedAt": "2022-09-13 19:15:26 UTC",
+      "id": "af111696-38ec-4bf8-944b-b08461fa3613"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.2006) x86",
+      "href": "https://uupdump.net/selectlang.php?id=3cda27c6-e7fd-4de9-b9f0-cac311f0736c",
+      "arch": "x86",
+      "addedAt": "2022-09-13 19:15:00 UTC",
+      "id": "3cda27c6-e7fd-4de9-b9f0-cac311f0736c"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.2006) x86",
+      "href": "https://uupdump.net/selectlang.php?id=869e4dc6-a459-4e66-ac91-5df3f06ee526",
+      "arch": "x86",
+      "addedAt": "2022-09-13 19:15:38 UTC",
+      "id": "869e4dc6-a459-4e66-ac91-5df3f06ee526"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.1949) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e84b4f69-c14e-42b5-9de4-1ce98bbac4a0",
+      "arch": "x64",
+      "addedAt": "2022-08-26 21:08:59 UTC",
+      "id": "e84b4f69-c14e-42b5-9de4-1ce98bbac4a0"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1949) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d5ea3411-5467-4284-9ad2-71a2e1a5d21a",
+      "arch": "x64",
+      "addedAt": "2022-08-26 21:07:39 UTC",
+      "id": "d5ea3411-5467-4284-9ad2-71a2e1a5d21a"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.1949) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=641dfab3-9cc8-4c48-b636-2552af1a5d99",
+      "arch": "arm64",
+      "addedAt": "2022-08-26 21:08:59 UTC",
+      "id": "641dfab3-9cc8-4c48-b636-2552af1a5d99"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1949) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1ff6d906-fc10-4873-94b0-10116cc51535",
+      "arch": "arm64",
+      "addedAt": "2022-08-26 21:54:44 UTC",
+      "id": "1ff6d906-fc10-4873-94b0-10116cc51535"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.1949) x86",
+      "href": "https://uupdump.net/selectlang.php?id=be8dfa2c-a9c7-4336-b6f9-db1957f076a5",
+      "arch": "x86",
+      "addedAt": "2022-08-26 22:23:23 UTC",
+      "id": "be8dfa2c-a9c7-4336-b6f9-db1957f076a5"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1949) x86",
+      "href": "https://uupdump.net/selectlang.php?id=4501e627-3f35-40f2-a8a7-c204975c7a92",
+      "arch": "x86",
+      "addedAt": "2022-08-26 21:07:37 UTC",
+      "id": "4501e627-3f35-40f2-a8a7-c204975c7a92"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.1889) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=99b358eb-2d96-4230-ab36-53e43e2075b4",
+      "arch": "x64",
+      "addedAt": "2022-08-09 18:24:12 UTC",
+      "id": "99b358eb-2d96-4230-ab36-53e43e2075b4"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1889) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=786c3fdf-ddf7-45b6-9e6d-ecf8adfa2a06",
+      "arch": "x64",
+      "addedAt": "2022-08-09 17:01:51 UTC",
+      "id": "786c3fdf-ddf7-45b6-9e6d-ecf8adfa2a06"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.1889) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fc6e41a4-3239-4c1c-98f3-5b8469a83442",
+      "arch": "arm64",
+      "addedAt": "2022-08-09 22:00:55 UTC",
+      "id": "fc6e41a4-3239-4c1c-98f3-5b8469a83442"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1889) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c5bd7bb4-547d-4bc7-a154-789a249b3207",
+      "arch": "arm64",
+      "addedAt": "2022-08-09 17:01:51 UTC",
+      "id": "c5bd7bb4-547d-4bc7-a154-789a249b3207"
+    },
+    {
+      "title": "Cumulative Update for Windows 10 Version 22H2 (19045.1889) x86",
+      "href": "https://uupdump.net/selectlang.php?id=9af2f1d7-e9bd-408f-849a-3cbc6700b196",
+      "arch": "x86",
+      "addedAt": "2022-08-09 22:00:55 UTC",
+      "id": "9af2f1d7-e9bd-408f-849a-3cbc6700b196"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1889) x86",
+      "href": "https://uupdump.net/selectlang.php?id=3f85b104-aa6f-41b0-86b8-29196c1f2c3b",
+      "arch": "x86",
+      "addedAt": "2022-08-09 17:01:50 UTC",
+      "id": "3f85b104-aa6f-41b0-86b8-29196c1f2c3b"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.1865) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3737104b-e55d-44ae-ad02-04373b0f870a",
+      "arch": "x64",
+      "addedAt": "2022-07-29 03:22:44 UTC",
+      "id": "3737104b-e55d-44ae-ad02-04373b0f870a"
+    },
+    {
+      "title": "Feature update to Windows 10 Team (19045.1865) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2bbf5b05-bddf-4121-bb3d-01c9dff6986e",
+      "arch": "x64",
+      "addedAt": "2022-07-29 07:13:52 UTC",
+      "id": "2bbf5b05-bddf-4121-bb3d-01c9dff6986e"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1865) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cb1d70ba-0ebf-4e36-b8f8-86ccd6027dab",
+      "arch": "x64",
+      "addedAt": "2022-07-28 17:00:18 UTC",
+      "id": "cb1d70ba-0ebf-4e36-b8f8-86ccd6027dab"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.1865) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=39423457-10db-4bc0-846b-2ec9413a5d7b",
+      "arch": "arm64",
+      "addedAt": "2022-07-29 03:22:44 UTC",
+      "id": "39423457-10db-4bc0-846b-2ec9413a5d7b"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1865) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=212aaa28-9a03-4c28-9f85-d21e5b1f7d81",
+      "arch": "arm64",
+      "addedAt": "2022-07-28 17:01:57 UTC",
+      "id": "212aaa28-9a03-4c28-9f85-d21e5b1f7d81"
+    },
+    {
+      "title": "Cumulative Update Preview for Windows 10 Version 22H2 (19045.1865) x86",
+      "href": "https://uupdump.net/selectlang.php?id=0f117f9f-f7c6-49bb-b402-f096188eafde",
+      "arch": "x86",
+      "addedAt": "2022-07-29 03:22:44 UTC",
+      "id": "0f117f9f-f7c6-49bb-b402-f096188eafde"
+    },
+    {
+      "title": "Feature update to Windows 10, version 22H2 (19045.1865) x86",
+      "href": "https://uupdump.net/selectlang.php?id=05570b44-11e7-4984-8647-fbf1e7cf8d53",
+      "arch": "x86",
+      "addedAt": "2022-07-28 17:02:13 UTC",
+      "id": "05570b44-11e7-4984-8647-fbf1e7cf8d53"
+    }
+  ]
+}

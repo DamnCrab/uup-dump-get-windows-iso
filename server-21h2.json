@@ -1,0 +1,933 @@
+{
+  "category": "server-21h2",
+  "url": "https://uupdump.net/known.php?q=category:server-21h2",
+  "name": "21H2",
+  "parentName": "Windows Server",
+  "pages": 3,
+  "versions": [
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.4651) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=07df633b-9499-4aea-9e02-25b3dd9a4bc7",
+      "arch": "x64",
+      "addedAt": "2026-01-24 23:47:16 UTC",
+      "id": "07df633b-9499-4aea-9e02-25b3dd9a4bc7"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.4650) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fb154c3f-2a78-4c8a-95da-07a2575fc250",
+      "arch": "x64",
+      "addedAt": "2026-01-17 23:23:52 UTC",
+      "id": "fb154c3f-2a78-4c8a-95da-07a2575fc250"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.4648) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b9c29c36-311e-48e3-8f34-b96e395eda12",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:02:10 UTC",
+      "id": "b9c29c36-311e-48e3-8f34-b96e395eda12"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.4529) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=26fd4ab5-d83d-4886-bceb-f675adfdb412",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:01:55 UTC",
+      "id": "26fd4ab5-d83d-4886-bceb-f675adfdb412"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.4405) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5d4e62b6-f64f-4d12-a6d8-ec1adfbc4759",
+      "arch": "x64",
+      "addedAt": "2025-11-11 18:02:40 UTC",
+      "id": "5d4e62b6-f64f-4d12-a6d8-ec1adfbc4759"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.4297) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=83e6b7d8-a042-4071-9693-4c86fc3a662d",
+      "arch": "x64",
+      "addedAt": "2025-10-23 23:31:38 UTC",
+      "id": "83e6b7d8-a042-4071-9693-4c86fc3a662d"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.4294) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c9439871-64f5-4d6f-b69b-49b518538385",
+      "arch": "x64",
+      "addedAt": "2025-10-14 17:03:09 UTC",
+      "id": "c9439871-64f5-4d6f-b69b-49b518538385"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.4171) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8efba5ea-713e-4a87-b2bf-e26250740421",
+      "arch": "x64",
+      "addedAt": "2025-09-09 17:02:16 UTC",
+      "id": "8efba5ea-713e-4a87-b2bf-e26250740421"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.4052) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4c2a7b19-bb73-44e9-ba0c-53cb81f26f24",
+      "arch": "x64",
+      "addedAt": "2025-08-16 00:31:18 UTC",
+      "id": "4c2a7b19-bb73-44e9-ba0c-53cb81f26f24"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.4052) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=51403cd3-b9f7-413d-89a3-46fe89b35169",
+      "arch": "x64",
+      "addedAt": "2025-08-12 17:01:42 UTC",
+      "id": "51403cd3-b9f7-413d-89a3-46fe89b35169"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.3932) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a4de9e8e-7c01-4b14-b83e-323ad9318b53",
+      "arch": "x64",
+      "addedAt": "2025-07-08 17:17:33 UTC",
+      "id": "a4de9e8e-7c01-4b14-b83e-323ad9318b53"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.3807) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=030dda92-8799-4481-9351-a5ddc46f45fa",
+      "arch": "x64",
+      "addedAt": "2025-06-11 07:50:58 UTC",
+      "id": "030dda92-8799-4481-9351-a5ddc46f45fa"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.3807) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=477db2ac-5ad6-4c0c-a8de-228280294fc7",
+      "arch": "x64",
+      "addedAt": "2025-06-10 17:02:55 UTC",
+      "id": "477db2ac-5ad6-4c0c-a8de-228280294fc7"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.3695) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6d1a3478-b2be-4804-8aca-d23bfba0c36a",
+      "arch": "x64",
+      "addedAt": "2025-05-24 15:29:47 UTC",
+      "id": "6d1a3478-b2be-4804-8aca-d23bfba0c36a"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.3692) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f5727cef-667c-476d-9369-c1ae6bca4593",
+      "arch": "x64",
+      "addedAt": "2025-06-11 07:34:12 UTC",
+      "id": "f5727cef-667c-476d-9369-c1ae6bca4593"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.3692) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=62fdc598-463a-47c3-9bfe-44e3d9c0e870",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:03:40 UTC",
+      "id": "62fdc598-463a-47c3-9bfe-44e3d9c0e870"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.3566) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=183bfd03-8b5e-484f-a72a-7bf2a4e26b79",
+      "arch": "x64",
+      "addedAt": "2025-04-17 07:14:58 UTC",
+      "id": "183bfd03-8b5e-484f-a72a-7bf2a4e26b79"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.3561) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=373000d4-216b-4eb3-a654-a0fbeeb99c86",
+      "arch": "x64",
+      "addedAt": "2025-04-12 14:39:35 UTC",
+      "id": "373000d4-216b-4eb3-a654-a0fbeeb99c86"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.3453) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0451370e-a747-4cc4-a984-22d44306fdf0",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:17:29 UTC",
+      "id": "0451370e-a747-4cc4-a984-22d44306fdf0"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.3328) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3d94aa27-ce7c-4c2e-906f-f8b26f579c84",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:16:48 UTC",
+      "id": "3d94aa27-ce7c-4c2e-906f-f8b26f579c84"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.3207) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7dd8767a-8169-483c-9af2-1f4b603690b4",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:02:03 UTC",
+      "id": "7dd8767a-8169-483c-9af2-1f4b603690b4"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.3095) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=462ee8ab-43fb-493a-9d02-d3f3293b524d",
+      "arch": "x64",
+      "addedAt": "2025-01-22 16:28:24 UTC",
+      "id": "462ee8ab-43fb-493a-9d02-d3f3293b524d"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.3091) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7deb4af7-fadd-4ef4-835d-46c00373ab13",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:02:34 UTC",
+      "id": "7deb4af7-fadd-4ef4-835d-46c00373ab13"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2966) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d571fc5d-1a85-4654-a7cf-8f872bc98dbb",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:02:24 UTC",
+      "id": "d571fc5d-1a85-4654-a7cf-8f872bc98dbb"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2849) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1d7d801c-792e-4c1a-a16a-8b50149741c1",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:02:58 UTC",
+      "id": "1d7d801c-792e-4c1a-a16a-8b50149741c1"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.2764) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6adcff72-1620-4d58-a5e1-4e292de8fa8a",
+      "arch": "x64",
+      "addedAt": "2024-10-25 14:26:37 UTC",
+      "id": "6adcff72-1620-4d58-a5e1-4e292de8fa8a"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.2762) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4b0d9667-cb1d-4a78-966a-fd2e13b8b649",
+      "arch": "x64",
+      "addedAt": "2024-10-22 10:33:00 UTC",
+      "id": "4b0d9667-cb1d-4a78-966a-fd2e13b8b649"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2762) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bd62ff21-f7b6-485c-897b-0931d197d72e",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:02:41 UTC",
+      "id": "bd62ff21-f7b6-485c-897b-0931d197d72e"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.2700) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4c5c5c1a-e9d0-42e1-b011-2c4fd02eb93d",
+      "arch": "x64",
+      "addedAt": "2024-10-22 10:30:21 UTC",
+      "id": "4c5c5c1a-e9d0-42e1-b011-2c4fd02eb93d"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2700) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fab031f1-92ea-4a99-b038-582f02c9eb0f",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:03:04 UTC",
+      "id": "fab031f1-92ea-4a99-b038-582f02c9eb0f"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2655) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=89168148-26c6-475f-a67a-3475225b3041",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:02:50 UTC",
+      "id": "89168148-26c6-475f-a67a-3475225b3041"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2582) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5dfbca17-fcff-467b-9e63-3ca1576a3c61",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:02:10 UTC",
+      "id": "5dfbca17-fcff-467b-9e63-3ca1576a3c61"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.2529) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=183e027a-6e84-4d97-a45d-1df2f058a05b",
+      "arch": "x64",
+      "addedAt": "2024-07-05 00:58:50 UTC",
+      "id": "183e027a-6e84-4d97-a45d-1df2f058a05b"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.2527) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4fd0c6fe-1f2d-4b1f-a588-ef925d55aeed",
+      "arch": "x64",
+      "addedAt": "2024-06-11 20:52:49 UTC",
+      "id": "4fd0c6fe-1f2d-4b1f-a588-ef925d55aeed"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2527) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a341031f-9835-4c4b-bcad-b5d7eb7ef76d",
+      "arch": "x64",
+      "addedAt": "2024-06-11 17:02:39 UTC",
+      "id": "a341031f-9835-4c4b-bcad-b5d7eb7ef76d"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2461) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b9f1ddc0-255a-43e5-b7a4-baf4e12ffabe",
+      "arch": "x64",
+      "addedAt": "2024-05-14 17:02:23 UTC",
+      "id": "b9f1ddc0-255a-43e5-b7a4-baf4e12ffabe"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2402) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c2f28323-8acf-4d2c-8bd2-38b748336518",
+      "arch": "x64",
+      "addedAt": "2024-04-09 17:01:41 UTC",
+      "id": "c2f28323-8acf-4d2c-8bd2-38b748336518"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.2342) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1f02b329-a99d-4282-b12a-2c2487696820",
+      "arch": "x64",
+      "addedAt": "2024-03-22 23:39:51 UTC",
+      "id": "1f02b329-a99d-4282-b12a-2c2487696820"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2340) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c73b016f-4803-4288-9966-40e6c5fc8a12",
+      "arch": "x64",
+      "addedAt": "2024-03-12 17:09:16 UTC",
+      "id": "c73b016f-4803-4288-9966-40e6c5fc8a12"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2322) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=854d29b2-edbc-4959-a3e2-8a61f0900a7c",
+      "arch": "x64",
+      "addedAt": "2024-02-13 18:01:36 UTC",
+      "id": "854d29b2-edbc-4959-a3e2-8a61f0900a7c"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2227) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0384a015-21fa-4b4c-bcfc-bf12721ceb48",
+      "arch": "x64",
+      "addedAt": "2024-01-09 18:01:36 UTC",
+      "id": "0384a015-21fa-4b4c-bcfc-bf12721ceb48"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2159) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cf44c4d8-b281-4dd5-a160-ee90da59b44d",
+      "arch": "x64",
+      "addedAt": "2023-12-12 18:01:32 UTC",
+      "id": "cf44c4d8-b281-4dd5-a160-ee90da59b44d"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.2113) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=208c39d2-fa5e-4fdf-94db-58f070d3cd07",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:04:03 UTC",
+      "id": "208c39d2-fa5e-4fdf-94db-58f070d3cd07"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2113) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=61429954-93f8-4eed-a246-3e81eaca00e8",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:03:56 UTC",
+      "id": "61429954-93f8-4eed-a246-3e81eaca00e8"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.2031) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cfd1f3e5-afda-4010-87f5-8b6ad57c65f6",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:03:39 UTC",
+      "id": "cfd1f3e5-afda-4010-87f5-8b6ad57c65f6"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.2031) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ba509039-4b45-4dec-a4fd-9996aa9d33db",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:03:41 UTC",
+      "id": "ba509039-4b45-4dec-a4fd-9996aa9d33db"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1970) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=404363ff-9e72-45f2-a187-096eca569b03",
+      "arch": "x64",
+      "addedAt": "2023-09-12 17:04:57 UTC",
+      "id": "404363ff-9e72-45f2-a187-096eca569b03"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1970) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=eada4326-a163-448b-b1b3-dc1572c8e6a8",
+      "arch": "x64",
+      "addedAt": "2023-09-12 17:04:51 UTC",
+      "id": "eada4326-a163-448b-b1b3-dc1572c8e6a8"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1906) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c9ec6872-f391-4344-8255-f80159198eda",
+      "arch": "x64",
+      "addedAt": "2023-08-08 17:04:50 UTC",
+      "id": "c9ec6872-f391-4344-8255-f80159198eda"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1906) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ed6cb54a-1bfe-4bb6-90a4-4e2f44088b2d",
+      "arch": "x64",
+      "addedAt": "2023-08-08 17:04:46 UTC",
+      "id": "ed6cb54a-1bfe-4bb6-90a4-4e2f44088b2d"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1850) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=86dc5607-4f99-4b07-8601-dd5687512ff3",
+      "arch": "x64",
+      "addedAt": "2023-07-11 17:04:52 UTC",
+      "id": "86dc5607-4f99-4b07-8601-dd5687512ff3"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1850) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0e331317-46de-4b08-a2fe-9c605edc00fb",
+      "arch": "x64",
+      "addedAt": "2023-07-11 17:04:36 UTC",
+      "id": "0e331317-46de-4b08-a2fe-9c605edc00fb"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=170da49f-4f0d-403b-8e6d-8bbcefe151df",
+      "arch": "x64",
+      "addedAt": "2023-06-14 11:55:34 UTC",
+      "id": "170da49f-4f0d-403b-8e6d-8bbcefe151df"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7dbe8262-895a-46e8-8347-8eb3af6cd911",
+      "arch": "x64",
+      "addedAt": "2023-06-14 11:49:12 UTC",
+      "id": "7dbe8262-895a-46e8-8347-8eb3af6cd911"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1726) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2bb180a0-b0db-4720-82aa-ddc383b8d249",
+      "arch": "x64",
+      "addedAt": "2023-05-17 05:33:18 UTC",
+      "id": "2bb180a0-b0db-4720-82aa-ddc383b8d249"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1726) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=57aec014-fb92-480e-93e7-5b4e8b878d51",
+      "arch": "x64",
+      "addedAt": "2023-05-09 17:31:08 UTC",
+      "id": "57aec014-fb92-480e-93e7-5b4e8b878d51"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1668) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2dd5ef28-f0df-4026-9f23-05e0c1ce91d7",
+      "arch": "x64",
+      "addedAt": "2023-04-11 21:01:07 UTC",
+      "id": "2dd5ef28-f0df-4026-9f23-05e0c1ce91d7"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1668) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c333abbc-af8e-4684-bd21-8b9facd06506",
+      "arch": "x64",
+      "addedAt": "2023-04-11 21:00:44 UTC",
+      "id": "c333abbc-af8e-4684-bd21-8b9facd06506"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1607) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7fde7fc9-df24-4d5e-8215-77f9193a474a",
+      "arch": "x64",
+      "addedAt": "2023-03-14 17:15:10 UTC",
+      "id": "7fde7fc9-df24-4d5e-8215-77f9193a474a"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1607) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6b46b861-a20c-45c8-be8d-fb3f0ccd0e68",
+      "arch": "x64",
+      "addedAt": "2023-03-14 17:14:51 UTC",
+      "id": "6b46b861-a20c-45c8-be8d-fb3f0ccd0e68"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1547) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b64e2d66-87ab-4c54-871d-e5089b667cf0",
+      "arch": "x64",
+      "addedAt": "2023-02-14 21:08:16 UTC",
+      "id": "b64e2d66-87ab-4c54-871d-e5089b667cf0"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1547) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=abc342d0-b774-49e8-84cf-ed3169834450",
+      "arch": "x64",
+      "addedAt": "2023-02-14 21:09:21 UTC",
+      "id": "abc342d0-b774-49e8-84cf-ed3169834450"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1487) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5ef23669-8f5f-482d-9a42-6188295e436a",
+      "arch": "x64",
+      "addedAt": "2023-01-17 18:03:54 UTC",
+      "id": "5ef23669-8f5f-482d-9a42-6188295e436a"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1487) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9d2720a7-93a8-4af7-9f1a-11d4ebf6c030",
+      "arch": "x64",
+      "addedAt": "2023-01-11 01:00:47 UTC",
+      "id": "9d2720a7-93a8-4af7-9f1a-11d4ebf6c030"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.1368) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f140e7e4-51ef-4c2a-8133-3ec56e8847fd",
+      "arch": "x64",
+      "addedAt": "2022-12-21 21:50:32 UTC",
+      "id": "f140e7e4-51ef-4c2a-8133-3ec56e8847fd"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1366) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bafc95d7-7f1f-49ce-8ca9-94a08af65a32",
+      "arch": "x64",
+      "addedAt": "2022-12-19 17:01:56 UTC",
+      "id": "bafc95d7-7f1f-49ce-8ca9-94a08af65a32"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1366) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e855e59b-5a68-43d0-a4e4-4f74e690cc1a",
+      "arch": "x64",
+      "addedAt": "2022-12-19 17:00:34 UTC",
+      "id": "e855e59b-5a68-43d0-a4e4-4f74e690cc1a"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.1311) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=be83446b-41c5-4523-a0a3-c43f5eb3fc38",
+      "arch": "x64",
+      "addedAt": "2022-11-22 22:04:52 UTC",
+      "id": "be83446b-41c5-4523-a0a3-c43f5eb3fc38"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.1251) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=55840899-261e-4b65-b15c-2e9202f3d220",
+      "arch": "x64",
+      "addedAt": "2022-11-21 22:20:26 UTC",
+      "id": "55840899-261e-4b65-b15c-2e9202f3d220"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1249) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e1f8c5b0-6e60-4eb4-947a-37bf5957ff5a",
+      "arch": "x64",
+      "addedAt": "2022-11-08 21:37:01 UTC",
+      "id": "e1f8c5b0-6e60-4eb4-947a-37bf5957ff5a"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1249) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=14836e75-a8de-498d-9a4c-3af40b12bf11",
+      "arch": "x64",
+      "addedAt": "2022-11-08 18:02:03 UTC",
+      "id": "14836e75-a8de-498d-9a4c-3af40b12bf11"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.1194) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d4f1c82b-e5bf-48b5-822f-596c65d86386",
+      "arch": "x64",
+      "addedAt": "2022-10-25 21:02:08 UTC",
+      "id": "d4f1c82b-e5bf-48b5-822f-596c65d86386"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.1131) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a0c46581-04eb-4d03-b51f-c80482add67d",
+      "arch": "x64",
+      "addedAt": "2022-10-18 10:03:26 UTC",
+      "id": "a0c46581-04eb-4d03-b51f-c80482add67d"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1129) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7b7d02e2-6cef-4649-a24c-3f176d3a5cde",
+      "arch": "x64",
+      "addedAt": "2022-10-12 16:46:05 UTC",
+      "id": "7b7d02e2-6cef-4649-a24c-3f176d3a5cde"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1129) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0653dd2a-94b3-4bd4-9a3c-34ae727e8b68",
+      "arch": "x64",
+      "addedAt": "2022-10-11 17:02:08 UTC",
+      "id": "0653dd2a-94b3-4bd4-9a3c-34ae727e8b68"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.1070) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e2773595-5ebe-4fe4-aba8-2bccc5cf05ae",
+      "arch": "x64",
+      "addedAt": "2022-09-20 17:01:28 UTC",
+      "id": "e2773595-5ebe-4fe4-aba8-2bccc5cf05ae"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1006) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=05e0e08d-4316-41ab-8f82-e051d3385052",
+      "arch": "x64",
+      "addedAt": "2022-09-13 21:40:42 UTC",
+      "id": "05e0e08d-4316-41ab-8f82-e051d3385052"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1006) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c7fba430-ffdd-4a0e-990c-8aab7cbb96cf",
+      "arch": "x64",
+      "addedAt": "2022-09-13 17:01:59 UTC",
+      "id": "c7fba430-ffdd-4a0e-990c-8aab7cbb96cf"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.946) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0706feaf-9e79-4ca3-8531-079eba973f2f",
+      "arch": "x64",
+      "addedAt": "2022-08-16 21:00:50 UTC",
+      "id": "0706feaf-9e79-4ca3-8531-079eba973f2f"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.887) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=08a5842e-d056-4c17-ae7f-911abdc791bd",
+      "arch": "x64",
+      "addedAt": "2022-08-09 22:00:41 UTC",
+      "id": "08a5842e-d056-4c17-ae7f-911abdc791bd"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.887) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=977fe79e-3f7a-4f29-bbc9-3b43782b3ba6",
+      "arch": "x64",
+      "addedAt": "2022-08-09 17:04:13 UTC",
+      "id": "977fe79e-3f7a-4f29-bbc9-3b43782b3ba6"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.859) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=885bde53-ca79-4c19-bc70-17fedb545143",
+      "arch": "x64",
+      "addedAt": "2022-07-19 22:16:40 UTC",
+      "id": "885bde53-ca79-4c19-bc70-17fedb545143"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.825) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d1a0a9a8-f5a5-406e-8f55-5855bc26b83b",
+      "arch": "x64",
+      "addedAt": "2022-07-14 20:31:04 UTC",
+      "id": "d1a0a9a8-f5a5-406e-8f55-5855bc26b83b"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.825) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3330a78d-935c-4db6-b3c3-00de9d15c925",
+      "arch": "x64",
+      "addedAt": "2022-07-12 17:05:04 UTC",
+      "id": "3330a78d-935c-4db6-b3c3-00de9d15c925"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.803) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7b86b65a-b91d-4d40-b453-f444e507b6f0",
+      "arch": "x64",
+      "addedAt": "2022-06-23 21:02:55 UTC",
+      "id": "7b86b65a-b91d-4d40-b453-f444e507b6f0"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.768) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=45a038d5-3925-4052-b7ad-7419d4cdb430",
+      "arch": "x64",
+      "addedAt": "2022-06-14 19:15:18 UTC",
+      "id": "45a038d5-3925-4052-b7ad-7419d4cdb430"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.768) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=78b758c9-068e-4dd1-b6c0-f484706f91d2",
+      "arch": "x64",
+      "addedAt": "2022-06-14 17:04:06 UTC",
+      "id": "78b758c9-068e-4dd1-b6c0-f484706f91d2"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.740) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d746a82b-92fb-4156-a9dd-5315bbabb38d",
+      "arch": "x64",
+      "addedAt": "2022-05-24 21:01:42 UTC",
+      "id": "d746a82b-92fb-4156-a9dd-5315bbabb38d"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.707) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0e50d49a-005d-4846-a3d5-a2e3ac180da7",
+      "arch": "x64",
+      "addedAt": "2022-05-10 18:28:08 UTC",
+      "id": "0e50d49a-005d-4846-a3d5-a2e3ac180da7"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.707) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c34ec9ad-cf2e-4bdc-b400-9839596a0511",
+      "arch": "x64",
+      "addedAt": "2022-05-10 17:04:45 UTC",
+      "id": "c34ec9ad-cf2e-4bdc-b400-9839596a0511"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.681) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a701a452-e5c5-45e9-85bd-af6aaff2e87d",
+      "arch": "x64",
+      "addedAt": "2022-04-25 21:02:17 UTC",
+      "id": "a701a452-e5c5-45e9-85bd-af6aaff2e87d"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.643) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f75cc727-7fe0-42d6-a301-f70e3bfdc03d",
+      "arch": "x64",
+      "addedAt": "2022-04-12 17:27:27 UTC",
+      "id": "f75cc727-7fe0-42d6-a301-f70e3bfdc03d"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.643) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b8e204fd-4e2b-4722-95d7-aad633ad7379",
+      "arch": "x64",
+      "addedAt": "2022-04-12 17:04:01 UTC",
+      "id": "b8e204fd-4e2b-4722-95d7-aad633ad7379"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.617) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b5ca12e1-1491-494d-9a17-229d1c97ed05",
+      "arch": "x64",
+      "addedAt": "2022-03-22 21:02:11 UTC",
+      "id": "b5ca12e1-1491-494d-9a17-229d1c97ed05"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.587) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7259a67e-2dd3-4aae-98c2-916bd60043b9",
+      "arch": "x64",
+      "addedAt": "2022-03-08 19:35:02 UTC",
+      "id": "7259a67e-2dd3-4aae-98c2-916bd60043b9"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.587) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6853f687-3a39-43ff-803f-15e5e5b8b932",
+      "arch": "x64",
+      "addedAt": "2022-03-08 18:03:51 UTC",
+      "id": "6853f687-3a39-43ff-803f-15e5e5b8b932"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.558) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5fd7276e-fe71-4436-84e4-49b98a5e206d",
+      "arch": "x64",
+      "addedAt": "2022-02-15 18:03:53 UTC",
+      "id": "5fd7276e-fe71-4436-84e4-49b98a5e206d"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.524) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8069ae0c-b559-4476-bde2-403bbd541447",
+      "arch": "x64",
+      "addedAt": "2022-02-08 19:55:34 UTC",
+      "id": "8069ae0c-b559-4476-bde2-403bbd541447"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.524) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c49be35e-6490-49a0-8e95-a85646ae60ff",
+      "arch": "x64",
+      "addedAt": "2022-02-08 18:03:31 UTC",
+      "id": "c49be35e-6490-49a0-8e95-a85646ae60ff"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.502) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e8c13149-34aa-441b-865f-73cd4354c0d0",
+      "arch": "x64",
+      "addedAt": "2022-01-25 22:00:10 UTC",
+      "id": "e8c13149-34aa-441b-865f-73cd4354c0d0"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.473) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=dcd97360-ca2b-41e6-b893-83d74d437024",
+      "arch": "x64",
+      "addedAt": "2022-01-18 11:58:31 UTC",
+      "id": "dcd97360-ca2b-41e6-b893-83d74d437024"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.469) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=148bc494-13ed-4c03-ba1c-36d734b9b567",
+      "arch": "x64",
+      "addedAt": "2022-01-11 20:38:35 UTC",
+      "id": "148bc494-13ed-4c03-ba1c-36d734b9b567"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.405) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=634d811c-58a2-4f1d-819b-8833ddbe6feb",
+      "arch": "x64",
+      "addedAt": "2021-12-14 19:23:08 UTC",
+      "id": "634d811c-58a2-4f1d-819b-8833ddbe6feb"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.405) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=70f0395a-1003-4a85-840f-3bd4b0f3953c",
+      "arch": "x64",
+      "addedAt": "2021-12-14 18:01:40 UTC",
+      "id": "70f0395a-1003-4a85-840f-3bd4b0f3953c"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.380) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fef7ba14-9823-42ee-960c-939d05f86e21",
+      "arch": "x64",
+      "addedAt": "2021-11-22 22:11:04 UTC",
+      "id": "fef7ba14-9823-42ee-960c-939d05f86e21"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.350) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=48bb2c41-c769-44a9-a568-edf75dd0c991",
+      "arch": "x64",
+      "addedAt": "2021-11-10 09:48:47 UTC",
+      "id": "48bb2c41-c769-44a9-a568-edf75dd0c991"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.350) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a3b99a2f-4eba-48db-a058-5bdf21473c4b",
+      "arch": "x64",
+      "addedAt": "2021-11-09 18:04:26 UTC",
+      "id": "a3b99a2f-4eba-48db-a058-5bdf21473c4b"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.320) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5af8a49c-cd27-40fa-afbd-dac22d098808",
+      "arch": "x64",
+      "addedAt": "2021-10-26 17:17:17 UTC",
+      "id": "5af8a49c-cd27-40fa-afbd-dac22d098808"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.288) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=89d03408-c26f-4112-b185-6ae5a44a2a13",
+      "arch": "x64",
+      "addedAt": "2021-10-12 17:08:23 UTC",
+      "id": "89d03408-c26f-4112-b185-6ae5a44a2a13"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.288) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9b2fd359-c46c-4c34-9fab-0d0c11cf99da",
+      "arch": "x64",
+      "addedAt": "2021-10-12 17:03:20 UTC",
+      "id": "9b2fd359-c46c-4c34-9fab-0d0c11cf99da"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.261) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e7688ee4-27b9-4c4a-ae05-c4d0bf1f05f9",
+      "arch": "x64",
+      "addedAt": "2021-09-28 18:13:27 UTC",
+      "id": "e7688ee4-27b9-4c4a-ae05-c4d0bf1f05f9"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.261) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fc1315c2-6da5-4630-ad21-93fb6059dc46",
+      "arch": "x64",
+      "addedAt": "2022-06-14 19:09:19 UTC",
+      "id": "fc1315c2-6da5-4630-ad21-93fb6059dc46"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.230) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=18a1ca13-ff58-450f-b5e2-3976b52d4470",
+      "arch": "x64",
+      "addedAt": "2021-10-08 12:44:53 UTC",
+      "id": "18a1ca13-ff58-450f-b5e2-3976b52d4470"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.230) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2fb8402f-90cb-4516-8758-0f5e38497d60",
+      "arch": "x64",
+      "addedAt": "2021-09-14 17:03:35 UTC",
+      "id": "2fb8402f-90cb-4516-8758-0f5e38497d60"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.202) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0110b874-aa5f-4859-9256-0c92014592d9",
+      "arch": "x64",
+      "addedAt": "2021-08-26 17:14:44 UTC",
+      "id": "0110b874-aa5f-4859-9256-0c92014592d9"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.169) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7fc97407-c8e0-4f79-8caa-22af3d72ef0f",
+      "arch": "x64",
+      "addedAt": "2021-08-10 17:05:49 UTC",
+      "id": "7fc97407-c8e0-4f79-8caa-22af3d72ef0f"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.169) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6c696926-1e23-458b-bdd1-f72c500a6696",
+      "arch": "x64",
+      "addedAt": "2021-08-10 17:01:39 UTC",
+      "id": "6c696926-1e23-458b-bdd1-f72c500a6696"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.143) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5db34864-020d-49d8-a92b-a8e99a660812",
+      "arch": "x64",
+      "addedAt": "2021-07-29 17:00:09 UTC",
+      "id": "5db34864-020d-49d8-a92b-a8e99a660812"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.143) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ecd2d90f-7b2e-4acf-8717-98c601ac7b89",
+      "arch": "x64",
+      "addedAt": "2021-08-01 00:05:08 UTC",
+      "id": "ecd2d90f-7b2e-4acf-8717-98c601ac7b89"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.112) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d6889e36-50a5-4af7-b171-77302dd79dc5",
+      "arch": "x64",
+      "addedAt": "2021-08-06 09:11:07 UTC",
+      "id": "d6889e36-50a5-4af7-b171-77302dd79dc5"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.112) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cd0272b6-4e14-457a-bdc8-a309c803971b",
+      "arch": "x64",
+      "addedAt": "2021-07-13 20:55:36 UTC",
+      "id": "cd0272b6-4e14-457a-bdc8-a309c803971b"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.112) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7ea21db7-fbff-4a25-ba7b-e0c40f7dd96e",
+      "arch": "x64",
+      "addedAt": "2021-07-13 19:43:18 UTC",
+      "id": "7ea21db7-fbff-4a25-ba7b-e0c40f7dd96e"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.76) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=49d458c8-0393-4192-8fb5-0fa8149e6ae7",
+      "arch": "x64",
+      "addedAt": "2021-07-06 21:45:18 UTC",
+      "id": "49d458c8-0393-4192-8fb5-0fa8149e6ae7"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.76) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=111befc8-f294-4930-9a44-b1df3e245092",
+      "arch": "x64",
+      "addedAt": "2021-07-06 21:44:14 UTC",
+      "id": "111befc8-f294-4930-9a44-b1df3e245092"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 21H2 (20348.75) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1cc14869-5a2b-4599-adda-b99d18bf3530",
+      "arch": "x64",
+      "addedAt": "2021-06-24 21:02:27 UTC",
+      "id": "1cc14869-5a2b-4599-adda-b99d18bf3530"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.75) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9e1b9eb7-e9e0-4bdc-b667-cab20f8dd6d8",
+      "arch": "x64",
+      "addedAt": "2021-06-28 08:38:56 UTC",
+      "id": "9e1b9eb7-e9e0-4bdc-b667-cab20f8dd6d8"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.51) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=71060198-6dd4-4f69-bb42-7018b681ca3a",
+      "arch": "x64",
+      "addedAt": "2021-06-09 18:23:56 UTC",
+      "id": "71060198-6dd4-4f69-bb42-7018b681ca3a"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.51) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c4a5f691-96f6-4b81-9e84-f4fc3bb2ef59",
+      "arch": "x64",
+      "addedAt": "2021-06-08 17:00:18 UTC",
+      "id": "c4a5f691-96f6-4b81-9e84-f4fc3bb2ef59"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 21H2 (20348.11) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a9bf7538-9755-4824-93e4-9e446cfc42a8",
+      "arch": "x64",
+      "addedAt": "2021-06-01 23:45:11 UTC",
+      "id": "a9bf7538-9755-4824-93e4-9e446cfc42a8"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1) (2) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3e07f416-ea50-4775-9617-8f7e36498564",
+      "arch": "x64",
+      "addedAt": "2021-06-07 12:25:49 UTC",
+      "id": "3e07f416-ea50-4775-9617-8f7e36498564"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 21H2 (20348.1) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1f85f73c-5db8-4762-ac2d-35b5cc77fc97",
+      "arch": "x64",
+      "addedAt": "2021-05-29 13:54:21 UTC",
+      "id": "1f85f73c-5db8-4762-ac2d-35b5cc77fc97"
+    },
+    {
+      "title": "Feature update to Microsoft server operating system, version 21H2 (20348.1) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2ba1d737-a36b-415b-a630-85bd5146d77d",
+      "arch": "x64",
+      "addedAt": "2022-02-11 17:29:30 UTC",
+      "id": "2ba1d737-a36b-415b-a630-85bd5146d77d"
+    }
+  ]
+}

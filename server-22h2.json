@@ -1,0 +1,387 @@
+{
+  "category": "server-22h2",
+  "url": "https://uupdump.net/known.php?q=category:server-22h2",
+  "name": "22H2",
+  "parentName": "Windows Server",
+  "pages": 2,
+  "versions": [
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.3692) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=03ed4f48-5f96-4dff-a3e3-8ec35622ee85",
+      "arch": "x64",
+      "addedAt": "2025-08-20 01:14:17 UTC",
+      "id": "03ed4f48-5f96-4dff-a3e3-8ec35622ee85"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.3692) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=890d35b3-a7a4-49e4-8da4-bed4b047a9b1",
+      "arch": "x64",
+      "addedAt": "2025-05-13 17:01:47 UTC",
+      "id": "890d35b3-a7a4-49e4-8da4-bed4b047a9b1"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.3453) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ad8a81a1-e106-425d-bb18-f4a9df9747f5",
+      "arch": "x64",
+      "addedAt": "2025-04-08 17:02:27 UTC",
+      "id": "ad8a81a1-e106-425d-bb18-f4a9df9747f5"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.3328) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1fedaeab-2858-47ed-b36a-3e66b9ed3ce5",
+      "arch": "x64",
+      "addedAt": "2025-03-11 17:01:59 UTC",
+      "id": "1fedaeab-2858-47ed-b36a-3e66b9ed3ce5"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.3207) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b003fd63-163a-4325-9437-5083e098ec46",
+      "arch": "x64",
+      "addedAt": "2025-02-11 18:01:39 UTC",
+      "id": "b003fd63-163a-4325-9437-5083e098ec46"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.3091) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d21dc89f-cf10-4509-a0d8-f70886872d75",
+      "arch": "x64",
+      "addedAt": "2025-01-14 18:02:16 UTC",
+      "id": "d21dc89f-cf10-4509-a0d8-f70886872d75"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2966) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5a27b6d3-a2d9-40ab-9b32-b15593a2e6f0",
+      "arch": "x64",
+      "addedAt": "2024-12-10 18:01:46 UTC",
+      "id": "5a27b6d3-a2d9-40ab-9b32-b15593a2e6f0"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2849) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=edd8bccc-71da-47c7-adf2-ab4dbb1f8115",
+      "arch": "x64",
+      "addedAt": "2024-11-12 18:02:25 UTC",
+      "id": "edd8bccc-71da-47c7-adf2-ab4dbb1f8115"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2762) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7e33f1ba-a017-4656-a354-4142565b0a3c",
+      "arch": "x64",
+      "addedAt": "2024-10-08 17:01:42 UTC",
+      "id": "7e33f1ba-a017-4656-a354-4142565b0a3c"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2700) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7e84f4b9-bcbd-45da-a19c-dbe2a5c52500",
+      "arch": "x64",
+      "addedAt": "2024-09-10 17:02:33 UTC",
+      "id": "7e84f4b9-bcbd-45da-a19c-dbe2a5c52500"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2655) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=81795854-b92a-4d37-9b92-9418a155d89f",
+      "arch": "x64",
+      "addedAt": "2024-08-13 17:02:36 UTC",
+      "id": "81795854-b92a-4d37-9b92-9418a155d89f"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2582) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a1f81ff0-532f-43a8-82f4-35aad637ec7c",
+      "arch": "x64",
+      "addedAt": "2024-07-09 17:01:44 UTC",
+      "id": "a1f81ff0-532f-43a8-82f4-35aad637ec7c"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2527) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=035fe94b-1631-471f-bf20-a078951e7ca9",
+      "arch": "x64",
+      "addedAt": "2024-06-11 17:02:33 UTC",
+      "id": "035fe94b-1631-471f-bf20-a078951e7ca9"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2461) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=612a5263-8b0c-4208-8c0d-a580bc5a811e",
+      "arch": "x64",
+      "addedAt": "2024-05-14 17:02:15 UTC",
+      "id": "612a5263-8b0c-4208-8c0d-a580bc5a811e"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2402) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2e4d05c4-a182-4a08-bc6e-cdab16227c05",
+      "arch": "x64",
+      "addedAt": "2024-04-09 17:01:20 UTC",
+      "id": "2e4d05c4-a182-4a08-bc6e-cdab16227c05"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2340) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=74452e7d-4c4b-4e32-a165-98e8d82de15d",
+      "arch": "x64",
+      "addedAt": "2024-03-12 17:09:29 UTC",
+      "id": "74452e7d-4c4b-4e32-a165-98e8d82de15d"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.2322) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=262308f5-a4d9-4943-83aa-080d068902dd",
+      "arch": "x64",
+      "addedAt": "2024-02-18 14:55:48 UTC",
+      "id": "262308f5-a4d9-4943-83aa-080d068902dd"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2322) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9456da32-4542-4b66-9bcf-b9369499e018",
+      "arch": "x64",
+      "addedAt": "2024-02-13 18:01:32 UTC",
+      "id": "9456da32-4542-4b66-9bcf-b9369499e018"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2227) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ab8dd4d0-486f-4120-b2cf-e634e2b2bb5a",
+      "arch": "x64",
+      "addedAt": "2024-01-09 18:01:33 UTC",
+      "id": "ab8dd4d0-486f-4120-b2cf-e634e2b2bb5a"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.2159) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0e5ae13c-559e-4b75-843a-f55db4db1a42",
+      "arch": "x64",
+      "addedAt": "2023-12-13 04:30:21 UTC",
+      "id": "0e5ae13c-559e-4b75-843a-f55db4db1a42"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2159) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=82ced77e-a1a3-4afd-b55c-845ef330b039",
+      "arch": "x64",
+      "addedAt": "2023-12-12 18:01:29 UTC",
+      "id": "82ced77e-a1a3-4afd-b55c-845ef330b039"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.2113) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7611d20b-69c2-4eee-ad58-ccf6b11ec610",
+      "arch": "x64",
+      "addedAt": "2023-11-24 16:00:35 UTC",
+      "id": "7611d20b-69c2-4eee-ad58-ccf6b11ec610"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2113) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=186ddec5-e65a-4e6a-8a17-9a7a02ebd720",
+      "arch": "x64",
+      "addedAt": "2023-11-14 18:04:02 UTC",
+      "id": "186ddec5-e65a-4e6a-8a17-9a7a02ebd720"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.2031) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ef86ba7f-a17f-42cc-bfaf-ae4356ae753b",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:03:53 UTC",
+      "id": "ef86ba7f-a17f-42cc-bfaf-ae4356ae753b"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.2031) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6d81ad55-1d76-4ec4-8f40-22e63962e048",
+      "arch": "x64",
+      "addedAt": "2023-10-10 17:03:36 UTC",
+      "id": "6d81ad55-1d76-4ec4-8f40-22e63962e048"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1970) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d24065ca-af18-4036-be64-bc3c5de9b8b5",
+      "arch": "x64",
+      "addedAt": "2023-09-21 05:16:57 UTC",
+      "id": "d24065ca-af18-4036-be64-bc3c5de9b8b5"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1970) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b39cc454-b30a-40d0-9ea0-9ae47adeb8db",
+      "arch": "x64",
+      "addedAt": "2023-09-12 17:04:56 UTC",
+      "id": "b39cc454-b30a-40d0-9ea0-9ae47adeb8db"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1906) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f8bf8fd8-f027-477d-b9f0-46243b085f49",
+      "arch": "x64",
+      "addedAt": "2023-08-08 17:04:51 UTC",
+      "id": "f8bf8fd8-f027-477d-b9f0-46243b085f49"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1850) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=c68c3893-9e66-408d-ab63-17cdffb4b2ac",
+      "arch": "x64",
+      "addedAt": "2023-07-16 18:04:41 UTC",
+      "id": "c68c3893-9e66-408d-ab63-17cdffb4b2ac"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1850) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=606d689b-7496-4124-8dbe-f29a8b3a4ea5",
+      "arch": "x64",
+      "addedAt": "2023-07-11 17:04:52 UTC",
+      "id": "606d689b-7496-4124-8dbe-f29a8b3a4ea5"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cdb62218-187f-4011-91fa-633a4df51b46",
+      "arch": "x64",
+      "addedAt": "2023-06-20 08:30:30 UTC",
+      "id": "cdb62218-187f-4011-91fa-633a4df51b46"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1787) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bfb0ef95-a13e-494e-9389-ae83fcc66bcf",
+      "arch": "x64",
+      "addedAt": "2023-06-14 11:55:33 UTC",
+      "id": "bfb0ef95-a13e-494e-9389-ae83fcc66bcf"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1726) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e1250546-46d1-4eb4-a42c-a8d4b4e3e653",
+      "arch": "x64",
+      "addedAt": "2023-05-09 17:30:19 UTC",
+      "id": "e1250546-46d1-4eb4-a42c-a8d4b4e3e653"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1726) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=79a1da43-2a79-4817-92d4-8f7adbb5601c",
+      "arch": "x64",
+      "addedAt": "2023-05-09 17:30:07 UTC",
+      "id": "79a1da43-2a79-4817-92d4-8f7adbb5601c"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1668) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=163e8fb7-9c9b-4d2c-811e-a65e2fb6ae19",
+      "arch": "x64",
+      "addedAt": "2023-04-12 22:23:09 UTC",
+      "id": "163e8fb7-9c9b-4d2c-811e-a65e2fb6ae19"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1668) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9d738567-53af-4783-9301-264ec8327ab1",
+      "arch": "x64",
+      "addedAt": "2023-04-11 21:00:35 UTC",
+      "id": "9d738567-53af-4783-9301-264ec8327ab1"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1607) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=422020ae-db57-4baa-9864-3b2627d50e01",
+      "arch": "x64",
+      "addedAt": "2023-03-14 17:14:58 UTC",
+      "id": "422020ae-db57-4baa-9864-3b2627d50e01"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1607) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=60a4e1fe-ab87-4f69-8bc9-45b6e6f21072",
+      "arch": "x64",
+      "addedAt": "2023-03-14 17:15:09 UTC",
+      "id": "60a4e1fe-ab87-4f69-8bc9-45b6e6f21072"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1547) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1083304a-5152-4ce8-a586-411fb21819d6",
+      "arch": "x64",
+      "addedAt": "2023-02-25 07:04:46 UTC",
+      "id": "1083304a-5152-4ce8-a586-411fb21819d6"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1547) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=d6719188-17fb-4527-8f52-d46f400d0cb7",
+      "arch": "x64",
+      "addedAt": "2023-02-14 21:08:23 UTC",
+      "id": "d6719188-17fb-4527-8f52-d46f400d0cb7"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1487) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b26b7ecf-2405-4d99-839c-221c9ef9c534",
+      "arch": "x64",
+      "addedAt": "2023-01-14 07:34:20 UTC",
+      "id": "b26b7ecf-2405-4d99-839c-221c9ef9c534"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1487) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7aba5cbb-7c86-4e38-bba9-c539f1b54340",
+      "arch": "x64",
+      "addedAt": "2023-01-17 18:04:10 UTC",
+      "id": "7aba5cbb-7c86-4e38-bba9-c539f1b54340"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1366) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9f3b0102-f207-482f-9c82-ec8f7454ca20",
+      "arch": "x64",
+      "addedAt": "2022-12-19 17:00:58 UTC",
+      "id": "9f3b0102-f207-482f-9c82-ec8f7454ca20"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1366) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cc450dcf-cf3d-4a7e-a56e-618276a30ca2",
+      "arch": "x64",
+      "addedAt": "2022-12-19 17:01:49 UTC",
+      "id": "cc450dcf-cf3d-4a7e-a56e-618276a30ca2"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1249) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fe089c6d-7369-47a6-a77c-9e12c6b1347b",
+      "arch": "x64",
+      "addedAt": "2022-11-19 00:49:49 UTC",
+      "id": "fe089c6d-7369-47a6-a77c-9e12c6b1347b"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1249) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e686b35f-94c1-471c-ada3-4dbd358fe75f",
+      "arch": "x64",
+      "addedAt": "2022-11-08 21:36:52 UTC",
+      "id": "e686b35f-94c1-471c-ada3-4dbd358fe75f"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 22H2 (20349.1194) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=45462c7b-03fc-4e97-b36b-dddcbb496642",
+      "arch": "x64",
+      "addedAt": "2022-10-26 02:47:35 UTC",
+      "id": "45462c7b-03fc-4e97-b36b-dddcbb496642"
+    },
+    {
+      "title": "Cumulative Update for Microsoft server operating system version 22H2 (20349.1129) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f1a5595e-a9a8-493f-bea0-3ca07fb39328",
+      "arch": "x64",
+      "addedAt": "2022-10-14 03:19:41 UTC",
+      "id": "f1a5595e-a9a8-493f-bea0-3ca07fb39328"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1129) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=900b01d7-0792-4f43-9dce-d034826fbb1c",
+      "arch": "x64",
+      "addedAt": "2022-10-12 16:46:23 UTC",
+      "id": "900b01d7-0792-4f43-9dce-d034826fbb1c"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.1070) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=478febd9-f670-4700-9a3a-25325f8fc24f",
+      "arch": "x64",
+      "addedAt": "2022-09-29 17:17:01 UTC",
+      "id": "478febd9-f670-4700-9a3a-25325f8fc24f"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 22H2 (20349.946) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=49143fda-cd96-493e-a1d4-f9f2bb2319a8",
+      "arch": "x64",
+      "addedAt": "2022-08-18 17:10:41 UTC",
+      "id": "49143fda-cd96-493e-a1d4-f9f2bb2319a8"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.946) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=025319ad-e6d9-495f-bdb8-cd8099b99428",
+      "arch": "x64",
+      "addedAt": "2022-08-17 14:35:11 UTC",
+      "id": "025319ad-e6d9-495f-bdb8-cd8099b99428"
+    },
+    {
+      "title": "Cumulative Update for Azure Stack HCI version 22H2 (20349.859) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ae4b627a-5e0f-4c6e-9827-645549249097",
+      "arch": "x64",
+      "addedAt": "2022-08-09 22:01:31 UTC",
+      "id": "ae4b627a-5e0f-4c6e-9827-645549249097"
+    },
+    {
+      "title": "Feature update to Azure Stack HCI, version 22H2 (20349.859) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9310ebcc-79ee-40aa-ae4a-4da849dd4684",
+      "arch": "x64",
+      "addedAt": "2022-07-29 02:22:03 UTC",
+      "id": "9310ebcc-79ee-40aa-ae4a-4da849dd4684"
+    }
+  ]
+}
