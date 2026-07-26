@@ -24,6 +24,17 @@ export const rules: BuildRule[] = [
         options: ["updates", "cleanup", "netfx", "esd"]
     },
     {
+        name: "Win11_26H1_x64",
+        category: "w11-26h1",
+        titlePattern: /^Windows 11, version 26H1/,
+        arch: "x64",
+        language: "zh-cn",
+        editions: ["PROFESSIONAL", "CORE"],
+        virtualEditions: ["Enterprise", "Education", "ProfessionalWorkstation", "IoTEnterprise"],
+        downloadMethod: "3",
+        options: ["updates", "cleanup", "netfx", "esd"]
+    },
+    {
         name: "Server_21H2_x64",
         category: "server-21h2",
         titlePattern: /^Feature update to Microsoft server operating system, version 21H2/,
