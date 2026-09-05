@@ -1,0 +1,632 @@
+{
+  "category": "w11-26h1",
+  "url": "https://uupdump.net/known.php?q=category:w11-26h1",
+  "name": "26H1",
+  "parentName": "Windows 11",
+  "pages": 2,
+  "versions": [
+    {
+      "title": "Preview Update for Windows 11 (28000.2804) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a75ef0ad-5dab-461e-a0a0-24cf7b3ee0e8",
+      "arch": "x64",
+      "addedAt": "2026-08-27 17:21:56 UTC",
+      "id": "a75ef0ad-5dab-461e-a0a0-24cf7b3ee0e8"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2804) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=8f595bc2-11e8-4b7d-91e0-c457277db89e",
+      "arch": "x64",
+      "addedAt": "2026-08-27 17:30:28 UTC",
+      "id": "8f595bc2-11e8-4b7d-91e0-c457277db89e"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2804) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=565031a5-7ba7-4b18-b986-854749de9248",
+      "arch": "arm64",
+      "addedAt": "2026-08-27 17:22:18 UTC",
+      "id": "565031a5-7ba7-4b18-b986-854749de9248"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2804) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=deee09e7-795b-4ac6-ad80-a8680e97908d",
+      "arch": "arm64",
+      "addedAt": "2026-08-27 17:30:25 UTC",
+      "id": "deee09e7-795b-4ac6-ad80-a8680e97908d"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2796) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=40e0a64b-c53f-42dc-ba76-8ebfd2e14926",
+      "arch": "x64",
+      "addedAt": "2026-08-14 17:06:21 UTC",
+      "id": "40e0a64b-c53f-42dc-ba76-8ebfd2e14926"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2796) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8f41602c-cd50-4001-ab9a-d971a04c32d7",
+      "arch": "arm64",
+      "addedAt": "2026-08-14 17:06:29 UTC",
+      "id": "8f41602c-cd50-4001-ab9a-d971a04c32d7"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2704) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=312f676b-2cbe-41aa-ba85-85c09c88518c",
+      "arch": "x64",
+      "addedAt": "2026-08-11 17:00:14 UTC",
+      "id": "312f676b-2cbe-41aa-ba85-85c09c88518c"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2704) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ef83e100-accd-4567-a877-571d3e25c330",
+      "arch": "arm64",
+      "addedAt": "2026-08-11 17:00:15 UTC",
+      "id": "ef83e100-accd-4567-a877-571d3e25c330"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2608) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=64820786-8417-4d45-9230-2dc3ee354e40",
+      "arch": "x64",
+      "addedAt": "2026-07-28 21:05:14 UTC",
+      "id": "64820786-8417-4d45-9230-2dc3ee354e40"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2608) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=81988c5b-0c14-41fc-8a1f-79fb5e4eb2fb",
+      "arch": "x64",
+      "addedAt": "2026-07-28 21:15:22 UTC",
+      "id": "81988c5b-0c14-41fc-8a1f-79fb5e4eb2fb"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2608) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=84fddaa0-855c-4fbe-8d92-1a4e0ec07239",
+      "arch": "arm64",
+      "addedAt": "2026-07-28 21:06:52 UTC",
+      "id": "84fddaa0-855c-4fbe-8d92-1a4e0ec07239"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2608) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=43c0f4d9-611f-4d36-8b04-5b692097a8ba",
+      "arch": "arm64",
+      "addedAt": "2026-07-28 21:15:19 UTC",
+      "id": "43c0f4d9-611f-4d36-8b04-5b692097a8ba"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2605) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cb51427d-cd3b-4a69-86c0-ab8c47723bf2",
+      "arch": "x64",
+      "addedAt": "2026-07-20 21:01:34 UTC",
+      "id": "cb51427d-cd3b-4a69-86c0-ab8c47723bf2"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2605) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7cd9fa1f-62a4-4383-a79d-317535ca2a1c",
+      "arch": "arm64",
+      "addedAt": "2026-07-20 21:10:55 UTC",
+      "id": "7cd9fa1f-62a4-4383-a79d-317535ca2a1c"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2525) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=533720b8-f9c8-4193-887c-780a92eec1e8",
+      "arch": "x64",
+      "addedAt": "2026-07-14 17:00:13 UTC",
+      "id": "533720b8-f9c8-4193-887c-780a92eec1e8"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2525) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5b2d78ff-6654-4e90-8558-a58f0dc7a978",
+      "arch": "arm64",
+      "addedAt": "2026-07-14 17:00:17 UTC",
+      "id": "5b2d78ff-6654-4e90-8558-a58f0dc7a978"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2340) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3c6976a6-5903-428d-86fc-6565dae97d0c",
+      "arch": "x64",
+      "addedAt": "2026-06-23 17:16:14 UTC",
+      "id": "3c6976a6-5903-428d-86fc-6565dae97d0c"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2340) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a0270899-3389-4026-b66f-7d53b6610452",
+      "arch": "x64",
+      "addedAt": "2026-06-23 22:02:02 UTC",
+      "id": "a0270899-3389-4026-b66f-7d53b6610452"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2340) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4a8022e1-f184-4eb5-a246-c10e6bd184a1",
+      "arch": "arm64",
+      "addedAt": "2026-06-23 17:01:23 UTC",
+      "id": "4a8022e1-f184-4eb5-a246-c10e6bd184a1"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2340) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cc3dab6d-ceff-4121-838b-813e3a08d184",
+      "arch": "arm64",
+      "addedAt": "2026-06-23 22:02:04 UTC",
+      "id": "cc3dab6d-ceff-4121-838b-813e3a08d184"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2333) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=229e9adb-7829-4524-978d-7b5fe79263e3",
+      "arch": "x64",
+      "addedAt": "2026-06-12 17:01:15 UTC",
+      "id": "229e9adb-7829-4524-978d-7b5fe79263e3"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2333) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ffd484cf-bad0-4c86-a79d-0c62ad245bcb",
+      "arch": "arm64",
+      "addedAt": "2026-06-12 18:39:24 UTC",
+      "id": "ffd484cf-bad0-4c86-a79d-0c62ad245bcb"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2269) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=413372f8-51db-4ea1-970a-8dce91db00aa",
+      "arch": "x64",
+      "addedAt": "2026-06-09 17:00:11 UTC",
+      "id": "413372f8-51db-4ea1-970a-8dce91db00aa"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2269) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4041170c-fcf0-4045-83b0-3dcd36bd979e",
+      "arch": "arm64",
+      "addedAt": "2026-06-09 17:00:14 UTC",
+      "id": "4041170c-fcf0-4045-83b0-3dcd36bd979e"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2179) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ebfcd736-eb43-42c3-aff2-35445412d076",
+      "arch": "x64",
+      "addedAt": "2026-05-26 21:48:50 UTC",
+      "id": "ebfcd736-eb43-42c3-aff2-35445412d076"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2179) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=be3f583b-3f18-4074-a78c-5c6dd1fbc710",
+      "arch": "arm64",
+      "addedAt": "2026-05-26 21:48:08 UTC",
+      "id": "be3f583b-3f18-4074-a78c-5c6dd1fbc710"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2176) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3cf2a0a8-63bf-4416-bc7d-7c313fb6a986",
+      "arch": "x64",
+      "addedAt": "2026-05-19 17:52:04 UTC",
+      "id": "3cf2a0a8-63bf-4416-bc7d-7c313fb6a986"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2176) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=59f47cd6-baec-4fef-857f-ee3f4a99c74d",
+      "arch": "arm64",
+      "addedAt": "2026-05-19 18:33:18 UTC",
+      "id": "59f47cd6-baec-4fef-857f-ee3f4a99c74d"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2173) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=cf4f4f12-1076-48f3-93e1-fd4886a1a13b",
+      "arch": "x64",
+      "addedAt": "2026-05-14 17:09:56 UTC",
+      "id": "cf4f4f12-1076-48f3-93e1-fd4886a1a13b"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.2173) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e4a62614-6c63-4b80-b4c5-3c63984c6ff7",
+      "arch": "arm64",
+      "addedAt": "2026-05-14 17:02:17 UTC",
+      "id": "e4a62614-6c63-4b80-b4c5-3c63984c6ff7"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2113) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7bb2929b-0458-4241-a705-80c73d7c3b32",
+      "arch": "x64",
+      "addedAt": "2026-05-12 17:00:14 UTC",
+      "id": "7bb2929b-0458-4241-a705-80c73d7c3b32"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.2113) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5c36f73d-e866-456a-b3a7-fa48e86062b2",
+      "arch": "arm64",
+      "addedAt": "2026-05-12 17:00:27 UTC",
+      "id": "5c36f73d-e866-456a-b3a7-fa48e86062b2"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1896) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3a3a4dcc-c296-4b9e-8fd4-75436193d1aa",
+      "arch": "x64",
+      "addedAt": "2026-05-01 03:52:21 UTC",
+      "id": "3a3a4dcc-c296-4b9e-8fd4-75436193d1aa"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1896) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=df8f0e95-21df-4b30-a504-7249ed05d889",
+      "arch": "x64",
+      "addedAt": "2026-04-30 23:37:30 UTC",
+      "id": "df8f0e95-21df-4b30-a504-7249ed05d889"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1896) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ddbf0279-4bd1-4e34-bddb-ad74480bf26e",
+      "arch": "arm64",
+      "addedAt": "2026-05-10 04:36:48 UTC",
+      "id": "ddbf0279-4bd1-4e34-bddb-ad74480bf26e"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1896) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=95b53909-a77c-4bd9-8649-22b3fcc101a0",
+      "arch": "arm64",
+      "addedAt": "2026-04-30 23:46:03 UTC",
+      "id": "95b53909-a77c-4bd9-8649-22b3fcc101a0"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1890) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1a10e53e-a491-45e9-990c-7172c6a265d1",
+      "arch": "x64",
+      "addedAt": "2026-04-17 17:15:15 UTC",
+      "id": "1a10e53e-a491-45e9-990c-7172c6a265d1"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1890) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=0f9cdc20-cdc5-4dda-957e-726974ca64d5",
+      "arch": "arm64",
+      "addedAt": "2026-04-17 17:13:55 UTC",
+      "id": "0f9cdc20-cdc5-4dda-957e-726974ca64d5"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1836) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e4053eff-92dd-432d-b429-fed7d587d890",
+      "arch": "x64",
+      "addedAt": "2026-04-14 17:00:35 UTC",
+      "id": "e4053eff-92dd-432d-b429-fed7d587d890"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1836) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b96f4e35-e7e6-4715-80d6-539193cab73c",
+      "arch": "arm64",
+      "addedAt": "2026-04-14 17:00:36 UTC",
+      "id": "b96f4e35-e7e6-4715-80d6-539193cab73c"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1764) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bc5ad58e-6bec-470b-b7ff-76ddd94393d2",
+      "arch": "x64",
+      "addedAt": "2026-03-27 20:30:14 UTC",
+      "id": "bc5ad58e-6bec-470b-b7ff-76ddd94393d2"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1764) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=64d28313-83d2-471a-8923-e3fbbf347e61",
+      "arch": "x64",
+      "addedAt": "2026-03-26 21:02:20 UTC",
+      "id": "64d28313-83d2-471a-8923-e3fbbf347e61"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1764) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=657d3358-1036-4e2e-a790-569f1e82d67d",
+      "arch": "arm64",
+      "addedAt": "2026-03-26 21:15:29 UTC",
+      "id": "657d3358-1036-4e2e-a790-569f1e82d67d"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1758) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e81cf107-825c-4a19-a1e1-55390981ef7c",
+      "arch": "x64",
+      "addedAt": "2026-03-12 17:01:23 UTC",
+      "id": "e81cf107-825c-4a19-a1e1-55390981ef7c"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1758) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9dbeb16b-3a09-4c77-b1aa-c491b6d12eb4",
+      "arch": "arm64",
+      "addedAt": "2026-03-12 17:12:18 UTC",
+      "id": "9dbeb16b-3a09-4c77-b1aa-c491b6d12eb4"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1719) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=40a89789-cad6-4281-8e18-35c208f7b1d2",
+      "arch": "x64",
+      "addedAt": "2026-03-10 17:00:41 UTC",
+      "id": "40a89789-cad6-4281-8e18-35c208f7b1d2"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1719) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fde8938f-4091-47eb-bde6-7756590e861b",
+      "arch": "arm64",
+      "addedAt": "2026-03-10 17:01:00 UTC",
+      "id": "fde8938f-4091-47eb-bde6-7756590e861b"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1643) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=59f30825-b9ef-489b-819f-ee84513687d5",
+      "arch": "x64",
+      "addedAt": "2026-02-24 18:01:08 UTC",
+      "id": "59f30825-b9ef-489b-819f-ee84513687d5"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1643) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3a945332-7028-432a-a32b-26f3edfc4759",
+      "arch": "x64",
+      "addedAt": "2026-02-24 18:15:42 UTC",
+      "id": "3a945332-7028-432a-a32b-26f3edfc4759"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1643) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=671a55f8-fb18-4419-a459-8b1c72fa31e8",
+      "arch": "arm64",
+      "addedAt": "2026-02-24 18:00:20 UTC",
+      "id": "671a55f8-fb18-4419-a459-8b1c72fa31e8"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1643) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e8a13383-cd98-4383-9667-40ab5e046a3b",
+      "arch": "arm64",
+      "addedAt": "2026-02-24 18:15:39 UTC",
+      "id": "e8a13383-cd98-4383-9667-40ab5e046a3b"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1641) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5f87f3c9-f055-4f1c-8208-893b46e56320",
+      "arch": "x64",
+      "addedAt": "2026-02-19 22:03:55 UTC",
+      "id": "5f87f3c9-f055-4f1c-8208-893b46e56320"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1641) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=aa49cdca-acce-476a-9a56-18e59d4e9b6f",
+      "arch": "arm64",
+      "addedAt": "2026-02-19 22:03:34 UTC",
+      "id": "aa49cdca-acce-476a-9a56-18e59d4e9b6f"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1635) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0fc47894-7fc4-43f3-9b80-dc6a3c5ee369",
+      "arch": "x64",
+      "addedAt": "2026-02-13 13:40:09 UTC",
+      "id": "0fc47894-7fc4-43f3-9b80-dc6a3c5ee369"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1635) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=66c89473-d703-4a3e-8ca8-b4b595b91f37",
+      "arch": "arm64",
+      "addedAt": "2026-02-13 13:40:39 UTC",
+      "id": "66c89473-d703-4a3e-8ca8-b4b595b91f37"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1575) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5c22b6ed-4787-49c9-85eb-03a709470097",
+      "arch": "x64",
+      "addedAt": "2026-02-10 18:00:24 UTC",
+      "id": "5c22b6ed-4787-49c9-85eb-03a709470097"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1575) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ec567ebb-ec62-46e8-8def-14fb93fef89f",
+      "arch": "arm64",
+      "addedAt": "2026-02-10 18:00:26 UTC",
+      "id": "ec567ebb-ec62-46e8-8def-14fb93fef89f"
+    },
+    {
+      "title": "Preview Update for Windows 11 (28000.1516) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2230c2bc-b304-45d9-b122-12d9470171ff",
+      "arch": "arm64",
+      "addedAt": "2026-01-30 13:11:20 UTC",
+      "id": "2230c2bc-b304-45d9-b122-12d9470171ff"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1450) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0e1cec91-9bb2-41ad-929f-fe36a5beda02",
+      "arch": "x64",
+      "addedAt": "2026-01-13 18:33:11 UTC",
+      "id": "0e1cec91-9bb2-41ad-929f-fe36a5beda02"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1450) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5ee05231-b479-40cf-8ea4-c0202e66f100",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 18:00:25 UTC",
+      "id": "5ee05231-b479-40cf-8ea4-c0202e66f100"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1450) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=7f62e99e-c9ed-40f9-91f0-d988b6b98e86",
+      "arch": "arm64",
+      "addedAt": "2026-01-13 19:34:45 UTC",
+      "id": "7f62e99e-c9ed-40f9-91f0-d988b6b98e86"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1340) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3d01a661-1c2c-4c2b-8e79-12c85e8e9b30",
+      "arch": "x64",
+      "addedAt": "2025-12-09 18:00:20 UTC",
+      "id": "3d01a661-1c2c-4c2b-8e79-12c85e8e9b30"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1340) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=c79f8a7f-88ad-4d60-9ed8-3c4e71816dad",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 18:52:38 UTC",
+      "id": "c79f8a7f-88ad-4d60-9ed8-3c4e71816dad"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1340) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=936676fd-eb9e-44e1-842b-3a4b8fca7e9c",
+      "arch": "arm64",
+      "addedAt": "2025-12-09 18:08:59 UTC",
+      "id": "936676fd-eb9e-44e1-842b-3a4b8fca7e9c"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1199) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=99c26968-2e97-4873-ab14-22c3cc115c30",
+      "arch": "x64",
+      "addedAt": "2025-11-18 18:00:12 UTC",
+      "id": "99c26968-2e97-4873-ab14-22c3cc115c30"
+    },
+    {
+      "title": "Windows 11, version 26H1 (28000.1199) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=02242beb-9b26-4445-b9b8-978df2430b1c",
+      "arch": "arm64",
+      "addedAt": "2025-11-18 18:00:13 UTC",
+      "id": "02242beb-9b26-4445-b9b8-978df2430b1c"
+    },
+    {
+      "title": "Windows 11 Insider Preview 28000.1 (br_release) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=082a33fb-8cb5-4cc6-abb3-611c3f7ecd35",
+      "arch": "x64",
+      "addedAt": "2025-11-07 18:00:19 UTC",
+      "id": "082a33fb-8cb5-4cc6-abb3-611c3f7ecd35"
+    },
+    {
+      "title": "Security Update for Windows 11 (28000.1) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ac21edb9-f99c-4a6e-8fed-c9356366340d",
+      "arch": "arm64",
+      "addedAt": "2026-02-02 20:17:51 UTC",
+      "id": "ac21edb9-f99c-4a6e-8fed-c9356366340d"
+    },
+    {
+      "title": "Windows 11 Insider Preview 28000.1 (br_release) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=950545af-8cd0-49ce-bc8c-789258edc8ba",
+      "arch": "arm64",
+      "addedAt": "2025-11-07 18:00:11 UTC",
+      "id": "950545af-8cd0-49ce-bc8c-789258edc8ba"
+    },
+    {
+      "title": ".NET Framework Preview Update for Windows 11 - KB5122386 (28000.9345) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=9e9ce7b9-3e53-40b4-b486-c89655afc8fb",
+      "arch": "x64",
+      "addedAt": "2026-08-14 17:06:21 UTC",
+      "id": "9e9ce7b9-3e53-40b4-b486-c89655afc8fb"
+    },
+    {
+      "title": ".NET Framework Preview Update for Windows 11 - KB5122386 (28000.9345) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8292f102-1356-40c8-93fb-fe4d06a07345",
+      "arch": "arm64",
+      "addedAt": "2026-08-14 17:06:29 UTC",
+      "id": "8292f102-1356-40c8-93fb-fe4d06a07345"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5120711 (28000.9344) (2) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3e74b4fa-6f03-42bd-a336-5873f8fb0837",
+      "arch": "x64",
+      "addedAt": "2026-08-30 03:15:19 UTC",
+      "id": "3e74b4fa-6f03-42bd-a336-5873f8fb0837"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5120711 (28000.9344) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=3367f765-8ff1-4bea-86a3-ebe01f58ddaf",
+      "arch": "x64",
+      "addedAt": "2026-08-11 17:00:06 UTC",
+      "id": "3367f765-8ff1-4bea-86a3-ebe01f58ddaf"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5120711 (28000.9344) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=23d58f62-c29c-4541-82e2-b6592fd5ae23",
+      "arch": "arm64",
+      "addedAt": "2026-08-11 17:00:06 UTC",
+      "id": "23d58f62-c29c-4541-82e2-b6592fd5ae23"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5101002 (28000.9340) (2) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=aaa404dd-d0a7-4fca-9a08-0c13c3abe20e",
+      "arch": "x64",
+      "addedAt": "2026-07-20 21:06:25 UTC",
+      "id": "aaa404dd-d0a7-4fca-9a08-0c13c3abe20e"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5101002 (28000.9340) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fa64f6cd-6a7b-4cdd-894b-70149d685ee7",
+      "arch": "x64",
+      "addedAt": "2026-07-14 17:00:07 UTC",
+      "id": "fa64f6cd-6a7b-4cdd-894b-70149d685ee7"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5101002 (28000.9340) (2) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ef950c19-1ea3-45b8-8325-1146ef8c6669",
+      "arch": "arm64",
+      "addedAt": "2026-07-31 17:12:00 UTC",
+      "id": "ef950c19-1ea3-45b8-8325-1146ef8c6669"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5101002 (28000.9340) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=6ab987db-6410-49b6-94d8-796e099814e5",
+      "arch": "arm64",
+      "addedAt": "2026-07-14 17:00:07 UTC",
+      "id": "6ab987db-6410-49b6-94d8-796e099814e5"
+    },
+    {
+      "title": ".NET Framework Preview Update for Windows 11 - KB5092431 (28000.9337) (2) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=012cf0eb-503d-4b66-860d-83854154116b",
+      "arch": "x64",
+      "addedAt": "2026-06-02 14:45:22 UTC",
+      "id": "012cf0eb-503d-4b66-860d-83854154116b"
+    },
+    {
+      "title": ".NET Framework Preview Update for Windows 11 - KB5092431 (28000.9337) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=53d73684-b1cc-460f-beb8-53567d4814ed",
+      "arch": "x64",
+      "addedAt": "2026-05-14 23:36:21 UTC",
+      "id": "53d73684-b1cc-460f-beb8-53567d4814ed"
+    },
+    {
+      "title": ".NET Framework Preview Update for Windows 11 - KB5092431 (28000.9337) (2) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1e45c3a5-c91a-4a83-ab8a-ebc7afd06be9",
+      "arch": "arm64",
+      "addedAt": "2026-06-26 17:12:21 UTC",
+      "id": "1e45c3a5-c91a-4a83-ab8a-ebc7afd06be9"
+    },
+    {
+      "title": ".NET Framework Preview Update for Windows 11 - KB5092431 (28000.9337) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9fee173d-9712-4441-bd69-89fec12e1f72",
+      "arch": "arm64",
+      "addedAt": "2026-05-14 17:02:17 UTC",
+      "id": "9fee173d-9712-4441-bd69-89fec12e1f72"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5087055 (28000.9335) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0c4f9842-e991-4e71-ba7c-cd0fb222839b",
+      "arch": "x64",
+      "addedAt": "2026-05-12 17:00:11 UTC",
+      "id": "0c4f9842-e991-4e71-ba7c-cd0fb222839b"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5087055 (28000.9335) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9f79a87d-3b63-4f30-be84-99a5b0fe2d8d",
+      "arch": "arm64",
+      "addedAt": "2026-05-12 17:00:17 UTC",
+      "id": "9f79a87d-3b63-4f30-be84-99a5b0fe2d8d"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5082421 (28000.9333) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ae9bb68d-6956-42d8-b90d-444b915144e3",
+      "arch": "x64",
+      "addedAt": "2026-05-10 05:51:32 UTC",
+      "id": "ae9bb68d-6956-42d8-b90d-444b915144e3"
+    },
+    {
+      "title": "OOBE Update for Windows 11 - KB5082960 (28000.1706) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6e5a84ac-815f-4f7a-b0f4-24248999e357",
+      "arch": "x64",
+      "addedAt": "2026-04-25 13:15:16 UTC",
+      "id": "6e5a84ac-815f-4f7a-b0f4-24248999e357"
+    },
+    {
+      "title": "OOBE Update for Windows 11 - KB5082960 (28000.1706) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=8d65c03f-3fb9-4255-8abc-4cbd657edcaa",
+      "arch": "arm64",
+      "addedAt": "2026-04-25 16:53:21 UTC",
+      "id": "8d65c03f-3fb9-4255-8abc-4cbd657edcaa"
+    },
+    {
+      "title": "Critical OOBE Update for Windows 11 - KB5081921 (28000.1701) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6bd780f7-6a2b-4d41-9375-85b7d469fe68",
+      "arch": "x64",
+      "addedAt": "2026-04-25 13:15:16 UTC",
+      "id": "6bd780f7-6a2b-4d41-9375-85b7d469fe68"
+    },
+    {
+      "title": "Critical OOBE Update for Windows 11 - KB5081921 (28000.1701) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=9fd0f372-1fbe-45de-a75b-0a5c50431cfd",
+      "arch": "arm64",
+      "addedAt": "2026-04-25 16:53:20 UTC",
+      "id": "9fd0f372-1fbe-45de-a75b-0a5c50431cfd"
+    }
+  ]
+}
