@@ -1,0 +1,72 @@
+{
+  "category": "w11-26h2-experimental",
+  "url": "https://uupdump.net/known.php?q=category:w11-26h2-experimental",
+  "name": "26H2 Experimental",
+  "parentName": "Windows 11",
+  "pages": 1,
+  "versions": [
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9482) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a13c52d6-1b15-419a-a33e-36287bd44639",
+      "arch": "x64",
+      "addedAt": "2026-09-11 17:00:30 UTC",
+      "id": "a13c52d6-1b15-419a-a33e-36287bd44639"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9482) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a72cc9ed-fc88-4073-bd0f-397f5e925e36",
+      "arch": "arm64",
+      "addedAt": "2026-09-11 17:01:17 UTC",
+      "id": "a72cc9ed-fc88-4073-bd0f-397f5e925e36"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9354) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f79e9e51-35df-4d29-8ba2-e917ee87e10a",
+      "arch": "x64",
+      "addedAt": "2026-09-08 17:01:27 UTC",
+      "id": "f79e9e51-35df-4d29-8ba2-e917ee87e10a"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9354) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=361f3e9a-c406-4e84-a450-e77ca55014d0",
+      "arch": "arm64",
+      "addedAt": "2026-09-08 17:01:25 UTC",
+      "id": "361f3e9a-c406-4e84-a450-e77ca55014d0"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9233) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=6ccf6dbf-13a5-415f-aeeb-a5c0b86814d2",
+      "arch": "x64",
+      "addedAt": "2026-08-21 17:00:24 UTC",
+      "id": "6ccf6dbf-13a5-415f-aeeb-a5c0b86814d2"
+    },
+    {
+      "title": "Windows 11 Insider Preview Quality Update (26340.9233) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ddaefaf4-7678-4b18-b3b8-36daa7993aec",
+      "arch": "x64",
+      "addedAt": "2026-09-03 14:37:09 UTC",
+      "id": "ddaefaf4-7678-4b18-b3b8-36daa7993aec"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9233) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=08eed889-6932-425b-9daa-5148626e5694",
+      "arch": "arm64",
+      "addedAt": "2026-08-21 17:00:25 UTC",
+      "id": "08eed889-6932-425b-9daa-5148626e5694"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9212) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5a2f54fc-cd21-47c2-93b5-8898b439ef90",
+      "arch": "x64",
+      "addedAt": "2026-08-17 21:00:44 UTC",
+      "id": "5a2f54fc-cd21-47c2-93b5-8898b439ef90"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26340.9212) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=90fa8abf-44ae-4ab2-abae-882406f948d5",
+      "arch": "arm64",
+      "addedAt": "2026-08-17 21:00:52 UTC",
+      "id": "90fa8abf-44ae-4ab2-abae-882406f948d5"
+    }
+  ]
+}

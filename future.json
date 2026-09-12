@@ -1,0 +1,372 @@
+{
+  "category": "future",
+  "url": "https://uupdump.net/known.php?q=category:future",
+  "name": "Future Platforms",
+  "pages": 2,
+  "versions": [
+    {
+      "title": "Windows 11 Insider Preview 29667.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ab907d94-05ad-4746-bb1b-111a2be79054",
+      "arch": "x64",
+      "addedAt": "2026-09-11 17:30:19 UTC",
+      "id": "ab907d94-05ad-4746-bb1b-111a2be79054"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29667.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2af33a9c-a3d2-4af1-a1d9-8a2f6a34bcdc",
+      "arch": "arm64",
+      "addedAt": "2026-09-11 17:31:10 UTC",
+      "id": "2af33a9c-a3d2-4af1-a1d9-8a2f6a34bcdc"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29661.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5a916774-d166-4271-b5a9-e0aa04ca3ce8",
+      "arch": "x64",
+      "addedAt": "2026-09-08 17:01:12 UTC",
+      "id": "5a916774-d166-4271-b5a9-e0aa04ca3ce8"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29661.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=487e454c-7cdb-4841-a0ba-49412ceea24b",
+      "arch": "arm64",
+      "addedAt": "2026-09-08 17:01:07 UTC",
+      "id": "487e454c-7cdb-4841-a0ba-49412ceea24b"
+    },
+    {
+      "title": "Windows Server Insider Preview 29659.1000 (rs_flight) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=7d583949-61dd-49c4-af75-a7d74aaab141",
+      "arch": "x64",
+      "addedAt": "2026-09-09 17:00:11 UTC",
+      "id": "7d583949-61dd-49c4-af75-a7d74aaab141"
+    },
+    {
+      "title": "Windows Server Insider Preview 29651.1000 (rs_flight) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=bde51667-3b56-4db5-9363-13c302bff158",
+      "arch": "x64",
+      "addedAt": "2026-08-24 17:00:10 UTC",
+      "id": "bde51667-3b56-4db5-9363-13c302bff158"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29648.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f322908e-723d-4e4a-9606-c687956d38f0",
+      "arch": "x64",
+      "addedAt": "2026-08-17 21:01:11 UTC",
+      "id": "f322908e-723d-4e4a-9606-c687956d38f0"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29648.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4306b846-376e-41f8-99df-640953eac289",
+      "arch": "arm64",
+      "addedAt": "2026-08-17 21:07:34 UTC",
+      "id": "4306b846-376e-41f8-99df-640953eac289"
+    },
+    {
+      "title": "Windows Server Insider Preview 29641.1000 (rs_flight) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=62eb4764-322d-4080-a008-aeaa54d2ff4e",
+      "arch": "x64",
+      "addedAt": "2026-08-10 17:01:33 UTC",
+      "id": "62eb4764-322d-4080-a008-aeaa54d2ff4e"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29639.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1465e4b6-f413-4b5c-8220-feb161c7f73d",
+      "arch": "x64",
+      "addedAt": "2026-07-31 17:00:09 UTC",
+      "id": "1465e4b6-f413-4b5c-8220-feb161c7f73d"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29639.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=2b2ea506-4813-4d0f-9c18-de5bf09999e4",
+      "arch": "arm64",
+      "addedAt": "2026-07-31 17:00:13 UTC",
+      "id": "2b2ea506-4813-4d0f-9c18-de5bf09999e4"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29634.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=e641ee6e-2254-41bd-8b0a-1f82f298818f",
+      "arch": "x64",
+      "addedAt": "2026-07-27 21:00:10 UTC",
+      "id": "e641ee6e-2254-41bd-8b0a-1f82f298818f"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29634.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=a070cede-1173-46b7-b3bb-c69494f7f30a",
+      "arch": "arm64",
+      "addedAt": "2026-07-27 21:00:11 UTC",
+      "id": "a070cede-1173-46b7-b3bb-c69494f7f30a"
+    },
+    {
+      "title": "Windows Server Insider Preview 29621.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=40527b6c-6058-4990-98e7-90e547a0aee0",
+      "arch": "x64",
+      "addedAt": "2026-07-13 22:01:27 UTC",
+      "id": "40527b6c-6058-4990-98e7-90e547a0aee0"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29617.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f7fcb055-e79b-4095-a4b1-2cea9a32ba4d",
+      "arch": "x64",
+      "addedAt": "2026-06-26 17:00:19 UTC",
+      "id": "f7fcb055-e79b-4095-a4b1-2cea9a32ba4d"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29617.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=ca767acf-e249-40c2-a5e8-974ff7f77ffd",
+      "arch": "arm64",
+      "addedAt": "2026-06-26 17:00:27 UTC",
+      "id": "ca767acf-e249-40c2-a5e8-974ff7f77ffd"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29613.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0cbb6c46-d805-4a6a-b1ba-06d5d3116440",
+      "arch": "x64",
+      "addedAt": "2026-06-19 17:00:50 UTC",
+      "id": "0cbb6c46-d805-4a6a-b1ba-06d5d3116440"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29613.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=45401da2-4913-408f-b4e4-ff6487d93e36",
+      "arch": "arm64",
+      "addedAt": "2026-06-19 17:00:53 UTC",
+      "id": "45401da2-4913-408f-b4e4-ff6487d93e36"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29610.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=59bccb92-3b81-4c73-b997-d451dfcf532b",
+      "arch": "x64",
+      "addedAt": "2026-06-12 17:00:06 UTC",
+      "id": "59bccb92-3b81-4c73-b997-d451dfcf532b"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29610.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dc33f538-2ad5-496c-b76a-677cc6bce585",
+      "arch": "arm64",
+      "addedAt": "2026-06-12 17:01:06 UTC",
+      "id": "dc33f538-2ad5-496c-b76a-677cc6bce585"
+    },
+    {
+      "title": "Windows Server Insider Preview 29602.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=04aeb30b-f04b-4df0-a6c9-b88a69a23782",
+      "arch": "x64",
+      "addedAt": "2026-06-11 18:02:36 UTC",
+      "id": "04aeb30b-f04b-4df0-a6c9-b88a69a23782"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29599.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=19f7f5a8-e7f9-457e-8f8f-94d6846c43bc",
+      "arch": "x64",
+      "addedAt": "2026-05-29 17:00:16 UTC",
+      "id": "19f7f5a8-e7f9-457e-8f8f-94d6846c43bc"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29599.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=08cd97f5-f40e-43ca-bd32-bf8fca0d2a17",
+      "arch": "arm64",
+      "addedAt": "2026-05-29 17:00:11 UTC",
+      "id": "08cd97f5-f40e-43ca-bd32-bf8fca0d2a17"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29595.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0891407a-391d-4ded-add6-f92f90048090",
+      "arch": "x64",
+      "addedAt": "2026-05-22 17:00:14 UTC",
+      "id": "0891407a-391d-4ded-add6-f92f90048090"
+    },
+    {
+      "title": "Windows Server Insider Preview 29595.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=42bf2113-68e8-4333-b3ee-2fb2db46690c",
+      "arch": "x64",
+      "addedAt": "2026-05-26 17:01:14 UTC",
+      "id": "42bf2113-68e8-4333-b3ee-2fb2db46690c"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29595.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=18695d7e-8684-4557-a848-abf89ca07952",
+      "arch": "arm64",
+      "addedAt": "2026-05-22 17:00:15 UTC",
+      "id": "18695d7e-8684-4557-a848-abf89ca07952"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29591.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=4a6672d1-0a73-47b7-aa06-44e98218ba56",
+      "arch": "x64",
+      "addedAt": "2026-05-15 19:00:19 UTC",
+      "id": "4a6672d1-0a73-47b7-aa06-44e98218ba56"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29591.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=953e8b12-f9e5-48d3-8e62-407c823490c3",
+      "arch": "arm64",
+      "addedAt": "2026-05-15 19:00:22 UTC",
+      "id": "953e8b12-f9e5-48d3-8e62-407c823490c3"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29585.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2d381cb2-76cc-4b1b-bc25-e10ca3160722",
+      "arch": "x64",
+      "addedAt": "2026-05-08 19:00:16 UTC",
+      "id": "2d381cb2-76cc-4b1b-bc25-e10ca3160722"
+    },
+    {
+      "title": "Windows Server Insider Preview 29585.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=68f48872-6b17-4287-aeab-139145f9e3e0",
+      "arch": "x64",
+      "addedAt": "2026-05-11 17:01:43 UTC",
+      "id": "68f48872-6b17-4287-aeab-139145f9e3e0"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29585.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=25eb4fc8-4254-403f-ac2b-05edd467c590",
+      "arch": "arm64",
+      "addedAt": "2026-05-08 19:00:11 UTC",
+      "id": "25eb4fc8-4254-403f-ac2b-05edd467c590"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29580.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ff3415b7-aa40-403a-b0f4-5e51d54a0de0",
+      "arch": "x64",
+      "addedAt": "2026-05-01 17:00:12 UTC",
+      "id": "ff3415b7-aa40-403a-b0f4-5e51d54a0de0"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29580.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=3a2b8309-6fed-428e-94fd-422ff81fe9d7",
+      "arch": "arm64",
+      "addedAt": "2026-05-01 17:00:15 UTC",
+      "id": "3a2b8309-6fed-428e-94fd-422ff81fe9d7"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29576.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=1528d8b3-0d3c-4f26-8f5c-18d5d525532c",
+      "arch": "x64",
+      "addedAt": "2026-04-24 17:00:29 UTC",
+      "id": "1528d8b3-0d3c-4f26-8f5c-18d5d525532c"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29576.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=b4aca50e-bcd5-406d-9467-40c9930665ec",
+      "arch": "arm64",
+      "addedAt": "2026-04-24 17:00:24 UTC",
+      "id": "b4aca50e-bcd5-406d-9467-40c9930665ec"
+    },
+    {
+      "title": "Windows Server Insider Preview 29574.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=60250154-517f-4844-8a91-01199fd6f6e6",
+      "arch": "x64",
+      "addedAt": "2026-04-27 17:01:47 UTC",
+      "id": "60250154-517f-4844-8a91-01199fd6f6e6"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29570.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=56c13762-cf6d-4597-ba11-d6ee9c20dbde",
+      "arch": "x64",
+      "addedAt": "2026-04-17 17:00:22 UTC",
+      "id": "56c13762-cf6d-4597-ba11-d6ee9c20dbde"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29570.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=4cf5a682-14c7-4a94-ab7a-c05d5dec1202",
+      "arch": "arm64",
+      "addedAt": "2026-04-17 17:00:33 UTC",
+      "id": "4cf5a682-14c7-4a94-ab7a-c05d5dec1202"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29565.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=475e5ea4-7695-422f-9acb-66dbfdb7ee6b",
+      "arch": "x64",
+      "addedAt": "2026-04-10 19:00:18 UTC",
+      "id": "475e5ea4-7695-422f-9acb-66dbfdb7ee6b"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29565.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=1b26ce9d-49b4-42d5-acf4-ce978205c691",
+      "arch": "arm64",
+      "addedAt": "2026-04-10 19:00:21 UTC",
+      "id": "1b26ce9d-49b4-42d5-acf4-ce978205c691"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29560.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=35ba2737-fb8c-4ae7-947b-e078a3d63aee",
+      "arch": "x64",
+      "addedAt": "2026-04-03 17:00:14 UTC",
+      "id": "35ba2737-fb8c-4ae7-947b-e078a3d63aee"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29560.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=cb88cdf8-8a05-48ab-886a-c48af897a2fd",
+      "arch": "arm64",
+      "addedAt": "2026-04-03 17:00:09 UTC",
+      "id": "cb88cdf8-8a05-48ab-886a-c48af897a2fd"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29558.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=42164137-8d57-4e99-bad0-3bbb230f0df4",
+      "arch": "x64",
+      "addedAt": "2026-03-30 21:00:15 UTC",
+      "id": "42164137-8d57-4e99-bad0-3bbb230f0df4"
+    },
+    {
+      "title": "Windows Server Insider Preview 29558.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=0a831358-0a03-415f-a261-f294d3f2199a",
+      "arch": "x64",
+      "addedAt": "2026-03-26 17:01:54 UTC",
+      "id": "0a831358-0a03-415f-a261-f294d3f2199a"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29558.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=eec56f51-69a0-4ac1-801b-292a85f4999c",
+      "arch": "arm64",
+      "addedAt": "2026-03-30 21:00:18 UTC",
+      "id": "eec56f51-69a0-4ac1-801b-292a85f4999c"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29553.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ad7080e3-5f4a-43b3-afea-65450cf1cd34",
+      "arch": "x64",
+      "addedAt": "2026-03-20 17:00:15 UTC",
+      "id": "ad7080e3-5f4a-43b3-afea-65450cf1cd34"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29553.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=dab78505-979f-4ed8-933b-d09b22fa0a04",
+      "arch": "arm64",
+      "addedAt": "2026-03-20 17:00:11 UTC",
+      "id": "dab78505-979f-4ed8-933b-d09b22fa0a04"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29550.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2308caa5-b5ba-4909-b027-1f393e3253e5",
+      "arch": "x64",
+      "addedAt": "2026-03-13 19:00:36 UTC",
+      "id": "2308caa5-b5ba-4909-b027-1f393e3253e5"
+    },
+    {
+      "title": "Windows Server Insider Preview 29550.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=362e9471-536e-4162-92bb-d8370de7da9f",
+      "arch": "x64",
+      "addedAt": "2026-03-12 20:32:05 UTC",
+      "id": "362e9471-536e-4162-92bb-d8370de7da9f"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29550.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=48bf7630-787a-431f-9842-00bc3555c312",
+      "arch": "arm64",
+      "addedAt": "2026-03-13 19:00:39 UTC",
+      "id": "48bf7630-787a-431f-9842-00bc3555c312"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29531.1000 (rs_prerelease) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=f057986a-b878-4bf2-9f24-2fbe31fc81ed",
+      "arch": "x64",
+      "addedAt": "2026-02-18 22:00:10 UTC",
+      "id": "f057986a-b878-4bf2-9f24-2fbe31fc81ed"
+    },
+    {
+      "title": "Windows 11 Insider Preview 29531.1000 (rs_prerelease) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=5646e03f-129e-4469-ad31-6256768874d7",
+      "arch": "arm64",
+      "addedAt": "2026-02-18 22:00:13 UTC",
+      "id": "5646e03f-129e-4469-ad31-6256768874d7"
+    }
+  ]
+}
