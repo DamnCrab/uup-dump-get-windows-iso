@@ -1,0 +1,191 @@
+{
+  "category": "w11-26h2",
+  "url": "https://uupdump.net/known.php?q=category:w11-26h2",
+  "name": "26H2",
+  "parentName": "Windows 11",
+  "pages": 1,
+  "versions": [
+    {
+      "title": "Preview Update for Windows 11 (26300.9807) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=b761d9de-8997-4056-ac72-25aefbe93548",
+      "arch": "x64",
+      "addedAt": "2026-10-27 02:02:54 UTC",
+      "id": "b761d9de-8997-4056-ac72-25aefbe93548"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9807) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=687d1ced-aab1-4cd5-ad05-705189769731",
+      "arch": "x64",
+      "addedAt": "2026-10-16 17:00:10 UTC",
+      "id": "687d1ced-aab1-4cd5-ad05-705189769731"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9807) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=bf882f73-feb3-425b-9208-56cb11703967",
+      "arch": "arm64",
+      "addedAt": "2026-10-16 17:01:10 UTC",
+      "id": "bf882f73-feb3-425b-9208-56cb11703967"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9725) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=a9e9673e-1444-4bec-9445-1d294d11bb4e",
+      "arch": "x64",
+      "addedAt": "2026-10-26 21:29:23 UTC",
+      "id": "a9e9673e-1444-4bec-9445-1d294d11bb4e"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9725) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f6722ac5-6c3c-4fb5-ab61-f3fa020c8a27",
+      "arch": "arm64",
+      "addedAt": "2026-10-26 21:29:20 UTC",
+      "id": "f6722ac5-6c3c-4fb5-ab61-f3fa020c8a27"
+    },
+    {
+      "title": "Cumulative Update for Windows CPC OS (10.0.26300.9711) (26300.9711) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=439b7eae-f36a-44b5-9aca-d7468ec86d9a",
+      "arch": "x64",
+      "addedAt": "2026-10-13 17:17:21 UTC",
+      "id": "439b7eae-f36a-44b5-9aca-d7468ec86d9a"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9711) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=2b22470a-8b6f-498f-9c88-66f7b9fb56b1",
+      "arch": "x64",
+      "addedAt": "2026-10-13 17:00:24 UTC",
+      "id": "2b22470a-8b6f-498f-9c88-66f7b9fb56b1"
+    },
+    {
+      "title": "Cumulative Update for Windows CPC OS (10.0.26300.9711) (26300.9711) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=594b2a97-cae1-406b-92cc-1deb6c1866c7",
+      "arch": "arm64",
+      "addedAt": "2026-10-13 17:17:21 UTC",
+      "id": "594b2a97-cae1-406b-92cc-1deb6c1866c7"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9711) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f6163648-8a06-4150-94cd-c548e29e0751",
+      "arch": "arm64",
+      "addedAt": "2026-10-13 17:00:21 UTC",
+      "id": "f6163648-8a06-4150-94cd-c548e29e0751"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9550) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=fe47c57f-a77f-41e3-9012-00b4187e3462",
+      "arch": "x64",
+      "addedAt": "2026-09-22 17:00:44 UTC",
+      "id": "fe47c57f-a77f-41e3-9012-00b4187e3462"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9550) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=781bd878-4cdd-45db-b19f-f0d9850e2bdd",
+      "arch": "arm64",
+      "addedAt": "2026-09-22 17:00:45 UTC",
+      "id": "781bd878-4cdd-45db-b19f-f0d9850e2bdd"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9539) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=95cc0dd5-949f-452e-9115-30f6c5836016",
+      "arch": "x64",
+      "addedAt": "2026-09-10 17:05:42 UTC",
+      "id": "95cc0dd5-949f-452e-9115-30f6c5836016"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9539) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=11c0c568-c301-4f56-8e3c-c693e4841e1c",
+      "arch": "arm64",
+      "addedAt": "2026-09-10 17:13:28 UTC",
+      "id": "11c0c568-c301-4f56-8e3c-c693e4841e1c"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9457) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=ba6eafb7-6fd3-4fb9-8462-3d86b81835b3",
+      "arch": "x64",
+      "addedAt": "2026-09-14 17:41:04 UTC",
+      "id": "ba6eafb7-6fd3-4fb9-8462-3d86b81835b3"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9457) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=fbf62b71-546e-4a8e-b02a-a1b682e5b8c9",
+      "arch": "arm64",
+      "addedAt": "2026-09-14 17:41:02 UTC",
+      "id": "fbf62b71-546e-4a8e-b02a-a1b682e5b8c9"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9445) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=5ecf1b1b-8391-454f-b0ca-f75f71ac1956",
+      "arch": "x64",
+      "addedAt": "2026-09-08 17:23:05 UTC",
+      "id": "5ecf1b1b-8391-454f-b0ca-f75f71ac1956"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9445) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=f52b2b48-f266-4563-baef-6c39a433b0af",
+      "arch": "arm64",
+      "addedAt": "2026-09-08 17:23:17 UTC",
+      "id": "f52b2b48-f266-4563-baef-6c39a433b0af"
+    },
+    {
+      "title": "Preview Update for Windows 11 (26300.9278) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=48dc4928-11dd-4f6a-9e75-4070c89054b0",
+      "arch": "x64",
+      "addedAt": "2026-09-15 13:45:43 UTC",
+      "id": "48dc4928-11dd-4f6a-9e75-4070c89054b0"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9278) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=def45c01-379e-4ded-8b1b-b870faaef6f8",
+      "arch": "x64",
+      "addedAt": "2026-08-27 17:02:40 UTC",
+      "id": "def45c01-379e-4ded-8b1b-b870faaef6f8"
+    },
+    {
+      "title": "Preview Update for Windows 11 (26300.9278) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=d1b2edfe-c777-4177-beac-ca197feb0d51",
+      "arch": "arm64",
+      "addedAt": "2026-09-15 13:45:44 UTC",
+      "id": "d1b2edfe-c777-4177-beac-ca197feb0d51"
+    },
+    {
+      "title": "Windows 11, version 26H2 (26300.9278) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=e89a903e-3d54-4bbb-9891-784d2b6ebc30",
+      "arch": "arm64",
+      "addedAt": "2026-08-27 17:27:56 UTC",
+      "id": "e89a903e-3d54-4bbb-9891-784d2b6ebc30"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5127694 (26300.10008) (2) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=da738987-592f-43e3-b0cc-76bf3361a33d",
+      "arch": "x64",
+      "addedAt": "2026-10-24 19:53:04 UTC",
+      "id": "da738987-592f-43e3-b0cc-76bf3361a33d"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5127694 (26300.10008) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=16df4c62-9d99-47e5-ac31-a5ae03d7e113",
+      "arch": "x64",
+      "addedAt": "2026-10-13 17:00:20 UTC",
+      "id": "16df4c62-9d99-47e5-ac31-a5ae03d7e113"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5127694 (26300.10008) arm64",
+      "href": "https://uupdump.net/selectlang.php?id=622679cd-438a-470c-8afb-d3b93417980a",
+      "arch": "arm64",
+      "addedAt": "2026-10-13 17:00:20 UTC",
+      "id": "622679cd-438a-470c-8afb-d3b93417980a"
+    },
+    {
+      "title": ".NET Framework Security Update for Windows 11 - KB5126054 (26300.10006) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=de359397-a5f7-45ce-80d1-47fbdb12a3a5",
+      "arch": "x64",
+      "addedAt": "2026-09-26 15:35:20 UTC",
+      "id": "de359397-a5f7-45ce-80d1-47fbdb12a3a5"
+    },
+    {
+      "title": ".NET Framework Preview Update for Windows 11 - KB5125105 (26300.10003) amd64",
+      "href": "https://uupdump.net/selectlang.php?id=98ae5590-5c86-451d-97c9-5a12e68722e8",
+      "arch": "x64",
+      "addedAt": "2026-09-10 18:56:00 UTC",
+      "id": "98ae5590-5c86-451d-97c9-5a12e68722e8"
+    }
+  ]
+}
